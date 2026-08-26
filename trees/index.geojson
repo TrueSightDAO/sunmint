@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-08-26T11:29:10Z",
+  "generated_at": "2026-08-26T19:51:34Z",
   "features": [
     {
       "type": "Feature",
@@ -245,7 +245,7 @@
       "properties": {
         "tree_id": "Edgar_20260823181316_093",
         "species": "Cacao - Criolla",
-        "last_measured": "2026-08-23T18:13:16.000Z",
+        "last_measured": "2026-08-23T18:13:03.809Z",
         "photo_url": "https://github.com/TrueSightDAO/sunmint/tree/main/images/20260823151303_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW"
       },
@@ -256,7 +256,7 @@
       "properties": {
         "tree_id": "Edgar_20260823181318_095",
         "species": "Cacao - Criolla",
-        "last_measured": "2026-08-23T18:13:18.000Z",
+        "last_measured": "2026-08-23T18:13:03.809Z",
         "photo_url": "https://github.com/TrueSightDAO/sunmint/tree/main/images/20260823151303_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW"
       },
@@ -267,7 +267,7 @@
       "properties": {
         "tree_id": "Edgar_20260823181319_097",
         "species": "Cacao - Criolla",
-        "last_measured": "2026-08-23T18:13:19.000Z",
+        "last_measured": "2026-08-23T18:13:03.809Z",
         "photo_url": "https://github.com/TrueSightDAO/sunmint/tree/main/images/20260823151303_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW"
       },
