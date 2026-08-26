@@ -1,0 +1,277 @@
+{
+  "type": "FeatureCollection",
+  "generated_at": "2026-08-26T11:29:10Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "tree_id": "469027268",
+        "species": "unknown",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/AgACAgEAAxkBAAOraHF74-NSXW5AMpwmvj4lkTY0I7EAAmCxMRsIL5FH9HlF03UsdNEBAAMCAAN5AAM2BA.jpg",
+        "status": "NEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.262181,
+          44.560058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tree_id": "469027270",
+        "species": "unknown",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/AgACAgEAAyEFAASCjq75AAIZCmhxfufgVmL5-ECjXe7H7igBloEZAALerTEbme6RRz8AAfrhsfv-HAEAAwIAA3gAAzYE.jpg",
+        "status": "NEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.262156,
+          44.560043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tree_id": "469027280",
+        "species": "unknown",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/AgACAgEAAyEFAASCjq75AAIZFWhxmu7Zqw-47OifJuZPRgud5SeUAALxrTEbme6RR5s-bDTh6pY0AQADAgADeQADNgQ.jpg",
+        "status": "NEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.258001,
+          44.586852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tree_id": "469027299",
+        "species": "unknown",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/AgACAgEAAyEFAASCjq75AAIZK2hyBIKq_lg6ts9qSSa7P9InUrqMAAI8rjEbme6RR4P_J-I89V52AQADAgADeQADNgQ.jpg",
+        "status": "NEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.284624,
+          44.440347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tree_id": "469027566",
+        "species": "unknown",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/AgACAgEAAyEFAASCjq75AAIa12iEEfTWoSG3JzYbqydsAX-509iFAAKqsDEbOAkgRFUc3cn-NHhHAQADAgADeQADNgQ.jpg",
+        "status": "NEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.632664,
+          45.512582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tree_id": "469027568",
+        "species": "Cacao",
+        "photo_url": "https://github.com/TrueSightDAO/sunmint/tree/main/images/20250725192619_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.569062,
+          45.497431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tree_id": "469027657",
+        "species": "Cacao (Native)",
+        "last_measured": "2025-08-02T02:55:10.115Z",
+        "photo_url": "https://github.com/TrueSightDAO/sunmint/tree/main/images/20250801195510_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.745007,
+          42.22218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tree_id": "Edgar_20250809005453_021",
+        "species": "Cacao (Native)",
+        "last_measured": "2025-08-09T00:54:51.159Z",
+        "photo_url": "https://github.com/TrueSightDAO/sunmint/tree/main/images/20250808175451_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.203397,
+          41.360046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tree_id": "Edgar_20250809012709_025",
+        "species": "Cacao (Native)",
+        "last_measured": "2025-08-09T01:27:08.638Z",
+        "photo_url": "https://github.com/TrueSightDAO/sunmint/tree/main/images/20250808182708_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.203387,
+          41.360023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tree_id": "Edgar_20250809202528_061",
+        "species": "Cacao (Native)",
+        "last_measured": "2025-08-09T20:25:27.186Z",
+        "photo_url": "https://github.com/TrueSightDAO/sunmint/tree/main/images/20250809132527_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.203376,
+          41.360003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tree_id": "Edgar_20260811093312_375",
+        "species": "Cacao - Criolla",
+        "last_measured": "2026-08-11T09:33:07.979Z",
+        "photo_url": "https://github.com/TrueSightDAO/sunmint/tree/main/images/20260811173307_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.8855947,
+          22.94274911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tree_id": "Edgar_20260819134722_487",
+        "species": "Cacao - Criolla",
+        "last_measured": "2026-08-19T13:47:21.466Z",
+        "photo_url": "https://github.com/TrueSightDAO/sunmint/tree/main/images/20260819104721_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.49968606,
+          -27.43855176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tree_id": "Edgar_20260819134740_489",
+        "species": "Cacao - Criolla",
+        "last_measured": "2026-08-19T13:47:39.089Z",
+        "photo_url": "https://github.com/TrueSightDAO/sunmint/tree/main/images/20260819104739_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.49968606,
+          -27.43855176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tree_id": "Edgar_20260821172545_003",
+        "species": "Cacao - Criolla",
+        "last_measured": "2026-08-21T17:25:43.773Z",
+        "photo_url": "https://github.com/TrueSightDAO/sunmint/tree/main/images/20260821142543_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tree_id": "Edgar_20260821175134_005",
+        "species": "Bougainvillea",
+        "last_measured": "2026-08-21T17:51:31.626Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260822_130000_FOUNDERHAUS_GROUP.jpg",
+        "status": "LINKED",
+        "qr_code": "FOUNDERHAUS_BOUGAINVILLEA_20260821_1"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tree_id": "Edgar_20260823181316_093",
+        "species": "Cacao - Criolla",
+        "last_measured": "2026-08-23T18:13:16.000Z",
+        "photo_url": "https://github.com/TrueSightDAO/sunmint/tree/main/images/20260823151303_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tree_id": "Edgar_20260823181318_095",
+        "species": "Cacao - Criolla",
+        "last_measured": "2026-08-23T18:13:18.000Z",
+        "photo_url": "https://github.com/TrueSightDAO/sunmint/tree/main/images/20260823151303_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tree_id": "Edgar_20260823181319_097",
+        "species": "Cacao - Criolla",
+        "last_measured": "2026-08-23T18:13:19.000Z",
+        "photo_url": "https://github.com/TrueSightDAO/sunmint/tree/main/images/20260823151303_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      },
+      "geometry": null
+    }
+  ]
+}
