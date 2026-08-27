@@ -43,10 +43,23 @@ def get_sheet():
 
 
 def idx(header, *names):
-    for i, h in enumerate(header):
-        hl = (h or "").strip().lower()
-        if any(n in hl for n in names):
-            return i
+    # Column matching with needle priority + exact-before-prefix.
+    # For each needle (most specific first), scan ALL headers for an EXACT
+    # match, then a PREFIX match. This prevents substrings from misfiring:
+    # e.g. "planted" must NOT hit "Photo of Tree Planted" (col 9) when we
+    # want "Tree Planting Time" (col 17) -- the "tree planting time" needle
+    # wins first. "status" must hit "Status" exactly, not "Status date".
+    hl = [(h or "").strip().lower() for h in header]
+    for n in names:
+        n = n.strip().lower()
+        if not n:
+            continue
+        for i, h in enumerate(hl):
+            if h == n:
+                return i
+        for i, h in enumerate(hl):
+            if h.startswith(n):
+                return i
     return None
 
 
@@ -63,14 +76,14 @@ def load_trees(ws):
     if not rows:
         return []
     header = rows[0]
-    c_id = idx(header, "tree id", "id", "qr")
-    c_species = idx(header, "species", "esp")
-    c_lat = idx(header, "lat")
-    c_lng = idx(header, "long", "lng", "lon")
-    c_photo = idx(header, "photo")
+    c_id = idx(header, "telegram update id", "tree id")
+    c_species = idx(header, "specie", "species")
+    c_lat = idx(header, "latitude")
+    c_lng = idx(header, "longitude")
+    c_photo = idx(header, "photo of tree planted", "photo of tree", "photo")
     c_status = idx(header, "status")
-    c_qr = idx(header, "qr code", "qr")
-    c_time = idx(header, "planted", "date", "time")
+    c_qr = idx(header, "linked qr code", "linked qr", "qr code")
+    c_time = idx(header, "tree planting time", "planting time", "planted at")
     if c_id is None:
         sys.exit("could not find tree id column")
     trees = []
@@ -100,6 +113,7 @@ def load_trees(ws):
             "status": cell(row, c_status) or "NEW",
             "qr_code": cell(row, c_qr) or None,
             "planted_at": cell(row, c_time) or None,
+            "planting_time": cell(row, c_time) or None,
         })
     return trees
 
