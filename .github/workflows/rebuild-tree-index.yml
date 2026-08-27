@@ -33,11 +33,9 @@ jobs:
 
       - name: Run tree index builder
         env:
-          GOOGLE_APPLICATION_CREDENTIALS_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
         run: |
-          # Write service account key to temp file (same pattern as treasury-cache workflows)
-          echo "$GOOGLE_APPLICATION_CREDENTIALS_JSON" > /tmp/gcp-key.json
-          python3 scripts/build_tree_geojson.py --creds /tmp/gcp-key.json --out .
+          python3 scripts/build_tree_geojson.py --out trees/index.geojson
 
       - name: Commit and push changes
         run: |
