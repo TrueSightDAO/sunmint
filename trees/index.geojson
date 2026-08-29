@@ -278,6 +278,26 @@
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260823151303_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.4997079,
+          -27.4389516
+        ]
+      },
+      "properties": {
+        "tree_id": "TEST_TREE_E2E",
+        "species": "TEST - DUMMY TREE (do not use for real measurement)",
+        "qr_code": null,
+        "status": "TEST",
+        "photo_url": null,
+        "last_measured": null,
+        "planted_at": null,
+        "is_test": true
+      }
     }
   ]
 }
