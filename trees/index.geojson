@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-08-29T13:49:19.786468Z",
+  "generated_at": "2026-08-29T14:57:41.536999Z",
   "features": [
     {
       "type": "Feature",
@@ -276,6 +276,23 @@
         "species": "Cacao - Criolla",
         "last_measured": "2026-08-23T18:13:03.809Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260823151303_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.262181,
+          44.560058
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260829134707_005",
+        "species": "Cacao - Criolla",
+        "last_measured": "2026-08-29T13:47:04.322Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260829134704_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW"
       }
     }
