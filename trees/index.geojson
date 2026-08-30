@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-08-29T14:57:41.536999Z",
+  "generated_at": "2026-08-30T03:09:49.710193Z",
   "features": [
     {
       "type": "Feature",
@@ -154,23 +154,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.203376,
-          41.360003
-        ]
-      },
-      "properties": {
-        "tree_id": "Edgar_20250809202528_061",
-        "species": "Cacao (Native)",
-        "last_measured": "2025-08-09T20:25:27.186Z",
-        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20250809132527_MIIBIjANBgkqhkiG9w0B.jpg",
-        "status": "NEW"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           113.8855947,
           22.94274911
         ]
@@ -293,6 +276,40 @@
         "species": "Cacao - Criolla",
         "last_measured": "2026-08-29T13:47:04.322Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260829134704_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.2622,
+          44.5601
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260829150017_001",
+        "species": "Cacao - Criolla",
+        "last_measured": "2026-08-29T15:00:14.661Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260829150014_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.26225,
+          44.56015
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260829150131_001",
+        "species": "Cacao - Criolla",
+        "last_measured": "2026-08-29T15:01:28.891Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260829150128_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW"
       }
     }
