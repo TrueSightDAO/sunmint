@@ -8,6 +8,7 @@ trees/index.geojson (FeatureCollection). Run by .github/workflows/rebuild-tree-i
 Usage:
     GOOGLE_SERVICE_ACCOUNT_JSON=<json> python3 scripts/build_tree_geojson.py [--out trees/index.geojson]
 """
+
 import argparse
 import json
 import os
@@ -17,6 +18,7 @@ import sys
 SHEET_ID = "1qbZZhf-_7xzmDTriaJVWj6OZshyQsFkdsAV8-pyzASQ"
 SHEET_TAB = "SunMint Tree Planting"
 
+
 # Photo URLs in the sheet are sometimes stored as github.com web-UI links
 # (github.com/TrueSightDAO/sunmint/tree/main/... or /blob/...), which a browser
 # <img> cannot render (they return HTML). Normalize to raw.githubusercontent.com.
@@ -24,20 +26,25 @@ def normalize_photo_url(url):
     if not url:
         return None
     u = url.strip()
-    u = re.sub(r"^https?://github\.com/TrueSightDAO/sunmint/(?:tree|blob)/main/",
-               "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/", u)
+    u = re.sub(
+        r"^https?://github\.com/TrueSightDAO/sunmint/(?:tree|blob)/main/",
+        "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/",
+        u,
+    )
     return u or None
 
 
 def get_sheet():
     import gspread
     from google.oauth2 import service_account
+
     creds_json = os.environ.get("GOOGLE_SERVICE_ACCOUNT_JSON")
     if not creds_json:
         sys.exit("GOOGLE_SERVICE_ACCOUNT_JSON env var required")
     creds = service_account.Credentials.from_service_account_info(
         json.loads(creds_json),
-        scopes=["https://www.googleapis.com/auth/spreadsheets.readonly"])
+        scopes=["https://www.googleapis.com/auth/spreadsheets.readonly"],
+    )
     gc = gspread.authorize(creds)
     return gc.open_by_key(SHEET_ID).worksheet(SHEET_TAB)
 
@@ -84,6 +91,7 @@ def load_trees(ws):
     c_status = idx(header, "status")
     c_qr = idx(header, "linked qr code", "linked qr", "qr code")
     c_time = idx(header, "tree planting time", "planting time", "planted at")
+    c_plot = idx(header, "plot id", "plot", "parcel", "site name", "site")
     if c_id is None:
         sys.exit("could not find tree id column")
     trees = []
@@ -99,11 +107,13 @@ def load_trees(ws):
             continue
         lat = cell(row, c_lat)
         lng = cell(row, c_lng)
+
         def to_float(v):
             try:
                 return float(v.replace(",", ".")) if v else None
             except (ValueError, AttributeError):
                 return None
+
         status = cell(row, c_status) or "NEW"
         # Rejected/invalid trees stay in the sheet as audit history but must
         # NOT appear in the public index (governor reject flow). The monitor
@@ -111,17 +121,20 @@ def load_trees(ws):
         # makes a rejected tree "reappear" on reload.
         if str(status).strip().upper() == "INVALID":
             continue
-        trees.append({
-            "id": tid,
-            "species": cell(row, c_species) or "unknown",
-            "lat": to_float(lat),
-            "lng": to_float(lng),
-            "photo": normalize_photo_url(cell(row, c_photo)),
-            "status": status,
-            "qr_code": cell(row, c_qr) or None,
-            "planted_at": cell(row, c_time) or None,
-            "planting_time": cell(row, c_time) or None,
-        })
+        trees.append(
+            {
+                "id": tid,
+                "species": cell(row, c_species) or "unknown",
+                "lat": to_float(lat),
+                "lng": to_float(lng),
+                "photo": normalize_photo_url(cell(row, c_photo)),
+                "status": status,
+                "qr_code": cell(row, c_qr) or None,
+                "plot_id": cell(row, c_plot) or None,
+                "planted_at": cell(row, c_time) or None,
+                "planting_time": cell(row, c_time) or None,
+            }
+        )
     return trees
 
 
@@ -140,17 +153,20 @@ def main():
             "photo_url": t["photo"],
             "status": t["status"],
             "qr_code": t["qr_code"],
+            "plot_id": t.get("plot_id"),
         }
         props = {k: v for k, v in props.items() if v is not None}
         if t["lat"] is not None and t["lng"] is not None:
             geom = {"type": "Point", "coordinates": [t["lng"], t["lat"]]}
         else:
             geom = None  # no coordinates -> cannot be distance-ranked
-        features.append({
-            "type": "Feature",
-            "geometry": geom,
-            "properties": props,
-        })
+        features.append(
+            {
+                "type": "Feature",
+                "geometry": geom,
+                "properties": props,
+            }
+        )
     out = {
         "type": "FeatureCollection",
         "generated_at": __import__("datetime").datetime.utcnow().isoformat() + "Z",
@@ -160,6 +176,19 @@ def main():
     with open(args.out, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
     print(f"wrote {len(features)} features to {args.out}")
+    # Plots layer: GeoJSON Polygon features for project parcel boundaries.
+    # Populated from the SunMint Plots tab (or digitization) as boundaries are
+    # defined. Empty to start -- consumers must treat a missing/empty plots
+    # layer as "no plots yet" and render tree points alone.
+    plots_out = {
+        "type": "FeatureCollection",
+        "generated_at": __import__("datetime").datetime.utcnow().isoformat() + "Z",
+        "features": [],
+    }
+    plots_path = os.path.join(os.path.dirname(args.out) or ".", "plots.geojson")
+    with open(plots_path, "w", encoding="utf-8") as f:
+        json.dump(plots_out, f, ensure_ascii=False, indent=2)
+    print(f"wrote {len(plots_out['features'])} plot features to {plots_path}")
 
 
 if __name__ == "__main__":
