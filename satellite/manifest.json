@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-08-30T23:05:12.972726+00:00",
+  "source": "earth-search.aws.element84.com Sentinel-2 L2A (anonymous)",
+  "cells": {
+    "-27.44_-48.5": {
+      "center": {
+        "lat": -27.43855,
+        "lng": -48.49969
+      },
+      "trees": 2,
+      "scenes": [
+        {
+          "id": "S2B_22JGQ_20260821_0_L2A",
+          "date": "2026-08-21",
+          "cloud_cover": 0.01,
+          "file": "20260821.jpg",
+          "bytes": 18518,
+          "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/J/GQ/2026/8/S2B_22JGQ_20260821_0_L2A/preview.jpg"
+        },
+        {
+          "id": "S2A_22JGQ_20260719_0_L2A",
+          "date": "2026-07-19",
+          "cloud_cover": 1.829,
+          "file": "20260719.jpg",
+          "bytes": 18395,
+          "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/J/GQ/2026/7/S2A_22JGQ_20260719_0_L2A/preview.jpg"
+        },
+        {
+          "id": "S2C_22JGQ_20260727_0_L2A",
+          "date": "2026-07-27",
+          "cloud_cover": 51.455,
+          "file": "20260727.jpg",
+          "bytes": 37609,
+          "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/J/GQ/2026/7/S2C_22JGQ_20260727_0_L2A/preview.jpg"
+        },
+        {
+          "id": "S2C_22JGQ_20260717_0_L2A",
+          "date": "2026-07-17",
+          "cloud_cover": 54.314,
+          "file": "20260717.jpg",
+          "bytes": 25781,
+          "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/J/GQ/2026/7/S2C_22JGQ_20260717_0_L2A/preview.jpg"
+        }
+      ]
+    }
+  },
+  "note": "Pilot-area subset committed first; full cell set populates via the daily cache workflow."
+}
