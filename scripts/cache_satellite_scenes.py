@@ -129,6 +129,7 @@ def main():
         description="Cache Sentinel-2 previews for SunMint trees"
     )
     parser.add_argument("--index", default="trees/index.geojson")
+    parser.add_argument("--plots", default="trees/plots.geojson")
     parser.add_argument("--out-dir", default="satellite")
     args = parser.parse_args()
 
@@ -138,6 +139,34 @@ def main():
 
     with open(args.index, encoding="utf-8") as fh:
         index = json.load(fh)
+
+    plots = []
+    if os.path.exists(args.plots):
+        with open(args.plots, encoding="utf-8") as fh:
+            plots_fc = json.load(fh)
+        for feat in plots_fc.get("features", []):
+            props = feat.get("properties", {})
+            geom = feat.get("geometry", {})
+            if geom.get("type") != "Polygon":
+                continue
+            ring = geom.get("coordinates", [[]])[0]
+            lngs = [c[0] for c in ring if len(c) >= 2]
+            lats = [c[1] for c in ring if len(c) >= 2]
+            if not lngs or not lats:
+                continue
+            plots.append(
+                {
+                    "id": props.get("plot_id")
+                    or props.get("id")
+                    or f"plot_{len(plots)}",
+                    "name": props.get("name") or props.get("plot_id") or "Plot",
+                    "bbox": [min(lngs), min(lats), max(lngs), max(lats)],
+                    "center": {
+                        "lat": (min(lats) + max(lats)) / 2.0,
+                        "lng": (min(lngs) + max(lngs)) / 2.0,
+                    },
+                }
+            )
 
     cells = {}
     for feat in index.get("features", []):
@@ -168,6 +197,7 @@ def main():
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "source": "earth-search.aws.element84.com Sentinel-2 L2A (anonymous)",
         "cells": {},
+        "plots": {},
     }
 
     for key in sorted(cells):
@@ -219,6 +249,53 @@ def main():
         if cell_meta["scenes"]:
             manifest["cells"][key] = cell_meta
             log(f"cell {key}: {len(cell_meta['scenes'])} scenes cached")
+
+    # Plot-level caching: when plot boundaries exist, also cache one coherent
+    # scene set per plot (clipped to its bbox). Keeps the grid-cell behavior
+    # for trees without a plot.
+    for plot in plots:
+        bbox = plot["bbox"]
+        scenes = query_stac(bbox)
+        plot_dir = os.path.join(args.out_dir, "plot_" + plot["id"])
+        os.makedirs(plot_dir, exist_ok=True)
+        plot_meta = {
+            "id": plot["id"],
+            "name": plot["name"],
+            "bbox": bbox,
+            "center": plot["center"],
+            "scenes": [],
+        }
+        for i, feat in enumerate(scenes):
+            props = feat.get("properties", {})
+            scene_id = feat.get("id", f"scene_{i}")
+            date_str = (props.get("datetime") or "")[:10]
+            fname_date = date_str.replace("-", "") or scene_id.split("_")[-1]
+            asset_url = _get_asset_url(feat)
+            if not asset_url:
+                continue
+            fname = f"{fname_date}.jpg"
+            dest = os.path.join(plot_dir, fname)
+            n = 1
+            while os.path.exists(dest) and i > 0:
+                fname = f"{fname_date}_{n}.jpg"
+                dest = os.path.join(plot_dir, fname)
+                n += 1
+            size = download(asset_url, dest)
+            if size is None:
+                continue
+            plot_meta["scenes"].append(
+                {
+                    "id": scene_id,
+                    "date": date_str,
+                    "cloud_cover": round(props.get("eo:cloud_cover") or 0.0, 3),
+                    "file": fname,
+                    "bytes": size,
+                    "asset_url": asset_url,
+                }
+            )
+        if plot_meta["scenes"]:
+            manifest["plots"][plot["id"]] = plot_meta
+            log(f"plot {plot['id']}: {len(plot_meta['scenes'])} scenes cached")
 
     with open(os.path.join(args.out_dir, "manifest.json"), "w", encoding="utf-8") as fh:
         json.dump(manifest, fh, indent=2, ensure_ascii=False)
