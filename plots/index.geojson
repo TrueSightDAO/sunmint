@@ -1,0 +1,62 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "plot_id": "RM-P1",
+        "farm_id": "rancho-maranta",
+        "name": "Rancho Maranta Plot 1 (house)",
+        "hectares": 0.3,
+        "status": "planted",
+        "boundary_authority": "approx",
+        "owner": "Jedielcio family",
+        "region": "Altamira, Para",
+        "verified_at": null,
+        "media": [],
+        "notes": "Matches existing TREE PLANTING EVENT at -3.29609,-52.58318. Photo cluster ~35m; boundary approx from HEIC/MOV GPS cluster."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-52.583300, -3.296100],
+          [-52.583164, -3.296100],
+          [-52.582864, -3.296053],
+          [-52.583000, -3.296000],
+          [-52.583300, -3.296100]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "plot_id": "RM-P2",
+        "farm_id": "rancho-maranta",
+        "name": "Rancho Maranta Plot 2 (family ~5 ha)",
+        "hectares": 5.0,
+        "status": "proposed",
+        "boundary_authority": "approx",
+        "owner": "Jedielcio family",
+        "region": "Altamira, Para",
+        "verified_at": null,
+        "media": [],
+        "notes": "Walk track from 23 MOV clips (16:31-16:49) traces perimeter: lat -3.2934..-3.2947, lng -52.5768..-52.5789. Hull area approx 2.9 ha < claimed 5 ha -> needs CAR/INCRA polygon or full boundary walk for authority."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-52.576800, -3.293600],
+          [-52.577100, -3.293400],
+          [-52.577700, -3.293500],
+          [-52.578000, -3.293700],
+          [-52.578300, -3.294200],
+          [-52.578800, -3.294500],
+          [-52.578900, -3.294700],
+          [-52.578300, -3.294400],
+          [-52.577600, -3.294000],
+          [-52.576800, -3.293600]
+        ]]
+      }
+    }
+  ]
+}
