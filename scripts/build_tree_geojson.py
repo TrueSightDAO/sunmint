@@ -104,13 +104,20 @@ def load_trees(ws):
                 return float(v.replace(",", ".")) if v else None
             except (ValueError, AttributeError):
                 return None
+        status = cell(row, c_status) or "NEW"
+        # Rejected/invalid trees stay in the sheet as audit history but must
+        # NOT appear in the public index (governor reject flow). The monitor
+        # page loads index.geojson, so an INVALID row here is exactly what
+        # makes a rejected tree "reappear" on reload.
+        if str(status).strip().upper() == "INVALID":
+            continue
         trees.append({
             "id": tid,
             "species": cell(row, c_species) or "unknown",
             "lat": to_float(lat),
             "lng": to_float(lng),
             "photo": normalize_photo_url(cell(row, c_photo)),
-            "status": cell(row, c_status) or "NEW",
+            "status": status,
             "qr_code": cell(row, c_qr) or None,
             "planted_at": cell(row, c_time) or None,
             "planting_time": cell(row, c_time) or None,
