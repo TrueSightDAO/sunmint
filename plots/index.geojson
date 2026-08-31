@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-08-31T13:56:42.372427Z",
+  "generated_at": "2026-08-31T13:59:20.658439Z",
   "features": [
     {
       "type": "Feature",
@@ -107,6 +107,64 @@
         "owner": "Jedielcio family",
         "region": "Altamira, Para",
         "notes": "Walk track from 23 MOV clips (16:31-16:49) traces perimeter: lat -3.2934..-3.2947, lng -52.5768..-52.5789. Hull area approx 2.9 ha < claimed 5 ha -> needs CAR/INCRA polygon or full boundary walk for authority."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -52.5724,
+              -3.2925
+            ],
+            [
+              -52.572361,
+              -3.292514
+            ],
+            [
+              -52.5721,
+              -3.2925
+            ],
+            [
+              -52.5718,
+              -3.2922
+            ],
+            [
+              -52.5715,
+              -3.2918
+            ],
+            [
+              -52.5715,
+              -3.291778
+            ],
+            [
+              -52.571511,
+              -3.291769
+            ],
+            [
+              -52.5721,
+              -3.292
+            ],
+            [
+              -52.5724,
+              -3.2925
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "SA-P1",
+        "farm_id": "santa-anna-fazenda",
+        "name": "Santa Anna Fazenda Plot 1 (compound)",
+        "hectares": 3.0,
+        "status": "proposed",
+        "boundary_authority": "approx",
+        "owner": "Jedielcio (CEPOTX)",
+        "region": "Altamira, Para",
+        "verified_at": "2026-08-31",
+        "notes": "Compound track from 44 media (32 HEIC + 12 MOV, 15:28-15:58): lat -3.291769..-3.292514, lng -52.571500..-52.572400. Hull ~0.31 ha; full 3 ha property boundary pending Jedielcio's boundary photos (email preserves EXIF)."
       }
     }
   ]
