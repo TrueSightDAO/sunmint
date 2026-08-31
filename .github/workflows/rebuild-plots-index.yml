@@ -37,14 +37,20 @@ jobs:
         run: |
           python3 scripts/build_plots_geojson.py --out plots/index.geojson
 
+      - name: Run farms index builder
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: |
+          python3 scripts/build_farms_index.py --out farms/index.json
+
       - name: Commit and push changes
         run: |
           git config user.name "Sophia Truesight"
           git config user.email "admin+sophia@truesight.me"
-          git add plots/index.geojson
+          git add plots/index.geojson farms/index.json
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "Update plots index [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+            git commit -m "Update plots and farms indexes [$(date -u '+%Y-%m-%d %H:%M UTC')]"
             git push
           fi
