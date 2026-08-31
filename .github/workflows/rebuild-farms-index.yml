@@ -1,0 +1,50 @@
+name: Rebuild Farms Index
+
+on:
+  schedule:
+    # Daily 06:10 UTC — safety net (offset from plots index rebuild)
+    - cron: '10 6 * * *'
+  repository_dispatch:
+    # Reactive: GAS handler pings this after a new plot/farm event
+    types: [farms-index-rebuild]
+  workflow_dispatch:
+    # Manual trigger from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild-index:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout sunmint repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install gspread google-auth
+
+      - name: Run farms index builder
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: |
+          python3 scripts/build_farms_index.py --out farms/index.json
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "Sophia Truesight"
+          git config user.email "admin+sophia@truesight.me"
+          git add farms/index.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update farms index [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+            git push
+          fi
