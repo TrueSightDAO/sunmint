@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-30T23:05:12.972726+00:00",
+  "generated_at": "2026-08-31T02:46:27.892596+00:00",
   "source": "earth-search.aws.element84.com Sentinel-2 L2A (anonymous)",
   "cells": {
     "-27.44_-48.5": {
       "center": {
-        "lat": -27.43855,
-        "lng": -48.49969
+        "lat": -27.43895,
+        "lng": -48.49971
       },
-      "trees": 2,
+      "trees": 1,
       "scenes": [
         {
           "id": "S2B_22JGQ_20260821_0_L2A",
@@ -42,7 +42,145 @@
           "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/J/GQ/2026/7/S2C_22JGQ_20260717_0_L2A/preview.jpg"
         }
       ]
+    },
+    "-3.3_-52.59": {
+      "center": {
+        "lat": -3.29609,
+        "lng": -52.58318
+      },
+      "trees": 1,
+      "scenes": [
+        {
+          "id": "S2C_22MCB_20260719_0_L2A",
+          "date": "2026-07-19",
+          "cloud_cover": 1.861,
+          "file": "20260719.jpg",
+          "bytes": 13765,
+          "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/M/CB/2026/7/S2C_22MCB_20260719_0_L2A/preview.jpg"
+        },
+        {
+          "id": "S2C_22MCB_20260825_0_L2A",
+          "date": "2026-08-25",
+          "cloud_cover": 3.085,
+          "file": "20260825.jpg",
+          "bytes": 35538,
+          "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/M/CB/2026/8/S2C_22MCB_20260825_0_L2A/preview.jpg"
+        },
+        {
+          "id": "S2A_22MCB_20260718_0_L2A",
+          "date": "2026-07-18",
+          "cloud_cover": 5.907,
+          "file": "20260718.jpg",
+          "bytes": 32634,
+          "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/M/CB/2026/7/S2A_22MCB_20260718_0_L2A/preview.jpg"
+        },
+        {
+          "id": "S2B_22MCB_20260803_0_L2A",
+          "date": "2026-08-03",
+          "cloud_cover": 34.214,
+          "file": "20260803.jpg",
+          "bytes": 25450,
+          "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/M/CB/2026/8/S2B_22MCB_20260803_0_L2A/preview.jpg"
+        }
+      ]
     }
   },
-  "note": "Pilot-area subset committed first; full cell set populates via the daily cache workflow."
+  "plots": {
+    "RM-P1": {
+      "id": "RM-P1",
+      "name": "Rancho Maranta Plot 1 (house)",
+      "bbox": [
+        -52.5833,
+        -3.2961,
+        -52.582864,
+        -3.296
+      ],
+      "center": {
+        "lat": -3.29605,
+        "lng": -52.583082000000005
+      },
+      "scenes": [
+        {
+          "id": "S2C_22MCB_20260719_0_L2A",
+          "date": "2026-07-19",
+          "cloud_cover": 1.861,
+          "file": "20260719.jpg",
+          "bytes": 13765,
+          "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/M/CB/2026/7/S2C_22MCB_20260719_0_L2A/preview.jpg"
+        },
+        {
+          "id": "S2C_22MCB_20260825_0_L2A",
+          "date": "2026-08-25",
+          "cloud_cover": 3.085,
+          "file": "20260825.jpg",
+          "bytes": 35538,
+          "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/M/CB/2026/8/S2C_22MCB_20260825_0_L2A/preview.jpg"
+        },
+        {
+          "id": "S2A_22MCB_20260718_0_L2A",
+          "date": "2026-07-18",
+          "cloud_cover": 5.907,
+          "file": "20260718.jpg",
+          "bytes": 32634,
+          "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/M/CB/2026/7/S2A_22MCB_20260718_0_L2A/preview.jpg"
+        },
+        {
+          "id": "S2B_22MCB_20260803_0_L2A",
+          "date": "2026-08-03",
+          "cloud_cover": 34.214,
+          "file": "20260803.jpg",
+          "bytes": 25450,
+          "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/M/CB/2026/8/S2B_22MCB_20260803_0_L2A/preview.jpg"
+        }
+      ]
+    },
+    "RM-P2": {
+      "id": "RM-P2",
+      "name": "Rancho Maranta Plot 2 (family ~5 ha)",
+      "bbox": [
+        -52.5789,
+        -3.2947,
+        -52.5768,
+        -3.2934
+      ],
+      "center": {
+        "lat": -3.2940500000000004,
+        "lng": -52.57785
+      },
+      "scenes": [
+        {
+          "id": "S2C_22MCB_20260719_0_L2A",
+          "date": "2026-07-19",
+          "cloud_cover": 1.861,
+          "file": "20260719.jpg",
+          "bytes": 13765,
+          "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/M/CB/2026/7/S2C_22MCB_20260719_0_L2A/preview.jpg"
+        },
+        {
+          "id": "S2C_22MCB_20260825_0_L2A",
+          "date": "2026-08-25",
+          "cloud_cover": 3.085,
+          "file": "20260825.jpg",
+          "bytes": 35538,
+          "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/M/CB/2026/8/S2C_22MCB_20260825_0_L2A/preview.jpg"
+        },
+        {
+          "id": "S2A_22MCB_20260718_0_L2A",
+          "date": "2026-07-18",
+          "cloud_cover": 5.907,
+          "file": "20260718.jpg",
+          "bytes": 32634,
+          "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/M/CB/2026/7/S2A_22MCB_20260718_0_L2A/preview.jpg"
+        },
+        {
+          "id": "S2B_22MCB_20260803_0_L2A",
+          "date": "2026-08-03",
+          "cloud_cover": 34.214,
+          "file": "20260803.jpg",
+          "bytes": 25450,
+          "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/M/CB/2026/8/S2B_22MCB_20260803_0_L2A/preview.jpg"
+        }
+      ]
+    }
+  }
 }
