@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-08-31T14:54:34.369001Z",
+  "generated_at": "2026-08-31T19:43:59.941715Z",
   "features": [
     {
       "type": "Feature",
@@ -161,7 +161,7 @@
         "hectares": 3.0,
         "status": "proposed",
         "boundary_authority": "approx",
-        "owner": "Jedielcio (CEPOTX)",
+        "owner": "Ana Lucia Araujo de Sousa (CEPOTX)",
         "region": "Altamira, Para",
         "verified_at": "2026-08-31",
         "notes": "Compound track from 44 media (32 HEIC + 12 MOV, 15:28-15:58): lat -3.291769..-3.292514, lng -52.571500..-52.572400. Hull ~0.31 ha; full 3 ha property boundary pending Jedielcio's boundary photos (email preserves EXIF)."
