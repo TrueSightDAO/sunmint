@@ -1,8 +1,8 @@
 {
   "status": "success",
-  "generated_at": "2026-08-31T16:00:05Z",
+  "generated_at": "2026-08-31T16:30:05Z",
   "schema_version": 1,
-  "count": 73,
+  "count": 74,
   "test_events_count": 25,
   "test_events": {
     "E2ETEST_20260822065043_002": {
@@ -1226,6 +1226,20 @@
       "signed_payload": "[TREE PLANTING REJECT EVENT]\n- QR Code: (unlinked)\n- SunMint Submission Message ID: Edgar_20260831015152_009\n- Updated by: Gary Teh\n- Reason: Not a valid tree\n--------",
       "signed_text": "[TREE PLANTING REJECT EVENT]\r\n- QR Code: (unlinked)\r\n- SunMint Submission Message ID: Edgar_20260831015152_009\r\n- Updated by: Gary Teh\r\n- Reason: Not a valid tree\r\n--------\r\n\r\nMy Digital Signature: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA28wHvZfuqIRBrq1nTNBvIl59S2B0WWJSEP4wGuAwMoFOqlHH1ALU/DGgDK/BsVxHfYDmA0NGDkCyJuslWvhh/UBgrjke5/RBNgcmLoCiyEsW0NymuyEiUyzUWu9gQkj4VyyvDxN87L8nSiJWpo86wD/wQyQlZwK7XjMshqfxYxO/QQfybnEV0jURzVW0JWebgldsQk5yOJfS9Sng7eXtUhP8wLBdc5NITgK741T9dWMC6RBesZnFugsVHiutGTRefzCGYOnXlM0Vs6BfUDHZgOXf71rwMKYMbJNX9rN1vfZNsrGV4D4P7o1RTLElN05ewx9ULbZk9Kc8DP8xnnt1mQIDAQAB\r\n\r\nRequest Transaction ID: ZdLjUKm4av1Z6HgCiX8aVYzKoelTObVU15fLwC9SJuaCHkKEHp7UAKTOAbMBeoJq/8WCtMuPoTO0kdSn+s/0+/9JS0UUpvObpfdK8YmWPmSix5ZdJ1bHxQgts4tjfQ46R9+gP2PsA1SJh6keEfsxVV/GJiD0Ncymz5vDtO1hog48aSlMQvitUrNOdct06s2NryqaU7NveeHmJVWEomqO/80vvCqFUO4OZsJol99YALpllSbSlyIJSdzNHAkP1PGmKBVJ5EKM6mZGfosn3b2i0Raqt4vsquTK6mXIHSyhlhNVsN5qsv5N49reQ/oHGXQkeBiH71RaTglqyNqg56gPUw==\r\n\r\nThis submission was generated using https://beta.sunmint.truesight.me/monitor-tree-growth/?tree=Edgar_20260831015152_009\r\n\r\nVerify submission here: https://dapp.truesight.me/verify_request.html",
       "source_tab": "Telegram Chat Logs",
+      "verifiable": true,
+      "linked_tree_id": ""
+    },
+    "Edgar_20260831162552_072": {
+      "event_type": "[TREE PLANTING EVENT]",
+      "telegram_message_id": "Edgar_20260831162552_072",
+      "telegram_update_id": "Edgar_20260831162552_071",
+      "submitted_at": "2026-08-31",
+      "contributor_name": "Gary Teh",
+      "public_key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAx3dD/ed3rXUZGL10rf0ckkZvA+52fhu9yjZLgbG+k8f4BVov1zPAVgG0aS+HN+w0rlLRjqECv548Nc4cfq1EylUcWOlSb9qQ6eAMFzgJWN2WLvDL7f+x2020x/SaIKw4+W3aaWgerkwYlVpj6bj8MbIzVfJ6LzjiCboMw7DDWgI8x7ak2VebKPWJN95r6sJoI/RBWcBaA6mXbbTTJGnXp2Fm0rBvaMcLZaru8w2HfiSo3yyoZDqHWrtC35gn+D3BT9rjUf66ldgsMDs925tgzSz5fFsGYJDK/OdkngpEDRzQTUKgNoXbiyIyiaAlVfh3DIlRgibX4GDoAYO0uJyNAQIDAQAB",
+      "signature": "uEjg6t7GwpjCAdz8jVtz5vsGP+mYI0yS1SI0bVdJDfVZH75QH56b7UCj0oPoEkK+u9cwSC+KMNLRRIITB9FSt+n9/yeXJs6QEkOfXdPHxJNsMezmM2GNcjHV4GYwzAl+WCC4xZSd5fgP+/iezNd8XIX7qmKec2+fanRkF6S19bfGZp5wn0VCqhOBJl6/DH2Bf/rIXe5v99VtX8Uc3afmvt/zc/yLrQNW5HBriC639mDg2DRzJJ1BexrbDl3dPCz3mF3lN778+m8XVEXTfvLNHfNkI6TNYsA9caSKDclWVtpESZqIvSR/xuMkxFM7iGV4lz85JgVWNewxlbBuo0pwhw==",
+      "signed_payload": "[TREE PLANTING EVENT]\n- Latitude: -3.2075414030626623\n- Longitude: -52.22216600596255\n- Species: Cacao - Criolla\n- Planting Time: 2026-08-31T16:25:47.896Z\n- Photo URL: https://github.com/TrueSightDAO/sunmint/tree/main/images/20260831132547_MIIBIjANBgkqhkiG9w0B.jpg\n- Submission Source: https://sunmint.truesight.me/\n--------",
+      "signed_text": "[TREE PLANTING EVENT]\r\n- Latitude: -3.2075414030626623\r\n- Longitude: -52.22216600596255\r\n- Species: Cacao - Criolla\r\n- Planting Time: 2026-08-31T16:25:47.896Z\r\n- Photo URL: https://github.com/TrueSightDAO/sunmint/tree/main/images/20260831132547_MIIBIjANBgkqhkiG9w0B.jpg\r\n- Submission Source: https://sunmint.truesight.me/\r\n--------\r\n\r\nMy Digital Signature: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAx3dD/ed3rXUZGL10rf0ckkZvA+52fhu9yjZLgbG+k8f4BVov1zPAVgG0aS+HN+w0rlLRjqECv548Nc4cfq1EylUcWOlSb9qQ6eAMFzgJWN2WLvDL7f+x2020x/SaIKw4+W3aaWgerkwYlVpj6bj8MbIzVfJ6LzjiCboMw7DDWgI8x7ak2VebKPWJN95r6sJoI/RBWcBaA6mXbbTTJGnXp2Fm0rBvaMcLZaru8w2HfiSo3yyoZDqHWrtC35gn+D3BT9rjUf66ldgsMDs925tgzSz5fFsGYJDK/OdkngpEDRzQTUKgNoXbiyIyiaAlVfh3DIlRgibX4GDoAYO0uJyNAQIDAQAB\r\n\r\nRequest Transaction ID: uEjg6t7GwpjCAdz8jVtz5vsGP+mYI0yS1SI0bVdJDfVZH75QH56b7UCj0oPoEkK+u9cwSC+KMNLRRIITB9FSt+n9/yeXJs6QEkOfXdPHxJNsMezmM2GNcjHV4GYwzAl+WCC4xZSd5fgP+/iezNd8XIX7qmKec2+fanRkF6S19bfGZp5wn0VCqhOBJl6/DH2Bf/rIXe5v99VtX8Uc3afmvt/zc/yLrQNW5HBriC639mDg2DRzJJ1BexrbDl3dPCz3mF3lN778+m8XVEXTfvLNHfNkI6TNYsA9caSKDclWVtpESZqIvSR/xuMkxFM7iGV4lz85JgVWNewxlbBuo0pwhw==\r\n\r\nThis submission was generated using https://sunmint.truesight.me/\r\n\r\nVerify submission here: https://dapp.truesight.me/verify_request.html",
+      "source_tab": "SunMint Tree Planting",
       "verifiable": true,
       "linked_tree_id": ""
     }
