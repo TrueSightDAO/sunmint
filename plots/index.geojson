@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-08-31T13:31:53.232116Z",
+  "generated_at": "2026-08-31T13:56:42.372427Z",
   "features": [
     {
       "type": "Feature",
@@ -9,24 +9,28 @@
         "coordinates": [
           [
             [
-              -52.5833,
-              -3.2961
+              -52.5832,
+              -3.2963
             ],
             [
-              -52.583164,
-              -3.2961
+              -52.5827,
+              -3.2963
             ],
             [
-              -52.582864,
-              -3.296053
+              -52.5827,
+              -3.2957
             ],
             [
               -52.583,
-              -3.296
+              -3.2957
             ],
             [
-              -52.5833,
-              -3.2961
+              -52.5832,
+              -3.2957
+            ],
+            [
+              -52.5832,
+              -3.2963
             ]
           ]
         ]
@@ -35,12 +39,13 @@
         "plot_id": "RM-P1",
         "farm_id": "rancho-maranta",
         "name": "Rancho Maranta Plot 1 (house)",
-        "hectares": 0.3,
+        "hectares": 0.4,
         "status": "planted",
-        "boundary_authority": "approx",
+        "boundary_authority": "walk-approx",
         "owner": "Jedielcio family",
         "region": "Altamira, Para",
-        "notes": "Matches existing TREE PLANTING EVENT at -3.29609,-52.58318. Photo cluster ~35m; boundary approx from HEIC/MOV GPS cluster."
+        "verified_at": "2026-08-31",
+        "notes": "Extended from second GPS walk (17:03-17:17, 12 MOV + 5 HEIC): lat -3.2957..-3.2963, lng -52.5827..-52.5832. Walk radius ~60m around house; includes family moments."
       }
     },
     {
