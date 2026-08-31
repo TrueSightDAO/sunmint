@@ -133,6 +133,13 @@ def main():
     parser.add_argument("--out-dir", default="satellite")
     args = parser.parse_args()
 
+    # Hard guard: trees/plots.geojson was a dead duplicate that silently
+    # skipped plot-level caching. Never accept it (see repo README).
+    if args.plots.replace("\\", "/").endswith("trees/plots.geojson"):
+        sys.exit(
+            "REFUSING trees/plots.geojson: the only plot registry is plots/index.geojson (see README)"
+        )
+
     if not os.path.exists(args.index):
         warn(f"index not found: {args.index} — nothing to do (exit 0)")
         return 0
