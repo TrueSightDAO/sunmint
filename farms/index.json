@@ -1,22 +1,51 @@
 {
+  "type": "farms_index",
+  "generated_at": "2026-09-01T00:00:00Z",
   "farms": [
     {
-      "id": "fazenda-cleide",
-      "name": "Fazenda Cleide"
+      "farm_id": "fazenda-cleide",
+      "name": "Fazenda Cleide",
+      "region": "Altamira, Para",
+      "owner": "Cleide Maris Suk & Marcelo (CEPOTX)",
+      "plot_count": 1,
+      "total_hectares": 114.0,
+      "statuses": {
+        "proposed": 1
+      }
     },
     {
-      "id": "paulo-la-do-sitio-para",
-      "name": "Paulo La Do Sitio Para"
+      "farm_id": "paulo-la-do-sitio-para",
+      "name": "Paulo La Do Sitio Para",
+      "region": "Medio Xingu, Para",
+      "owner": "Paulo (CEPOTX)",
+      "plot_count": 1,
+      "total_hectares": 5.56,
+      "statuses": {
+        "proposed": 1
+      }
     },
     {
-      "id": "rancho-maranta",
-      "name": "Rancho Maranta"
+      "farm_id": "rancho-maranta",
+      "name": "Rancho Maranta",
+      "region": "Altamira, Para",
+      "owner": "Jedielcio family",
+      "plot_count": 2,
+      "total_hectares": 5.4,
+      "statuses": {
+        "planted": 1,
+        "proposed": 1
+      }
     },
     {
-      "id": "santa-anna-fazenda",
-      "name": "Santa Anna Fazenda"
+      "farm_id": "santa-anna-fazenda",
+      "name": "Santa Anna Fazenda",
+      "region": "Altamira, Para",
+      "owner": "Ana Lucia Araujo de Sousa (CEPOTX)",
+      "plot_count": 1,
+      "total_hectares": 3.0,
+      "statuses": {
+        "proposed": 1
+      }
     }
-  ],
-  "generated_at": "2026-08-31T20:09:53.145480Z",
-  "count": 4
+  ]
 }
