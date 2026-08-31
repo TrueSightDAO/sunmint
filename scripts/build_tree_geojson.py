@@ -176,19 +176,12 @@ def main():
     with open(args.out, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
     print(f"wrote {len(features)} features to {args.out}")
-    # Plots layer: GeoJSON Polygon features for project parcel boundaries.
-    # Populated from the SunMint Plots tab (or digitization) as boundaries are
-    # defined. Empty to start -- consumers must treat a missing/empty plots
-    # layer as "no plots yet" and render tree points alone.
-    plots_out = {
-        "type": "FeatureCollection",
-        "generated_at": __import__("datetime").datetime.utcnow().isoformat() + "Z",
-        "features": [],
-    }
-    plots_path = os.path.join(os.path.dirname(args.out) or ".", "plots.geojson")
-    with open(plots_path, "w", encoding="utf-8") as f:
-        json.dump(plots_out, f, ensure_ascii=False, indent=2)
-    print(f"wrote {len(plots_out['features'])} plot features to {plots_path}")
+    # NOTE: plot boundaries are maintained in plots/index.geojson by
+    # scripts/build_plots_geojson.py (source: "SunMint Plots" tab). The tree
+    # index intentionally does NOT emit a plot layer -- see the repo README
+    # ("Single source of truth for plots"). Do not reintroduce a side-car
+    # plots output here; it caused file confusion (trees/plots.geojson vs
+    # plots/index.geojson) and silently skipped plot-level satellite caching.
 
 
 if __name__ == "__main__":
