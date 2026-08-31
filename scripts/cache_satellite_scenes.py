@@ -129,7 +129,7 @@ def main():
         description="Cache Sentinel-2 previews for SunMint trees"
     )
     parser.add_argument("--index", default="trees/index.geojson")
-    parser.add_argument("--plots", default="trees/plots.geojson")
+    parser.add_argument("--plots", default="plots/index.geojson")
     parser.add_argument("--out-dir", default="satellite")
     args = parser.parse_args()
 
