@@ -29,7 +29,7 @@ jobs:
         # The script degrades gracefully: if STAC is unreachable or no scenes are
         # found it logs a warning and exits 0, so the workflow never fails.
         run: |
-          python3 scripts/cache_satellite_scenes.py --index trees/index.geojson --out-dir satellite
+          python3 scripts/cache_satellite_scenes.py --index trees/index.geojson --plots plots/index.geojson --out-dir satellite
 
       - name: Commit and push changes
         run: |
