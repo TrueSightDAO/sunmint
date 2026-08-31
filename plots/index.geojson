@@ -12,19 +12,34 @@
         "boundary_authority": "approx",
         "owner": "Jedielcio family",
         "region": "Altamira, Para",
-        "verified_at": null,
-        "media": [],
         "notes": "Matches existing TREE PLANTING EVENT at -3.29609,-52.58318. Photo cluster ~35m; boundary approx from HEIC/MOV GPS cluster."
       },
       "geometry": {
         "type": "Polygon",
-        "coordinates": [[
-          [-52.583300, -3.296100],
-          [-52.583164, -3.296100],
-          [-52.582864, -3.296053],
-          [-52.583000, -3.296000],
-          [-52.583300, -3.296100]
-        ]]
+        "coordinates": [
+          [
+            [
+              -52.5833,
+              -3.2961
+            ],
+            [
+              -52.583164,
+              -3.2961
+            ],
+            [
+              -52.582864,
+              -3.296053
+            ],
+            [
+              -52.583,
+              -3.296
+            ],
+            [
+              -52.5833,
+              -3.2961
+            ]
+          ]
+        ]
       }
     },
     {
@@ -38,24 +53,54 @@
         "boundary_authority": "approx",
         "owner": "Jedielcio family",
         "region": "Altamira, Para",
-        "verified_at": null,
-        "media": [],
         "notes": "Walk track from 23 MOV clips (16:31-16:49) traces perimeter: lat -3.2934..-3.2947, lng -52.5768..-52.5789. Hull area approx 2.9 ha < claimed 5 ha -> needs CAR/INCRA polygon or full boundary walk for authority."
       },
       "geometry": {
         "type": "Polygon",
-        "coordinates": [[
-          [-52.576800, -3.293600],
-          [-52.577100, -3.293400],
-          [-52.577700, -3.293500],
-          [-52.578000, -3.293700],
-          [-52.578300, -3.294200],
-          [-52.578800, -3.294500],
-          [-52.578900, -3.294700],
-          [-52.578300, -3.294400],
-          [-52.577600, -3.294000],
-          [-52.576800, -3.293600]
-        ]]
+        "coordinates": [
+          [
+            [
+              -52.5768,
+              -3.2936
+            ],
+            [
+              -52.5771,
+              -3.2934
+            ],
+            [
+              -52.5777,
+              -3.2935
+            ],
+            [
+              -52.578,
+              -3.2937
+            ],
+            [
+              -52.5783,
+              -3.2942
+            ],
+            [
+              -52.5788,
+              -3.2945
+            ],
+            [
+              -52.5789,
+              -3.2947
+            ],
+            [
+              -52.5783,
+              -3.2944
+            ],
+            [
+              -52.5776,
+              -3.294
+            ],
+            [
+              -52.5768,
+              -3.2936
+            ]
+          ]
+        ]
       }
     }
   ]
