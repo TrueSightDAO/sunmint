@@ -1,0 +1,22 @@
+{
+  "farms": [
+    {
+      "id": "fazenda-cleide",
+      "name": "Fazenda Cleide"
+    },
+    {
+      "id": "paulo-la-do-sitio-para",
+      "name": "Paulo La Do Sitio Para"
+    },
+    {
+      "id": "rancho-maranta",
+      "name": "Rancho Maranta"
+    },
+    {
+      "id": "santa-anna-fazenda",
+      "name": "Santa Anna Fazenda"
+    }
+  ],
+  "generated_at": "2026-08-31T20:09:53.145480Z",
+  "count": 4
+}
