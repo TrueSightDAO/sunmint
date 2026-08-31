@@ -1,1 +1,321 @@
-{"type": "FeatureCollection", "generated_at": "2026-08-31T14:48:00Z", "features": [{"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[-52.5832, -3.2963], [-52.5827, -3.2963], [-52.5827, -3.2957], [-52.583, -3.2957], [-52.5832, -3.2957], [-52.5832, -3.2963]]]}, "properties": {"plot_id": "RM-P1", "farm_id": "rancho-maranta", "name": "Rancho Maranta Plot 1 (house)", "hectares": 0.4, "status": "planted", "boundary_authority": "walk-approx", "owner": "Jedielcio family", "region": "Altamira, Para", "verified_at": "2026-08-31", "notes": "Extended from second GPS walk (17:03-17:17, 12 MOV + 5 HEIC): lat -3.2957..-3.2963, lng -52.5827..-52.5832. Walk radius ~60m around house; includes family moments."}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[-52.5768, -3.2936], [-52.5771, -3.2934], [-52.5777, -3.2935], [-52.578, -3.2937], [-52.5783, -3.2942], [-52.5788, -3.2945], [-52.5789, -3.2947], [-52.5783, -3.2944], [-52.5776, -3.294], [-52.5768, -3.2936]]]}, "properties": {"plot_id": "RM-P2", "farm_id": "rancho-maranta", "name": "Rancho Maranta Plot 2 (family ~5 ha)", "hectares": 5, "status": "proposed", "boundary_authority": "approx", "owner": "Jedielcio family", "region": "Altamira, Para", "notes": "Walk track from 23 MOV clips (16:31-16:49) traces perimeter: lat -3.2934..-3.2947, lng -52.5768..-52.5789. Hull area approx 2.9 ha < claimed 5 ha -> needs CAR/INCRA polygon or full boundary walk for authority."}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[-52.5724, -3.2925], [-52.572361, -3.292514], [-52.5721, -3.2925], [-52.5718, -3.2922], [-52.5715, -3.2918], [-52.5715, -3.291778], [-52.571511, -3.291769], [-52.5721, -3.292], [-52.5724, -3.2925]]]}, "properties": {"plot_id": "SA-P1", "farm_id": "santa-anna-fazenda", "name": "Santa Anna Fazenda Plot 1 (compound)", "hectares": 3, "status": "proposed", "boundary_authority": "approx", "owner": "Jedielcio (CEPOTX)", "region": "Altamira, Para", "verified_at": "2026-08-31", "notes": "Compound track from 44 media (32 HEIC + 12 MOV, 15:28-15:58): lat -3.291769..-3.292514, lng -52.571500..-52.572400. Hull ~0.31 ha; full 3 ha property boundary pending Jedielcio's boundary photos (email preserves EXIF)."}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[-52.6347, -3.414], [-52.634, -3.4148], [-52.6338, -3.415], [-52.6288, -3.4185], [-52.615, -3.4157], [-52.615, -3.4139], [-52.6198, -3.4115], [-52.6231, -3.4111], [-52.6236, -3.4111], [-52.6305, -3.4124], [-52.6347, -3.414]]]}, "properties": {"plot_id": "CL-P1", "farm_id": "fazenda-cleide", "name": "Fazenda Cleide Plot 1 (working areas)", "hectares": 114, "status": "proposed", "boundary_authority": "approx", "owner": "Cleide Maris Suk & Marcelo (CEPOTX)", "region": "Altamira, Para", "verified_at": "2026-08-31", "notes": "Hull of 76 geotagged media (63 MOV + 13 HEIC, 2024-07-02 site visit): lat -3.4185..-3.4111, lng -52.6347..-52.6150. Covers working areas (fermentation ~-52.615, drying ~-52.6347). NOTE: prior FSVP doc records farm gate -3.398528,-52.633339 + ferment/dry -3.401656,-52.641283 (~2km NE) - needs boundary walk/CAR to reconcile. Organic IBD/NOP via CEPOTX (site code B-06-108)."}}]}
+{
+  "type": "FeatureCollection",
+  "generated_at": "2026-08-31T14:54:34.369001Z",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -52.5832,
+              -3.2963
+            ],
+            [
+              -52.5827,
+              -3.2963
+            ],
+            [
+              -52.5827,
+              -3.2957
+            ],
+            [
+              -52.583,
+              -3.2957
+            ],
+            [
+              -52.5832,
+              -3.2957
+            ],
+            [
+              -52.5832,
+              -3.2963
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "RM-P1",
+        "farm_id": "rancho-maranta",
+        "name": "Rancho Maranta Plot 1 (house)",
+        "hectares": 0.4,
+        "status": "planted",
+        "boundary_authority": "walk-approx",
+        "owner": "Jedielcio family",
+        "region": "Altamira, Para",
+        "verified_at": "2026-08-31",
+        "notes": "Extended from second GPS walk (17:03-17:17, 12 MOV + 5 HEIC): lat -3.2957..-3.2963, lng -52.5827..-52.5832. Walk radius ~60m around house; includes family moments."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -52.5768,
+              -3.2936
+            ],
+            [
+              -52.5771,
+              -3.2934
+            ],
+            [
+              -52.5777,
+              -3.2935
+            ],
+            [
+              -52.578,
+              -3.2937
+            ],
+            [
+              -52.5783,
+              -3.2942
+            ],
+            [
+              -52.5788,
+              -3.2945
+            ],
+            [
+              -52.5789,
+              -3.2947
+            ],
+            [
+              -52.5783,
+              -3.2944
+            ],
+            [
+              -52.5776,
+              -3.294
+            ],
+            [
+              -52.5768,
+              -3.2936
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "RM-P2",
+        "farm_id": "rancho-maranta",
+        "name": "Rancho Maranta Plot 2 (family ~5 ha)",
+        "hectares": 5.0,
+        "status": "proposed",
+        "boundary_authority": "approx",
+        "owner": "Jedielcio family",
+        "region": "Altamira, Para",
+        "notes": "Walk track from 23 MOV clips (16:31-16:49) traces perimeter: lat -3.2934..-3.2947, lng -52.5768..-52.5789. Hull area approx 2.9 ha < claimed 5 ha -> needs CAR/INCRA polygon or full boundary walk for authority."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -52.5724,
+              -3.2925
+            ],
+            [
+              -52.572361,
+              -3.292514
+            ],
+            [
+              -52.5721,
+              -3.2925
+            ],
+            [
+              -52.5718,
+              -3.2922
+            ],
+            [
+              -52.5715,
+              -3.2918
+            ],
+            [
+              -52.5715,
+              -3.291778
+            ],
+            [
+              -52.571511,
+              -3.291769
+            ],
+            [
+              -52.5721,
+              -3.292
+            ],
+            [
+              -52.5724,
+              -3.2925
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "SA-P1",
+        "farm_id": "santa-anna-fazenda",
+        "name": "Santa Anna Fazenda Plot 1 (compound)",
+        "hectares": 3.0,
+        "status": "proposed",
+        "boundary_authority": "approx",
+        "owner": "Jedielcio (CEPOTX)",
+        "region": "Altamira, Para",
+        "verified_at": "2026-08-31",
+        "notes": "Compound track from 44 media (32 HEIC + 12 MOV, 15:28-15:58): lat -3.291769..-3.292514, lng -52.571500..-52.572400. Hull ~0.31 ha; full 3 ha property boundary pending Jedielcio's boundary photos (email preserves EXIF)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -52.6347,
+              -3.414
+            ],
+            [
+              -52.634,
+              -3.4148
+            ],
+            [
+              -52.6338,
+              -3.415
+            ],
+            [
+              -52.6288,
+              -3.4185
+            ],
+            [
+              -52.615,
+              -3.4157
+            ],
+            [
+              -52.615,
+              -3.4139
+            ],
+            [
+              -52.6198,
+              -3.4115
+            ],
+            [
+              -52.6231,
+              -3.4111
+            ],
+            [
+              -52.6236,
+              -3.4111
+            ],
+            [
+              -52.6305,
+              -3.4124
+            ],
+            [
+              -52.6347,
+              -3.414
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "CL-P1",
+        "farm_id": "fazenda-cleide",
+        "name": "Fazenda Cleide Plot 1 (working areas)",
+        "hectares": 114.0,
+        "status": "proposed",
+        "boundary_authority": "approx",
+        "owner": "Cleide Maris Suk & Marcelo (CEPOTX)",
+        "region": "Altamira, Para",
+        "verified_at": "2026-08-31",
+        "notes": "Hull of 76 geotagged media (63 MOV + 13 HEIC, 2024-07-02 site visit): lat -3.4185..-3.4111, lng -52.6347..-52.6150. Covers working areas (fermentation ~-52.615, drying ~-52.6347). NOTE: prior FSVP doc records farm gate -3.398528,-52.633339 + ferment/dry -3.401656,-52.641283 (~2km NE) - needs boundary walk/CAR to reconcile. Organic IBD/NOP via CEPOTX (site code B-06-108)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -51.852944,
+              -3.389614
+            ],
+            [
+              -51.8523,
+              -3.391
+            ],
+            [
+              -51.852097,
+              -3.390956
+            ],
+            [
+              -51.852,
+              -3.3906
+            ],
+            [
+              -51.8513,
+              -3.3864
+            ],
+            [
+              -51.8513,
+              -3.3863
+            ],
+            [
+              -51.851681,
+              -3.385969
+            ],
+            [
+              -51.851683,
+              -3.385969
+            ],
+            [
+              -51.851689,
+              -3.385972
+            ],
+            [
+              -51.8517,
+              -3.385983
+            ],
+            [
+              -51.8523,
+              -3.3868
+            ],
+            [
+              -51.8529,
+              -3.3887
+            ],
+            [
+              -51.852944,
+              -3.389614
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LD-P1",
+        "farm_id": "paulo-la-do-sitio-para",
+        "name": "Paulo La do Sitio Plot 1 (farmstead)",
+        "hectares": 5.56,
+        "status": "proposed",
+        "boundary_authority": "approx",
+        "owner": "Paulo (CEPOTX)",
+        "region": "Medio Xingu, Para",
+        "verified_at": "2026-08-31",
+        "media": [
+          "images/LD-P1/IMG_3884.jpg",
+          "images/LD-P1/IMG_3891.jpg",
+          "images/LD-P1/IMG_3905.jpg",
+          "images/LD-P1/IMG_3929.jpg",
+          "images/LD-P1/IMG_3932.jpg",
+          "images/LD-P1/IMG_3940.jpg",
+          "images/LD-P1/IMG_3990.jpg",
+          "images/LD-P1/IMG_4001.jpg"
+        ],
+        "notes": "Hull of 77 unique geotagged points from 115 GPS-tagged media (52 HEIC + 72 MOV, 2024-06-25 visit): lat -3.385969..-3.391000, lng -51.851300..-51.852944. ~5.56 ha farmstead (house, cacao orchard, access). Trees actively being planted on this plot."
+      }
+    }
+  ]
+}
