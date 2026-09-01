@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "generated_at": "2026-09-01T17:25:54.773714Z",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -52.5832,
+              -3.2963
+            ],
+            [
+              -52.5827,
+              -3.2963
+            ],
+            [
+              -52.5827,
+              -3.2957
+            ],
+            [
+              -52.583,
+              -3.2957
+            ],
+            [
+              -52.5832,
+              -3.2957
+            ],
+            [
+              -52.5832,
+              -3.2963
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "RM-P1",
+        "farm_id": "rancho-maranta",
+        "name": "Rancho Maranta Plot 1 (house)",
+        "hectares": 0.4,
+        "status": "planted",
+        "boundary_authority": "walk-approx",
+        "owner": "Jedielcio family",
+        "region": "Altamira, Para",
+        "verified_at": "2026-08-31",
+        "notes": "Extended from second GPS walk (17:03-17:17, 12 MOV + 5 HEIC): lat -3.2957..-3.2963, lng -52.5827..-52.5832. Walk radius ~60m around house; includes family moments."
+      }
+    }
+  ]
+}
