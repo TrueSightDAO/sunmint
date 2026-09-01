@@ -30,16 +30,12 @@ workflow rebuilds it from the "SunMint Plots" tab. If you see a reference to
   root `index.json`). See its README: https://github.com/TrueSightDAO/verify_public_signatures
 - Verify any event offline: `openssl dgst -sha256 -verify pub.pem -signature sig.bin payload.txt`
 
-## Tree growth measurements — `tree_growth_measurements.json`
+## Tree growth measurements
 
-Public link-share of the (private) Tree Growth Measurements tab:
-
-- **URL (stable):** `https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/tree_growth_measurements.json`
-- **Per-measurement share URL:** append the message ID as a fragment, e.g.
-  `https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/tree_growth_measurements.json#<msg_id>`
-- **Each record contains:** Tree ID (QR code), Species, DBH (cm), AGB (kg),
-  CO2e (kg), Lat/Lng, Measured At, close-up + context photo URLs, analysis
-  commit URL + SHA-256, **farmer signature**, contributor name, status.
+- **Moved:** the public tree-growth-measurements cache now lives in
+  **`TrueSightDAO/verify_public_signatures/tree_growth_monitoring/`** (one JSON per measurement,
+  per-event folder index). See the ledger README:
+  https://github.com/TrueSightDAO/verify_public_signatures
 
 ## Consumers
 - `truesight_me_beta/sunmint.html` (impact map) → `plots/index.geojson` + `trees/index.geojson`
