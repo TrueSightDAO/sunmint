@@ -168,9 +168,53 @@ def load_plots(ws):
     return plots
 
 
+def emit_per_plot(features, out_dir, generated_at):
+    """Write one FeatureCollection per plot (derived layer) + prune stale files.
+
+    The aggregate plots/index.geojson remains the serving artifact (single fetch
+    for the app); per-plot files are a derived layer for retraction recalc,
+    audit/lineage and fine-grained diffs. One source of truth (the sheet tab),
+    two derived artifacts.
+    """
+    import os
+    import re
+
+    os.makedirs(out_dir, exist_ok=True)
+    written = set()
+    for f in features:
+        pid = (f.get("properties") or {}).get("plot_id")
+        if not pid:
+            continue
+        safe = re.sub(r"[^A-Za-z0-9._-]", "_", str(pid))
+        path = os.path.join(out_dir, safe + ".geojson")
+        with open(path, "w", encoding="utf-8") as fh:
+            json.dump(
+                {
+                    "type": "FeatureCollection",
+                    "generated_at": generated_at,
+                    "features": [f],
+                },
+                fh,
+                ensure_ascii=False,
+                indent=2,
+            )
+        written.add(path)
+        print(f"wrote {path}")
+    # Prune stale per-plot files (removed/invalid plots) so the derived layer
+    # never drifts from the aggregate.
+    for name in os.listdir(out_dir):
+        if not name.endswith(".geojson"):
+            continue
+        stale = os.path.join(out_dir, name)
+        if stale not in written:
+            os.remove(stale)
+            print(f"pruned stale {stale}")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default="plots/index.geojson")
+    ap.add_argument("--by-plot-dir", default="plots/by-plot")
     args = ap.parse_args()
 
     try:
@@ -238,6 +282,7 @@ def main():
     with open(args.out, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
     print(f"wrote {len(features)} plot features to {args.out}")
+    emit_per_plot(features, args.by_plot_dir, out["generated_at"])
 
 
 if __name__ == "__main__":
