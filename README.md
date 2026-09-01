@@ -40,4 +40,4 @@ workflow rebuilds it from the "SunMint Plots" tab. If you see a reference to
 ## Consumers
 - `truesight_me_beta/sunmint.html` (impact map) → `plots/index.geojson` + `trees/index.geojson`
 - `scripts/cache_satellite_scenes.py` → `trees/index.geojson` + `plots/index.geojson`
-- Verifiers / VVBs / public auditors → `signatures.json` + `tree_growth_measurements.json`
+- Verifiers / VVBs / public auditors → `TrueSightDAO/verify_public_signatures` (see its README)
