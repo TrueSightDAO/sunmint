@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T14:15:24.246330+00:00",
+  "generated_at": "2026-09-01T11:53:34.622040+00:00",
   "source": "earth-search.aws.element84.com Sentinel-2 L2A (anonymous)",
   "cells": {
     "-27.44_-48.5": {
@@ -21,7 +21,7 @@
           "id": "S2A_22JGQ_20260719_0_L2A",
           "date": "2026-07-19",
           "cloud_cover": 1.829,
-          "file": "20260719_1.jpg",
+          "file": "20260719_2.jpg",
           "bytes": 18395,
           "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/J/GQ/2026/7/S2A_22JGQ_20260719_0_L2A/preview.jpg"
         },
@@ -29,7 +29,7 @@
           "id": "S2C_22JGQ_20260727_0_L2A",
           "date": "2026-07-27",
           "cloud_cover": 51.455,
-          "file": "20260727_1.jpg",
+          "file": "20260727_2.jpg",
           "bytes": 37609,
           "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/J/GQ/2026/7/S2C_22JGQ_20260727_0_L2A/preview.jpg"
         },
@@ -37,9 +37,50 @@
           "id": "S2B_22JGQ_20260801_0_L2A",
           "date": "2026-08-01",
           "cloud_cover": 74.337,
-          "file": "20260801.jpg",
+          "file": "20260801_1.jpg",
           "bytes": 25149,
           "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/J/GQ/2026/8/S2B_22JGQ_20260801_0_L2A/preview.jpg"
+        }
+      ]
+    },
+    "-3.21_-52.23": {
+      "center": {
+        "lat": -3.20754,
+        "lng": -52.22217
+      },
+      "trees": 1,
+      "scenes": [
+        {
+          "id": "S2C_22MCB_20260825_0_L2A",
+          "date": "2026-08-25",
+          "cloud_cover": 3.085,
+          "file": "20260825.jpg",
+          "bytes": 35538,
+          "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/M/CB/2026/8/S2C_22MCB_20260825_0_L2A/preview.jpg"
+        },
+        {
+          "id": "S2A_22MCB_20260718_0_L2A",
+          "date": "2026-07-18",
+          "cloud_cover": 5.907,
+          "file": "20260718.jpg",
+          "bytes": 32634,
+          "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/M/CB/2026/7/S2A_22MCB_20260718_0_L2A/preview.jpg"
+        },
+        {
+          "id": "S2C_22MCB_20260726_0_L2A",
+          "date": "2026-07-26",
+          "cloud_cover": 36.579,
+          "file": "20260726.jpg",
+          "bytes": 51056,
+          "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/M/CB/2026/7/S2C_22MCB_20260726_0_L2A/preview.jpg"
+        },
+        {
+          "id": "S2B_22MCB_20260810_0_L2A",
+          "date": "2026-08-10",
+          "cloud_cover": 45.002,
+          "file": "20260810.jpg",
+          "bytes": 54400,
+          "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/M/CB/2026/8/S2B_22MCB_20260810_0_L2A/preview.jpg"
         }
       ]
     }
@@ -71,7 +112,7 @@
           "id": "S2C_22MCB_20260825_0_L2A",
           "date": "2026-08-25",
           "cloud_cover": 3.085,
-          "file": "20260825_1.jpg",
+          "file": "20260825_2.jpg",
           "bytes": 35538,
           "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/M/CB/2026/8/S2C_22MCB_20260825_0_L2A/preview.jpg"
         },
@@ -79,7 +120,7 @@
           "id": "S2A_22MCB_20260718_0_L2A",
           "date": "2026-07-18",
           "cloud_cover": 5.907,
-          "file": "20260718_1.jpg",
+          "file": "20260718_2.jpg",
           "bytes": 32634,
           "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/M/CB/2026/7/S2A_22MCB_20260718_0_L2A/preview.jpg"
         },
@@ -87,7 +128,7 @@
           "id": "S2B_22MCB_20260803_0_L2A",
           "date": "2026-08-03",
           "cloud_cover": 34.214,
-          "file": "20260803_1.jpg",
+          "file": "20260803_2.jpg",
           "bytes": 25450,
           "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/M/CB/2026/8/S2B_22MCB_20260803_0_L2A/preview.jpg"
         }
@@ -105,6 +146,54 @@
       "center": {
         "lat": -3.2940500000000004,
         "lng": -52.57785
+      },
+      "scenes": [
+        {
+          "id": "S2C_22MCB_20260719_0_L2A",
+          "date": "2026-07-19",
+          "cloud_cover": 1.861,
+          "file": "20260719.jpg",
+          "bytes": 13765,
+          "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/M/CB/2026/7/S2C_22MCB_20260719_0_L2A/preview.jpg"
+        },
+        {
+          "id": "S2C_22MCB_20260825_0_L2A",
+          "date": "2026-08-25",
+          "cloud_cover": 3.085,
+          "file": "20260825_2.jpg",
+          "bytes": 35538,
+          "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/M/CB/2026/8/S2C_22MCB_20260825_0_L2A/preview.jpg"
+        },
+        {
+          "id": "S2A_22MCB_20260718_0_L2A",
+          "date": "2026-07-18",
+          "cloud_cover": 5.907,
+          "file": "20260718_2.jpg",
+          "bytes": 32634,
+          "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/M/CB/2026/7/S2A_22MCB_20260718_0_L2A/preview.jpg"
+        },
+        {
+          "id": "S2B_22MCB_20260803_0_L2A",
+          "date": "2026-08-03",
+          "cloud_cover": 34.214,
+          "file": "20260803_2.jpg",
+          "bytes": 25450,
+          "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/M/CB/2026/8/S2B_22MCB_20260803_0_L2A/preview.jpg"
+        }
+      ]
+    },
+    "SA-P1": {
+      "id": "SA-P1",
+      "name": "Santa Anna Fazenda Plot 1 (compound)",
+      "bbox": [
+        -52.5724,
+        -3.292514,
+        -52.5715,
+        -3.291769
+      ],
+      "center": {
+        "lat": -3.2921415,
+        "lng": -52.57195
       },
       "scenes": [
         {
@@ -141,18 +230,18 @@
         }
       ]
     },
-    "SA-P1": {
-      "id": "SA-P1",
-      "name": "Santa Anna Fazenda Plot 1 (compound)",
+    "CL-P1": {
+      "id": "CL-P1",
+      "name": "Fazenda Cleide Plot 1 (working areas)",
       "bbox": [
-        -52.5724,
-        -3.292514,
-        -52.5715,
-        -3.291769
+        -52.6347,
+        -3.4185,
+        -52.615,
+        -3.4111
       ],
       "center": {
-        "lat": -3.2921415,
-        "lng": -52.57195
+        "lat": -3.4147999999999996,
+        "lng": -52.62485
       },
       "scenes": [
         {
@@ -186,6 +275,54 @@
           "file": "20260803.jpg",
           "bytes": 25450,
           "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/M/CB/2026/8/S2B_22MCB_20260803_0_L2A/preview.jpg"
+        }
+      ]
+    },
+    "LD-P1": {
+      "id": "LD-P1",
+      "name": "Paulo La do Sitio Plot 1 (farmstead)",
+      "bbox": [
+        -51.852944,
+        -3.391,
+        -51.8513,
+        -3.385969
+      ],
+      "center": {
+        "lat": -3.3884844999999997,
+        "lng": -51.852122
+      },
+      "scenes": [
+        {
+          "id": "S2C_22MDB_20260825_0_L2A",
+          "date": "2026-08-25",
+          "cloud_cover": 1.161,
+          "file": "20260825.jpg",
+          "bytes": 32365,
+          "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/M/DB/2026/8/S2C_22MDB_20260825_0_L2A/preview.jpg"
+        },
+        {
+          "id": "S2C_22MCB_20260825_0_L2A",
+          "date": "2026-08-25",
+          "cloud_cover": 3.085,
+          "file": "20260825_1.jpg",
+          "bytes": 35538,
+          "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/M/CB/2026/8/S2C_22MCB_20260825_0_L2A/preview.jpg"
+        },
+        {
+          "id": "S2A_22MCB_20260718_0_L2A",
+          "date": "2026-07-18",
+          "cloud_cover": 5.907,
+          "file": "20260718.jpg",
+          "bytes": 32634,
+          "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/M/CB/2026/7/S2A_22MCB_20260718_0_L2A/preview.jpg"
+        },
+        {
+          "id": "S2A_22MDB_20260718_0_L2A",
+          "date": "2026-07-18",
+          "cloud_cover": 12.335,
+          "file": "20260718_1.jpg",
+          "bytes": 33813,
+          "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/M/DB/2026/7/S2A_22MDB_20260718_0_L2A/preview.jpg"
         }
       ]
     }
