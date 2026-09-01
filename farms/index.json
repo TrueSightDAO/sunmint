@@ -1,6 +1,6 @@
 {
   "type": "farms_index",
-  "generated_at": "2026-09-01T11:34:55.316660Z",
+  "generated_at": "2026-09-01T22:52:44.791582Z",
   "farms": [
     {
       "farm_id": "fazenda-cleide",
@@ -9,6 +9,28 @@
       "owner": "Cleide Maris Suk & Marcelo (CEPOTX)",
       "plot_count": 1,
       "total_hectares": 114.0,
+      "statuses": {
+        "proposed": 1
+      }
+    },
+    {
+      "farm_id": "lote-e2e-v40-plotfirst",
+      "name": "Lote E2e V40 Plotfirst",
+      "region": null,
+      "owner": null,
+      "plot_count": 1,
+      "total_hectares": 0.0,
+      "statuses": {
+        "proposed": 1
+      }
+    },
+    {
+      "farm_id": "lote-teste-e2e-plotfirst",
+      "name": "Lote Teste E2e Plotfirst",
+      "region": null,
+      "owner": null,
+      "plot_count": 1,
+      "total_hectares": 0.0,
       "statuses": {
         "proposed": 1
       }
@@ -43,6 +65,39 @@
       "owner": "Ana Lucia Araujo de Sousa (CEPOTX)",
       "plot_count": 1,
       "total_hectares": 3.0,
+      "statuses": {
+        "proposed": 1
+      }
+    },
+    {
+      "farm_id": "test-dispatch-verify-20260901",
+      "name": "Test Dispatch Verify 20260901",
+      "region": null,
+      "owner": null,
+      "plot_count": 1,
+      "total_hectares": 0.0,
+      "statuses": {
+        "proposed": 1
+      }
+    },
+    {
+      "farm_id": "test-farm-e2e-20260901",
+      "name": "Test Farm E2e 20260901",
+      "region": null,
+      "owner": null,
+      "plot_count": 1,
+      "total_hectares": 0.0,
+      "statuses": {
+        "proposed": 1
+      }
+    },
+    {
+      "farm_id": "uat-farm-20260901",
+      "name": "Uat Farm 20260901",
+      "region": null,
+      "owner": null,
+      "plot_count": 1,
+      "total_hectares": 0.0,
       "statuses": {
         "proposed": 1
       }
