@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-02T11:09:07.771202Z",
+  "generated_at": "2026-09-02T11:59:52.715949Z",
   "features": [
     {
       "type": "Feature",
@@ -315,17 +315,6 @@
           "images/LD-P1/IMG_4001.jpg"
         ],
         "notes": "Hull of 77 unique geotagged points from 115 GPS-tagged media (52 HEIC + 72 MOV, 2024-06-25 visit): lat -3.385969..-3.391000, lng -51.851300..-51.852944. ~5.56 ha farmstead (house, cacao orchard, access). Trees actively being planted on this plot."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": null,
-      "properties": {
-        "plot_id": "TEST-P1",
-        "farm_id": "test-farm-e2e-20260901",
-        "name": "TEST-FARM-E2E-20260901",
-        "status": "proposed",
-        "boundary_authority": "approx"
       }
     },
     {

@@ -1,6 +1,6 @@
 {
   "type": "farms_index",
-  "generated_at": "2026-09-02T11:12:57.140582Z",
+  "generated_at": "2026-09-02T11:59:53.740703Z",
   "farms": [
     {
       "farm_id": "fazenda-cleide",
@@ -72,17 +72,6 @@
     {
       "farm_id": "test-dispatch-verify-20260901",
       "name": "Test Dispatch Verify 20260901",
-      "region": null,
-      "owner": null,
-      "plot_count": 1,
-      "total_hectares": 0.0,
-      "statuses": {
-        "proposed": 1
-      }
-    },
-    {
-      "farm_id": "test-farm-e2e-20260901",
-      "name": "Test Farm E2e 20260901",
       "region": null,
       "owner": null,
       "plot_count": 1,
