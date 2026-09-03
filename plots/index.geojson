@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-03T09:07:17.168014Z",
+  "generated_at": "2026-09-03T09:08:49.079364Z",
   "features": [
     {
       "type": "Feature",
@@ -379,7 +379,7 @@
         ]
       },
       "properties": {
-        "plot_id": "- Boundary Type: approx",
+        "plot_id": "PL-002",
         "farm_id": "fazenda-bom-sucesso",
         "name": "Fazenda Bom Sucesso",
         "hectares": 1.016,
@@ -392,16 +392,6 @@
           "bf9c8484fc32430fb9ba2ff3a451de4c.HEIC",
           "7f77424bfa11456ba9a42a87067f4246.HEIC"
         ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": null,
-      "properties": {
-        "plot_id": "PL-002",
-        "name": "Fazenda Bom Sucesso",
-        "status": "proposed",
-        "boundary_authority": "approx"
       }
     }
   ]
