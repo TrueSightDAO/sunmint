@@ -391,7 +391,7 @@ def main():
         ]:
             if value == "":
                 continue
-            set_cell(r, col_name, value)
+            set_cell(r + 1, col_name, value)  # r = 0-based data idx; sheet row = r + 2
         print("  updated")
 
     print("\n=== next step ===")
