@@ -1,6 +1,6 @@
 {
   "type": "farms_index",
-  "generated_at": "2026-09-03T02:53:50.761335Z",
+  "generated_at": "2026-09-03T03:02:28.491381Z",
   "farms": [
     {
       "farm_id": "fazenda-cleide",
@@ -16,17 +16,6 @@
     {
       "farm_id": "lote-e2e-v40-plotfirst",
       "name": "Lote E2e V40 Plotfirst",
-      "region": null,
-      "owner": null,
-      "plot_count": 1,
-      "total_hectares": 0.0,
-      "statuses": {
-        "proposed": 1
-      }
-    },
-    {
-      "farm_id": "lote-teste-e2e-plotfirst",
-      "name": "Lote Teste E2e Plotfirst",
       "region": null,
       "owner": null,
       "plot_count": 1,

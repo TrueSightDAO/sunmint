@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-03T02:53:49.931433Z",
+  "generated_at": "2026-09-03T03:02:27.374887Z",
   "features": [
     {
       "type": "Feature",
@@ -343,29 +343,8 @@
       "type": "Feature",
       "geometry": null,
       "properties": {
-        "plot_id": "- Submission Source: e2e-uat",
-        "farm_id": "lote-teste-e2e-plotfirst",
-        "name": "Lote Teste E2E Plotfirst",
-        "status": "proposed",
-        "boundary_authority": "approx"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": null,
-      "properties": {
         "plot_id": "PL-001",
         "name": "Lote E2E v40b PlotFirst",
-        "status": "proposed",
-        "boundary_authority": "approx"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": null,
-      "properties": {
-        "plot_id": "- Boundary Type: approx",
-        "name": "Fazenda Bom Sucesso",
         "status": "proposed",
         "boundary_authority": "approx"
       }
