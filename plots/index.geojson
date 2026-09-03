@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-03T03:02:27.374887Z",
+  "generated_at": "2026-09-03T09:07:17.168014Z",
   "features": [
     {
       "type": "Feature",
@@ -347,6 +347,51 @@
         "name": "Lote E2E v40b PlotFirst",
         "status": "proposed",
         "boundary_authority": "approx"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -52.095047,
+              -3.095311
+            ],
+            [
+              -52.095919,
+              -3.094883
+            ],
+            [
+              -52.095256,
+              -3.093989
+            ],
+            [
+              -52.094789,
+              -3.094158
+            ],
+            [
+              -52.095047,
+              -3.095311
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "- Boundary Type: approx",
+        "farm_id": "fazenda-bom-sucesso",
+        "name": "Fazenda Bom Sucesso",
+        "hectares": 1.016,
+        "status": "proposed",
+        "boundary_authority": "approx",
+        "region": "Altamira, Para",
+        "media": [
+          "70234a894d764c49937ede894a878d26.HEIC",
+          "cd6887a2c2b9460bad6578ad3431490f.HEIC",
+          "bf9c8484fc32430fb9ba2ff3a451de4c.HEIC",
+          "7f77424bfa11456ba9a42a87067f4246.HEIC"
+        ]
       }
     },
     {

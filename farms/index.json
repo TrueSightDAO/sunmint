@@ -1,7 +1,18 @@
 {
   "type": "farms_index",
-  "generated_at": "2026-09-03T03:02:28.491381Z",
+  "generated_at": "2026-09-03T09:07:18.061029Z",
   "farms": [
+    {
+      "farm_id": "fazenda-bom-sucesso",
+      "name": "Fazenda Bom Sucesso",
+      "region": "Altamira, Para",
+      "owner": null,
+      "plot_count": 1,
+      "total_hectares": 1.016,
+      "statuses": {
+        "proposed": 1
+      }
+    },
     {
       "farm_id": "fazenda-cleide",
       "name": "Fazenda Cleide",
