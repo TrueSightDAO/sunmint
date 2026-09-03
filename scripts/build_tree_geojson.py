@@ -144,6 +144,18 @@ def main():
     args = ap.parse_args()
     ws = get_sheet()
     trees = load_trees(ws)
+    # Dedupe by tree id: the ledger can hold 2-3 rows per submission (async
+    # re-scans of the same chat-log event), so emit ONE feature per unique
+    # tree id, preferring the row that carries coordinates.
+    seen = {}
+    for t in trees:
+        cur = seen.get(t["id"])
+        if cur is None:
+            seen[t["id"]] = t
+            continue
+        if cur["lat"] is None and t["lat"] is not None:
+            seen[t["id"]] = t
+    trees = list(seen.values())
     features = []
     for t in trees:
         props = {
