@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-02T11:59:52.715949Z",
+  "generated_at": "2026-09-03T02:46:59.167205Z",
   "features": [
     {
       "type": "Feature",
@@ -356,6 +356,16 @@
       "properties": {
         "plot_id": "PL-001",
         "name": "Lote E2E v40b PlotFirst",
+        "status": "proposed",
+        "boundary_authority": "approx"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "plot_id": "- Boundary Type: approx",
+        "name": "Fazenda Bom Sucesso",
         "status": "proposed",
         "boundary_authority": "approx"
       }
