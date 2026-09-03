@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-03T02:46:59.167205Z",
+  "generated_at": "2026-09-03T02:53:49.931433Z",
   "features": [
     {
       "type": "Feature",
@@ -365,6 +365,16 @@
       "geometry": null,
       "properties": {
         "plot_id": "- Boundary Type: approx",
+        "name": "Fazenda Bom Sucesso",
+        "status": "proposed",
+        "boundary_authority": "approx"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "plot_id": "PL-002",
         "name": "Fazenda Bom Sucesso",
         "status": "proposed",
         "boundary_authority": "approx"
