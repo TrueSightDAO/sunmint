@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-03T08:50:21.007351Z",
+  "generated_at": "2026-09-03T09:13:16.321822Z",
   "features": [
     {
       "type": "Feature",
@@ -91,17 +91,6 @@
       "type": "Feature",
       "geometry": null,
       "properties": {
-        "tree_id": "Edgar_20260903072613_078",
-        "species": "Cacau - Hybrid",
-        "last_measured": "N/A",
-        "photo_url": "N/A",
-        "status": "NEW"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": null,
-      "properties": {
         "tree_id": "Edgar_20260903082307_082",
         "species": "Cacao - Criolla",
         "last_measured": "2026-09-03T00:00:00.000Z",
@@ -165,91 +154,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -52.095119,
-          -3.094461
-        ]
-      },
-      "properties": {
-        "tree_id": "Edgar_20260903083523_004",
-        "species": "Cacau - Hybrid",
-        "last_measured": "2026-09-02T18:47:03-03:00",
-        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree02.jpg",
-        "status": "NEW"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -52.094956,
-          -3.094517
-        ]
-      },
-      "properties": {
-        "tree_id": "Edgar_20260903083528_006",
-        "species": "Cacau - Hybrid",
-        "last_measured": "2026-09-02T18:52:14-03:00",
-        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree03.jpg",
-        "status": "NEW"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -52.094956,
-          -3.094517
-        ]
-      },
-      "properties": {
-        "tree_id": "Edgar_20260903083528_006",
-        "species": "Cacau - Hybrid",
-        "last_measured": "2026-09-02T18:52:14-03:00",
-        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree03.jpg",
-        "status": "NEW"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -52.094964,
-          -3.094581
-        ]
-      },
-      "properties": {
-        "tree_id": "Edgar_20260903083532_008",
-        "species": "Cacau - Hybrid",
-        "last_measured": "2026-09-02T18:57:04-03:00",
-        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree04.jpg",
-        "status": "NEW"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -52.095222,
-          -3.09445
-        ]
-      },
-      "properties": {
-        "tree_id": "Edgar_20260903083536_010",
-        "species": "Cacau - Hybrid",
-        "last_measured": "2026-09-02T19:02:37-03:00",
-        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree05.jpg",
-        "status": "NEW"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -52.094964,
           -3.094581
         ]
@@ -301,23 +205,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -52.095136,
-          -3.094183
-        ]
-      },
-      "properties": {
-        "tree_id": "Edgar_20260903083540_012",
-        "species": "Cacau - Hybrid",
-        "last_measured": "2026-09-02T19:09:55-03:00",
-        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree06.jpg",
-        "status": "NEW"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -52.094983,
           -3.094217
         ]
@@ -327,91 +214,6 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-02T19:16:07-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree07.jpg",
-        "status": "NEW"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -52.095136,
-          -3.094183
-        ]
-      },
-      "properties": {
-        "tree_id": "Edgar_20260903083540_012",
-        "species": "Cacau - Hybrid",
-        "last_measured": "2026-09-02T19:09:55-03:00",
-        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree06.jpg",
-        "status": "NEW"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -52.094983,
-          -3.094217
-        ]
-      },
-      "properties": {
-        "tree_id": "Edgar_20260903083544_014",
-        "species": "Cacau - Hybrid",
-        "last_measured": "2026-09-02T19:16:07-03:00",
-        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree07.jpg",
-        "status": "NEW"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -52.094983,
-          -3.094217
-        ]
-      },
-      "properties": {
-        "tree_id": "Edgar_20260903083544_014",
-        "species": "Cacau - Hybrid",
-        "last_measured": "2026-09-02T19:16:07-03:00",
-        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree07.jpg",
-        "status": "NEW"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -52.095142,
-          -3.094178
-        ]
-      },
-      "properties": {
-        "tree_id": "Edgar_20260903083548_016",
-        "species": "Cacau - Hybrid",
-        "last_measured": "2026-09-02T19:21:10-03:00",
-        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree08.jpg",
-        "status": "NEW"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -52.095142,
-          -3.094178
-        ]
-      },
-      "properties": {
-        "tree_id": "Edgar_20260903083548_016",
-        "species": "Cacau - Hybrid",
-        "last_measured": "2026-09-02T19:21:10-03:00",
-        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree08.jpg",
         "status": "NEW"
       }
     },
@@ -446,40 +248,6 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-02T19:26:23-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree09.jpg",
-        "status": "NEW"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -52.096053,
-          -3.094333
-        ]
-      },
-      "properties": {
-        "tree_id": "Edgar_20260903083551_018",
-        "species": "Cacau - Hybrid",
-        "last_measured": "2026-09-02T19:26:23-03:00",
-        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree09.jpg",
-        "status": "NEW"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -52.095314,
-          -3.094528
-        ]
-      },
-      "properties": {
-        "tree_id": "Edgar_20260903083555_020",
-        "species": "Cacau - Hybrid",
-        "last_measured": "2026-09-02T19:31:12-03:00",
-        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree10.jpg",
         "status": "NEW"
       }
     },
