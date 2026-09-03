@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-03T09:16:08.977179Z",
+  "generated_at": "2026-09-03T09:16:22.840721Z",
   "features": [
     {
       "type": "Feature",
@@ -27,17 +27,6 @@
         "tree_id": "Edgar_20260903072613_078",
         "species": "Cacau - Hybrid",
         "last_measured": "N/A",
-        "photo_url": "N/A",
-        "status": "NEW"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": null,
-      "properties": {
-        "tree_id": "Edgar_20260903082307_082",
-        "species": "Cacao - Criolla",
-        "last_measured": "2026-09-03T00:00:00.000Z",
         "photo_url": "N/A",
         "status": "NEW"
       }
