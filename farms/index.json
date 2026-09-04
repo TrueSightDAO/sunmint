@@ -1,6 +1,6 @@
 {
   "type": "farms_index",
-  "generated_at": "2026-09-04T11:12:46.206571Z",
+  "generated_at": "2026-09-04T14:18:24.976753Z",
   "farms": [
     {
       "farm_id": "fazenda-bom-sucesso",
@@ -42,6 +42,17 @@
       "owner": "Paulo (CEPOTX)",
       "plot_count": 1,
       "total_hectares": 5.56,
+      "statuses": {
+        "proposed": 1
+      }
+    },
+    {
+      "farm_id": "raimundo-geniza-para",
+      "name": "Raimundo Geniza Para",
+      "region": "Uruara, Para",
+      "owner": "Raimundo & Geniza",
+      "plot_count": 1,
+      "total_hectares": 0.32,
       "statuses": {
         "proposed": 1
       }
