@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-04T11:07:45.042712Z",
+  "generated_at": "2026-09-04T14:17:51.514223Z",
   "features": [
     {
       "type": "Feature",
@@ -392,6 +392,63 @@
           "bf9c8484fc32430fb9ba2ff3a451de4c.HEIC",
           "7f77424bfa11456ba9a42a87067f4246.HEIC"
         ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -53.6519,
+              -3.6306
+            ],
+            [
+              -53.652064,
+              -3.630328
+            ],
+            [
+              -53.652069,
+              -3.630306
+            ],
+            [
+              -53.652156,
+              -3.629756
+            ],
+            [
+              -53.652156,
+              -3.629744
+            ],
+            [
+              -53.652017,
+              -3.62945
+            ],
+            [
+              -53.651931,
+              -3.629464
+            ],
+            [
+              -53.651794,
+              -3.629639
+            ],
+            [
+              -53.6519,
+              -3.6306
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "RG-P1",
+        "farm_id": "raimundo-geniza-para",
+        "name": "Sítio Raimundo & Geniza Plot 1 (restoration)",
+        "hectares": 0.32,
+        "status": "proposed",
+        "boundary_authority": "approx",
+        "owner": "Raimundo & Geniza",
+        "region": "Uruara, Para",
+        "notes": "Hull of 36 geotagged media (22 HEIC + 14 MOV, 2026-09-03 visit, IMG_8205..IMG_8278): lat -3.629450..-3.630600, lng -53.651794..-53.652156. ~0.32 ha. New restoration plot by Raimundo & Geniza. approx until boundary walk/CAR."
       }
     }
   ]
