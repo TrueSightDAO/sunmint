@@ -1,6 +1,6 @@
 {
   "type": "farms_index",
-  "generated_at": "2026-09-05T19:34:00.946816Z",
+  "generated_at": "2026-09-05T19:36:19.789133Z",
   "farms": [
     {
       "farm_id": "fazenda-bom-sucesso",
@@ -36,8 +36,8 @@
       }
     },
     {
-      "farm_id": "fazenda-santa-rosa-para",
-      "name": "Fazenda Santa Rosa Para",
+      "farm_id": "fazenda-santa-rosa",
+      "name": "Fazenda Santa Rosa",
       "region": "Uruara, Para",
       "owner": "Antônio & Graça",
       "plot_count": 1,
