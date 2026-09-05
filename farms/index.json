@@ -1,6 +1,6 @@
 {
   "type": "farms_index",
-  "generated_at": "2026-09-05T23:36:04.925957Z",
+  "generated_at": "2026-09-05T23:53:20.101056Z",
   "farms": [
     {
       "farm_id": "fazenda-bom-sucesso",
@@ -47,17 +47,6 @@
       }
     },
     {
-      "farm_id": "lote-e2e-v40-plotfirst",
-      "name": "Lote E2e V40 Plotfirst",
-      "region": null,
-      "owner": null,
-      "plot_count": 1,
-      "total_hectares": 0.0,
-      "statuses": {
-        "proposed": 1
-      }
-    },
-    {
       "farm_id": "paulo-la-do-sitio-para",
       "name": "Paulo La Do Sitio Para",
       "region": "Medio Xingu, Para",
@@ -98,28 +87,6 @@
       "owner": "Ana Lucia Araujo de Sousa (CEPOTX)",
       "plot_count": 1,
       "total_hectares": 3.0,
-      "statuses": {
-        "proposed": 1
-      }
-    },
-    {
-      "farm_id": "test-dispatch-verify-20260901",
-      "name": "Test Dispatch Verify 20260901",
-      "region": null,
-      "owner": null,
-      "plot_count": 1,
-      "total_hectares": 0.0,
-      "statuses": {
-        "proposed": 1
-      }
-    },
-    {
-      "farm_id": "uat-farm-20260901",
-      "name": "Uat Farm 20260901",
-      "region": null,
-      "owner": null,
-      "plot_count": 1,
-      "total_hectares": 0.0,
       "statuses": {
         "proposed": 1
       }
