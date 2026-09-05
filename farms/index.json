@@ -1,6 +1,6 @@
 {
   "type": "farms_index",
-  "generated_at": "2026-09-05T10:30:44.670221Z",
+  "generated_at": "2026-09-05T15:39:33.928316Z",
   "farms": [
     {
       "farm_id": "fazenda-bom-sucesso",
@@ -20,6 +20,17 @@
       "owner": "Cleide Maris Suk & Marcelo (CEPOTX)",
       "plot_count": 1,
       "total_hectares": 114.0,
+      "statuses": {
+        "proposed": 1
+      }
+    },
+    {
+      "farm_id": "fazenda-dona-rosa",
+      "name": "Fazenda Dona Rosa",
+      "region": "Medicilandia, Para",
+      "owner": "Rosa Wronscki (Darcirio Wronscki) - COOPOXIN / CEPOTX",
+      "plot_count": 1,
+      "total_hectares": 0.14,
       "statuses": {
         "proposed": 1
       }
