@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-05T15:39:32.696819Z",
+  "generated_at": "2026-09-05T19:13:53.853888Z",
   "features": [
     {
       "type": "Feature",
@@ -440,7 +440,7 @@
         ]
       },
       "properties": {
-        "plot_id": "RG-P1",
+        "plot_id": "U-06-07",
         "farm_id": "raimundo-geniza-para",
         "name": "Sítio Raimundo & Geniza Plot 1 (restoration)",
         "hectares": 0.32,
@@ -448,8 +448,7 @@
         "boundary_authority": "approx",
         "owner": "Raimundo & Geniza",
         "region": "Uruara, Para",
-        "verified_at": "2026-09-04",
-        "notes": "Hull of 36 geotagged media (22 HEIC + 14 MOV, 2026-09-03 visit, IMG_8205..IMG_8278): lat -3.629450..-3.630600, lng -53.651794..-53.652156. ~0.32 ha. New restoration plot by Raimundo & Geniza. approx until boundary walk/CAR."
+        "notes": "Hull of 36 geotagged media (22 HEIC + 14 MOV, 2026-09-03 visit, IMG_8205..IMG_8278): lat -3.629450..-3.630600, lng -53.651794..-53.652156. ~0.32 ha. New restoration plot by Raimundo & Geniza. approx until boundary walk/CAR. Plot ID = CEPOTX site code U-06-07 (replaces RG-P1; governor-confirmed 2026-09-05)."
       }
     },
     {
@@ -491,7 +490,7 @@
       },
       "properties": {
         "plot_id": "DR-P1",
-        "farm_id": "fazenda-dona-rosa-para",
+        "farm_id": "fazenda-dona-rosa",
         "name": "Fazenda Dona Rosa Plot 1 (processing yard)",
         "hectares": 0.14,
         "status": "proposed",
