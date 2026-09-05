@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-05T19:33:59.809179Z",
+  "generated_at": "2026-09-05T19:36:20.812383Z",
   "features": [
     {
       "type": "Feature",
@@ -556,7 +556,7 @@
       },
       "properties": {
         "plot_id": "U-06-06",
-        "farm_id": "fazenda-santa-rosa-para",
+        "farm_id": "fazenda-santa-rosa",
         "name": "Fazenda Santa Rosa Plot 1 (cacao area)",
         "hectares": 4.75,
         "status": "proposed",
