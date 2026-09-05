@@ -1,6 +1,6 @@
 {
   "type": "farms_index",
-  "generated_at": "2026-09-05T15:39:33.928316Z",
+  "generated_at": "2026-09-05T19:34:00.946816Z",
   "farms": [
     {
       "farm_id": "fazenda-bom-sucesso",
@@ -25,12 +25,23 @@
       }
     },
     {
-      "farm_id": "fazenda-dona-rosa-para",
+      "farm_id": "fazenda-dona-rosa",
       "name": "Fazenda Dona Rosa",
       "region": "Medicilandia, Para",
       "owner": "Rosa Wronscki (Darcirio Wronscki) - COOPOXIN / CEPOTX",
       "plot_count": 1,
       "total_hectares": 0.14,
+      "statuses": {
+        "proposed": 1
+      }
+    },
+    {
+      "farm_id": "fazenda-santa-rosa-para",
+      "name": "Fazenda Santa Rosa Para",
+      "region": "Uruara, Para",
+      "owner": "Antônio & Graça",
+      "plot_count": 1,
+      "total_hectares": 4.75,
       "statuses": {
         "proposed": 1
       }
