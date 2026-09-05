@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-05T19:13:53.853888Z",
+  "generated_at": "2026-09-05T19:33:59.809179Z",
   "features": [
     {
       "type": "Feature",
@@ -499,6 +499,72 @@
         "region": "Medicilandia, Para",
         "verified_at": "2026-09-05",
         "notes": "Hull of 45 unique geotagged points from 54 GPS-tagged media (35 HEIC + 19 MOV, 2026-09-04 evening visit): lat -3.4892..-3.4894, lng -52.9665..-52.9673. ~0.14 ha processing yard/compound. Medicilandia municipality (first node outside Altamira/Uruara cluster). Owner per public records + governor: Rosa Wronscki (first woman cacao producer of Medicilandia), tree-to-bar since 2004, Chocolat Bahia 2026. COOPOXIN affiliation governor-confirmed 2026-09-05; site code pending CEPOTX. approx until boundary walk/CAR."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -53.6694,
+              -3.6363
+            ],
+            [
+              -53.6706,
+              -3.6346
+            ],
+            [
+              -53.670333,
+              -3.634139
+            ],
+            [
+              -53.6703,
+              -3.6341
+            ],
+            [
+              -53.6697,
+              -3.6339
+            ],
+            [
+              -53.6688,
+              -3.6338
+            ],
+            [
+              -53.6684,
+              -3.6338
+            ],
+            [
+              -53.667736,
+              -3.633847
+            ],
+            [
+              -53.667725,
+              -3.633856
+            ],
+            [
+              -53.6677,
+              -3.6339
+            ],
+            [
+              -53.6694,
+              -3.6363
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "U-06-06",
+        "farm_id": "fazenda-santa-rosa-para",
+        "name": "Fazenda Santa Rosa Plot 1 (cacao area)",
+        "hectares": 4.75,
+        "status": "proposed",
+        "boundary_authority": "approx",
+        "owner": "Antônio & Graça",
+        "region": "Uruara, Para",
+        "verified_at": "2026-09-05",
+        "notes": "Hull of 37 unique geotagged points from 49 GPS-tagged media (31 MOV + 18 HEIC, 2026-09-03 visit, IMG_8281..IMG_8341): lat -3.633800..-3.636300, lng -53.667700..-53.670600. ~4.75 ha cacao area (walk hull); full ~30 ha farm boundary pending CAR/INCRA. Owner per governor + photo caption: Antônio & Graça. CEPOTX sub-coop COPOPS (same sub-coop as Raimundo & Geniza U-06-07, ~2 km away). Plot ID = CEPOTX site code U-06-06 (governor-provided via translation screenshot, 2026-09-05). approx until boundary walk/CAR."
       }
     }
   ]
