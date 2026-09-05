@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-05T10:28:32.208341Z",
+  "generated_at": "2026-09-05T15:39:32.696819Z",
   "features": [
     {
       "type": "Feature",
@@ -448,7 +448,58 @@
         "boundary_authority": "approx",
         "owner": "Raimundo & Geniza",
         "region": "Uruara, Para",
+        "verified_at": "2026-09-04",
         "notes": "Hull of 36 geotagged media (22 HEIC + 14 MOV, 2026-09-03 visit, IMG_8205..IMG_8278): lat -3.629450..-3.630600, lng -53.651794..-53.652156. ~0.32 ha. New restoration plot by Raimundo & Geniza. approx until boundary walk/CAR."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -52.9671,
+              -3.4894
+            ],
+            [
+              -52.9673,
+              -3.4893
+            ],
+            [
+              -52.967014,
+              -3.4892
+            ],
+            [
+              -52.9669,
+              -3.4892
+            ],
+            [
+              -52.9665,
+              -3.4893
+            ],
+            [
+              -52.9666,
+              -3.4894
+            ],
+            [
+              -52.9671,
+              -3.4894
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "DR-P1",
+        "farm_id": "fazenda-dona-rosa",
+        "name": "Fazenda Dona Rosa Plot 1 (processing yard)",
+        "hectares": 0.14,
+        "status": "proposed",
+        "boundary_authority": "approx",
+        "owner": "Rosa Wronscki (Darcirio Wronscki) - COOPOXIN / CEPOTX",
+        "region": "Medicilandia, Para",
+        "verified_at": "2026-09-05",
+        "notes": "Hull of 45 unique geotagged points from 54 GPS-tagged media (35 HEIC + 19 MOV, 2026-09-04 evening visit): lat -3.4892..-3.4894, lng -52.9665..-52.9673. ~0.14 ha processing yard/compound. Medicilandia municipality (first node outside Altamira/Uruara cluster). Owner per public records + governor: Rosa Wronscki (first woman cacao producer of Medicilandia), tree-to-bar since 2004, Chocolat Bahia 2026. COOPOXIN affiliation governor-confirmed 2026-09-05; site code pending CEPOTX. approx until boundary walk/CAR."
       }
     }
   ]
