@@ -491,7 +491,7 @@
       },
       "properties": {
         "plot_id": "DR-P1",
-        "farm_id": "fazenda-dona-rosa",
+        "farm_id": "fazenda-dona-rosa-para",
         "name": "Fazenda Dona Rosa Plot 1 (processing yard)",
         "hectares": 0.14,
         "status": "proposed",
