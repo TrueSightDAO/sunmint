@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-05T19:36:20.812383Z",
+  "generated_at": "2026-09-05T23:36:03.858286Z",
   "features": [
     {
       "type": "Feature",
@@ -155,7 +155,7 @@
         ]
       },
       "properties": {
-        "plot_id": "SA-P1",
+        "plot_id": "B-06-58",
         "farm_id": "santa-anna-fazenda",
         "name": "Santa Anna Fazenda Plot 1 (compound)",
         "hectares": 3.0,
@@ -221,7 +221,7 @@
         ]
       },
       "properties": {
-        "plot_id": "CL-P1",
+        "plot_id": "B-06-108",
         "farm_id": "fazenda-cleide",
         "name": "Fazenda Cleide Plot 1 (working areas)",
         "hectares": 114.0,
@@ -295,7 +295,7 @@
         ]
       },
       "properties": {
-        "plot_id": "LD-P1",
+        "plot_id": "V-06-29",
         "farm_id": "paulo-la-do-sitio-para",
         "name": "Paulo La do Sitio Plot 1 (farmstead)",
         "hectares": 5.56,
