@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-05T23:53:19.008017Z",
+  "generated_at": "2026-09-06T00:33:53.256569Z",
   "features": [
     {
       "type": "Feature",
@@ -533,6 +533,64 @@
         "region": "Uruara, Para",
         "verified_at": "2026-09-05",
         "notes": "Hull of 37 unique geotagged points from 49 GPS-tagged media (31 MOV + 18 HEIC, 2026-09-03 visit, IMG_8281..IMG_8341): lat -3.633800..-3.636300, lng -53.667700..-53.670600. ~4.75 ha cacao area (walk hull); full ~30 ha farm boundary pending CAR/INCRA. Owner per governor + photo caption: Antônio & Graça. CEPOTX sub-coop COPOPS (same sub-coop as Raimundo & Geniza U-06-07, ~2 km away). Plot ID = CEPOTX site code U-06-06 (governor-provided via translation screenshot, 2026-09-05). approx until boundary walk/CAR."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -39.3925,
+              -14.6544
+            ],
+            [
+              -39.402517,
+              -14.630406
+            ],
+            [
+              -39.4027,
+              -14.6299
+            ],
+            [
+              -39.4029,
+              -14.6288
+            ],
+            [
+              -39.4023,
+              -14.6291
+            ],
+            [
+              -39.4002,
+              -14.6312
+            ],
+            [
+              -39.3983,
+              -14.6333
+            ],
+            [
+              -39.3921,
+              -14.6516
+            ],
+            [
+              -39.3925,
+              -14.6544
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "SJ-P1",
+        "farm_id": "fazenda-sao-jorge-bahia",
+        "name": "Fazenda Sao Jorge Plot 1 (cabruca groves)",
+        "hectares": 64.7,
+        "status": "proposed",
+        "boundary_authority": "approx",
+        "owner": "Matheus & Mailan (Coopercabruca)",
+        "region": "Itajuibe, Bahia",
+        "verified_at": "2026-09-06",
+        "notes": "Hull of 103 geotagged media (36 HEIC + 67 MOV, visits 2023-06-06 + 2023-09-21): lat -14.6544..-14.6288, lng -39.4029..-39.3921. ~64.7 ha cabruca cacao groves; source farm for shipment AGL6. approx boundary - needs walk/CAR."
       }
     }
   ]
