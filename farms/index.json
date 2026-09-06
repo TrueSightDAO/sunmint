@@ -1,6 +1,6 @@
 {
   "type": "farms_index",
-  "generated_at": "2026-09-06T03:23:20.024349Z",
+  "generated_at": "2026-09-06T10:48:11.830716Z",
   "farms": [
     {
       "farm_id": "fazenda-bom-sucesso",
@@ -42,6 +42,17 @@
       "owner": "Rosa Wronscki (Darcirio Wronscki) - COOPOXIN / CEPOTX",
       "plot_count": 1,
       "total_hectares": 0.14,
+      "statuses": {
+        "proposed": 1
+      }
+    },
+    {
+      "farm_id": "fazenda-santa-ana-bahia",
+      "name": "Fazenda Santa Ana Bahia",
+      "region": "Urucuca, Bahia",
+      "owner": "Morbeck family (Chocolate Morbeck / Coopercabruca)",
+      "plot_count": 1,
+      "total_hectares": 16.0,
       "statuses": {
         "proposed": 1
       }

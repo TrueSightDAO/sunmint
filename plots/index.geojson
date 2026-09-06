@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-06T03:23:18.997003Z",
+  "generated_at": "2026-09-06T10:48:10.764305Z",
   "features": [
     {
       "type": "Feature",
@@ -694,6 +694,48 @@
         "region": "Urucuca, Bahia, Brazil",
         "verified_at": "2026-09-06",
         "notes": "Hull of 44 geotagged MOV videos (2025-09-20 site visit, IMG_2143..IMG_2225; IMG_2143 excluded - outlier ~2.1 km N): lat -14.053000..-14.051100, lng -39.441500..-39.439000. ~3.74 ha 100-year cacao groves; source farm for SunMint pledge AGL14. Plot ID OB-P1 replaces auto PL-003 (governor-confirmed 2026-09-06). approx until boundary walk/CAR."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -39.1088,
+              -14.3262
+            ],
+            [
+              -39.1037,
+              -14.3262
+            ],
+            [
+              -39.1037,
+              -14.3222
+            ],
+            [
+              -39.1088,
+              -14.3222
+            ],
+            [
+              -39.1088,
+              -14.3262
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "FSA-P1",
+        "farm_id": "fazenda-santa-ana-bahia",
+        "name": "Fazenda Santa Ana Plot 1 (cabruca groves & processing)",
+        "hectares": 16.0,
+        "status": "proposed",
+        "boundary_authority": "approx",
+        "owner": "Morbeck family (Chocolate Morbeck / Coopercabruca)",
+        "region": "Urucuca, Bahia",
+        "verified_at": "2026-09-06",
+        "notes": "Hull of 242 geotagged media (151 MOV + 91 HEIC, visit 2023-09-18): lat -14.3262..-14.3222, lng -39.1088..-39.1037. ~450x350m walked cluster around the farmstead covering cabruca groves, fermentation room and drying terrace. approx boundary - needs walk/CAR."
       }
     }
   ]
