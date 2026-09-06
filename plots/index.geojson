@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-06T00:48:55.360562+00:00",
+  "generated_at": "2026-09-06T00:50:07.952312Z",
   "features": [
     {
       "type": "Feature",
@@ -592,29 +592,55 @@
         "verified_at": "2026-09-06",
         "notes": "Hull of 103 geotagged media (36 HEIC + 67 MOV, visits 2023-06-06 + 2023-09-21): lat -14.6544..-14.6288, lng -39.4029..-39.3921. ~64.7 ha cabruca cacao groves; source farm for shipment AGL6. approx boundary - needs walk/CAR."
       }
-    }
-  ,{
-    "type": "Feature",
-    "geometry": {
-      "type": "Polygon",
-      "coordinates": [[
-        [-39.1088, -14.3262], [-39.1037, -14.3262],
-        [-39.1037, -14.3222], [-39.1088, -14.3222],
-        [-39.1088, -14.3262]
-      ]]
     },
-    "properties": {
-      "plot_id": "FSA-P1",
-      "farm_id": "fazenda-santa-ana-bahia",
-      "name": "Fazenda Santa Ana Plot 1 (cabruca groves & processing)",
-      "hectares": 16,
-      "status": "proposed",
-      "boundary_authority": "walk-approx",
-      "owner": "Morbeck family (Chocolate Morbeck / Coopercabruca)",
-      "region": "Urucuca, Bahia",
-      "verified_at": "2026-09-06",
-      "notes": "Hull of 242 geotagged media (151 MOV + 91 HEIC, visit 2023-09-18): lat -14.3262..-14.3222, lng -39.1088..-39.1037. ~450x350m walked cluster around the farmstead covering cabruca groves, fermentation room and drying terrace. approx boundary - needs walk/CAR."
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -39.1324,
+              -14.4636
+            ],
+            [
+              -39.132,
+              -14.463799999999999
+            ],
+            [
+              -39.1317,
+              -14.463799999999999
+            ],
+            [
+              -39.130900000000004,
+              -14.4612
+            ],
+            [
+              -39.130900000000004,
+              -14.4611
+            ],
+            [
+              -39.1312,
+              -14.4611
+            ],
+            [
+              -39.1324,
+              -14.4636
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "FC-P1",
+        "farm_id": "fazenda-clara-bahia",
+        "name": "Fazenda Clara Plot 1 (cabruca cacao)",
+        "hectares": 1.75,
+        "status": "proposed",
+        "boundary_authority": "approx",
+        "owner": "Fernando Soller Gimenez & Clara (Black King)",
+        "region": "Itacare, Bahia",
+        "notes": "Hull of 34 geotagged MOV videos (2024-09-10 site visit, IMG_0369..IMG_0431): lat -14.463800..-14.461100, lng -39.132400..-39.130900. ~1.75 ha cabruca cacao, rural Itacare (two clusters ~300m apart). FSVP doc 20240910_Black_King_site_visit_to_Clara_farm.pdf records -14.3386226,-39.2069635 (Taboquinhas ~16 km) - two parcels or doc GPS error; needs boundary walk/CAR."
+      }
     }
-  }
   ]
 }
