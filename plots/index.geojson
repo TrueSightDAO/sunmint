@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-06T01:23:51.022861Z",
+  "generated_at": "2026-09-06T03:23:18.997003Z",
   "features": [
     {
       "type": "Feature",
@@ -644,12 +644,56 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -39.4403,
+              -14.053
+            ],
+            [
+              -39.4415,
+              -14.0523
+            ],
+            [
+              -39.4415,
+              -14.0511
+            ],
+            [
+              -39.4401,
+              -14.0512
+            ],
+            [
+              -39.439,
+              -14.0522
+            ],
+            [
+              -39.4391,
+              -14.0523
+            ],
+            [
+              -39.4396,
+              -14.0526
+            ],
+            [
+              -39.4403,
+              -14.053
+            ]
+          ]
+        ]
+      },
       "properties": {
-        "plot_id": "PL-003",
-        "name": "Oscar Fazenda",
+        "plot_id": "OB-P1",
+        "farm_id": "oscar-bahia",
+        "name": "Oscar Fazenda Plot 1 (100-year cacao groves)",
+        "hectares": 3.74,
         "status": "proposed",
-        "boundary_authority": "approx"
+        "boundary_authority": "approx",
+        "owner": "Oscar",
+        "region": "Urucuca, Bahia, Brazil",
+        "verified_at": "2026-09-06",
+        "notes": "Hull of 44 geotagged MOV videos (2025-09-20 site visit, IMG_2143..IMG_2225; IMG_2143 excluded - outlier ~2.1 km N): lat -14.053000..-14.051100, lng -39.441500..-39.439000. ~3.74 ha 100-year cacao groves; source farm for SunMint pledge AGL14. Plot ID OB-P1 replaces auto PL-003 (governor-confirmed 2026-09-06). approx until boundary walk/CAR."
       }
     }
   ]

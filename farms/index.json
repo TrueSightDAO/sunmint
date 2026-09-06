@@ -1,6 +1,6 @@
 {
   "type": "farms_index",
-  "generated_at": "2026-09-06T01:23:51.891385Z",
+  "generated_at": "2026-09-06T03:23:20.024349Z",
   "farms": [
     {
       "farm_id": "fazenda-bom-sucesso",
@@ -64,6 +64,17 @@
       "owner": "Matheus & Mailan (Coopercabruca)",
       "plot_count": 1,
       "total_hectares": 64.7,
+      "statuses": {
+        "proposed": 1
+      }
+    },
+    {
+      "farm_id": "oscar-bahia",
+      "name": "Oscar Bahia",
+      "region": "Urucuca, Bahia, Brazil",
+      "owner": "Oscar",
+      "plot_count": 1,
+      "total_hectares": 3.74,
       "statuses": {
         "proposed": 1
       }
