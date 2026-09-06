@@ -1,6 +1,6 @@
 {
   "type": "farms_index",
-  "generated_at": "2026-09-05T23:53:20.101056Z",
+  "generated_at": "2026-09-06T00:33:54.253697Z",
   "farms": [
     {
       "farm_id": "fazenda-bom-sucesso",
@@ -42,6 +42,17 @@
       "owner": "Antônio & Graça",
       "plot_count": 1,
       "total_hectares": 4.75,
+      "statuses": {
+        "proposed": 1
+      }
+    },
+    {
+      "farm_id": "fazenda-sao-jorge-bahia",
+      "name": "Fazenda Sao Jorge Bahia",
+      "region": "Itajuibe, Bahia",
+      "owner": "Matheus & Mailan (Coopercabruca)",
+      "plot_count": 1,
+      "total_hectares": 64.7,
       "statuses": {
         "proposed": 1
       }
