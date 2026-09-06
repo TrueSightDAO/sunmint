@@ -1,6 +1,6 @@
 {
   "type": "farms_index",
-  "generated_at": "2026-09-06T00:33:54.253697Z",
+  "generated_at": "2026-09-06T00:50:08.930544Z",
   "farms": [
     {
       "farm_id": "fazenda-bom-sucesso",
@@ -9,6 +9,17 @@
       "owner": null,
       "plot_count": 1,
       "total_hectares": 1.016,
+      "statuses": {
+        "proposed": 1
+      }
+    },
+    {
+      "farm_id": "fazenda-clara-bahia",
+      "name": "Fazenda Clara Bahia",
+      "region": "Itacare, Bahia",
+      "owner": "Fernando Soller Gimenez & Clara (Black King)",
+      "plot_count": 1,
+      "total_hectares": 1.75,
       "statuses": {
         "proposed": 1
       }
