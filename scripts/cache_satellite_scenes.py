@@ -153,7 +153,7 @@ def main():
             plots_fc = json.load(fh)
         for feat in plots_fc.get("features", []):
             props = feat.get("properties", {})
-            geom = feat.get("geometry", {})
+            geom = feat.get("geometry") or {}
             if geom.get("type") != "Polygon":
                 continue
             ring = geom.get("coordinates", [[]])[0]
