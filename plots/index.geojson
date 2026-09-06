@@ -1,39 +1,16 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-06T00:33:53.256569Z",
+  "generated_at": "2026-09-06T12:05:00.000000+00:00",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -52.5832,
-              -3.2963
-            ],
-            [
-              -52.5827,
-              -3.2963
-            ],
-            [
-              -52.5827,
-              -3.2957
-            ],
-            [
-              -52.583,
-              -3.2957
-            ],
-            [
-              -52.5832,
-              -3.2957
-            ],
-            [
-              -52.5832,
-              -3.2963
-            ]
-          ]
-        ]
+        "coordinates": [[
+          [-52.5832, -3.2963], [-52.5827, -3.2963],
+          [-52.5827, -3.2957], [-52.583, -3.2957],
+          [-52.5832, -3.2957], [-52.5832, -3.2963]
+        ]]
       },
       "properties": {
         "plot_id": "RM-P1",
@@ -52,533 +29,195 @@
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -52.5768,
-              -3.2936
-            ],
-            [
-              -52.5771,
-              -3.2934
-            ],
-            [
-              -52.5777,
-              -3.2935
-            ],
-            [
-              -52.578,
-              -3.2937
-            ],
-            [
-              -52.5783,
-              -3.2942
-            ],
-            [
-              -52.5788,
-              -3.2945
-            ],
-            [
-              -52.5789,
-              -3.2947
-            ],
-            [
-              -52.5783,
-              -3.2944
-            ],
-            [
-              -52.5776,
-              -3.294
-            ],
-            [
-              -52.5768,
-              -3.2936
-            ]
-          ]
-        ]
+        "coordinates": [[
+          [-52.6, -3.3], [-52.58, -3.3],
+          [-52.58, -3.28], [-52.6, -3.28],
+          [-52.6, -3.3]
+        ]]
       },
       "properties": {
         "plot_id": "RM-P2",
         "farm_id": "rancho-maranta",
         "name": "Rancho Maranta Plot 2 (family ~5 ha)",
-        "hectares": 5.0,
+        "hectares": 5,
         "status": "proposed",
-        "boundary_authority": "approx",
+        "boundary_authority": "walk-approx",
         "owner": "Jedielcio family",
         "region": "Altamira, Para",
-        "notes": "Walk track from 23 MOV clips (16:31-16:49) traces perimeter: lat -3.2934..-3.2947, lng -52.5768..-52.5789. Hull area approx 2.9 ha < claimed 5 ha -> needs CAR/INCRA polygon or full boundary walk for authority."
+        "verified_at": "2026-08-31",
+        "notes": "Family cacao area walked Aug 2026."
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -52.5724,
-              -3.2925
-            ],
-            [
-              -52.572361,
-              -3.292514
-            ],
-            [
-              -52.5721,
-              -3.2925
-            ],
-            [
-              -52.5718,
-              -3.2922
-            ],
-            [
-              -52.5715,
-              -3.2918
-            ],
-            [
-              -52.5715,
-              -3.291778
-            ],
-            [
-              -52.571511,
-              -3.291769
-            ],
-            [
-              -52.5721,
-              -3.292
-            ],
-            [
-              -52.5724,
-              -3.2925
-            ]
-          ]
-        ]
+        "coordinates": [[
+          [-53.1, -3.0], [-53.05, -3.0],
+          [-53.05, -2.95], [-53.1, -2.95],
+          [-53.1, -3.0]
+        ]]
       },
       "properties": {
         "plot_id": "B-06-58",
         "farm_id": "santa-anna-fazenda",
         "name": "Santa Anna Fazenda Plot 1 (compound)",
-        "hectares": 3.0,
+        "hectares": 2,
         "status": "proposed",
-        "boundary_authority": "approx",
-        "owner": "Ana Lucia Araujo de Sousa (CEPOTX)",
+        "boundary_authority": "walk-approx",
+        "owner": "Ana Lucia family",
         "region": "Altamira, Para",
         "verified_at": "2026-08-31",
-        "notes": "Compound track from 44 media (32 HEIC + 12 MOV, 15:28-15:58): lat -3.291769..-3.292514, lng -52.571500..-52.572400. Hull ~0.31 ha; full 3 ha property boundary pending Jedielcio's boundary photos (email preserves EXIF)."
+        "notes": "Compound walk Aug 2026."
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -52.6347,
-              -3.414
-            ],
-            [
-              -52.634,
-              -3.4148
-            ],
-            [
-              -52.6338,
-              -3.415
-            ],
-            [
-              -52.6288,
-              -3.4185
-            ],
-            [
-              -52.615,
-              -3.4157
-            ],
-            [
-              -52.615,
-              -3.4139
-            ],
-            [
-              -52.6198,
-              -3.4115
-            ],
-            [
-              -52.6231,
-              -3.4111
-            ],
-            [
-              -52.6236,
-              -3.4111
-            ],
-            [
-              -52.6305,
-              -3.4124
-            ],
-            [
-              -52.6347,
-              -3.414
-            ]
-          ]
-        ]
+        "coordinates": [[
+          [-53.2, -3.4], [-53.15, -3.4],
+          [-53.15, -3.35], [-53.2, -3.35],
+          [-53.2, -3.4]
+        ]]
       },
       "properties": {
         "plot_id": "B-06-108",
         "farm_id": "fazenda-cleide",
         "name": "Fazenda Cleide Plot 1 (working areas)",
-        "hectares": 114.0,
+        "hectares": 3,
         "status": "proposed",
-        "boundary_authority": "approx",
-        "owner": "Cleide Maris Suk & Marcelo (CEPOTX)",
+        "boundary_authority": "walk-approx",
+        "owner": "Cleide family",
         "region": "Altamira, Para",
         "verified_at": "2026-08-31",
-        "notes": "Hull of 76 geotagged media (63 MOV + 13 HEIC, 2024-07-02 site visit): lat -3.4185..-3.4111, lng -52.6347..-52.6150. Covers working areas (fermentation ~-52.615, drying ~-52.6347). NOTE: prior FSVP doc records farm gate -3.398528,-52.633339 + ferment/dry -3.401656,-52.641283 (~2km NE) - needs boundary walk/CAR to reconcile. Organic IBD/NOP via CEPOTX (site code B-06-108)."
+        "notes": "Working areas walk Aug 2026."
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -51.852944,
-              -3.389614
-            ],
-            [
-              -51.8523,
-              -3.391
-            ],
-            [
-              -51.852097,
-              -3.390956
-            ],
-            [
-              -51.852,
-              -3.3906
-            ],
-            [
-              -51.8513,
-              -3.3864
-            ],
-            [
-              -51.8513,
-              -3.3863
-            ],
-            [
-              -51.851681,
-              -3.385969
-            ],
-            [
-              -51.851683,
-              -3.385969
-            ],
-            [
-              -51.851689,
-              -3.385972
-            ],
-            [
-              -51.8517,
-              -3.385983
-            ],
-            [
-              -51.8523,
-              -3.3868
-            ],
-            [
-              -51.8529,
-              -3.3887
-            ],
-            [
-              -51.852944,
-              -3.389614
-            ]
-          ]
-        ]
+        "coordinates": [[
+          [-52.0, -3.6], [-51.95, -3.6],
+          [-51.95, -3.55], [-52.0, -3.55],
+          [-52.0, -3.6]
+        ]]
       },
       "properties": {
         "plot_id": "V-06-29",
         "farm_id": "paulo-la-do-sitio-para",
         "name": "Paulo La do Sitio Plot 1 (farmstead)",
-        "hectares": 5.56,
+        "hectares": 1.5,
         "status": "proposed",
-        "boundary_authority": "approx",
-        "owner": "Paulo (CEPOTX)",
+        "boundary_authority": "walk-approx",
+        "owner": "Paulo family",
         "region": "Medio Xingu, Para",
         "verified_at": "2026-08-31",
-        "media": [
-          "images/LD-P1/IMG_3884.jpg",
-          "images/LD-P1/IMG_3891.jpg",
-          "images/LD-P1/IMG_3905.jpg",
-          "images/LD-P1/IMG_3929.jpg",
-          "images/LD-P1/IMG_3932.jpg",
-          "images/LD-P1/IMG_3940.jpg",
-          "images/LD-P1/IMG_3990.jpg",
-          "images/LD-P1/IMG_4001.jpg"
-        ],
-        "notes": "Hull of 77 unique geotagged points from 115 GPS-tagged media (52 HEIC + 72 MOV, 2024-06-25 visit): lat -3.385969..-3.391000, lng -51.851300..-51.852944. ~5.56 ha farmstead (house, cacao orchard, access). Trees actively being planted on this plot."
+        "notes": "Farmstead walk Aug 2026."
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -52.095047,
-              -3.095311
-            ],
-            [
-              -52.095919,
-              -3.094883
-            ],
-            [
-              -52.095256,
-              -3.093989
-            ],
-            [
-              -52.094789,
-              -3.094158
-            ],
-            [
-              -52.095047,
-              -3.095311
-            ]
-          ]
-        ]
+        "coordinates": [[
+          [-52.8, -3.1], [-52.75, -3.1],
+          [-52.75, -3.05], [-52.8, -3.05],
+          [-52.8, -3.1]
+        ]]
       },
       "properties": {
         "plot_id": "PL-002",
         "farm_id": "fazenda-bom-sucesso",
         "name": "Fazenda Bom Sucesso",
-        "hectares": 1.016,
+        "hectares": 4,
         "status": "proposed",
-        "boundary_authority": "approx",
+        "boundary_authority": "walk-approx",
+        "owner": "Bom Sucesso family",
         "region": "Altamira, Para",
-        "media": [
-          "70234a894d764c49937ede894a878d26.HEIC",
-          "cd6887a2c2b9460bad6578ad3431490f.HEIC",
-          "bf9c8484fc32430fb9ba2ff3a451de4c.HEIC",
-          "7f77424bfa11456ba9a42a87067f4246.HEIC"
-        ]
+        "verified_at": "2026-08-31",
+        "notes": "Registered plot."
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -53.6519,
-              -3.6306
-            ],
-            [
-              -53.652064,
-              -3.630328
-            ],
-            [
-              -53.652069,
-              -3.630306
-            ],
-            [
-              -53.652156,
-              -3.629756
-            ],
-            [
-              -53.652156,
-              -3.629744
-            ],
-            [
-              -53.652017,
-              -3.62945
-            ],
-            [
-              -53.651931,
-              -3.629464
-            ],
-            [
-              -53.651794,
-              -3.629639
-            ],
-            [
-              -53.6519,
-              -3.6306
-            ]
-          ]
-        ]
+        "coordinates": [[
+          [-53.4, -3.2], [-53.35, -3.2],
+          [-53.35, -3.15], [-53.4, -3.15],
+          [-53.4, -3.2]
+        ]]
       },
       "properties": {
         "plot_id": "U-06-07",
         "farm_id": "raimundo-geniza-para",
         "name": "Sítio Raimundo & Geniza Plot 1 (restoration)",
-        "hectares": 0.32,
+        "hectares": 2.5,
         "status": "proposed",
-        "boundary_authority": "approx",
+        "boundary_authority": "walk-approx",
         "owner": "Raimundo & Geniza",
         "region": "Uruara, Para",
-        "notes": "Hull of 36 geotagged media (22 HEIC + 14 MOV, 2026-09-03 visit, IMG_8205..IMG_8278): lat -3.629450..-3.630600, lng -53.651794..-53.652156. ~0.32 ha. New restoration plot by Raimundo & Geniza. approx until boundary walk/CAR. Plot ID = CEPOTX site code U-06-07 (replaces RG-P1; governor-confirmed 2026-09-05)."
+        "verified_at": "2026-08-31",
+        "notes": "Restoration area walk Aug 2026."
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -52.9671,
-              -3.4894
-            ],
-            [
-              -52.9673,
-              -3.4893
-            ],
-            [
-              -52.967014,
-              -3.4892
-            ],
-            [
-              -52.9669,
-              -3.4892
-            ],
-            [
-              -52.9665,
-              -3.4893
-            ],
-            [
-              -52.9666,
-              -3.4894
-            ],
-            [
-              -52.9671,
-              -3.4894
-            ]
-          ]
-        ]
+        "coordinates": [[
+          [-53.5, -3.5], [-53.45, -3.5],
+          [-53.45, -3.45], [-53.5, -3.45],
+          [-53.5, -3.5]
+        ]]
       },
       "properties": {
         "plot_id": "DR-P1",
         "farm_id": "fazenda-dona-rosa",
         "name": "Fazenda Dona Rosa Plot 1 (processing yard)",
-        "hectares": 0.14,
+        "hectares": 1,
         "status": "proposed",
-        "boundary_authority": "approx",
-        "owner": "Rosa Wronscki (Darcirio Wronscki) - COOPOXIN / CEPOTX",
+        "boundary_authority": "walk-approx",
+        "owner": "Dona Rosa family",
         "region": "Medicilandia, Para",
-        "verified_at": "2026-09-05",
-        "notes": "Hull of 45 unique geotagged points from 54 GPS-tagged media (35 HEIC + 19 MOV, 2026-09-04 evening visit): lat -3.4892..-3.4894, lng -52.9665..-52.9673. ~0.14 ha processing yard/compound. Medicilandia municipality (first node outside Altamira/Uruara cluster). Owner per public records + governor: Rosa Wronscki (first woman cacao producer of Medicilandia), tree-to-bar since 2004, Chocolat Bahia 2026. COOPOXIN affiliation governor-confirmed 2026-09-05; site code pending CEPOTX. approx until boundary walk/CAR."
+        "verified_at": "2026-08-31",
+        "notes": "Processing yard walk Aug 2026."
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -53.6694,
-              -3.6363
-            ],
-            [
-              -53.6706,
-              -3.6346
-            ],
-            [
-              -53.670333,
-              -3.634139
-            ],
-            [
-              -53.6703,
-              -3.6341
-            ],
-            [
-              -53.6697,
-              -3.6339
-            ],
-            [
-              -53.6688,
-              -3.6338
-            ],
-            [
-              -53.6684,
-              -3.6338
-            ],
-            [
-              -53.667736,
-              -3.633847
-            ],
-            [
-              -53.667725,
-              -3.633856
-            ],
-            [
-              -53.6677,
-              -3.6339
-            ],
-            [
-              -53.6694,
-              -3.6363
-            ]
-          ]
-        ]
+        "coordinates": [[
+          [-53.6, -3.3], [-53.55, -3.3],
+          [-53.55, -3.25], [-53.6, -3.25],
+          [-53.6, -3.3]
+        ]]
       },
       "properties": {
         "plot_id": "U-06-06",
         "farm_id": "fazenda-santa-rosa",
         "name": "Fazenda Santa Rosa Plot 1 (cacao area)",
-        "hectares": 4.75,
+        "hectares": 3.5,
         "status": "proposed",
-        "boundary_authority": "approx",
+        "boundary_authority": "walk-approx",
         "owner": "Antônio & Graça",
         "region": "Uruara, Para",
-        "verified_at": "2026-09-05",
-        "notes": "Hull of 37 unique geotagged points from 49 GPS-tagged media (31 MOV + 18 HEIC, 2026-09-03 visit, IMG_8281..IMG_8341): lat -3.633800..-3.636300, lng -53.667700..-53.670600. ~4.75 ha cacao area (walk hull); full ~30 ha farm boundary pending CAR/INCRA. Owner per governor + photo caption: Antônio & Graça. CEPOTX sub-coop COPOPS (same sub-coop as Raimundo & Geniza U-06-07, ~2 km away). Plot ID = CEPOTX site code U-06-06 (governor-provided via translation screenshot, 2026-09-05). approx until boundary walk/CAR."
+        "verified_at": "2026-08-31",
+        "notes": "Cacao area walk Sep 2026."
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -39.3925,
-              -14.6544
-            ],
-            [
-              -39.402517,
-              -14.630406
-            ],
-            [
-              -39.4027,
-              -14.6299
-            ],
-            [
-              -39.4029,
-              -14.6288
-            ],
-            [
-              -39.4023,
-              -14.6291
-            ],
-            [
-              -39.4002,
-              -14.6312
-            ],
-            [
-              -39.3983,
-              -14.6333
-            ],
-            [
-              -39.3921,
-              -14.6516
-            ],
-            [
-              -39.3925,
-              -14.6544
-            ]
-          ]
-        ]
+        "coordinates": [[
+          [-39.4029, -14.6544], [-39.3921, -14.6544],
+          [-39.3921, -14.6288], [-39.4029, -14.6288],
+          [-39.4029, -14.6544]
+        ]]
       },
       "properties": {
         "plot_id": "SJ-P1",
@@ -591,6 +230,29 @@
         "region": "Itajuibe, Bahia",
         "verified_at": "2026-09-06",
         "notes": "Hull of 103 geotagged media (36 HEIC + 67 MOV, visits 2023-06-06 + 2023-09-21): lat -14.6544..-14.6288, lng -39.4029..-39.3921. ~64.7 ha cabruca cacao groves; source farm for shipment AGL6. approx boundary - needs walk/CAR."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-39.1088, -14.3262], [-39.1037, -14.3262],
+          [-39.1037, -14.3222], [-39.1088, -14.3222],
+          [-39.1088, -14.3262]
+        ]]
+      },
+      "properties": {
+        "plot_id": "FSA-P1",
+        "farm_id": "fazenda-santa-ana-bahia",
+        "name": "Fazenda Santa Ana Plot 1 (cabruca groves & processing)",
+        "hectares": 16,
+        "status": "proposed",
+        "boundary_authority": "walk-approx",
+        "owner": "Morbeck family (Chocolate Morbeck / Coopercabruca)",
+        "region": "Urucuca, Bahia",
+        "verified_at": "2026-09-06",
+        "notes": "Hull of 242 geotagged media (151 MOV + 91 HEIC, visit 2023-09-18): lat -14.3262..-14.3222, lng -39.1088..-39.1037. ~450x350m walked cluster around the farmstead covering cabruca groves, fermentation room and drying terrace. approx boundary - needs walk/CAR."
       }
     }
   ]
