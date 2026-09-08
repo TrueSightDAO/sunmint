@@ -1,6 +1,6 @@
 {
   "type": "farms_index",
-  "generated_at": "2026-09-08T11:12:09.998679Z",
+  "generated_at": "2026-09-08T18:52:37.723888Z",
   "farms": [
     {
       "farm_id": "fazenda-bom-sucesso",
@@ -29,10 +29,10 @@
       "name": "Fazenda Cleide",
       "region": "Altamira, Para",
       "owner": "Cleide Maris Suk & Marcelo (CEPOTX)",
-      "plot_count": 1,
-      "total_hectares": 114.0,
+      "plot_count": 2,
+      "total_hectares": 114.11,
       "statuses": {
-        "proposed": 1
+        "proposed": 2
       }
     },
     {
