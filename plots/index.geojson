@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-08T11:07:42.375695Z",
+  "generated_at": "2026-09-08T18:52:36.639098Z",
   "features": [
     {
       "type": "Feature",
@@ -860,6 +860,59 @@
         "region": "Medio Xingu, Para",
         "verified_at": "2026-09-07",
         "notes": "Hull of 20 geotagged media (19 HEIC + 2 MOV, 2026-09-07 15:28-15:32 + 18:31-18:32 walk, IMG_8966..IMG_8986): lat -3.389639..-3.390200, lng -51.852372..-51.852800. ~0.17 ha reforestation pocket at W edge of V-06-29 farmstead (IMG_8966 no GPS). approx until boundary walk/CAR."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -52.634875,
+              -3.41385
+            ],
+            [
+              -52.6349333,
+              -3.4139306
+            ],
+            [
+              -52.6351056,
+              -3.4140083
+            ],
+            [
+              -52.6349528,
+              -3.4143278
+            ],
+            [
+              -52.6347583,
+              -3.4142778
+            ],
+            [
+              -52.634875,
+              -3.41385
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "B-06-108_20260908_1",
+        "farm_id": "fazenda-cleide",
+        "name": "Fazenda Cleide Reforestation Plot 1 (2026-09-08)",
+        "hectares": 0.11,
+        "status": "proposed",
+        "boundary_authority": "approx",
+        "owner": "Cleide Maris Suk & Marcelo (CEPOTX)",
+        "region": "Altamira, Para",
+        "verified_at": "2026-09-08",
+        "media": [
+          "86f5d7b0b5534f81b2f78faef0fd7820.HEIC",
+          "c3cb648459f74f2eae55185ef0967719.HEIC",
+          "1fd3b25ba5bc4c4da05462f9d98cbadc.HEIC",
+          "a918cadbd9c24cf8841683246343ee0f.HEIC",
+          "717625dfb9444df6bb1f72fd2e37ff62.HEIC"
+        ],
+        "notes": "Hull of 5 geotagged HEIC photos (2026-09-08 15:06-15:09 walk, reforestation site with Cleide & Marcelo): lat -3.414328..-3.413850, lng -52.635106..-52.634758. ~0.11 ha reforestation pocket at W edge of B-06-108 hull (drying-area side). New plot registered per governor 2026-09-08. approx until boundary walk/CAR."
       }
     }
   ]
