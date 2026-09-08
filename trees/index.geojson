@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-07T11:12:47.012030Z",
+  "generated_at": "2026-09-08T01:29:09.807674Z",
   "features": [
     {
       "type": "Feature",
@@ -198,6 +198,1502 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-02T19:31:12-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree10.jpg",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8517528,
+          -3.3882278
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908005833_046",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T14:34:11-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8509472,
+          -3.3896833
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908005838_048",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T14:46:17-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8525056,
+          -3.3899861
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908005843_050",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T15:28:51-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8514333,
+          -3.3879722
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908010203_054",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8518861,
+          -3.3899833
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908010207_056",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8519389,
+          -3.3904361
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908010213_058",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8519667,
+          -3.3904611
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908010220_060",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8524639,
+          -3.389975
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908010224_062",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8524778,
+          -3.3897
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908010229_064",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8526806,
+          -3.3896389
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908010234_066",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8525472,
+          -3.3883694
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908010239_068",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8522139,
+          -3.3884028
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908010243_070",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8524556,
+          -3.3882306
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908010248_072",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8522917,
+          -3.3882028
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908010253_074",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8524583,
+          -3.3882333
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908010257_076",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8524778,
+          -3.3882139
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908010301_078",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8509861,
+          -3.3896778
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908010309_082",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8509222,
+          -3.389725
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908010317_086",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8509444,
+          -3.38975
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908010326_090",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8509667,
+          -3.3897306
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908010336_094",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8509833,
+          -3.3897222
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908010345_098",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8510333,
+          -3.3897139
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908010354_102",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8509833,
+          -3.3897472
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908010404_106",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8509611,
+          -3.3897583
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908010412_110",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8509417,
+          -3.3897722
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908010936_122",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8509333,
+          -3.3897444
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908010940_124",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8509056,
+          -3.3897361
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908010945_126",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8508861,
+          -3.3897806
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908010949_128",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8509167,
+          -3.3898
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908010954_130",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8509556,
+          -3.3897972
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908010958_132",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8509833,
+          -3.3897972
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011004_134",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8509778,
+          -3.3898167
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011008_136",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8510028,
+          -3.3898194
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011017_138",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8509667,
+          -3.3898278
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011024_140",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8509333,
+          -3.3898083
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011029_142",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.850875,
+          -3.3898056
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011034_144",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8508556,
+          -3.3898056
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011038_146",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.85085,
+          -3.3898417
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011043_148",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8508722,
+          -3.3898389
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011048_150",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8509056,
+          -3.3898444
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011052_152",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8509444,
+          -3.3898444
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011057_154",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8509722,
+          -3.3898472
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011102_156",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8510028,
+          -3.3898444
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011106_158",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.851025,
+          -3.3898583
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011112_160",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8509861,
+          -3.3898917
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011118_162",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8508556,
+          -3.3898472
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011123_164",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8508611,
+          -3.3898806
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011128_166",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8509139,
+          -3.3898722
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011133_168",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8509861,
+          -3.3898389
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011138_170",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8510139,
+          -3.3898333
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011143_172",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.85105,
+          -3.3898278
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011147_174",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8510778,
+          -3.3898222
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011152_176",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8511278,
+          -3.3898389
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011156_178",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8510778,
+          -3.3898667
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011201_180",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.85105,
+          -3.3898833
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011206_182",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8510194,
+          -3.3898917
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011211_184",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8509917,
+          -3.3899056
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011216_186",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8509556,
+          -3.3899028
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011221_188",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8509333,
+          -3.3899111
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011226_190",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8509028,
+          -3.3899111
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011230_192",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8508806,
+          -3.3899278
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011234_194",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8508833,
+          -3.3899444
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011238_196",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8509972,
+          -3.3899056
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011242_198",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8510583,
+          -3.3898806
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011247_200",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8510889,
+          -3.3898722
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011251_202",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8511389,
+          -3.3898556
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011255_204",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8511694,
+          -3.38985
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011300_206",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8512028,
+          -3.3898444
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011304_208",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8512278,
+          -3.3898389
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011309_210",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8512611,
+          -3.3898333
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011314_212",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8512917,
+          -3.3898472
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011318_214",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8512389,
+          -3.389875
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011322_216",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8514333,
+          -3.3898917
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011326_218",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8513917,
+          -3.3899389
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011330_220",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.851375,
+          -3.3899583
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011335_222",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8514167,
+          -3.3900972
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011342_224",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8514556,
+          -3.3901278
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011346_226",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8517111,
+          -3.3899583
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011350_228",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8527222,
+          -3.3902
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011355_230",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8525583,
+          -3.3899778
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011359_232",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8525694,
+          -3.3900028
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011404_234",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8523722,
+          -3.3898639
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011408_236",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8525194,
+          -3.3897139
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011412_238",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8526694,
+          -3.3898667
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011416_240",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8527028,
+          -3.3898389
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011420_242",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8527667,
+          -3.3897278
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011424_244",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8527861,
+          -3.3897278
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011432_246",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8526278,
+          -3.3896722
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908011436_248",
+        "species": "Cacau - Hybrid",
+        "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
         "status": "NEW"
       }
     }
