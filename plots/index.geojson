@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-07T12:18:30.575877Z",
+  "generated_at": "2026-09-08T00:04:44.306106Z",
   "features": [
     {
       "type": "Feature",
@@ -736,6 +736,130 @@
         "region": "Urucuca, Bahia",
         "verified_at": "2026-09-06",
         "notes": "Hull of 242 geotagged media (151 MOV + 91 HEIC, visit 2023-09-18): lat -14.3262..-14.3222, lng -39.1088..-39.1037. ~450x350m walked cluster around the farmstead covering cabruca groves, fermentation room and drying terrace. approx boundary - needs walk/CAR."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -51.851908,
+              -3.390517
+            ],
+            [
+              -51.851806,
+              -3.389944
+            ],
+            [
+              -51.8517,
+              -3.3899
+            ],
+            [
+              -51.850986,
+              -3.389678
+            ],
+            [
+              -51.850947,
+              -3.389683
+            ],
+            [
+              -51.850903,
+              -3.389733
+            ],
+            [
+              -51.850856,
+              -3.389806
+            ],
+            [
+              -51.85085,
+              -3.389842
+            ],
+            [
+              -51.850917,
+              -3.390108
+            ],
+            [
+              -51.851086,
+              -3.390311
+            ],
+            [
+              -51.851844,
+              -3.390503
+            ],
+            [
+              -51.851908,
+              -3.390517
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "V-06-29-reforestation_20260907_plot_1",
+        "farm_id": "paulo-la-do-sitio-para",
+        "name": "V-06-29 Reforestation Plot 1 (2026-09-07 SE pocket)",
+        "hectares": 0.67,
+        "status": "proposed",
+        "boundary_authority": "approx",
+        "owner": "Paulo (CEPOTX)",
+        "region": "Medio Xingu, Para",
+        "verified_at": "2026-09-07",
+        "notes": "Hull of 87 unique geotagged points from 89 GPS-tagged media (85 HEIC + 4 MOV, 2026-09-07 14:46-15:05 + 17:45-18:05 walk, IMG_8856..IMG_8947): lat -3.389678..-3.390517, lng -51.850850..-51.851908. ~0.67 ha reforestation pocket at SE edge of V-06-29 farmstead. approx until boundary walk/CAR."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -51.852722,
+              -3.3902
+            ],
+            [
+              -51.8528,
+              -3.3897
+            ],
+            [
+              -51.852681,
+              -3.389639
+            ],
+            [
+              -51.852628,
+              -3.389644
+            ],
+            [
+              -51.852478,
+              -3.3897
+            ],
+            [
+              -51.852372,
+              -3.389864
+            ],
+            [
+              -51.852464,
+              -3.389975
+            ],
+            [
+              -51.852722,
+              -3.3902
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "V-06-29-reforestation_20260907_plot_2",
+        "farm_id": "paulo-la-do-sitio-para",
+        "name": "V-06-29 Reforestation Plot 2 (2026-09-07 W pocket)",
+        "hectares": 0.17,
+        "status": "proposed",
+        "boundary_authority": "approx",
+        "owner": "Paulo (CEPOTX)",
+        "region": "Medio Xingu, Para",
+        "verified_at": "2026-09-07",
+        "notes": "Hull of 20 geotagged media (19 HEIC + 2 MOV, 2026-09-07 15:28-15:32 + 18:31-18:32 walk, IMG_8966..IMG_8986): lat -3.389639..-3.390200, lng -51.852372..-51.852800. ~0.17 ha reforestation pocket at W edge of V-06-29 farmstead (IMG_8966 no GPS). approx until boundary walk/CAR."
       }
     }
   ]
