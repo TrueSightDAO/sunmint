@@ -1,6 +1,6 @@
 {
   "type": "farms_index",
-  "generated_at": "2026-09-07T12:23:59.316086Z",
+  "generated_at": "2026-09-08T11:07:43.612239Z",
   "farms": [
     {
       "farm_id": "fazenda-bom-sucesso",
@@ -95,10 +95,10 @@
       "name": "Paulo La Do Sitio Para",
       "region": "Medio Xingu, Para",
       "owner": "Paulo (CEPOTX)",
-      "plot_count": 1,
-      "total_hectares": 5.56,
+      "plot_count": 3,
+      "total_hectares": 6.3999999999999995,
       "statuses": {
-        "proposed": 1
+        "proposed": 3
       }
     },
     {
