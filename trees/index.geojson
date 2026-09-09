@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-09T00:17:34.741691Z",
+  "generated_at": "2026-09-09T00:36:41.280341Z",
   "features": [
     {
       "type": "Feature",
@@ -1710,7 +1710,7 @@
         "tree_id": "Edgar_20260908192852_260",
         "species": "Cacau",
         "last_measured": "2026-09-08 15:09:19",
-        "photo_url": "N/A",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908_cleide_marcelo_cacao_tree01.jpg",
         "status": "NEW"
       }
     }
