@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-08T10:22:16.780699Z",
+  "generated_at": "2026-09-09T00:17:34.741691Z",
   "features": [
     {
       "type": "Feature",
@@ -1693,6 +1693,23 @@
         "tree_id": "Edgar_20260908011436_248",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
+        "photo_url": "N/A",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.634933,
+          -3.413931
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260908192852_260",
+        "species": "Cacau",
+        "last_measured": "2026-09-08 15:09:19",
         "photo_url": "N/A",
         "status": "NEW"
       }
