@@ -22,21 +22,22 @@ specific first):
 
 | # | Column | geojson property | Type | Notes |
 |---|---|---|---|---|
-| A | Plot ID | `plot_id` | string | e.g. `RM-P1`, `SA-P1` |
-| B | Farm ID | `farm_id` | string | links to agroverse.shop farm profile slug, e.g. `santa-anna-fazenda` |
-| C | Plot Name | `name` | string | e.g. "Santa Anna Fazenda Plot 1 (compound)" |
-| D | Hectares | `hectares` | number | declared property size |
-| E | Status | `status` | string | `proposed` / `planted` / `linked` (see conventions) |
+| A | Plot ID | `plot_id` | string | unique plot id (e.g. `RM-P1`) |
+| B | Farm ID | `farm_id` | string | farm slug (e.g. `rancho-maranta`) |
+| C | Plot Name | `name` | string | human-readable name |
+| D | Hectares | `hectares` | number | plot area |
+| E | Status | `status` | string | `proposed` / `planted` / `verified` (see conventions) |
 | F | Boundary Authority | `boundary_authority` | string | `approx` / `walk-approx` / `CAR-pending` / `incra` |
-| G | Owner | `owner` | string | family / farmer / cooperative contact |
-| H | Region | `region` | string | e.g. `Altamira, Para` |
-| I | Verified At | `verified_at` | string | ISO date of the verification walk |
-| J | Media | `media` | string | semicolon-separated media URLs (optional) |
-| K | Notes | `notes` | string | provenance: GPS-track extents, hull area vs declared, pending evidence |
-| L | Coordinates | `coordinates` | JSON string | **ring `[[lng, lat], …]` closed (first == last)** |
-| M | Latitude | `lat` | number | centroid / representative point |
-| N | Longitude | `lng` | number | centroid / representative point |
-| O | Plot Type | `plot_type` | string | **program role** — `restoration` / `mature` / `maturing` / `enrichment` / `research` / `nursery` / `infrastructure` (blank = unclassified; see conventions) |
+| G | Plot Type | `plot_type` | string | **program role** — `restoration` / `mature` / `maturing` / `enrichment` / `research` / `nursery` / `infrastructure` (blank = unclassified; see conventions) |
+| H | Owner | `owner` | string | family / farmer / cooperative contact |
+| I | Region | `region` | string | e.g. `Altamira, Para` |
+| J | Verified At | `verified_at` | string | ISO date of the verification walk |
+| K | Media | `media` | string | semicolon-separated media URLs (optional) |
+| L | Notes | `notes` | string | provenance: GPS-track extents, hull area vs declared, pending evidence |
+| M | Coordinates | `coordinates` | JSON string | **ring `[[lng, lat], …]` closed (first == last)** |
+| N | Latitude | `lat` | number | centroid / representative point |
+| O | Longitude | `lng` | number | centroid / representative point |
+| P–S | Invalidated By / (blank) / At / Reason | — | string | **not read by the generator** — retraction bookkeeping written by the GAS/DApp |
 
 Output geometry: `Polygon` with one ring `[lng, lat]` (GeoJSON order).
 
@@ -72,6 +73,12 @@ auto-estimated). It is orthogonal to `status` (lifecycle) and `boundary_authorit
 - `nursery` — seedling production.
 - `infrastructure` — non-crop built area (processing yard, drying terrace, fermentary, compound).
 - *(blank)* — **not yet classified.** Never auto-defaulted by the generator or any writer.
+
+> **The sheet column is a dropdown.** Live `SunMint Plots!G` carries a strict `ONE_OF_LIST`
+> data-validation rule with exactly these seven values (added 2026-09, thread 24326), so a
+> hand-edit in the sheet can't introduce an off-vocabulary token. Programmatic writes (GAS
+> `setValue`, DApp submissions) are **not** blocked by validation — the GAS logs a
+> non-fatal warning on an off-vocabulary value as the guard on that path.
 
 > **Mutability:** `plot_type` is a **current-state** attribute and can change (a `restoration`
 > plot passes through `maturing` to `mature` in ~15 yr). The *immutable* "was this land forest before?" fact belongs
