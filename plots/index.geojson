@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-10T03:11:06.216740Z",
+  "generated_at": "2026-09-10T03:16:12.561126Z",
   "features": [
     {
       "type": "Feature",
@@ -1070,26 +1070,6 @@
           "IMG_9608.HEIC"
         ],
         "notes": "Hull of 40 geotagged media (29 HEIC + 11 MOV, 2026-09-09 visits: morning 11:50-12:04 + afternoon boundary walk 14:51-15:02): lat -3.557064..-3.557933, lng -51.103144..-51.104303. ~0.956 ha restoration plot on degraded pasture (cattle removed) at Site Cristo Rei. Plot ID = name-derived fallback CR-PA-P1/P2 convention (CR=Cristo Rei, PA=Para) - no CEPOTX site code for this site (governor-confirmed 2026-09-09). Owner Edinaldo, socio da Copical (CEPOTX), family property not coop-managed. approx until boundary walk/CAR. Media supplied by governor (curated restoration zip)."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": null,
-      "properties": {
-        "plot_id": "PL-003",
-        "name": "ZZ_TEST_SOPHIA_PLOTTYPE_E2E",
-        "status": "proposed",
-        "boundary_authority": "approx"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": null,
-      "properties": {
-        "plot_id": "PL-004",
-        "name": "ZZ_TEST_SOPHIA_DRY",
-        "status": "proposed",
-        "boundary_authority": "approx"
       }
     }
   ]
