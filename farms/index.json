@@ -1,7 +1,18 @@
 {
   "type": "farms_index",
-  "generated_at": "2026-09-10T03:57:04.565517Z",
+  "generated_at": "2026-09-10T05:02:03.917372Z",
   "farms": [
+    {
+      "farm_id": "cacau-na-veia-pacaje",
+      "name": "Cacau Na Veia Pacaje",
+      "region": "Pacajá, Pará",
+      "owner": "Jader Adriano da Silva Santos (CEPOTX) & wife",
+      "plot_count": 2,
+      "total_hectares": 30.74,
+      "statuses": {
+        "proposed": 2
+      }
+    },
     {
       "farm_id": "cristo-rei-pacaje-para",
       "name": "Cristo Rei Pacaje Para",
