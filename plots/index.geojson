@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-10T13:40:37.349794Z",
+  "generated_at": "2026-09-10T17:06:14.122992Z",
   "features": [
     {
       "type": "Feature",
@@ -361,10 +361,10 @@
         "boundary_authority": "approx",
         "region": "Altamira, Para",
         "media": [
-          "70234a894d764c49937ede894a878d26.HEIC",
-          "cd6887a2c2b9460bad6578ad3431490f.HEIC",
-          "bf9c8484fc32430fb9ba2ff3a451de4c.HEIC",
-          "7f77424bfa11456ba9a42a87067f4246.HEIC"
+          "images/boundaries/PL-002/fazenda-bom-sucesso_20260902_181803_corner1_70234a89.jpg",
+          "images/boundaries/PL-002/fazenda-bom-sucesso_20260902_181924_corner2_cd6887a2.jpg",
+          "images/boundaries/PL-002/fazenda-bom-sucesso_20260902_182741_corner3_bf9c8484.jpg",
+          "images/boundaries/PL-002/fazenda-bom-sucesso_20260902_183108_corner4_7f77424b.jpg"
         ]
       }
     },
@@ -921,14 +921,7 @@
         "owner": "Cleide Maris Suk & Marcelo (CEPOTX)",
         "region": "Altamira, Para",
         "verified_at": "2026-09-08",
-        "media": [
-          "86f5d7b0b5534f81b2f78faef0fd7820.HEIC",
-          "c3cb648459f74f2eae55185ef0967719.HEIC",
-          "1fd3b25ba5bc4c4da05462f9d98cbadc.HEIC",
-          "a918cadbd9c24cf8841683246343ee0f.HEIC",
-          "717625dfb9444df6bb1f72fd2e37ff62.HEIC"
-        ],
-        "notes": "Hull of 5 geotagged HEIC photos (2026-09-08 15:06-15:09 walk, reforestation site with Cleide & Marcelo): lat -3.414328..-3.413850, lng -52.635106..-52.634758. ~0.11 ha reforestation pocket at W edge of B-06-108 hull (drying-area side). New plot registered per governor 2026-09-08. approx until boundary walk/CAR."
+        "notes": "Hull of 5 geotagged HEIC photos (2026-09-08 15:06-15:09 walk, reforestation site with Cleide & Marcelo): lat -3.414328..-3.413850, lng -52.635106..-52.634758. ~0.11 ha reforestation pocket at W edge of B-06-108 hull (drying-area side). New plot registered per governor 2026-09-08. approx until boundary walk/CAR. MEDIA: 5 HEIC boundary photos referenced by uuid hash name only; source files not found in sunmint or farm-media-raw (checked 2026-09-10) - media cleared rather than leave 404 refs. Re-upload JPGs to images/boundaries/B-06-108_20260908_1/ and re-point."
       }
     },
     {
@@ -973,7 +966,7 @@
           "images/boundaries/B-06-108_20260908_research_1/B-06-108_20260908_research_1_C.jpg",
           "images/boundaries/B-06-108_20260908_research_1/B-06-108_20260908_research_1_D.jpg"
         ],
-        "notes": "Research plot shown by Cleide to the governor 2026-09-08 (soil-health measurement under leaf-only fertiliser -- cacao leaves used as the sole amendment). Triangle of 3 painted corner stakes (yellow-green paint): A -3.414000,-52.637389 (NW, 12:37) / B -3.417328,-52.636853 (SE, 12:32) / C -3.416947,-52.636233 (12:41). Interior point D -3.416722,-52.636722 (12:35) = multi-stem cacao tree with horizontal bark bands at ~0.5/1.0/1.5 m (tagged measurement tree), verified inside the triangle. Hull = 1.3994 ha, perimeter ~808 m (A-B 375 m, B-C 81 m, C-A 352 m). boundary_authority approx -- photo hull of 3 stakes only; possible 4th corner UNCONFIRMED (ask Cleide). Includes 1 of 3 unused photos from the 2026-09-08 15:31-15:41 batch; the other 2 are corner markers of this same walk. Sub-plot on Fazenda Cleide (CEPOTX site code B-06-108, COOPOXIN); sits just W of the B-06-108 approx hull. Naming rule: <SITE_CODE>_<YYYYMMDD>_<purpose>_<N>."
+        "notes": "Research plot shown by Cleide to the governor 2026-09-08 (soil-health measurement under leaf-only fertiliser -- cacao leaves used as the sole amendment). Triangle of 3 painted corner stakes (yellow-green paint): A -3.414000,-52.637389 (NW, 12:37) / B -3.417328,-52.636853 (SE, 12:32) / C -3.416947,-52.636233 (12:41). Interior point D -3.416722,-52.636722 (12:35) = multi-stem cacao tree with horizontal bark bands at ~0.5/1.0/1.5 m (tagged measurement tree), verified inside the triangle. Hull = 1.3994 ha, perimeter ~808 m (A-B 375 m, B-C 81 m, C-A 352 m). boundary_authority approx -- photo hull of 3 stakes only; Includes 1 of 3 unused photos from the 2026-09-08 15:31-15:41 batch; the other 2 are corner markers of this same walk. Sub-plot on Fazenda Cleide (CEPOTX site code B-06-108, COOPOXIN); sits just W of the B-06-108 approx hull. Naming rule: <SITE_CODE>_<YYYYMMDD>_<purpose>_<N>. Geometry final: A-B-C triangle (3 corner stakes), 1.3994 ha — governor-confirmed 2026-09-10; no 4th corner."
       }
     },
     {
@@ -1028,46 +1021,10 @@
         "owner": "Ednaldo (socio da Copical / CEPOTX)",
         "region": "Pacaja, Para",
         "media": [
-          "IMG_9569.MOV",
-          "IMG_9570.MOV",
-          "IMG_9571.MOV",
-          "IMG_9572.MOV",
-          "IMG_9573.HEIC",
-          "IMG_9574.HEIC",
-          "IMG_9575.HEIC",
-          "IMG_9576.HEIC",
-          "IMG_9577.MOV",
-          "IMG_9578.MOV",
-          "IMG_9579.HEIC",
-          "IMG_9580.HEIC",
-          "IMG_9581.HEIC",
-          "IMG_9582.HEIC",
-          "IMG_9583.MOV",
-          "IMG_9584.HEIC",
-          "IMG_9585.HEIC",
-          "IMG_9586.HEIC",
-          "IMG_9587.MOV",
-          "IMG_9588.HEIC",
-          "IMG_9589.HEIC",
-          "IMG_9590.MOV",
-          "IMG_9591.MOV",
-          "IMG_9592.MOV",
-          "IMG_9593.HEIC",
-          "IMG_9594.HEIC",
-          "IMG_9595.HEIC",
-          "IMG_9596.HEIC",
-          "IMG_9597.HEIC",
-          "IMG_9598.HEIC",
-          "IMG_9599.HEIC",
-          "IMG_9600.HEIC",
-          "IMG_9601.HEIC",
-          "IMG_9602.HEIC",
-          "IMG_9603.HEIC",
-          "IMG_9604.HEIC",
-          "IMG_9605.HEIC",
-          "IMG_9606.HEIC",
-          "IMG_9607.HEIC",
-          "IMG_9608.HEIC"
+          "images/boundaries/CR-PA-P2/cristo-rei-pacaje-para_20260909_cornerE_9608.jpg",
+          "images/boundaries/CR-PA-P2/cristo-rei-pacaje-para_20260909_cornerN_9588.jpg",
+          "images/boundaries/CR-PA-P2/cristo-rei-pacaje-para_20260909_cornerS_9582.jpg",
+          "images/boundaries/CR-PA-P2/cristo-rei-pacaje-para_20260909_cornerW_9584.jpg"
         ],
         "notes": "Hull of 40 geotagged media (29 HEIC + 11 MOV, 2026-09-09 visits: morning 11:50-12:04 + afternoon boundary walk 14:51-15:02): lat -3.557064..-3.557933, lng -51.103144..-51.104303. ~0.956 ha restoration plot on degraded pasture (cattle removed) at Site Cristo Rei. Plot ID = name-derived fallback CR-PA-P1/P2 convention (CR=Cristo Rei, PA=Para) - no CEPOTX site code for this site (governor-confirmed 2026-09-09). Owner Ednaldo, socio da Copical (CEPOTX), family property not coop-managed. approx until boundary walk/CAR. Media supplied by governor (curated restoration zip)."
       }
@@ -1137,10 +1094,10 @@
         "region": "Pacaja, Para",
         "verified_at": "2026-09-09",
         "media": [
-          "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/boundaries/sitio-torres-pacaja-para_20260909_cornerS_9642.HEIC",
-          "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/boundaries/sitio-torres-pacaja-para_20260909_cornerW_9636.HEIC",
-          "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/boundaries/sitio-torres-pacaja-para_20260909_cornerE_9666.HEIC",
-          "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/boundaries/sitio-torres-pacaja-para_20260909_cornerN_9687.HEIC"
+          "images/boundaries/N-06-66/sitio-torres-pacaja-para_20260909_cornerE_9666.jpg",
+          "images/boundaries/N-06-66/sitio-torres-pacaja-para_20260909_cornerN_9687.jpg",
+          "images/boundaries/N-06-66/sitio-torres-pacaja-para_20260909_cornerS_9642.jpg",
+          "images/boundaries/N-06-66/sitio-torres-pacaja-para_20260909_cornerW_9636.jpg"
         ],
         "notes": "N-06-66 = CEPOTX site code (CoopCao N-06 family; governor-assumed 2026-09-10, UNVERIFIED - outside the observed N-06-02..N-06-52 roster range). Sítio Torres, the property of Alexandre (name confirmed by the on-site Wi-Fi SSID \"SITIO TORRES\"; Alexandre calls this cacao area his \"Sítio 2\" - his second site) - cooperado AND director of the CoopCao branch at Pacajá, Pará (zip '20260909_pacaje_location_3_farm_alessandro_director_coopcao'; on-site Wi-Fi SSID 'SITIO TORRES' - property name). ENRICHMENT plot: cacao verdadeiro/híbrido + a little clonal, mixed age (blocks ~2/4/5 yr plus a >20 yr block), under forest enrichment with native Amazon cumaru (also castanheira/gameleira); a >100 yr native tree stands on site. Claimed 4.5 ha at interview vs 19.01 ha walk hull. Boundary = union hull of 72 geotagged media (38 HEIC + 34 MOV, 2026-09-09 12:33-17:10 local, IMG_9622..IMG_9705); a 3-nucleus walk envelope, NOT a surveyed perimeter (approx). Coop reports 8 registered properties; first-lot target ~600 kg; ~120 kg sample on hand. Conversation transcribed (faster-whisper PT+EN, 35 clips). Farm profile: https://www.agroverse.shop/farms/sitio-torres-pacaja-para/"
       }
@@ -1212,36 +1169,12 @@
         "owner": "Jader Adriano da Silva Santos (CEPOTX) & wife",
         "region": "Pacajá, Pará",
         "media": [
-          "IMG_9494.HEIC",
-          "IMG_9499.HEIC",
-          "IMG_9500.HEIC",
-          "IMG_9502.HEIC",
-          "IMG_9504.HEIC",
-          "IMG_9505.HEIC",
-          "IMG_9506.HEIC",
-          "IMG_9507.HEIC",
-          "IMG_9510.HEIC",
-          "IMG_9511.HEIC",
-          "IMG_9515.HEIC",
-          "IMG_9516.HEIC",
-          "IMG_9517.HEIC",
-          "IMG_9518.HEIC",
-          "IMG_9519.HEIC",
-          "IMG_9520.HEIC",
-          "IMG_9521.HEIC",
-          "IMG_9523.HEIC",
-          "IMG_9525.HEIC",
-          "IMG_9526.HEIC",
-          "IMG_9527.HEIC",
-          "IMG_9529.HEIC",
-          "IMG_9530.HEIC",
-          "IMG_9536.HEIC",
-          "IMG_9548.HEIC",
-          "IMG_9551.HEIC",
-          "IMG_9552.HEIC",
-          "IMG_9553.HEIC",
-          "IMG_9554.HEIC",
-          "IMG_9557.HEIC"
+          "images/boundaries/N-06-37/IMG_9494.jpg",
+          "images/boundaries/N-06-37/IMG_9499.jpg",
+          "images/boundaries/N-06-37/IMG_9500.jpg",
+          "images/boundaries/N-06-37/IMG_9502.jpg",
+          "images/boundaries/N-06-37/IMG_9504.jpg",
+          "images/boundaries/N-06-37/IMG_9505.jpg"
         ],
         "notes": "Mature-plot segment of the 2026-09-09 walk (33 MOV + 30 HEIC; 48 geotagged files on this plot): lat -3.60980..-3.60850, lng -51.03630..-51.03240; convex hull of 48 geotagged photos = 2.52 ha. Plot ID = CEPOTX site code N-06-37 (Jader Adriano da Silva Santos, CEPOTX President, COOPCAO; code spoken on camera IMG_9493) - not re-derived. 35+yr hybrid cacao agroforest (SAF). Governor confirmed 30 ha claimed (8 ha forest + 22 ha cacao, ~22k plants, IMG_9514/9546): hull 2.52 ha << claimed -> approx authority, needs CAR/INCRA or boundary walk. Site visit guided by the owner's wife; owner Jader traveling, not present (IMG_9547)."
       }
@@ -1303,21 +1236,12 @@
         "region": "Pacajá, Pará",
         "verified_at": "2026-09-09",
         "media": [
-          "IMG_9517.HEIC",
-          "IMG_9518.HEIC",
-          "IMG_9520.HEIC",
-          "IMG_9521.HEIC",
-          "IMG_9522.HEIC",
-          "IMG_9523.HEIC",
-          "IMG_9525.HEIC",
-          "IMG_9526.HEIC",
-          "IMG_9527.HEIC",
-          "IMG_9529.HEIC",
-          "IMG_9530.HEIC",
-          "IMG_9551.HEIC",
-          "IMG_9552.HEIC",
-          "IMG_9553.HEIC",
-          "IMG_9554.HEIC"
+          "images/boundaries/N-06-37_20260909_restoration_1/IMG_9517.jpg",
+          "images/boundaries/N-06-37_20260909_restoration_1/IMG_9518.jpg",
+          "images/boundaries/N-06-37_20260909_restoration_1/IMG_9520.jpg",
+          "images/boundaries/N-06-37_20260909_restoration_1/IMG_9521.jpg",
+          "images/boundaries/N-06-37_20260909_restoration_1/IMG_9522.jpg",
+          "images/boundaries/N-06-37_20260909_restoration_1/IMG_9523.jpg"
         ],
         "notes": "Failed reforestation patch (IMG_9533: cacao + forest species planted, lost to drought, to be replanted). Hull of 15 geotagged photos from the governor-supplied restoration zip (20260909_president_restoration_plot.zip): lat -3.609697..-3.608539, lng -51.034236..-51.033394 = 0.74 ha. Sub-plot of N-06-37 (base CEPOTX code N-06-37; suffix per <SITE_CODE>_<YYYYMMDD>_<purpose>_<N> convention, cf. B-06-108_20260908_research_1, V-06-29-reforestation_20260907_plot_1). Adjacent to and hull-overlapping the mature plot (same-day walk crossed both); needs walk/CAR to separate."
       }
