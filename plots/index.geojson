@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-10T10:18:54.920387Z",
+  "generated_at": "2026-09-10T10:24:13.652688Z",
   "features": [
     {
       "type": "Feature",
@@ -1314,6 +1314,17 @@
           "IMG_9554.HEIC"
         ],
         "notes": "Failed reforestation patch (IMG_9533: cacao + forest species planted, lost to drought, to be replanted). Hull of 15 geotagged photos from the governor-supplied restoration zip (20260909_president_restoration_plot.zip): lat -3.609697..-3.608539, lng -51.034236..-51.033394 = 0.74 ha. Sub-plot of N-06-37 (base CEPOTX code N-06-37; suffix per <SITE_CODE>_<YYYYMMDD>_<purpose>_<N> convention, cf. B-06-108_20260908_research_1, V-06-29-reforestation_20260907_plot_1). Adjacent to and hull-overlapping the mature plot (same-day walk crossed both); needs walk/CAR to separate."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "plot_id": "PL-006",
+        "name": "Sítio Torres (Pacajá)",
+        "status": "proposed",
+        "plot_type": "enrichment",
+        "boundary_authority": "approx"
       }
     }
   ]
