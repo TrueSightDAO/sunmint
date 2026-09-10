@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-10T10:24:13.652688Z",
+  "generated_at": "2026-09-10T10:38:42.735830Z",
   "features": [
     {
       "type": "Feature",
@@ -1136,6 +1136,12 @@
         "owner": "Alexandre (CoopCao / CEPOTX)",
         "region": "Pacaja, Para",
         "verified_at": "2026-09-09",
+        "media": [
+          "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/boundaries/sitio-torres-pacaja-para_20260909_cornerS_9642.HEIC",
+          "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/boundaries/sitio-torres-pacaja-para_20260909_cornerW_9636.HEIC",
+          "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/boundaries/sitio-torres-pacaja-para_20260909_cornerE_9666.HEIC",
+          "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/boundaries/sitio-torres-pacaja-para_20260909_cornerN_9687.HEIC"
+        ],
         "notes": "N-06-66 = CEPOTX site code (CoopCao N-06 family; governor-assumed 2026-09-10, UNVERIFIED - outside the observed N-06-02..N-06-52 roster range). Sítio Torres, the property of Alexandre (name confirmed by the on-site Wi-Fi SSID \"SITIO TORRES\"; Alexandre calls this cacao area his \"Sítio 2\" - his second site) - cooperado AND director of the CoopCao branch at Pacajá, Pará (zip '20260909_pacaje_location_3_farm_alessandro_director_coopcao'; on-site Wi-Fi SSID 'SITIO TORRES' - property name). ENRICHMENT plot: cacao verdadeiro/híbrido + a little clonal, mixed age (blocks ~2/4/5 yr plus a >20 yr block), under forest enrichment with native Amazon cumaru (also castanheira/gameleira); a >100 yr native tree stands on site. Claimed 4.5 ha at interview vs 19.01 ha walk hull. Boundary = union hull of 72 geotagged media (38 HEIC + 34 MOV, 2026-09-09 12:33-17:10 local, IMG_9622..IMG_9705); a 3-nucleus walk envelope, NOT a surveyed perimeter (approx). Coop reports 8 registered properties; first-lot target ~600 kg; ~120 kg sample on hand. Conversation transcribed (faster-whisper PT+EN, 35 clips). Farm profile: https://www.agroverse.shop/farms/sitio-torres-pacaja-para/"
       }
     },
@@ -1314,17 +1320,6 @@
           "IMG_9554.HEIC"
         ],
         "notes": "Failed reforestation patch (IMG_9533: cacao + forest species planted, lost to drought, to be replanted). Hull of 15 geotagged photos from the governor-supplied restoration zip (20260909_president_restoration_plot.zip): lat -3.609697..-3.608539, lng -51.034236..-51.033394 = 0.74 ha. Sub-plot of N-06-37 (base CEPOTX code N-06-37; suffix per <SITE_CODE>_<YYYYMMDD>_<purpose>_<N> convention, cf. B-06-108_20260908_research_1, V-06-29-reforestation_20260907_plot_1). Adjacent to and hull-overlapping the mature plot (same-day walk crossed both); needs walk/CAR to separate."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": null,
-      "properties": {
-        "plot_id": "PL-006",
-        "name": "Sítio Torres (Pacajá)",
-        "status": "proposed",
-        "plot_type": "enrichment",
-        "boundary_authority": "approx"
       }
     }
   ]
