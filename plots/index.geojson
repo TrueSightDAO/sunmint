@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-10T03:57:03.330823Z",
+  "generated_at": "2026-09-10T05:02:02.976635Z",
   "features": [
     {
       "type": "Feature",
@@ -41,7 +41,6 @@
         "name": "Rancho Maranta Plot 1 (house)",
         "hectares": 0.4,
         "status": "planted",
-        "plot_type": "restoration",
         "boundary_authority": "walk-approx",
         "owner": "Jedielcio family",
         "region": "Altamira, Para",
@@ -104,7 +103,6 @@
         "name": "Rancho Maranta Plot 2 (family ~5 ha)",
         "hectares": 5.0,
         "status": "proposed",
-        "plot_type": "maturing",
         "boundary_authority": "approx",
         "owner": "Jedielcio family",
         "region": "Altamira, Para",
@@ -162,7 +160,6 @@
         "name": "Santa Anna Fazenda Plot 1 (compound)",
         "hectares": 3.0,
         "status": "proposed",
-        "plot_type": "mature",
         "boundary_authority": "approx",
         "owner": "Ana Lucia Araujo de Sousa (CEPOTX)",
         "region": "Altamira, Para",
@@ -229,7 +226,6 @@
         "name": "Fazenda Cleide Plot 1 (working areas)",
         "hectares": 114.0,
         "status": "proposed",
-        "plot_type": "maturing",
         "boundary_authority": "approx",
         "owner": "Cleide Maris Suk & Marcelo (CEPOTX)",
         "region": "Altamira, Para",
@@ -304,7 +300,6 @@
         "name": "Paulo La do Sitio Plot 1 (farmstead)",
         "hectares": 5.56,
         "status": "proposed",
-        "plot_type": "mature",
         "boundary_authority": "approx",
         "owner": "Paulo (CEPOTX)",
         "region": "Medio Xingu, Para",
@@ -357,7 +352,6 @@
         "name": "Fazenda Bom Sucesso",
         "hectares": 1.016,
         "status": "proposed",
-        "plot_type": "restoration",
         "boundary_authority": "approx",
         "region": "Altamira, Para",
         "media": [
@@ -419,7 +413,6 @@
         "name": "Sítio Raimundo & Geniza Plot 1 (restoration)",
         "hectares": 0.32,
         "status": "proposed",
-        "plot_type": "restoration",
         "boundary_authority": "approx",
         "owner": "Raimundo & Geniza",
         "region": "Uruara, Para",
@@ -469,7 +462,6 @@
         "name": "Fazenda Dona Rosa Plot 1 (processing yard)",
         "hectares": 0.14,
         "status": "proposed",
-        "plot_type": "mature",
         "boundary_authority": "approx",
         "owner": "Rosa Wronscki (Darcirio Wronscki) - COOPOXIN / CEPOTX",
         "region": "Medicilandia, Para",
@@ -536,7 +528,6 @@
         "name": "Fazenda Santa Rosa Plot 1 (cacao area)",
         "hectares": 4.75,
         "status": "proposed",
-        "plot_type": "mature",
         "boundary_authority": "approx",
         "owner": "Antônio & Graça",
         "region": "Uruara, Para",
@@ -595,7 +586,6 @@
         "name": "Fazenda Sao Jorge Plot 1 (cabruca groves)",
         "hectares": 64.7,
         "status": "proposed",
-        "plot_type": "mature",
         "boundary_authority": "approx",
         "owner": "Matheus & Mailan (Coopercabruca)",
         "region": "Itajuibe, Bahia",
@@ -646,7 +636,6 @@
         "name": "Fazenda Clara Plot 1 (cabruca cacao)",
         "hectares": 1.75,
         "status": "proposed",
-        "plot_type": "maturing",
         "boundary_authority": "approx",
         "owner": "Fernando Soller Gimenez & Clara (Black King)",
         "region": "Itacare, Bahia",
@@ -700,7 +689,6 @@
         "name": "Oscar Fazenda Plot 1 (100-year cacao groves)",
         "hectares": 3.74,
         "status": "proposed",
-        "plot_type": "mature",
         "boundary_authority": "approx",
         "owner": "Oscar",
         "region": "Urucuca, Bahia, Brazil",
@@ -743,7 +731,6 @@
         "name": "Fazenda Santa Ana Plot 1 (cabruca groves & processing)",
         "hectares": 16.0,
         "status": "proposed",
-        "plot_type": "mature",
         "boundary_authority": "approx",
         "owner": "Morbeck family (Chocolate Morbeck / Coopercabruca)",
         "region": "Urucuca, Bahia",
@@ -814,7 +801,6 @@
         "name": "V-06-29 Reforestation Plot 1 (2026-09-07 SE pocket)",
         "hectares": 0.67,
         "status": "proposed",
-        "plot_type": "restoration",
         "boundary_authority": "approx",
         "owner": "Paulo (CEPOTX)",
         "region": "Medio Xingu, Para",
@@ -869,7 +855,6 @@
         "name": "V-06-29 Reforestation Plot 2 (2026-09-07 W pocket)",
         "hectares": 0.17,
         "status": "proposed",
-        "plot_type": "restoration",
         "boundary_authority": "approx",
         "owner": "Paulo (CEPOTX)",
         "region": "Medio Xingu, Para",
@@ -916,7 +901,6 @@
         "name": "Fazenda Cleide Reforestation Plot 1 (2026-09-08)",
         "hectares": 0.11,
         "status": "proposed",
-        "plot_type": "restoration",
         "boundary_authority": "approx",
         "owner": "Cleide Maris Suk & Marcelo (CEPOTX)",
         "region": "Altamira, Para",
@@ -962,7 +946,6 @@
         "name": "Fazenda Cleide Research Plot 1 (soil-health trial, 2026-09-08)",
         "hectares": 1.3994,
         "status": "proposed",
-        "plot_type": "research",
         "boundary_authority": "approx",
         "owner": "Cleide Maris Suk & Marcelo (CEPOTX)",
         "region": "Altamira, Para",
@@ -1023,7 +1006,6 @@
         "name": "Site Cristo Rei Plot 2 (restoration)",
         "hectares": 0.956,
         "status": "proposed",
-        "plot_type": "restoration",
         "boundary_authority": "approx",
         "owner": "Ednaldo (socio da Copical / CEPOTX)",
         "region": "Pacaja, Para",
@@ -1131,7 +1113,6 @@
         "name": "Sítio 2 (Pacajá) Plot 1 (cacao enrichment)",
         "hectares": 19.01,
         "status": "proposed",
-        "plot_type": "enrichment",
         "boundary_authority": "approx",
         "owner": "Alexandre (CoopCao / CEPOTX)",
         "region": "Pacaja, Para",
@@ -1146,8 +1127,171 @@
         "plot_id": "PL-005",
         "name": "Site Cristo Rei (Cristo Rei Pacaje Para)",
         "status": "proposed",
-        "plot_type": "restoration",
         "boundary_authority": "approx"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -51.0363,
+              -3.6098
+            ],
+            [
+              -51.0363,
+              -3.6097
+            ],
+            [
+              -51.034022,
+              -3.608539
+            ],
+            [
+              -51.0324,
+              -3.6085
+            ],
+            [
+              -51.032403,
+              -3.608553
+            ],
+            [
+              -51.033864,
+              -3.609617
+            ],
+            [
+              -51.0341,
+              -3.6097
+            ],
+            [
+              -51.0359,
+              -3.6098
+            ],
+            [
+              -51.0363,
+              -3.6098
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "N-06-37",
+        "farm_id": "cacau-na-veia-pacaje",
+        "name": "Sítio Cacau na Veia Plot 1 (mature cacao agroforest)",
+        "hectares": 30.0,
+        "status": "proposed",
+        "boundary_authority": "approx",
+        "owner": "Jader Adriano da Silva Santos (CEPOTX) & wife",
+        "region": "Pacajá, Pará",
+        "media": [
+          "IMG_9494.HEIC",
+          "IMG_9499.HEIC",
+          "IMG_9500.HEIC",
+          "IMG_9502.HEIC",
+          "IMG_9504.HEIC",
+          "IMG_9505.HEIC",
+          "IMG_9506.HEIC",
+          "IMG_9507.HEIC",
+          "IMG_9510.HEIC",
+          "IMG_9511.HEIC",
+          "IMG_9515.HEIC",
+          "IMG_9516.HEIC",
+          "IMG_9517.HEIC",
+          "IMG_9518.HEIC",
+          "IMG_9519.HEIC",
+          "IMG_9520.HEIC",
+          "IMG_9521.HEIC",
+          "IMG_9523.HEIC",
+          "IMG_9525.HEIC",
+          "IMG_9526.HEIC",
+          "IMG_9527.HEIC",
+          "IMG_9529.HEIC",
+          "IMG_9530.HEIC",
+          "IMG_9536.HEIC",
+          "IMG_9548.HEIC",
+          "IMG_9551.HEIC",
+          "IMG_9552.HEIC",
+          "IMG_9553.HEIC",
+          "IMG_9554.HEIC",
+          "IMG_9557.HEIC"
+        ],
+        "notes": "Mature-plot segment of the 2026-09-09 walk (33 MOV + 30 HEIC; 48 geotagged files on this plot): lat -3.60980..-3.60850, lng -51.03630..-51.03240; convex hull of 48 geotagged photos = 2.52 ha. Plot ID = CEPOTX site code N-06-37 (Jader Adriano da Silva Santos, CEPOTX President, COOPCAO; code spoken on camera IMG_9493) - not re-derived. 35+yr hybrid cacao agroforest (SAF). Governor confirmed 30 ha claimed (8 ha forest + 22 ha cacao, ~22k plants, IMG_9514/9546): hull 2.52 ha << claimed -> approx authority, needs CAR/INCRA or boundary walk. Site visit guided by the owner's wife; owner Jader traveling, not present (IMG_9547)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -51.034211,
+              -3.609697
+            ],
+            [
+              -51.034236,
+              -3.609258
+            ],
+            [
+              -51.034231,
+              -3.609192
+            ],
+            [
+              -51.034169,
+              -3.60875
+            ],
+            [
+              -51.034022,
+              -3.608539
+            ],
+            [
+              -51.033394,
+              -3.608928
+            ],
+            [
+              -51.033578,
+              -3.609242
+            ],
+            [
+              -51.033864,
+              -3.609617
+            ],
+            [
+              -51.034211,
+              -3.609697
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "N-06-37_20260909_restoration_1",
+        "farm_id": "cacau-na-veia-pacaje",
+        "name": "Sítio Cacau na Veia Restoration Plot 1 (2026-09-09)",
+        "hectares": 0.74,
+        "status": "proposed",
+        "boundary_authority": "approx",
+        "owner": "Jader Adriano da Silva Santos (CEPOTX) & wife",
+        "region": "Pacajá, Pará",
+        "verified_at": "2026-09-09",
+        "media": [
+          "IMG_9517.HEIC",
+          "IMG_9518.HEIC",
+          "IMG_9520.HEIC",
+          "IMG_9521.HEIC",
+          "IMG_9522.HEIC",
+          "IMG_9523.HEIC",
+          "IMG_9525.HEIC",
+          "IMG_9526.HEIC",
+          "IMG_9527.HEIC",
+          "IMG_9529.HEIC",
+          "IMG_9530.HEIC",
+          "IMG_9551.HEIC",
+          "IMG_9552.HEIC",
+          "IMG_9553.HEIC",
+          "IMG_9554.HEIC"
+        ],
+        "notes": "Failed reforestation patch (IMG_9533: cacao + forest species planted, lost to drought, to be replanted). Hull of 15 geotagged photos from the governor-supplied restoration zip (20260909_president_restoration_plot.zip): lat -3.609697..-3.608539, lng -51.034236..-51.033394 = 0.74 ha. Sub-plot of N-06-37 (base CEPOTX code N-06-37; suffix per <SITE_CODE>_<YYYYMMDD>_<purpose>_<N> convention, cf. B-06-108_20260908_research_1, V-06-29-reforestation_20260907_plot_1). Adjacent to and hull-overlapping the mature plot (same-day walk crossed both); needs walk/CAR to separate."
       }
     }
   ]
