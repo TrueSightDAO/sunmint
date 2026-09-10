@@ -37,8 +37,13 @@ specific first):
 | M | Latitude | `lat` | number | centroid / representative point |
 | N | Longitude | `lng` | number | centroid / representative point |
 | O | Plot Type | `plot_type` | string | **program role** — `restoration` / `mature` / `enrichment` / `research` / `nursery` / `infrastructure` (blank = unclassified; see conventions) |
+| — | Plot Stage | `plot_stage` | string | **walk-observed growth stage** — `establishing` / `maturing` / `established` (blank = not yet assessed; orthogonal to `plot_type`; see conventions) |
 
 Output geometry: `Polygon` with one ring `[lng, lat]` (GeoJSON order).
+
+> The `#` column letters above are **indicative only** — the sheet's physical order drifts
+> (`Plot Type` now sits at G, with `Invalidated *` at P–S). The generator always matches by
+> header **name**, never by position, so a column can be moved without any code change.
 
 ### Status conventions
 - `proposed` — boundary approximate, evidence pending (e.g. awaiting boundary
@@ -74,6 +79,24 @@ auto-estimated). It is orthogonal to `status` (lifecycle) and `boundary_authorit
 
 > The generator **warns** (does not reject) on an unrecognized `plot_type` and on any schema
 > field whose sheet header is missing — so a tag cannot silently disappear from the registry.
+
+### Plot-stage conventions
+`plot_stage` records a plot's **walk-observed growth stage**. It is a **separate axis** from
+`plot_type` because a plot can be both at once — a 5-yr planting is `restoration` in *role* and
+`maturing` in *stage*. Folding stage into `plot_type` would erase the role (the trap that sank the
+proposed `baseline_land_use` axis), so it lives in its own column.
+
+- `establishing` — young planting, open canopy, not yet bearing.
+- `maturing` — canopy filling in, bearing, not yet a closed old stand.
+- `established` — closed canopy / old grove, full production.
+- *(blank)* — **not yet assessed.** Never auto-defaulted by the generator or any writer.
+
+> **Why walk-observed, not derived:** derived-from-planting-date was rejected because a plot may
+> already be maturing at its **first visit** — there is no planting date to derive from. Unlike
+> `baseline_land_use` ("was this land forest *before*?", a historical claim and therefore dropped),
+> stage is a **current-state observation**, so a walker can always assign it.
+> **Mutability:** stage is current-state and changes over time; update it when ground truth changes.
+> Note `established` (stage) is deliberately distinct from `mature` (plot_type = pre-existing stand).
 
 ### Worked example — SA-P1 (2026-08-31)
 Santa Anna Fazenda (Pará, CEPOTX member, introduced by Jedielcio). 3 ha
@@ -112,5 +135,6 @@ from the geojson.
 
 ## Extending the schema
 New plot/tree columns must be added to (a) the sheet tab, (b) the generator's
-column matcher, and (c) this file — then the geojson regenerated. The last schema **addition** was
-`Plot Type` (`plot_type`, 2026-09); the last no-schema-change addition was `SA-P1` above.
+column matcher, and (c) this file — then the geojson regenerated. The last schema **additions** were
+`Plot Type` (`plot_type`) and `Plot Stage` (`plot_stage`), both 2026-09; the last no-schema-change
+addition was `SA-P1` above.
