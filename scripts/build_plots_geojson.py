@@ -181,6 +181,26 @@ def load_plots(ws):
         media_list = None
         if media:
             media_list = [m.strip() for m in media.split(";") if m.strip()] or None
+        # Loud-not-silent media validation (2026-09-10): the impact map renders `media`
+        # entries in an <img> from the sunmint repo (jsdelivr -> raw fallback). Anything
+        # not browser-renderable silently shows a broken thumbnail -- and a bare
+        # filename with no directory resolves to the repo ROOT, which 404s. Warn (never
+        # silently accept) so this cannot recur for future plots.
+        if media_list:
+            for _m in media_list:
+                _ml = _m.lower().split("?")[0].split("#")[0]
+                if _ml.endswith((".heic", ".heif", ".mov", ".mp4")):
+                    print(
+                        f"WARN: plot {pid} media '{_m}' is not browser-renderable "
+                        "(HEIC/MOV/MP4) -- convert to JPG/PNG and reference a "
+                        "repo-relative path, or the impact-map thumbnail breaks"
+                    )
+                elif not _m.startswith("http") and "/" not in _m:
+                    print(
+                        f"WARN: plot {pid} media '{_m}' has no directory component "
+                        "(bare filename) -- resolves against the repo root and 404s; "
+                        "use a repo-relative path e.g. images/boundaries/<plot_id>/x.jpg"
+                    )
         plot_type = cell(row, cols["plot_type"])
         if plot_type and plot_type.strip().lower() not in VALID_PLOT_TYPES:
             print(
