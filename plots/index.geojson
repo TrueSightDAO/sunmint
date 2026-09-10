@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-09T11:11:54.857154Z",
+  "generated_at": "2026-09-10T01:24:24.189318Z",
   "features": [
     {
       "type": "Feature",
@@ -913,6 +913,51 @@
           "717625dfb9444df6bb1f72fd2e37ff62.HEIC"
         ],
         "notes": "Hull of 5 geotagged HEIC photos (2026-09-08 15:06-15:09 walk, reforestation site with Cleide & Marcelo): lat -3.414328..-3.413850, lng -52.635106..-52.634758. ~0.11 ha reforestation pocket at W edge of B-06-108 hull (drying-area side). New plot registered per governor 2026-09-08. approx until boundary walk/CAR."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -52.637389,
+              -3.414
+            ],
+            [
+              -52.636853,
+              -3.417328
+            ],
+            [
+              -52.636233,
+              -3.416947
+            ],
+            [
+              -52.637389,
+              -3.414
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "B-06-108_20260908_research_1",
+        "farm_id": "fazenda-cleide",
+        "name": "Fazenda Cleide Research Plot 1 (soil-health trial, 2026-09-08)",
+        "hectares": 1.3994,
+        "status": "proposed",
+        "plot_type": "research",
+        "boundary_authority": "approx",
+        "owner": "Cleide Maris Suk & Marcelo (CEPOTX)",
+        "region": "Altamira, Para",
+        "verified_at": "2026-09-08",
+        "media": [
+          "images/boundaries/B-06-108_20260908_research_1/B-06-108_20260908_research_1_A.jpg",
+          "images/boundaries/B-06-108_20260908_research_1/B-06-108_20260908_research_1_B.jpg",
+          "images/boundaries/B-06-108_20260908_research_1/B-06-108_20260908_research_1_C.jpg",
+          "images/boundaries/B-06-108_20260908_research_1/B-06-108_20260908_research_1_D.jpg"
+        ],
+        "notes": "Research plot shown by Cleide to the governor 2026-09-08 (soil-health measurement under leaf-only fertiliser -- cacao leaves used as the sole amendment). Triangle of 3 painted corner stakes (yellow-green paint): A -3.414000,-52.637389 (NW, 12:37) / B -3.417328,-52.636853 (SE, 12:32) / C -3.416947,-52.636233 (12:41). Interior point D -3.416722,-52.636722 (12:35) = multi-stem cacao tree with horizontal bark bands at ~0.5/1.0/1.5 m (tagged measurement tree), verified inside the triangle. Hull = 1.3994 ha, perimeter ~808 m (A-B 375 m, B-C 81 m, C-A 352 m). boundary_authority approx -- photo hull of 3 stakes only; possible 4th corner UNCONFIRMED (ask Cleide). Includes 1 of 3 unused photos from the 2026-09-08 15:31-15:41 batch; the other 2 are corner markers of this same walk. Sub-plot on Fazenda Cleide (CEPOTX site code B-06-108, COOPOXIN); sits just W of the B-06-108 approx hull. Naming rule: <SITE_CODE>_<YYYYMMDD>_<purpose>_<N>."
       }
     }
   ]
