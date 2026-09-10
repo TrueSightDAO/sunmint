@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-10T03:43:47.888674Z",
+  "generated_at": "2026-09-10T03:57:03.330823Z",
   "features": [
     {
       "type": "Feature",
@@ -1025,7 +1025,7 @@
         "status": "proposed",
         "plot_type": "restoration",
         "boundary_authority": "approx",
-        "owner": "Edinaldo (socio da Copical / CEPOTX)",
+        "owner": "Ednaldo (socio da Copical / CEPOTX)",
         "region": "Pacaja, Para",
         "media": [
           "IMG_9569.MOV",
@@ -1069,7 +1069,7 @@
           "IMG_9607.HEIC",
           "IMG_9608.HEIC"
         ],
-        "notes": "Hull of 40 geotagged media (29 HEIC + 11 MOV, 2026-09-09 visits: morning 11:50-12:04 + afternoon boundary walk 14:51-15:02): lat -3.557064..-3.557933, lng -51.103144..-51.104303. ~0.956 ha restoration plot on degraded pasture (cattle removed) at Site Cristo Rei. Plot ID = name-derived fallback CR-PA-P1/P2 convention (CR=Cristo Rei, PA=Para) - no CEPOTX site code for this site (governor-confirmed 2026-09-09). Owner Edinaldo, socio da Copical (CEPOTX), family property not coop-managed. approx until boundary walk/CAR. Media supplied by governor (curated restoration zip)."
+        "notes": "Hull of 40 geotagged media (29 HEIC + 11 MOV, 2026-09-09 visits: morning 11:50-12:04 + afternoon boundary walk 14:51-15:02): lat -3.557064..-3.557933, lng -51.103144..-51.104303. ~0.956 ha restoration plot on degraded pasture (cattle removed) at Site Cristo Rei. Plot ID = name-derived fallback CR-PA-P1/P2 convention (CR=Cristo Rei, PA=Para) - no CEPOTX site code for this site (governor-confirmed 2026-09-09). Owner Ednaldo, socio da Copical (CEPOTX), family property not coop-managed. approx until boundary walk/CAR. Media supplied by governor (curated restoration zip)."
       }
     },
     {
@@ -1137,6 +1137,17 @@
         "region": "Pacaja, Para",
         "verified_at": "2026-09-09",
         "notes": "N-06-66 = CEPOTX site code (CoopCao N-06 family; governor-assumed 2026-09-10, UNVERIFIED - outside the observed N-06-02..N-06-52 roster range). Sítio 2, property of Alexandre - cooperado AND director of the CoopCao branch at Pacajá, Pará (zip '20260909_pacaje_location_3_farm_alessandro_director_coopcao'; on-site Wi-Fi SSID 'SITIO TORRES'). ENRICHMENT plot: cacao verdadeiro/híbrido + a little clonal, mixed age (blocks ~2/4/5 yr plus a >20 yr block), under forest enrichment with native Amazon cumaru (also castanheira/gameleira); a >100 yr native tree stands on site. Claimed 4.5 ha at interview vs 19.01 ha walk hull. Boundary = union hull of 72 geotagged media (38 HEIC + 34 MOV, 2026-09-09 12:33-17:10 local, IMG_9622..IMG_9705); a 3-nucleus walk envelope, NOT a surveyed perimeter (approx). Coop reports 8 registered properties; first-lot target ~600 kg; ~120 kg sample on hand. Conversation transcribed (faster-whisper PT+EN, 35 clips). Farm profile: https://www.agroverse.shop/farms/sitio-2-pacaja-para/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "plot_id": "PL-005",
+        "name": "Site Cristo Rei (Cristo Rei Pacaje Para)",
+        "status": "proposed",
+        "plot_type": "restoration",
+        "boundary_authority": "approx"
       }
     }
   ]

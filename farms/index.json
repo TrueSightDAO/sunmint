@@ -1,12 +1,12 @@
 {
   "type": "farms_index",
-  "generated_at": "2026-09-10T03:41:07.417092Z",
+  "generated_at": "2026-09-10T03:57:04.565517Z",
   "farms": [
     {
       "farm_id": "cristo-rei-pacaje-para",
       "name": "Cristo Rei Pacaje Para",
       "region": "Pacaja, Para",
-      "owner": "Edinaldo (socio da Copical / CEPOTX)",
+      "owner": "Ednaldo (socio da Copical / CEPOTX)",
       "plot_count": 1,
       "total_hectares": 0.956,
       "statuses": {
