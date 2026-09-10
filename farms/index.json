@@ -1,6 +1,6 @@
 {
   "type": "farms_index",
-  "generated_at": "2026-09-10T03:16:13.631284Z",
+  "generated_at": "2026-09-10T03:41:07.417092Z",
   "farms": [
     {
       "farm_id": "cristo-rei-pacaje-para",
@@ -142,6 +142,17 @@
       "owner": "Ana Lucia Araujo de Sousa (CEPOTX)",
       "plot_count": 1,
       "total_hectares": 3.0,
+      "statuses": {
+        "proposed": 1
+      }
+    },
+    {
+      "farm_id": "sitio-2-pacaja-para",
+      "name": "Sitio 2 Pacaja Para",
+      "region": "Pacaja, Para",
+      "owner": "Alexandre (CoopCao / CEPOTX)",
+      "plot_count": 1,
+      "total_hectares": 19.01,
       "statuses": {
         "proposed": 1
       }
