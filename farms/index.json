@@ -1,6 +1,6 @@
 {
   "type": "farms_index",
-  "generated_at": "2026-09-10T05:02:03.917372Z",
+  "generated_at": "2026-09-10T10:18:56.143141Z",
   "farms": [
     {
       "farm_id": "cacau-na-veia-pacaje",
@@ -158,8 +158,8 @@
       }
     },
     {
-      "farm_id": "sitio-2-pacaja-para",
-      "name": "Sitio 2 Pacaja Para",
+      "farm_id": "sitio-torres-pacaja-para",
+      "name": "Sitio Torres Pacaja Para",
       "region": "Pacaja, Para",
       "owner": "Alexandre (CoopCao / CEPOTX)",
       "plot_count": 1,
