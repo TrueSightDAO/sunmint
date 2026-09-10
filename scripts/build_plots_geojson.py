@@ -29,6 +29,9 @@ FIELD_COLUMNS = {
     "name": ["plot name", "name", "site name"],
     "hectares": ["hectares", "area ha", "area"],
     "status": ["status"],
+    # plot_type: controlled vocabulary (see VALID_PLOT_TYPES below). Header is 'Plot Type' --
+    # named to avoid a 'farm'/'plot' prefix collision with farm_id/plot_id in idx().
+    "plot_type": ["plot type", "type"],
     "boundary_authority": ["boundary authority", "authority"],
     "owner": ["owner", "family", "farmer"],
     "region": ["region", "state", "municipality"],
@@ -38,6 +41,24 @@ FIELD_COLUMNS = {
     "coordinates": ["coordinates", "polygon", "coords", "geometry"],
     "lat": ["latitude"],
     "lng": ["longitude"],
+}
+
+# Controlled vocabulary for the `plot_type` column (see SUNMINT_PLOTS_REGISTRY.md sec 5).
+# Blank = unclassified and is NEVER auto-defaulted: classifying a plot's carbon eligibility
+# by guess is how you end up crediting a baseline you never established.
+#   restoration    - net-new planting on a prior non-forest baseline (pasture / cleared land)
+#   mature         - established cacao/agroforest the farmer already had (incl. cabruca)
+#   enrichment     - additional trees planted into an existing stand
+#   research       - research / trial plot (excluded from headline sequestration counts)
+#   nursery        - seedling production
+#   infrastructure - non-crop built area (processing yard / drying terrace / compound)
+VALID_PLOT_TYPES = {
+    "restoration",
+    "mature",
+    "enrichment",
+    "research",
+    "nursery",
+    "infrastructure",
 }
 
 
@@ -126,6 +147,14 @@ def load_plots(ws):
     cols = {f: idx(header, names) for f, names in FIELD_COLUMNS.items()}
     if cols["plot_id"] is None:
         sys.exit("could not find plot id column in 'SunMint Plots' tab")
+    # Loud-not-silent: a field with no matching header is otherwise dropped from the
+    # registry without a trace -- warn so a renamed/typo'd column cannot vanish a tag.
+    for _f, _i in cols.items():
+        if _i is None:
+            print(
+                f"WARN: no column matches '{_f}' in '{SHEET_TAB}' tab; "
+                "that field will be omitted from plots/index.geojson"
+            )
     plots = []
     for row in rows[1:]:
         if not any((v or "").strip() for v in row):
@@ -149,6 +178,12 @@ def load_plots(ws):
         media_list = None
         if media:
             media_list = [m.strip() for m in media.split(";") if m.strip()] or None
+        plot_type = cell(row, cols["plot_type"])
+        if plot_type and plot_type.strip().lower() not in VALID_PLOT_TYPES:
+            print(
+                f"WARN: plot {pid} has unrecognized plot_type '{plot_type}' "
+                f"(expected one of: {', '.join(sorted(VALID_PLOT_TYPES))})"
+            )
         plots.append(
             {
                 "plot_id": pid,
@@ -156,6 +191,7 @@ def load_plots(ws):
                 "name": cell(row, cols["name"]) or pid,
                 "hectares": to_float(cell(row, cols["hectares"])),
                 "status": status,
+                "plot_type": plot_type,
                 "boundary_authority": cell(row, cols["boundary_authority"]) or "approx",
                 "owner": cell(row, cols["owner"]) or None,
                 "region": cell(row, cols["region"]) or None,
@@ -166,6 +202,26 @@ def load_plots(ws):
             }
         )
     return plots
+
+
+def plot_props(p):
+    """Build the GeoJSON `properties` dict for one plot. None-valued keys are dropped,
+    so an unclassified `plot_type` is simply absent (never a fabricated default)."""
+    props = {
+        "plot_id": p["plot_id"],
+        "farm_id": p["farm_id"],
+        "name": p["name"],
+        "hectares": p["hectares"],
+        "status": p["status"],
+        "plot_type": p["plot_type"],
+        "boundary_authority": p["boundary_authority"],
+        "owner": p["owner"],
+        "region": p["region"],
+        "verified_at": p["verified_at"],
+        "media": p["media"],
+        "notes": p["notes"],
+    }
+    return {k: v for k, v in props.items() if v is not None}
 
 
 def emit_per_plot(features, out_dir, generated_at):
@@ -247,20 +303,7 @@ def main():
 
     features = []
     for p in plots:
-        props = {
-            "plot_id": p["plot_id"],
-            "farm_id": p["farm_id"],
-            "name": p["name"],
-            "hectares": p["hectares"],
-            "status": p["status"],
-            "boundary_authority": p["boundary_authority"],
-            "owner": p["owner"],
-            "region": p["region"],
-            "verified_at": p["verified_at"],
-            "media": p["media"],
-            "notes": p["notes"],
-        }
-        props = {k: v for k, v in props.items() if v is not None}
+        props = plot_props(p)
         features.append(
             {
                 "type": "Feature",
