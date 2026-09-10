@@ -1,0 +1,90 @@
+{
+  "type": "FeatureCollection",
+  "generated_at": "2026-09-01T17:25:54.773714Z",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -51.852944,
+              -3.389614
+            ],
+            [
+              -51.8523,
+              -3.391
+            ],
+            [
+              -51.852097,
+              -3.390956
+            ],
+            [
+              -51.852,
+              -3.3906
+            ],
+            [
+              -51.8513,
+              -3.3864
+            ],
+            [
+              -51.8513,
+              -3.3863
+            ],
+            [
+              -51.851681,
+              -3.385969
+            ],
+            [
+              -51.851683,
+              -3.385969
+            ],
+            [
+              -51.851689,
+              -3.385972
+            ],
+            [
+              -51.8517,
+              -3.385983
+            ],
+            [
+              -51.8523,
+              -3.3868
+            ],
+            [
+              -51.8529,
+              -3.3887
+            ],
+            [
+              -51.852944,
+              -3.389614
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LD-P1",
+        "farm_id": "paulo-la-do-sitio-para",
+        "name": "Paulo La do Sitio Plot 1 (farmstead)",
+        "hectares": 5.56,
+        "status": "proposed",
+        "boundary_authority": "approx",
+        "owner": "Paulo (CEPOTX)",
+        "region": "Medio Xingu, Para",
+        "verified_at": "2026-08-31",
+        "media": [
+          "images/LD-P1/IMG_3884.jpg",
+          "images/LD-P1/IMG_3891.jpg",
+          "images/LD-P1/IMG_3905.jpg",
+          "images/LD-P1/IMG_3929.jpg",
+          "images/LD-P1/IMG_3932.jpg",
+          "images/LD-P1/IMG_3940.jpg",
+          "images/LD-P1/IMG_3990.jpg",
+          "images/LD-P1/IMG_4001.jpg"
+        ],
+        "notes": "Hull of 77 unique geotagged points from 115 GPS-tagged media (52 HEIC + 72 MOV, 2024-06-25 visit): lat -3.385969..-3.391000, lng -51.851300..-51.852944. ~5.56 ha farmstead (house, cacao orchard, access). Trees actively being planted on this plot."
+      }
+    }
+  ]
+}

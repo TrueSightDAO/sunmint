@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-10T02:12:47.797974Z",
+  "generated_at": "2026-09-01T17:25:54.773714Z",
   "features": [
     {
       "type": "Feature",
@@ -41,7 +41,6 @@
         "name": "Rancho Maranta Plot 1 (house)",
         "hectares": 0.4,
         "status": "planted",
-        "plot_type": "restoration",
         "boundary_authority": "walk-approx",
         "owner": "Jedielcio family",
         "region": "Altamira, Para",

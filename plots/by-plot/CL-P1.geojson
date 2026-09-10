@@ -1,0 +1,72 @@
+{
+  "type": "FeatureCollection",
+  "generated_at": "2026-09-01T17:25:54.773714Z",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -52.6347,
+              -3.414
+            ],
+            [
+              -52.634,
+              -3.4148
+            ],
+            [
+              -52.6338,
+              -3.415
+            ],
+            [
+              -52.6288,
+              -3.4185
+            ],
+            [
+              -52.615,
+              -3.4157
+            ],
+            [
+              -52.615,
+              -3.4139
+            ],
+            [
+              -52.6198,
+              -3.4115
+            ],
+            [
+              -52.6231,
+              -3.4111
+            ],
+            [
+              -52.6236,
+              -3.4111
+            ],
+            [
+              -52.6305,
+              -3.4124
+            ],
+            [
+              -52.6347,
+              -3.414
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "CL-P1",
+        "farm_id": "fazenda-cleide",
+        "name": "Fazenda Cleide Plot 1 (working areas)",
+        "hectares": 114.0,
+        "status": "proposed",
+        "boundary_authority": "approx",
+        "owner": "Cleide Maris Suk & Marcelo (CEPOTX)",
+        "region": "Altamira, Para",
+        "verified_at": "2026-08-31",
+        "notes": "Hull of 76 geotagged media (63 MOV + 13 HEIC, 2024-07-02 site visit): lat -3.4185..-3.4111, lng -52.6347..-52.6150. Covers working areas (fermentation ~-52.615, drying ~-52.6347). NOTE: prior FSVP doc records farm gate -3.398528,-52.633339 + ferment/dry -3.401656,-52.641283 (~2km NE) - needs boundary walk/CAR to reconcile. Organic IBD/NOP via CEPOTX (site code B-06-108)."
+      }
+    }
+  ]
+}
