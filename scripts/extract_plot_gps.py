@@ -205,6 +205,7 @@ def header_index(ws):
         "name": find(["plot name", "name", "site name"]),
         "hectares": find(["hectares", "area ha", "area"]),
         "status": find(["status"]),
+        "plot_type": find(["plot type", "type"]),
         "boundary_authority": find(["boundary authority", "authority"]),
         "owner": find(["owner", "family", "farmer"]),
         "region": find(["region", "state", "municipality"]),
@@ -247,6 +248,14 @@ def main():
     ap.add_argument("--owner", default="", help="owner / family")
     ap.add_argument("--region", default="", help="state / municipality")
     ap.add_argument("--status", default="proposed", help="proposed|planted|verified")
+    ap.add_argument(
+        "--plot-type",
+        default="",
+        help=(
+            "restoration | mature | enrichment | research | nursery | infrastructure "
+            "(blank = unclassified; see SUNMINT_PLOTS_REGISTRY.md). Never auto-defaulted."
+        ),
+    )
     ap.add_argument(
         "--boundary-authority",
         default="approx",
@@ -323,7 +332,8 @@ def main():
         print(f"plot_id={args.plot_id} farm_id={args.farm_id}")
         print(f"name={args.name} hectares={args.hectares} status={args.status}")
         print(
-            f"boundary_authority={args.boundary_authority} owner={args.owner} region={args.region}"
+            f"boundary_authority={args.boundary_authority} plot_type={args.plot_type} "
+            f"owner={args.owner} region={args.region}"
         )
         print(f"media={media_joined}")
         print(f"coordinates={coords_json}")
@@ -357,6 +367,7 @@ def main():
             ("name", args.name or args.plot_id),
             ("hectares", args.hectares),
             ("status", args.status),
+            ("plot_type", args.plot_type),
             ("boundary_authority", args.boundary_authority),
             ("owner", args.owner),
             ("region", args.region),
@@ -382,6 +393,7 @@ def main():
             ("name", args.name),
             ("hectares", args.hectares),
             ("status", args.status),
+            ("plot_type", args.plot_type),
             ("boundary_authority", args.boundary_authority),
             ("owner", args.owner),
             ("region", args.region),
