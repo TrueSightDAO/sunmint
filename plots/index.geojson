@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-10T02:21:15.145893Z",
+  "generated_at": "2026-09-10T03:10:41.006570Z",
   "features": [
     {
       "type": "Feature",
@@ -974,6 +974,112 @@
           "images/boundaries/B-06-108_20260908_research_1/B-06-108_20260908_research_1_D.jpg"
         ],
         "notes": "Research plot shown by Cleide to the governor 2026-09-08 (soil-health measurement under leaf-only fertiliser -- cacao leaves used as the sole amendment). Triangle of 3 painted corner stakes (yellow-green paint): A -3.414000,-52.637389 (NW, 12:37) / B -3.417328,-52.636853 (SE, 12:32) / C -3.416947,-52.636233 (12:41). Interior point D -3.416722,-52.636722 (12:35) = multi-stem cacao tree with horizontal bark bands at ~0.5/1.0/1.5 m (tagged measurement tree), verified inside the triangle. Hull = 1.3994 ha, perimeter ~808 m (A-B 375 m, B-C 81 m, C-A 352 m). boundary_authority approx -- photo hull of 3 stakes only; possible 4th corner UNCONFIRMED (ask Cleide). Includes 1 of 3 unused photos from the 2026-09-08 15:31-15:41 batch; the other 2 are corner markers of this same walk. Sub-plot on Fazenda Cleide (CEPOTX site code B-06-108, COOPOXIN); sits just W of the B-06-108 approx hull. Naming rule: <SITE_CODE>_<YYYYMMDD>_<purpose>_<N>."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -51.103775,
+              -3.557933
+            ],
+            [
+              -51.104303,
+              -3.557878
+            ],
+            [
+              -51.1043,
+              -3.5575
+            ],
+            [
+              -51.104258,
+              -3.557064
+            ],
+            [
+              -51.1034,
+              -3.5572
+            ],
+            [
+              -51.103144,
+              -3.557317
+            ],
+            [
+              -51.103158,
+              -3.557633
+            ],
+            [
+              -51.103775,
+              -3.557933
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "CR-PA-P2",
+        "farm_id": "cristo-rei-pacaje-para",
+        "name": "Site Cristo Rei Plot 2 (restoration)",
+        "hectares": 0.956,
+        "status": "proposed",
+        "plot_type": "restoration",
+        "boundary_authority": "approx",
+        "owner": "Edinaldo (socio da Copical / CEPOTX)",
+        "region": "Pacaja, Para",
+        "media": [
+          "IMG_9569.MOV",
+          "IMG_9570.MOV",
+          "IMG_9571.MOV",
+          "IMG_9572.MOV",
+          "IMG_9573.HEIC",
+          "IMG_9574.HEIC",
+          "IMG_9575.HEIC",
+          "IMG_9576.HEIC",
+          "IMG_9577.MOV",
+          "IMG_9578.MOV",
+          "IMG_9579.HEIC",
+          "IMG_9580.HEIC",
+          "IMG_9581.HEIC",
+          "IMG_9582.HEIC",
+          "IMG_9583.MOV",
+          "IMG_9584.HEIC",
+          "IMG_9585.HEIC",
+          "IMG_9586.HEIC",
+          "IMG_9587.MOV",
+          "IMG_9588.HEIC",
+          "IMG_9589.HEIC",
+          "IMG_9590.MOV",
+          "IMG_9591.MOV",
+          "IMG_9592.MOV",
+          "IMG_9593.HEIC",
+          "IMG_9594.HEIC",
+          "IMG_9595.HEIC",
+          "IMG_9596.HEIC",
+          "IMG_9597.HEIC",
+          "IMG_9598.HEIC",
+          "IMG_9599.HEIC",
+          "IMG_9600.HEIC",
+          "IMG_9601.HEIC",
+          "IMG_9602.HEIC",
+          "IMG_9603.HEIC",
+          "IMG_9604.HEIC",
+          "IMG_9605.HEIC",
+          "IMG_9606.HEIC",
+          "IMG_9607.HEIC",
+          "IMG_9608.HEIC"
+        ],
+        "notes": "Hull of 40 geotagged media (29 HEIC + 11 MOV, 2026-09-09 visits: morning 11:50-12:04 + afternoon boundary walk 14:51-15:02): lat -3.557064..-3.557933, lng -51.103144..-51.104303. ~0.956 ha restoration plot on degraded pasture (cattle removed) at Site Cristo Rei. Plot ID = name-derived fallback CR-PA-P1/P2 convention (CR=Cristo Rei, PA=Para) - no CEPOTX site code for this site (governor-confirmed 2026-09-09). Owner Edinaldo, socio da Copical (CEPOTX), family property not coop-managed. approx until boundary walk/CAR. Media supplied by governor (curated restoration zip)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "plot_id": "PL-003",
+        "name": "ZZ_TEST_SOPHIA_PLOTTYPE_E2E",
+        "status": "proposed",
+        "boundary_authority": "approx"
       }
     }
   ]

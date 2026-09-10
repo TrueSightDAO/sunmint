@@ -1,7 +1,18 @@
 {
   "type": "farms_index",
-  "generated_at": "2026-09-10T02:21:16.185296Z",
+  "generated_at": "2026-09-10T03:10:41.863720Z",
   "farms": [
+    {
+      "farm_id": "cristo-rei-pacaje-para",
+      "name": "Cristo Rei Pacaje Para",
+      "region": "Pacaja, Para",
+      "owner": "Edinaldo (socio da Copical / CEPOTX)",
+      "plot_count": 1,
+      "total_hectares": 0.956,
+      "statuses": {
+        "proposed": 1
+      }
+    },
     {
       "farm_id": "fazenda-bom-sucesso",
       "name": "Fazenda Bom Sucesso",
