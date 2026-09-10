@@ -1,10 +1,11 @@
-"""Regression tests: the `plot_type` tag survives the sheet -> geojson pipeline.
+"""Regression tests: the `plot_type` / `plot_stage` tags survive the sheet -> geojson pipeline.
 
 Covers the three ways a tag record can go missing (see SUNMINT_PLOTS_REGISTRY.md):
  1. the column is read and emitted when the header is present;
  2. a missing/renamed header is warned about, not silently dropped;
  3. an unrecognized token is warned about but still emitted (loud, not silent);
  4. a blank cell stays ABSENT from the geojson (never a fabricated default).
+ 5. a missing/renamed `Plot Stage` header is warned about, not silently dropped.
 """
 
 import contextlib
@@ -32,6 +33,7 @@ HEADER = [
     "Hectares",
     "Status",
     "Plot Type",
+    "Plot Stage",
     "Boundary Authority",
     "Owner",
     "Region",
@@ -51,6 +53,7 @@ ROW = [
     "0.32",
     "proposed",
     "restoration",
+    "maturing",
     "approx",
     "Raimundo & Geniza",
     "Uruara, Para",
@@ -66,6 +69,12 @@ ROW = [
 def _row_with(plot_type, header=None):
     r = list(ROW)
     r[5] = plot_type
+    return [header or HEADER, r]
+
+
+def _row_with_stage(plot_stage, header=None):
+    r = list(ROW)
+    r[6] = plot_stage  # Plot Stage is index 6 (column G)
     return [header or HEADER, r]
 
 
@@ -99,6 +108,44 @@ class TestPlotTypeSurvives(unittest.TestCase):
             plots = bp.load_plots(_FakeWS([header, row]))
         self.assertEqual(plots[0]["plot_type"], None)
         self.assertIn("plot_type", buf.getvalue())
+
+
+class TestPlotStageSurvives(unittest.TestCase):
+    """`plot_stage` is a SEPARATE axis from plot_type (walk-observed growth stage)."""
+
+    def test_read_and_emitted(self):
+        plots = bp.load_plots(_FakeWS(_row_with_stage("maturing")))
+        self.assertEqual(plots[0]["plot_stage"], "maturing")
+        self.assertEqual(bp.plot_props(plots[0])["plot_stage"], "maturing")
+        # role is untouched by stage
+        self.assertEqual(plots[0]["plot_type"], "restoration")
+
+    def test_role_and_stage_coexist(self):
+        # A 5-yr planting is `restoration` in ROLE and `maturing` in STAGE at once.
+        props = bp.plot_props(bp.load_plots(_FakeWS(_row_with_stage("maturing")))[0])
+        self.assertEqual(props["plot_type"], "restoration")
+        self.assertEqual(props["plot_stage"], "maturing")
+
+    def test_blank_stage_is_absent_not_defaulted(self):
+        plots = bp.load_plots(_FakeWS(_row_with_stage("")))
+        self.assertIsNone(plots[0]["plot_stage"])
+        self.assertNotIn("plot_stage", bp.plot_props(plots[0]))
+
+    def test_unknown_stage_warns_but_still_emits(self):
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            plots = bp.load_plots(_FakeWS(_row_with_stage("growing")))
+        self.assertEqual(plots[0]["plot_stage"], "growing")
+        self.assertIn("unrecognized plot_stage", buf.getvalue())
+
+    def test_missing_stage_header_warns_and_does_not_crash(self):
+        header = [h for h in HEADER if h != "Plot Stage"]
+        row = [c for i, c in enumerate(ROW) if i != 6]
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            plots = bp.load_plots(_FakeWS([header, row]))
+        self.assertIsNone(plots[0]["plot_stage"])
+        self.assertIn("plot_stage", buf.getvalue())
 
 
 if __name__ == "__main__":
