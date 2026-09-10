@@ -206,7 +206,6 @@ def header_index(ws):
         "hectares": find(["hectares", "area ha", "area"]),
         "status": find(["status"]),
         "plot_type": find(["plot type", "type"]),
-        "plot_stage": find(["plot stage", "stage"]),
         "boundary_authority": find(["boundary authority", "authority"]),
         "owner": find(["owner", "family", "farmer"]),
         "region": find(["region", "state", "municipality"]),
@@ -255,14 +254,6 @@ def main():
         help=(
             "restoration | mature | enrichment | research | nursery | infrastructure "
             "(blank = unclassified; see SUNMINT_PLOTS_REGISTRY.md). Never auto-defaulted."
-        ),
-    )
-    ap.add_argument(
-        "--plot-stage",
-        default="",
-        help=(
-            "establishing | maturing | established "
-            "(walk-observed growth stage; blank = not assessed; never auto-defaulted)"
         ),
     )
     ap.add_argument(
@@ -342,7 +333,7 @@ def main():
         print(f"name={args.name} hectares={args.hectares} status={args.status}")
         print(
             f"boundary_authority={args.boundary_authority} plot_type={args.plot_type} "
-            f"plot_stage={args.plot_stage} owner={args.owner} region={args.region}"
+            f"owner={args.owner} region={args.region}"
         )
         print(f"media={media_joined}")
         print(f"coordinates={coords_json}")
@@ -377,7 +368,6 @@ def main():
             ("hectares", args.hectares),
             ("status", args.status),
             ("plot_type", args.plot_type),
-            ("plot_stage", args.plot_stage),
             ("boundary_authority", args.boundary_authority),
             ("owner", args.owner),
             ("region", args.region),
@@ -404,7 +394,6 @@ def main():
             ("hectares", args.hectares),
             ("status", args.status),
             ("plot_type", args.plot_type),
-            ("plot_stage", args.plot_stage),
             ("boundary_authority", args.boundary_authority),
             ("owner", args.owner),
             ("region", args.region),

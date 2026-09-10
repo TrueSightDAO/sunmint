@@ -36,8 +36,7 @@ specific first):
 | L | Coordinates | `coordinates` | JSON string | **ring `[[lng, lat], …]` closed (first == last)** |
 | M | Latitude | `lat` | number | centroid / representative point |
 | N | Longitude | `lng` | number | centroid / representative point |
-| O | Plot Type | `plot_type` | string | **program role** — `restoration` / `mature` / `enrichment` / `research` / `nursery` / `infrastructure` (blank = unclassified; see conventions) |
-| — | Plot Stage | `plot_stage` | string | **walk-observed growth stage** — `establishing` / `maturing` / `established` (blank = not yet assessed; orthogonal to `plot_type`; see conventions) |
+| O | Plot Type | `plot_type` | string | **program role** — `restoration` / `mature` / `maturing` / `enrichment` / `research` / `nursery` / `infrastructure` (blank = unclassified; see conventions) |
 
 Output geometry: `Polygon` with one ring `[lng, lat]` (GeoJSON order).
 
@@ -66,6 +65,8 @@ auto-estimated). It is orthogonal to `status` (lifecycle) and `boundary_authorit
 - `restoration` — net-new planting on a prior **non-forest** baseline (pasture / cleared land).
   Carries the additionality case; do **not** apply to a plot that was already forest/agroforest.
 - `mature` — established cacao/agroforest the farmer already had (incl. cabruca, century-old groves).
+- `maturing` — established-but-still-growing stand: canopy filling in / bearing, not yet a
+  closed old grove. The **walk-observed middle stage** between a young planting and `mature`.
 - `enrichment` — **additional** trees planted into an existing stand.
 - `research` — research / trial plot; excluded from headline sequestration & 10,000-ha counts.
 - `nursery` — seedling production.
@@ -73,30 +74,12 @@ auto-estimated). It is orthogonal to `status` (lifecycle) and `boundary_authorit
 - *(blank)* — **not yet classified.** Never auto-defaulted by the generator or any writer.
 
 > **Mutability:** `plot_type` is a **current-state** attribute and can change (a `restoration`
-> plot becomes `mature` in ~15 yr). The *immutable* "was this land forest before?" fact belongs
+> plot passes through `maturing` to `mature` in ~15 yr). The *immutable* "was this land forest before?" fact belongs
 > to the carbon/additionality annex (CAR / satellite-fed), not to this column. A plot tagged
 > `restoration` is *claiming* that additionality at enrollment.
 
 > The generator **warns** (does not reject) on an unrecognized `plot_type` and on any schema
 > field whose sheet header is missing — so a tag cannot silently disappear from the registry.
-
-### Plot-stage conventions
-`plot_stage` records a plot's **walk-observed growth stage**. It is a **separate axis** from
-`plot_type` because a plot can be both at once — a 5-yr planting is `restoration` in *role* and
-`maturing` in *stage*. Folding stage into `plot_type` would erase the role (the trap that sank the
-proposed `baseline_land_use` axis), so it lives in its own column.
-
-- `establishing` — young planting, open canopy, not yet bearing.
-- `maturing` — canopy filling in, bearing, not yet a closed old stand.
-- `established` — closed canopy / old grove, full production.
-- *(blank)* — **not yet assessed.** Never auto-defaulted by the generator or any writer.
-
-> **Why walk-observed, not derived:** derived-from-planting-date was rejected because a plot may
-> already be maturing at its **first visit** — there is no planting date to derive from. Unlike
-> `baseline_land_use` ("was this land forest *before*?", a historical claim and therefore dropped),
-> stage is a **current-state observation**, so a walker can always assign it.
-> **Mutability:** stage is current-state and changes over time; update it when ground truth changes.
-> Note `established` (stage) is deliberately distinct from `mature` (plot_type = pre-existing stand).
 
 ### Worked example — SA-P1 (2026-08-31)
 Santa Anna Fazenda (Pará, CEPOTX member, introduced by Jedielcio). 3 ha
@@ -135,6 +118,6 @@ from the geojson.
 
 ## Extending the schema
 New plot/tree columns must be added to (a) the sheet tab, (b) the generator's
-column matcher, and (c) this file — then the geojson regenerated. The last schema **additions** were
-`Plot Type` (`plot_type`) and `Plot Stage` (`plot_stage`), both 2026-09; the last no-schema-change
-addition was `SA-P1` above.
+column matcher, and (c) this file — then the geojson regenerated. `Plot Type` (`plot_type`) is a
+**single** column (7 values, incl. `maturing`) — do **not** split stage into a second column; the
+last no-schema-change addition was `SA-P1` above.
