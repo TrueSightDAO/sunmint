@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-10T03:10:41.006570Z",
+  "generated_at": "2026-09-10T03:11:06.216740Z",
   "features": [
     {
       "type": "Feature",
@@ -1078,6 +1078,16 @@
       "properties": {
         "plot_id": "PL-003",
         "name": "ZZ_TEST_SOPHIA_PLOTTYPE_E2E",
+        "status": "proposed",
+        "boundary_authority": "approx"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "plot_id": "PL-004",
+        "name": "ZZ_TEST_SOPHIA_DRY",
         "status": "proposed",
         "boundary_authority": "approx"
       }
