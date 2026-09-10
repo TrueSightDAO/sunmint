@@ -32,6 +32,10 @@ FIELD_COLUMNS = {
     # plot_type: controlled vocabulary (see VALID_PLOT_TYPES below). Header is 'Plot Type' --
     # named to avoid a 'farm'/'plot' prefix collision with farm_id/plot_id in idx().
     "plot_type": ["plot type", "type"],
+    # plot_stage: WALK-OBSERVED growth stage (see VALID_PLOT_STAGES). Orthogonal to
+    # plot_type; header "Plot Stage" avoids the "plot" startswith ambiguity, and a
+    # bare "Stage" column also matches.
+    "plot_stage": ["plot stage", "stage"],
     "boundary_authority": ["boundary authority", "authority"],
     "owner": ["owner", "family", "farmer"],
     "region": ["region", "state", "municipality"],
@@ -59,6 +63,22 @@ VALID_PLOT_TYPES = {
     "research",
     "nursery",
     "infrastructure",
+}
+
+# Controlled vocabulary for the `plot_stage` column: a plot's WALK-OBSERVED growth
+# stage. Kept as a SEPARATE axis from plot_type because a plot can be both -- a 5-yr
+# planting is `restoration` in ROLE and `maturing` in STAGE; folding stage into
+# plot_type would erase the role (the trap that sank `baseline_land_use`).
+#   establishing - young planting, open canopy, not yet bearing
+#   maturing     - canopy filling in, bearing, not yet a closed old stand
+#   established  - closed canopy / old grove, full production
+# Unlike a planting date, these are CURRENT-STATE observations, so a plot already
+# maturing at first visit tags fine (why derivation-from-date was rejected).
+# Blank = not yet assessed and is NEVER auto-defaulted.
+VALID_PLOT_STAGES = {
+    "establishing",
+    "maturing",
+    "established",
 }
 
 
@@ -184,6 +204,12 @@ def load_plots(ws):
                 f"WARN: plot {pid} has unrecognized plot_type '{plot_type}' "
                 f"(expected one of: {', '.join(sorted(VALID_PLOT_TYPES))})"
             )
+        plot_stage = cell(row, cols["plot_stage"])
+        if plot_stage and plot_stage.strip().lower() not in VALID_PLOT_STAGES:
+            print(
+                f"WARN: plot {pid} has unrecognized plot_stage '{plot_stage}' "
+                f"(expected one of: {', '.join(sorted(VALID_PLOT_STAGES))})"
+            )
         plots.append(
             {
                 "plot_id": pid,
@@ -192,6 +218,7 @@ def load_plots(ws):
                 "hectares": to_float(cell(row, cols["hectares"])),
                 "status": status,
                 "plot_type": plot_type,
+                "plot_stage": plot_stage,
                 "boundary_authority": cell(row, cols["boundary_authority"]) or "approx",
                 "owner": cell(row, cols["owner"]) or None,
                 "region": cell(row, cols["region"]) or None,
@@ -206,7 +233,8 @@ def load_plots(ws):
 
 def plot_props(p):
     """Build the GeoJSON `properties` dict for one plot. None-valued keys are dropped,
-    so an unclassified `plot_type` is simply absent (never a fabricated default)."""
+    so an unclassified `plot_type` / `plot_stage` is simply absent (never a
+    fabricated default)."""
     props = {
         "plot_id": p["plot_id"],
         "farm_id": p["farm_id"],
@@ -214,6 +242,7 @@ def plot_props(p):
         "hectares": p["hectares"],
         "status": p["status"],
         "plot_type": p["plot_type"],
+        "plot_stage": p["plot_stage"],
         "boundary_authority": p["boundary_authority"],
         "owner": p["owner"],
         "region": p["region"],
