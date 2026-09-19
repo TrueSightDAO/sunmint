@@ -11,6 +11,7 @@ Companion to `README.md`. Org convention: see also `tokenomics/SCHEMA.md`,
 | Plots | `plots/index.geojson` | Polygon | `SunMint Plots` tab (spreadsheet `1qbZZhf-_7xzmDTriaJVWj6OZshyQsFkdsAV8-pyzASQ`) | `scripts/build_plots_geojson.py` (workflow `rebuild-plots-index.yml`) |
 | Trees | `trees/index.geojson` | Point | `SunMint Tree Planting` tab (same spreadsheet) | `scripts/build_tree_geojson.py` (workflow `rebuild-tree-index.yml`) |
 | Satellite | `satellite/` | Scene rasters | Earth Search STAC (anonymous) | `scripts/cache_satellite_scenes.py` |
+| Plot media index | `plots/media.json` | — (derived) | `farm_media_manifests` + `plots/index.geojson` | `scripts/build_plot_media_index.py` (workflow `rebuild-plot-media-index.yml`) |
 
 > ⚠️ The **only** plot registry is `plots/index.geojson`. Do NOT create/read
 > `trees/plots.geojson` (a dead duplicate that once confused consumers).

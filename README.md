@@ -9,6 +9,7 @@ Tree planting registry + carbon-credit pipeline (TrueSight DAO).
 | `trees/index.geojson` | Tree points (the measurement anchors) | `scripts/build_tree_geojson.py` (workflow `rebuild-tree-index.yml`) | "SunMint Tree Planting" tab |
 | `plots/index.geojson` | **Plot polygons — THE plot registry** | `scripts/build_plots_geojson.py` (workflow `rebuild-plots-index.yml`) | "SunMint Plots" tab |
 | `satellite/` | Cached Sentinel-2 scenes per cell/plot | `scripts/cache_satellite_scenes.py` (workflow `cache-satellite-scenes.yml`) | Earth Search STAC (anonymous) |
+| `plots/media.json` | **Per-plot media index** — `plot_id -> media[]` joined from `farm_media_manifests` + `plots/index.geojson` (freshness stamp; loud-not-silent on unattributable media) | `scripts/build_plot_media_index.py` (workflow `rebuild-plot-media-index.yml`, every 15 min) | `TrueSightDAO/farm_media_manifests` + `plots/index.geojson` |
 | `verify_public_signatures/` (repo) | **Public auditable RSA attestation ledger** — every RSA-signed event (planting, growth monitoring, planting-link, reject) as one self-verifying JSON per event | `sync_sunmint_signatures.py` (autopilot cron, every 30 min) + dao_protocol emit hook | TrueSightDAO/verify_public_signatures |
 | `tree_growth_monitoring/` (in ledger) | **Public link-share of Tree Growth Measurements** — one entry per measurement (DBH/AGB/CO2e, photos, analysis SHA-256, farmer signature) | ledger cron + emit hook | TrueSightDAO/verify_public_signatures |
 
@@ -39,5 +40,6 @@ workflow rebuilds it from the "SunMint Plots" tab. If you see a reference to
 
 ## Consumers
 - `truesight_me_beta/sunmint.html` (impact map) → `plots/index.geojson` + `trees/index.geojson`
+- Plot Explorer (`truesight_me_beta/sunmint/plots/`) → `plots/media.json` + `plots/index.geojson` + `trees/index.geojson`
 - `scripts/cache_satellite_scenes.py` → `trees/index.geojson` + `plots/index.geojson`
 - Verifiers / VVBs / public auditors → `TrueSightDAO/verify_public_signatures` (see its README)

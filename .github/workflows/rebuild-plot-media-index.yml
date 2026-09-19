@@ -1,0 +1,71 @@
+name: Rebuild Plot Media Index
+
+on:
+  schedule:
+    # Every 15 minutes — the per-plot media index is a DERIVED stage over the
+    # farm_media_manifests the publisher just reconciled, so it must not lag it
+    # (plan SUNMINT_PLOT_EXPLORER_PLAN.md section 6a: a stale prebuilt index is
+    # worse than no index — it silently under-reports media).
+    - cron: '*/15 * * * *'
+  repository_dispatch:
+    # Reactive: dispatch after farm-media-publisher / plots-index changes.
+    types: [plot-media-index-rebuild]
+  workflow_dispatch:
+    # Manual trigger from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rebuild-plot-media-index
+  cancel-in-progress: true
+
+jobs:
+  rebuild-index:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout sunmint repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT_TOKEN }}
+
+      - name: Checkout farm_media_manifests (source)
+        uses: actions/checkout@v4
+        with:
+          repository: TrueSightDAO/farm_media_manifests
+          token: ${{ secrets.GH_PAT_TOKEN }}
+          path: .farm_media_manifests
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Rebuild per-plot media index
+        # Reconciles over the FULL input set: manifests AND plots/index.geojson.
+        # A new/renamed plot changes attribution with no new media, so the plots
+        # registry is an input too — its drift re-triggers this index.
+        run: |
+          python3 scripts/build_plot_media_index.py \
+            --manifests-dir .farm_media_manifests \
+            --plots plots/index.geojson \
+            --out plots/media.json
+
+      - name: Verify index is in sync (drift gate)
+        run: |
+          python3 scripts/build_plot_media_index.py \
+            --manifests-dir .farm_media_manifests \
+            --plots plots/index.geojson \
+            --out plots/media.json --check
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "Sophia Truesight"
+          git config user.email "admin+sophia@truesight.me"
+          git add plots/media.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit (idempotent reconcile)."
+          else
+            git commit -m "Update per-plot media index [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+            git push
+          fi
