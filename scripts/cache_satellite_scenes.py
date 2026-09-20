@@ -207,7 +207,9 @@ def _fetch_scenes(bbox, start_dt, end_dt, cloud_max, cell_dir, cap, budget):
     manifest never points at a missing file.
     """
     out, used = [], 0
-    for i, feat in enumerate(query_stac(bbox, start_dt, end_dt, cloud_max)):
+    for i, feat in enumerate(
+        query_stac(bbox, start_dt, end_dt, cloud_max, max_features=cap)
+    ):
         if used >= budget:
             break
         props = feat.get("properties", {})
