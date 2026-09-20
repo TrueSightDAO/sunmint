@@ -348,6 +348,86 @@ def main():
 
     budget = args.max_downloads_per_run
 
+    # ---- plots: steady-state recent window + one bounded catch-up step backward
+    for plot in plots:
+        bbox = plot["bbox"]
+        plot_dir = os.path.join(args.out_dir, "plot_" + plot["id"])
+        os.makedirs(plot_dir, exist_ok=True)
+        plot_meta = manifest["plots"].get(plot["id"], {})
+        plot_meta.update(
+            {
+                "id": plot["id"],
+                "name": plot["name"],
+                "bbox": bbox,
+                "center": plot["center"],
+            }
+        )
+        existing = plot_meta.get("scenes", [])
+
+        # (a) rolling recent window (always)
+        if budget > 0:
+            new_scenes, used = _fetch_scenes(
+                bbox,
+                recent_start,
+                now,
+                args.cloud_max,
+                plot_dir,
+                MAX_SCENES_PER_QUERY,
+                budget,
+            )
+            budget -= used
+            existing = merge_scenes(existing, new_scenes, MAX_SCENES_PER_QUERY)
+
+        # (b) one catch-up step backward, if history has not reached the floor
+        # (b) one bounded catch-up step backward. The cursor is an explicit, persisted
+        # date (backfill_cursor), NOT derived from the earliest cached scene: dry-season
+        # windows often yield ZERO low-cloud scenes, and a scene-derived cursor would
+        # then stall forever on the same window and never reach the floor.
+        cursor = plot_meta.get("backfill_cursor")
+        if cursor:
+            cur_dt = _parse_date(cursor)
+        else:
+            earliest = min(
+                (s.get("date") for s in existing if s.get("date")), default=None
+            )
+            cur_dt = _parse_date(earliest) if earliest else now
+        caught_up = cur_dt <= floor
+        if not caught_up and budget > 0:
+            step_end = cur_dt - timedelta(days=1)
+            step_start = max(step_end - timedelta(days=args.backfill_step_days), floor)
+            if step_start < step_end:
+                log(
+                    f"plot {plot['id']}: catch-up {step_start.date()}..{step_end.date()} "
+                    f"(floor {floor.date()})"
+                )
+                new_scenes, used = _fetch_scenes(
+                    bbox,
+                    step_start,
+                    step_end,
+                    args.cloud_max,
+                    plot_dir,
+                    MAX_SCENES_PER_QUERY,
+                    budget,
+                )
+                budget -= used
+                existing = merge_scenes(existing, new_scenes, MAX_SCENES_PER_QUERY)
+                cur_dt = step_start
+                caught_up = cur_dt <= floor
+
+        plot_meta["scenes"] = existing
+        plot_meta["backfill_cursor"] = cur_dt.strftime("%Y-%m-%d")
+        plot_meta["history_start"] = min(
+            (s.get("date") for s in existing if s.get("date")),
+            default=args.archive_floor,
+        )
+        plot_meta["caught_up"] = caught_up
+        if existing:
+            manifest["plots"][plot["id"]] = plot_meta
+            log(
+                f"plot {plot['id']}: {len(existing)} scenes cached "
+                f"(history_start={plot_meta['history_start']}, caught_up={caught_up})"
+            )
+
     # ---- grid cells: steady-state recent window only (tree-level foliage point)
     for key in sorted(cells):
         info = cells[key]
@@ -385,81 +465,6 @@ def main():
         if cell_meta["scenes"]:
             manifest["cells"][key] = cell_meta
             log(f"cell {key}: {len(cell_meta['scenes'])} scenes cached")
-
-    # ---- plots: steady-state recent window + one bounded catch-up step backward
-    for plot in plots:
-        bbox = plot["bbox"]
-        plot_dir = os.path.join(args.out_dir, "plot_" + plot["id"])
-        os.makedirs(plot_dir, exist_ok=True)
-        plot_meta = manifest["plots"].get(plot["id"], {})
-        plot_meta.update(
-            {
-                "id": plot["id"],
-                "name": plot["name"],
-                "bbox": bbox,
-                "center": plot["center"],
-            }
-        )
-        existing = plot_meta.get("scenes", [])
-
-        # (a) rolling recent window (always)
-        if budget > 0:
-            new_scenes, used = _fetch_scenes(
-                bbox,
-                recent_start,
-                now,
-                args.cloud_max,
-                plot_dir,
-                MAX_SCENES_PER_QUERY,
-                budget,
-            )
-            budget -= used
-            existing = merge_scenes(existing, new_scenes, MAX_SCENES_PER_QUERY)
-
-        # (b) one catch-up step backward, if history has not reached the floor
-        history_start = plot_meta.get("history_start")
-        if history_start:
-            hs_dt = _parse_date(history_start)
-        else:
-            hs_dt = min(
-                (s.get("date") for s in existing if s.get("date")), default=None
-            )
-            hs_dt = _parse_date(hs_dt) if hs_dt else now
-        caught_up = bool(history_start) and hs_dt <= floor
-        if not caught_up and budget > 0:
-            step_end = hs_dt - timedelta(days=1)
-            step_start = max(step_end - timedelta(days=args.backfill_step_days), floor)
-            if step_start < step_end:
-                log(
-                    f"plot {plot['id']}: catch-up {step_start.date()}..{step_end.date()} "
-                    f"(floor {floor.date()})"
-                )
-                new_scenes, used = _fetch_scenes(
-                    bbox,
-                    step_start,
-                    step_end,
-                    args.cloud_max,
-                    plot_dir,
-                    MAX_SCENES_PER_QUERY,
-                    budget,
-                )
-                budget -= used
-                existing = merge_scenes(existing, new_scenes, MAX_SCENES_PER_QUERY)
-                if step_start <= floor:
-                    caught_up = True
-
-        plot_meta["scenes"] = existing
-        plot_meta["history_start"] = min(
-            (s.get("date") for s in existing if s.get("date")),
-            default=args.archive_floor,
-        )
-        plot_meta["caught_up"] = caught_up
-        if existing:
-            manifest["plots"][plot["id"]] = plot_meta
-            log(
-                f"plot {plot['id']}: {len(existing)} scenes cached "
-                f"(history_start={plot_meta['history_start']}, caught_up={caught_up})"
-            )
 
     with open(manifest_path, "w", encoding="utf-8") as fh:
         json.dump(manifest, fh, indent=2, ensure_ascii=False)
