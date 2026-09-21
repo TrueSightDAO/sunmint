@@ -109,3 +109,31 @@ class TestMergePreservesNewest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+def test_merge_prefers_fresh_clip_over_stale_legacy_tile():
+    """Regression: PR10 migration must upgrade a same-date legacy tile to a clip.
+
+    merge_scenes dedupes by date; without an explicit upgrade rule the freshly
+    rendered clip (e.g. 20260914.jpg, 30x30) was dropped in favour of the old
+    whole-tile preview (20260914_5.jpg, 343x343), so the newest frames stayed
+    blurry -- exactly the frames a timeline slider lands on first.
+    """
+    existing = [
+        {"date": "2026-09-14", "file": "20260914_5.jpg", "clip": None},
+        {"date": "2026-08-25", "file": "20260825.jpg", "clip": True},
+    ]
+    new_scenes = [
+        {"date": "2026-09-14", "file": "20260914.jpg", "clip": True},
+    ]
+    merged = cs.merge_scenes(existing, new_scenes, per_query_cap=10)
+    by_date = {s["date"]: s for s in merged}
+    assert by_date["2026-09-14"]["file"] == "20260914.jpg"
+    assert by_date["2026-09-14"]["clip"] is True
+    # a genuine clip must NOT be downgraded back to a legacy tile
+    merged2 = cs.merge_scenes(
+        [{"date": "2026-08-25", "file": "20260825.jpg", "clip": True}],
+        [{"date": "2026-08-25", "file": "20260825_1.jpg", "clip": None}],
+        per_query_cap=10,
+    )
+    assert {s["date"]: s for s in merged2}["2026-08-25"]["clip"] is True
