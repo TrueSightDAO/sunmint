@@ -45,6 +45,19 @@ import sys
 import urllib.request
 from datetime import datetime, timedelta, timezone
 
+# Optional geospatial stack for plot-anchored 10 m clips (PR10). If unavailable the
+# script degrades to the legacy whole-tile preview (see _render_plot_clip).
+try:
+    import numpy as _np
+    import rasterio as _rio
+    from PIL import Image as _Image
+    from rasterio.warp import transform_bounds as _rio_transform_bounds
+    from rasterio.windows import from_bounds as _rio_from_bounds
+
+    _HAS_RASTERIO = True
+except Exception:  # noqa: BLE001 - optional dependency, degrade gracefully
+    _HAS_RASTERIO = False
+
 STAC_URL = "https://earth-search.aws.element84.com/v1/search"
 COLLECTION = "sentinel-2-l2a"
 PREFERRED_ASSET_KEYS = [
@@ -56,6 +69,7 @@ PREFERRED_ASSET_KEYS = [
     "info",
 ]
 MAX_SCENES_PER_CELL = 4  # steady-state scenes per grid cell
+MAX_SCENES_PER_PLOT = 400  # plots keep the full low-cloud decade (~140/plot typical)
 MAX_SCENES_PER_QUERY = 200  # hard cap on a single STAC page walk
 DEFAULT_RECENT_DAYS = 45
 DEFAULT_BACKFILL_STEP_DAYS = 365
@@ -63,6 +77,17 @@ DEFAULT_ARCHIVE_FLOOR = "2015-06-23"  # Sentinel-2A first light
 DEFAULT_MAX_DOWNLOADS_PER_RUN = 450
 CLOUD_MAX = 20.0  # only commit low-cloud scenes (durable-evidence subset)
 GRID_DEG = 0.01  # ~1 km cells -> one folder per lat_lng
+# Plot-anchored 10 m clips (PR10). The committed per-plot image is an RGB clip of
+# the scene's 10 m bands, windowed to a view that is anchored on the plot's own
+# bbox and padded so even a tiny plot is legible. The exact map extent of the
+# rendered image is recorded per plot (clip_bounds) so the explorer can place it
+# as a Leaflet imageOverlay precisely, with the plot/tree outlines drawn on top.
+CLIP_MIN_VIEW_M = 300  # pad the plot view to at least this (metres/side)
+CLIP_MAX_VIEW_M = 3000  # cap the view so large plots don't balloon
+CLIP_PAD_FRAC = 0.15  # baseline padding around the plot, as a fraction of extent
+CLIP_MAX_PX = 1024  # cap the clip's long side (export size, not native resolution)
+CLIP_RGB_BANDS = ("B04", "B03", "B02")  # red, green, blue (10 m) -> true colour
+CLIP_STRETCH_PCT = (2.0, 98.0)  # per-clip percentile stretch for a readable frame
 TIMEOUT_SECS = 60
 DT_FMT = "%Y-%m-%dT%H:%M:%SZ"
 
@@ -199,6 +224,99 @@ def merge_scenes(existing, new_scenes, per_query_cap):
     ]
 
 
+def _plot_dirname(plot_id):
+    """Commit-safe folder name for a plot's clips (under ``satellite/``)."""
+    return "plot_" + str(plot_id).replace("/", "_").replace("\\", "_")
+
+
+def _clip_view_bounds(plot_bbox):
+    """Return the [w, s, e, n] view for a plot's clip.
+
+    The plot bbox padded so the view spans at least ``CLIP_MIN_VIEW_M`` (and at
+    most ``CLIP_MAX_VIEW_M``) per side, anchored on the plot centre so the plot
+    sits in the middle of every frame. Without this, a 40-60 m plot would clip to
+    a handful of 10 m pixels and be unreadable."""
+    w, s, e, n = plot_bbox
+    lat = (s + n) / 2.0
+    lng = (w + e) / 2.0
+    m_per_deg_lat = 111320.0
+    m_per_deg_lng = 111320.0 * max(math.cos(math.radians(lat)), 1e-6)
+    width_m = max((e - w) * m_per_deg_lng, 1.0)
+    height_m = max((n - s) * m_per_deg_lat, 1.0)
+    span_m = max(width_m, height_m) * (1.0 + CLIP_PAD_FRAC)
+    span_m = min(max(span_m, CLIP_MIN_VIEW_M), CLIP_MAX_VIEW_M)
+    dlat = span_m / 2.0 / m_per_deg_lat
+    dlng = span_m / 2.0 / m_per_deg_lng
+    return [lng - dlng, lat - dlat, lng + dlng, lat + dlat]
+
+
+def _stretch(band, lo_pct, hi_pct):
+    """Percentile-stretch one band to 0..255 uint8 (robust to bright outliers)."""
+    a = band.astype("float32")
+    finite = a[_np.isfinite(a)]
+    if finite.size == 0:
+        return _np.zeros(a.shape, dtype="uint8")
+    lo, hi = _np.percentile(finite, [lo_pct, hi_pct])
+    if hi <= lo:
+        hi = lo + 1.0
+    a = _np.clip((a - lo) / (hi - lo), 0.0, 1.0)
+    return (a * 255.0).astype("uint8")
+
+
+def _render_plot_clip(feat, view_bounds, dest):
+    """Render a scene's 10 m true-colour RGB to ``dest`` (JPEG), windowed to
+    ``view_bounds`` [w, s, e, n]. Returns the written map extent as
+    ``[[s, w], [n, e]]`` or None on failure.
+
+    Only the needed window is read, straight from the public Sentinel-2 COGs over
+    HTTP range requests -- the full ~110 km tile is never downloaded."""
+    if not _HAS_RASTERIO:
+        return None
+    assets = feat.get("assets", {})
+    urls = []
+    for key in CLIP_RGB_BANDS:
+        href = (assets.get(key) or {}).get("href")
+        if not href:
+            return None
+        urls.append(href)
+    try:
+        channels, out_shape, extent = [], None, None
+        for url in urls:
+            with _rio.open(url) as ds:
+                tb = _rio_transform_bounds("EPSG:4326", ds.crs, *view_bounds)
+                win = _rio_from_bounds(*tb, transform=ds.transform)
+                win = win.round_offsets().round_lengths()
+                data = ds.read(1, window=win, boundless=True, fill_value=0)
+                if data.size == 0 or data.shape[0] < 2 or data.shape[1] < 2:
+                    return None
+                if out_shape is None:
+                    out_shape = data.shape
+                    wt = ds.window_transform(win)
+                    xs = [wt.c + 0.5, wt.c + (data.shape[1] - 0.5) * wt.a]
+                    ys = [wt.f + 0.5, wt.f + (data.shape[0] - 0.5) * wt.e]
+                    extent = _rio_transform_bounds(
+                        ds.crs, "EPSG:4326", min(xs), min(ys), max(xs), max(ys)
+                    )
+                elif data.shape != out_shape:
+                    return None
+                channels.append(data)
+        rgb = _np.dstack([_stretch(c, *CLIP_STRETCH_PCT) for c in channels])
+        img = _Image.fromarray(rgb, mode="RGB")
+        if max(img.size) > CLIP_MAX_PX:
+            scale = CLIP_MAX_PX / max(img.size)
+            img = img.resize(
+                (max(1, int(img.size[0] * scale)), max(1, int(img.size[1] * scale))),
+                _Image.LANCZOS,
+            )
+        os.makedirs(os.path.dirname(dest), exist_ok=True)
+        img.save(dest, "JPEG", quality=82)
+        w, s, e, n = extent
+        return [[round(s, 6), round(w, 6)], [round(n, 6), round(e, 6)]]
+    except Exception as exc:  # noqa: BLE001 - graceful degradation is by design
+        warn(f"clip render failed ({exc})")
+        return None
+
+
 def _fetch_scenes(bbox, start_dt, end_dt, cloud_max, cell_dir, cap, budget):
     """Query STAC then download each scene's preview into ``cell_dir``.
 
@@ -238,6 +356,65 @@ def _fetch_scenes(bbox, start_dt, end_dt, cloud_max, cell_dir, cap, budget):
             }
         )
     return out, used
+
+
+def _fetch_plot_scenes(
+    plot, view_bounds, start_dt, end_dt, cloud_max, plot_dir, cap, budget, clip_bounds
+):
+    """Query STAC then render each scene as a plot-anchored 10 m clip.
+
+    Mirrors :func:`_fetch_scenes` but produces RGB clips windowed to
+    ``view_bounds`` instead of whole-tile previews, and returns the plot's
+    ``clip_bounds`` (updated on first successful render). While a plot has no
+    ``clip_bounds`` yet (first clip run) existing files are treated as stale
+    legacy previews and re-rendered. If the geospatial stack is unavailable or a
+    render fails, that scene falls back to the tile preview (``clip: false``) so
+    the workflow never fails and the manifest stays consistent.
+    """
+    out, used = [], 0
+    force = clip_bounds is None  # migrate legacy previews -> clips on first run
+    for i, feat in enumerate(
+        query_stac(plot["bbox"], start_dt, end_dt, cloud_max, max_features=cap)
+    ):
+        if used >= budget:
+            break
+        props = feat.get("properties", {})
+        date_str = (props.get("datetime") or "")[:10]
+        if not date_str:
+            continue
+        scene_id = feat.get("id", f"scene_{i}")
+        fname = f"{date_str.replace('-', '')}.jpg"
+        dest = os.path.join(plot_dir, fname)
+        is_clip = None
+        if os.path.exists(dest) and not force:
+            size = os.path.getsize(dest)
+            is_clip = bool(clip_bounds)
+        else:
+            used += 1
+            b = _render_plot_clip(feat, view_bounds, dest)
+            if b is not None:
+                if clip_bounds is None:
+                    clip_bounds = b
+                is_clip, size = True, os.path.getsize(dest)
+            else:
+                asset_url = _get_asset_url(feat)
+                if not asset_url:
+                    continue
+                size = download(asset_url, dest)
+                if size is None:
+                    continue
+                is_clip = False
+        out.append(
+            {
+                "id": scene_id,
+                "date": date_str,
+                "cloud_cover": round(props.get("eo:cloud_cover") or 0.0, 3),
+                "file": fname,
+                "bytes": size,
+                "clip": bool(is_clip),
+            }
+        )
+    return out, used, clip_bounds
 
 
 def _parse_date(s):
@@ -351,7 +528,7 @@ def main():
     # ---- plots: steady-state recent window + one bounded catch-up step backward
     for plot in plots:
         bbox = plot["bbox"]
-        plot_dir = os.path.join(args.out_dir, "plot_" + plot["id"])
+        plot_dir = os.path.join(args.out_dir, _plot_dirname(plot["id"]))
         os.makedirs(plot_dir, exist_ok=True)
         plot_meta = manifest["plots"].get(plot["id"], {})
         plot_meta.update(
@@ -363,20 +540,24 @@ def main():
             }
         )
         existing = plot_meta.get("scenes", [])
+        view_bounds = _clip_view_bounds(bbox)
+        clip_bounds = plot_meta.get("clip_bounds")
 
         # (a) rolling recent window (always)
         if budget > 0:
-            new_scenes, used = _fetch_scenes(
-                bbox,
+            new_scenes, used, clip_bounds = _fetch_plot_scenes(
+                plot,
+                view_bounds,
                 recent_start,
                 now,
                 args.cloud_max,
                 plot_dir,
                 MAX_SCENES_PER_QUERY,
                 budget,
+                clip_bounds,
             )
             budget -= used
-            existing = merge_scenes(existing, new_scenes, MAX_SCENES_PER_QUERY)
+            existing = merge_scenes(existing, new_scenes, MAX_SCENES_PER_PLOT)
 
         # (b) one catch-up step backward, if history has not reached the floor
         # (b) one bounded catch-up step backward. The cursor is an explicit, persisted
@@ -400,21 +581,25 @@ def main():
                     f"plot {plot['id']}: catch-up {step_start.date()}..{step_end.date()} "
                     f"(floor {floor.date()})"
                 )
-                new_scenes, used = _fetch_scenes(
-                    bbox,
+                new_scenes, used, clip_bounds = _fetch_plot_scenes(
+                    plot,
+                    view_bounds,
                     step_start,
                     step_end,
                     args.cloud_max,
                     plot_dir,
                     MAX_SCENES_PER_QUERY,
                     budget,
+                    clip_bounds,
                 )
                 budget -= used
-                existing = merge_scenes(existing, new_scenes, MAX_SCENES_PER_QUERY)
+                existing = merge_scenes(existing, new_scenes, MAX_SCENES_PER_PLOT)
                 cur_dt = step_start
                 caught_up = cur_dt <= floor
 
         plot_meta["scenes"] = existing
+        if clip_bounds:
+            plot_meta["clip_bounds"] = clip_bounds
         plot_meta["backfill_cursor"] = cur_dt.strftime("%Y-%m-%d")
         plot_meta["history_start"] = min(
             (s.get("date") for s in existing if s.get("date")),
