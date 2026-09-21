@@ -86,7 +86,9 @@ CLIP_MIN_VIEW_M = 300  # pad the plot view to at least this (metres/side)
 CLIP_MAX_VIEW_M = 3000  # cap the view so large plots don't balloon
 CLIP_PAD_FRAC = 0.15  # baseline padding around the plot, as a fraction of extent
 CLIP_MAX_PX = 1024  # cap the clip's long side (export size, not native resolution)
-CLIP_RGB_BANDS = ("B04", "B03", "B02")  # red, green, blue (10 m) -> true colour
+# red, green, blue (10 m) -> true colour. Earth Search names assets red/green/blue
+# (hrefs are B04/B03/B02.tif); accept the band-id form too for robustness.
+CLIP_RGB_BANDS = (("red", "B04"), ("green", "B03"), ("blue", "B02"))
 CLIP_STRETCH_PCT = (2.0, 98.0)  # per-clip percentile stretch for a readable frame
 TIMEOUT_SECS = 60
 DT_FMT = "%Y-%m-%dT%H:%M:%SZ"
@@ -274,8 +276,15 @@ def _render_plot_clip(feat, view_bounds, dest):
         return None
     assets = feat.get("assets", {})
     urls = []
-    for key in CLIP_RGB_BANDS:
-        href = (assets.get(key) or {}).get("href")
+    for keys in CLIP_RGB_BANDS:
+        href = next(
+            (
+                assets[k].get("href")
+                for k in keys
+                if assets.get(k) and assets[k].get("href")
+            ),
+            None,
+        )
         if not href:
             return None
         urls.append(href)
