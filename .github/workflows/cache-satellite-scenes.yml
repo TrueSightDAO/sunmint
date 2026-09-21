@@ -24,6 +24,14 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Install geospatial deps (for plot-anchored 10 m clips)
+        # rasterio+numpy+Pillow render each scene as a 10 m RGB clip windowed to
+        # the plot's view (PR10). If this step were skipped the script would still
+        # run, but would degrade to whole-tile previews (clip=false).
+        run: |
+          python3 -m pip install --quiet --upgrade pip
+          python3 -m pip install --quiet numpy rasterio pillow
+
       - name: Run satellite scene cache
         # Earth Search STAC (AWS-hosted Sentinel-2 L2A) — anonymous, no credentials.
         # The script degrades gracefully: if STAC is unreachable or no scenes are
