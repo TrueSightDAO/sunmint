@@ -219,8 +219,19 @@ def merge_scenes(existing, new_scenes, per_query_cap):
     dedupe by date, keep at most ``per_query_cap`` scenes."""
     by_date = {s.get("date"): s for s in existing if s.get("date")}
     for s in new_scenes:
-        if s.get("date") and s["date"] not in by_date:
-            by_date[s["date"]] = s
+        d = s.get("date")
+        if not d:
+            continue
+        cur = by_date.get(d)
+        if cur is None:
+            by_date[d] = s
+        elif s.get("clip") and not cur.get("clip"):
+            # A freshly rendered 10 m clip supersedes a stale legacy tile for the
+            # same date. Without this, the first clip migration would silently
+            # keep the old whole-tile preview (the manifest dedupes by date), so
+            # the most *recent* frames -- where the slider lands by default --
+            # would stay blurry forever.
+            by_date[d] = s
     return sorted(by_date.values(), key=lambda s: s.get("date", ""), reverse=True)[
         :per_query_cap
     ]
