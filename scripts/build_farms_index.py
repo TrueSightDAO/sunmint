@@ -5,8 +5,11 @@ SunMint ledger spreadsheet and emits a machine-generated farms index that the
 farmer app (sunmint_beta) fetches to seed the farm dropdown, unioned with the
 device-local farm list (SUNMINT_BOUNDARY_SUBMISSION_PLAN rules 1-3).
 
-SAFETY: mirrors the plots generator -- if the tab is missing or has no rows,
-PRESERVE the existing farms/index.json instead of clobbering it.
+SAFETY: mirrors the plots generator -- if the tab cannot be read (auth /
+permission / network), FAIL LOUDLY (non-zero exit) and leave farms/index.json
+UNTOUCHED. The old silent-green "preserve the existing index / exit 0" branch hid
+the 2026-09-17 -> 09-24 SunMint index freeze for 7 days (see OPEN_FOLLOWUPS.md ->
+SunMint index freeze).
 
 Usage:
   python3 scripts/build_farms_index.py [--out farms/index.json]
@@ -70,6 +73,22 @@ def cell(row, i):
     return v or None
 
 
+def sheet_read_failure(tab, reason):
+    """Loud-failure message for a sheet we could not read (silent-green ban, 2026-09-24).
+
+    A generator that cannot read its source must FAIL and force a non-zero exit;
+    the old swallow-and-preserve branch rewrote the previous file and exited 0.
+    """
+    cred = os.environ.get("GOOGLE_SERVICE_ACCOUNT_JSON")
+    hint = (
+        "" if cred else " [GOOGLE_SERVICE_ACCOUNT_JSON is unset -- set the CI secret]"
+    )
+    return (
+        f"ERROR: could not read '{tab}' tab: {reason}{hint} -- refusing to silently "
+        "preserve the existing farms index (see OPEN_FOLLOWUPS.md -> SunMint index freeze)"
+    )
+
+
 def humanize(farm_id):
     """rancho-maranta -> Rancho Maranta (for display)."""
     if not farm_id:
@@ -82,7 +101,8 @@ def humanize(farm_id):
 def load_farms(ws):
     rows = ws.get_all_values()
     if not rows:
-        return []
+        # Empty response from a sheet that should have a header = read failure.
+        sys.exit(sheet_read_failure(SHEET_TAB, "tab returned no rows (empty response)"))
     header = rows[0]
     cols = {f: idx(header, names) for f, names in FIELD_COLUMNS.items()}
     if cols["farm_id"] is None:
@@ -133,25 +153,14 @@ def main():
     try:
         ws = get_sheet()
         farms = load_farms(ws)
-    except (Exception, SystemExit) as e:
-        print(
-            f"WARN: could not read '{SHEET_TAB}' tab ({e}); preserving existing farms index"
-        )
-        if os.path.exists(args.out):
-            with open(args.out, encoding="utf-8") as f:
-                existing = json.load(f)
-            print(f"preserved {len(existing.get('farms', []))} farms at {args.out}")
-            return
-        sys.exit(f"no source tab and no existing {args.out} to preserve")
+    except Exception as e:  # noqa: BLE001 -- any read failure MUST fail the job, loudly
+        # Silent-green ban (2026-09-24): never preserve-and-exit-0 on a read error.
+        sys.exit(sheet_read_failure(SHEET_TAB, f"{type(e).__name__}: {e}"))
 
     if not farms:
-        print(f"WARN: '{SHEET_TAB}' tab has no farms; preserving existing farms index")
-        if os.path.exists(args.out):
-            with open(args.out, encoding="utf-8") as f:
-                existing = json.load(f)
-            print(f"preserved {len(existing.get('farms', []))} farms at {args.out}")
-            return
-        sys.exit(f"no farms and no existing {args.out} to preserve")
+        # Header with zero farm rows: fail loudly rather than publish an empty index
+        # or silently preserve. The existing file is left untouched.
+        sys.exit(sheet_read_failure(SHEET_TAB, "no farm rows after parsing"))
 
     out = {
         "type": "farms_index",
