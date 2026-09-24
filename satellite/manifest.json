@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T11:55:58.001249+00:00",
+  "generated_at": "2026-09-24T12:03:37.437135+00:00",
   "source": "earth-search.aws.element84.com Sentinel-2 L2A (anonymous)",
   "cloud_max": 20.0,
   "archive_floor": "2015-06-23",
@@ -860,10 +860,162 @@
           "file": "20200826.jpg",
           "bytes": 1074,
           "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200814_0_L2A",
+          "date": "2020-08-14",
+          "cloud_cover": 11.707,
+          "file": "20200814.jpg",
+          "bytes": 1063,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200811_0_L2A",
+          "date": "2020-08-11",
+          "cloud_cover": 17.313,
+          "file": "20200811.jpg",
+          "bytes": 1032,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200809_0_L2A",
+          "date": "2020-08-09",
+          "cloud_cover": 1.228,
+          "file": "20200809.jpg",
+          "bytes": 1066,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200806_0_L2A",
+          "date": "2020-08-06",
+          "cloud_cover": 4.07,
+          "file": "20200806.jpg",
+          "bytes": 1044,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200801_0_L2A",
+          "date": "2020-08-01",
+          "cloud_cover": 12.65,
+          "file": "20200801.jpg",
+          "bytes": 847,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200730_0_L2A",
+          "date": "2020-07-30",
+          "cloud_cover": 0.944,
+          "file": "20200730.jpg",
+          "bytes": 1071,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200727_0_L2A",
+          "date": "2020-07-27",
+          "cloud_cover": 0.116,
+          "file": "20200727.jpg",
+          "bytes": 1063,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200725_0_L2A",
+          "date": "2020-07-25",
+          "cloud_cover": 19.862,
+          "file": "20200725.jpg",
+          "bytes": 928,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200722_0_L2A",
+          "date": "2020-07-22",
+          "cloud_cover": 17.29,
+          "file": "20200722.jpg",
+          "bytes": 1054,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200720_0_L2A",
+          "date": "2020-07-20",
+          "cloud_cover": 13.749,
+          "file": "20200720.jpg",
+          "bytes": 1014,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200715_0_L2A",
+          "date": "2020-07-15",
+          "cloud_cover": 11.019,
+          "file": "20200715.jpg",
+          "bytes": 1078,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200622_0_L2A",
+          "date": "2020-06-22",
+          "cloud_cover": 14.703,
+          "file": "20200622.jpg",
+          "bytes": 838,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200615_0_L2A",
+          "date": "2020-06-15",
+          "cloud_cover": 1.707,
+          "file": "20200615.jpg",
+          "bytes": 1096,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200528_0_L2A",
+          "date": "2020-05-28",
+          "cloud_cover": 5.245,
+          "file": "20200528.jpg",
+          "bytes": 1113,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20190926_0_L2A",
+          "date": "2019-09-26",
+          "cloud_cover": 3.351,
+          "file": "20190926.jpg",
+          "bytes": 1061,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20190921_0_L2A",
+          "date": "2019-09-21",
+          "cloud_cover": 12.956,
+          "file": "20190921.jpg",
+          "bytes": 917,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20190916_0_L2A",
+          "date": "2019-09-16",
+          "cloud_cover": 4.994,
+          "file": "20190916.jpg",
+          "bytes": 1024,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20190901_0_L2A",
+          "date": "2019-09-01",
+          "cloud_cover": 15.931,
+          "file": "20190901.jpg",
+          "bytes": 840,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20190830_0_L2A",
+          "date": "2019-08-30",
+          "cloud_cover": 10.802,
+          "file": "20190830.jpg",
+          "bytes": 947,
+          "clip": true
         }
       ],
-      "backfill_cursor": "2020-08-20",
-      "history_start": "2020-08-26",
+      "backfill_cursor": "2019-08-20",
+      "history_start": "2019-08-30",
       "caught_up": false,
       "clip_bounds": [
         [
@@ -1393,10 +1545,162 @@
           "file": "20200826.jpg",
           "bytes": 961,
           "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200814_0_L2A",
+          "date": "2020-08-14",
+          "cloud_cover": 11.707,
+          "file": "20200814.jpg",
+          "bytes": 1084,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200811_0_L2A",
+          "date": "2020-08-11",
+          "cloud_cover": 17.313,
+          "file": "20200811.jpg",
+          "bytes": 1078,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200809_0_L2A",
+          "date": "2020-08-09",
+          "cloud_cover": 1.228,
+          "file": "20200809.jpg",
+          "bytes": 1096,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200806_0_L2A",
+          "date": "2020-08-06",
+          "cloud_cover": 4.07,
+          "file": "20200806.jpg",
+          "bytes": 996,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200801_0_L2A",
+          "date": "2020-08-01",
+          "cloud_cover": 12.65,
+          "file": "20200801.jpg",
+          "bytes": 1094,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200730_0_L2A",
+          "date": "2020-07-30",
+          "cloud_cover": 0.944,
+          "file": "20200730.jpg",
+          "bytes": 1050,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200727_0_L2A",
+          "date": "2020-07-27",
+          "cloud_cover": 0.116,
+          "file": "20200727.jpg",
+          "bytes": 1079,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200725_0_L2A",
+          "date": "2020-07-25",
+          "cloud_cover": 19.862,
+          "file": "20200725.jpg",
+          "bytes": 890,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200722_0_L2A",
+          "date": "2020-07-22",
+          "cloud_cover": 17.29,
+          "file": "20200722.jpg",
+          "bytes": 946,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200720_0_L2A",
+          "date": "2020-07-20",
+          "cloud_cover": 13.749,
+          "file": "20200720.jpg",
+          "bytes": 939,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200715_0_L2A",
+          "date": "2020-07-15",
+          "cloud_cover": 11.019,
+          "file": "20200715.jpg",
+          "bytes": 1102,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200622_0_L2A",
+          "date": "2020-06-22",
+          "cloud_cover": 14.703,
+          "file": "20200622.jpg",
+          "bytes": 851,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200615_0_L2A",
+          "date": "2020-06-15",
+          "cloud_cover": 1.707,
+          "file": "20200615.jpg",
+          "bytes": 1076,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200528_0_L2A",
+          "date": "2020-05-28",
+          "cloud_cover": 5.245,
+          "file": "20200528.jpg",
+          "bytes": 1090,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20190926_0_L2A",
+          "date": "2019-09-26",
+          "cloud_cover": 3.351,
+          "file": "20190926.jpg",
+          "bytes": 1030,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20190921_0_L2A",
+          "date": "2019-09-21",
+          "cloud_cover": 12.956,
+          "file": "20190921.jpg",
+          "bytes": 923,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20190916_0_L2A",
+          "date": "2019-09-16",
+          "cloud_cover": 4.994,
+          "file": "20190916.jpg",
+          "bytes": 904,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20190901_0_L2A",
+          "date": "2019-09-01",
+          "cloud_cover": 15.931,
+          "file": "20190901.jpg",
+          "bytes": 859,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20190830_0_L2A",
+          "date": "2019-08-30",
+          "cloud_cover": 10.802,
+          "file": "20190830.jpg",
+          "bytes": 867,
+          "clip": true
         }
       ],
-      "backfill_cursor": "2020-08-20",
-      "history_start": "2020-08-26",
+      "backfill_cursor": "2019-08-20",
+      "history_start": "2019-08-30",
       "caught_up": false,
       "clip_bounds": [
         [
@@ -1926,10 +2230,162 @@
           "file": "20200826.jpg",
           "bytes": 871,
           "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200814_0_L2A",
+          "date": "2020-08-14",
+          "cloud_cover": 11.707,
+          "file": "20200814.jpg",
+          "bytes": 1099,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200811_0_L2A",
+          "date": "2020-08-11",
+          "cloud_cover": 17.313,
+          "file": "20200811.jpg",
+          "bytes": 1120,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200809_0_L2A",
+          "date": "2020-08-09",
+          "cloud_cover": 1.228,
+          "file": "20200809.jpg",
+          "bytes": 1143,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200806_0_L2A",
+          "date": "2020-08-06",
+          "cloud_cover": 4.07,
+          "file": "20200806.jpg",
+          "bytes": 938,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200801_0_L2A",
+          "date": "2020-08-01",
+          "cloud_cover": 12.65,
+          "file": "20200801.jpg",
+          "bytes": 1070,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200730_0_L2A",
+          "date": "2020-07-30",
+          "cloud_cover": 0.944,
+          "file": "20200730.jpg",
+          "bytes": 1084,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200727_0_L2A",
+          "date": "2020-07-27",
+          "cloud_cover": 0.116,
+          "file": "20200727.jpg",
+          "bytes": 1130,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200725_0_L2A",
+          "date": "2020-07-25",
+          "cloud_cover": 19.862,
+          "file": "20200725.jpg",
+          "bytes": 1126,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200722_0_L2A",
+          "date": "2020-07-22",
+          "cloud_cover": 17.29,
+          "file": "20200722.jpg",
+          "bytes": 1098,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200720_0_L2A",
+          "date": "2020-07-20",
+          "cloud_cover": 13.749,
+          "file": "20200720.jpg",
+          "bytes": 1154,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200715_0_L2A",
+          "date": "2020-07-15",
+          "cloud_cover": 11.019,
+          "file": "20200715.jpg",
+          "bytes": 1040,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200622_0_L2A",
+          "date": "2020-06-22",
+          "cloud_cover": 14.703,
+          "file": "20200622.jpg",
+          "bytes": 885,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200615_0_L2A",
+          "date": "2020-06-15",
+          "cloud_cover": 1.707,
+          "file": "20200615.jpg",
+          "bytes": 1135,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200528_0_L2A",
+          "date": "2020-05-28",
+          "cloud_cover": 5.245,
+          "file": "20200528.jpg",
+          "bytes": 1144,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20190926_0_L2A",
+          "date": "2019-09-26",
+          "cloud_cover": 3.351,
+          "file": "20190926.jpg",
+          "bytes": 1138,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20190921_0_L2A",
+          "date": "2019-09-21",
+          "cloud_cover": 12.956,
+          "file": "20190921.jpg",
+          "bytes": 913,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20190916_0_L2A",
+          "date": "2019-09-16",
+          "cloud_cover": 4.994,
+          "file": "20190916.jpg",
+          "bytes": 1098,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20190901_0_L2A",
+          "date": "2019-09-01",
+          "cloud_cover": 15.931,
+          "file": "20190901.jpg",
+          "bytes": 865,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20190830_0_L2A",
+          "date": "2019-08-30",
+          "cloud_cover": 10.802,
+          "file": "20190830.jpg",
+          "bytes": 940,
+          "clip": true
         }
       ],
-      "backfill_cursor": "2020-08-20",
-      "history_start": "2020-08-26",
+      "backfill_cursor": "2019-08-20",
+      "history_start": "2019-08-30",
       "caught_up": false,
       "clip_bounds": [
         [
@@ -2459,10 +2915,162 @@
           "file": "20200826.jpg",
           "bytes": 10815,
           "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200814_0_L2A",
+          "date": "2020-08-14",
+          "cloud_cover": 11.707,
+          "file": "20200814.jpg",
+          "bytes": 10146,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200811_0_L2A",
+          "date": "2020-08-11",
+          "cloud_cover": 17.313,
+          "file": "20200811.jpg",
+          "bytes": 12677,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200809_0_L2A",
+          "date": "2020-08-09",
+          "cloud_cover": 1.228,
+          "file": "20200809.jpg",
+          "bytes": 24743,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200806_0_L2A",
+          "date": "2020-08-06",
+          "cloud_cover": 4.07,
+          "file": "20200806.jpg",
+          "bytes": 24606,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200801_0_L2A",
+          "date": "2020-08-01",
+          "cloud_cover": 12.65,
+          "file": "20200801.jpg",
+          "bytes": 10914,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200730_0_L2A",
+          "date": "2020-07-30",
+          "cloud_cover": 0.944,
+          "file": "20200730.jpg",
+          "bytes": 24963,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200727_0_L2A",
+          "date": "2020-07-27",
+          "cloud_cover": 0.116,
+          "file": "20200727.jpg",
+          "bytes": 24848,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200725_0_L2A",
+          "date": "2020-07-25",
+          "cloud_cover": 19.862,
+          "file": "20200725.jpg",
+          "bytes": 11057,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200722_0_L2A",
+          "date": "2020-07-22",
+          "cloud_cover": 17.29,
+          "file": "20200722.jpg",
+          "bytes": 12843,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200720_0_L2A",
+          "date": "2020-07-20",
+          "cloud_cover": 13.749,
+          "file": "20200720.jpg",
+          "bytes": 8958,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200715_0_L2A",
+          "date": "2020-07-15",
+          "cloud_cover": 11.019,
+          "file": "20200715.jpg",
+          "bytes": 9806,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200622_0_L2A",
+          "date": "2020-06-22",
+          "cloud_cover": 14.703,
+          "file": "20200622.jpg",
+          "bytes": 8309,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200615_0_L2A",
+          "date": "2020-06-15",
+          "cloud_cover": 1.707,
+          "file": "20200615.jpg",
+          "bytes": 19235,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200528_0_L2A",
+          "date": "2020-05-28",
+          "cloud_cover": 5.245,
+          "file": "20200528.jpg",
+          "bytes": 24613,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20190926_0_L2A",
+          "date": "2019-09-26",
+          "cloud_cover": 3.351,
+          "file": "20190926.jpg",
+          "bytes": 19816,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20190921_0_L2A",
+          "date": "2019-09-21",
+          "cloud_cover": 12.956,
+          "file": "20190921.jpg",
+          "bytes": 10125,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20190916_0_L2A",
+          "date": "2019-09-16",
+          "cloud_cover": 4.994,
+          "file": "20190916.jpg",
+          "bytes": 15698,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20190901_0_L2A",
+          "date": "2019-09-01",
+          "cloud_cover": 15.931,
+          "file": "20190901.jpg",
+          "bytes": 12919,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20190830_0_L2A",
+          "date": "2019-08-30",
+          "cloud_cover": 10.802,
+          "file": "20190830.jpg",
+          "bytes": 16838,
+          "clip": true
         }
       ],
-      "backfill_cursor": "2020-08-20",
-      "history_start": "2020-08-26",
+      "backfill_cursor": "2019-08-20",
+      "history_start": "2019-08-30",
       "caught_up": false,
       "clip_bounds": [
         [
@@ -2888,10 +3496,122 @@
           "file": "20200826.jpg",
           "bytes": 1780,
           "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200816_1_L2A",
+          "date": "2020-08-16",
+          "cloud_cover": 16.02,
+          "file": "20200816.jpg",
+          "bytes": 2395,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20200811_0_L2A",
+          "date": "2020-08-11",
+          "cloud_cover": 14.857,
+          "file": "20200811.jpg",
+          "bytes": 1930,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200806_0_L2A",
+          "date": "2020-08-06",
+          "cloud_cover": 0.169,
+          "file": "20200806.jpg",
+          "bytes": 1833,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20200801_0_L2A",
+          "date": "2020-08-01",
+          "cloud_cover": 0.245,
+          "file": "20200801.jpg",
+          "bytes": 1656,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200727_1_L2A",
+          "date": "2020-07-27",
+          "cloud_cover": 0.003,
+          "file": "20200727.jpg",
+          "bytes": 2403,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200722_0_L2A",
+          "date": "2020-07-22",
+          "cloud_cover": 17.29,
+          "file": "20200722.jpg",
+          "bytes": 1451,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200717_0_L2A",
+          "date": "2020-07-17",
+          "cloud_cover": 3.375,
+          "file": "20200717.jpg",
+          "bytes": 2320,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200707_0_L2A",
+          "date": "2020-07-07",
+          "cloud_cover": 19.106,
+          "file": "20200707.jpg",
+          "bytes": 1301,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20200622_0_L2A",
+          "date": "2020-06-22",
+          "cloud_cover": 1.009,
+          "file": "20200622.jpg",
+          "bytes": 1870,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200528_0_L2A",
+          "date": "2020-05-28",
+          "cloud_cover": 5.245,
+          "file": "20200528.jpg",
+          "bytes": 2116,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20190926_0_L2A",
+          "date": "2019-09-26",
+          "cloud_cover": 3.351,
+          "file": "20190926.jpg",
+          "bytes": 2425,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20190921_0_L2A",
+          "date": "2019-09-21",
+          "cloud_cover": 12.956,
+          "file": "20190921.jpg",
+          "bytes": 2425,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20190916_0_L2A",
+          "date": "2019-09-16",
+          "cloud_cover": 4.994,
+          "file": "20190916.jpg",
+          "bytes": 1841,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20190901_0_L2A",
+          "date": "2019-09-01",
+          "cloud_cover": 14.562,
+          "file": "20190901.jpg",
+          "bytes": 2378,
+          "clip": true
         }
       ],
-      "backfill_cursor": "2020-08-20",
-      "history_start": "2020-08-26",
+      "backfill_cursor": "2019-08-20",
+      "history_start": "2019-09-01",
       "caught_up": false,
       "clip_bounds": [
         [
@@ -3221,10 +3941,98 @@
           "file": "20200826.jpg",
           "bytes": 891,
           "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200811_0_L2A",
+          "date": "2020-08-11",
+          "cloud_cover": 17.313,
+          "file": "20200811.jpg",
+          "bytes": 992,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200806_0_L2A",
+          "date": "2020-08-06",
+          "cloud_cover": 4.07,
+          "file": "20200806.jpg",
+          "bytes": 1054,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200801_0_L2A",
+          "date": "2020-08-01",
+          "cloud_cover": 12.65,
+          "file": "20200801.jpg",
+          "bytes": 968,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200727_0_L2A",
+          "date": "2020-07-27",
+          "cloud_cover": 0.116,
+          "file": "20200727.jpg",
+          "bytes": 1054,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200722_0_L2A",
+          "date": "2020-07-22",
+          "cloud_cover": 17.29,
+          "file": "20200722.jpg",
+          "bytes": 1045,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200622_0_L2A",
+          "date": "2020-06-22",
+          "cloud_cover": 14.703,
+          "file": "20200622.jpg",
+          "bytes": 937,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200528_0_L2A",
+          "date": "2020-05-28",
+          "cloud_cover": 5.245,
+          "file": "20200528.jpg",
+          "bytes": 1127,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20190926_0_L2A",
+          "date": "2019-09-26",
+          "cloud_cover": 3.351,
+          "file": "20190926.jpg",
+          "bytes": 1014,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20190921_0_L2A",
+          "date": "2019-09-21",
+          "cloud_cover": 12.956,
+          "file": "20190921.jpg",
+          "bytes": 867,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20190916_0_L2A",
+          "date": "2019-09-16",
+          "cloud_cover": 4.994,
+          "file": "20190916.jpg",
+          "bytes": 1025,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20190901_0_L2A",
+          "date": "2019-09-01",
+          "cloud_cover": 15.931,
+          "file": "20190901.jpg",
+          "bytes": 932,
+          "clip": true
         }
       ],
-      "backfill_cursor": "2020-08-20",
-      "history_start": "2020-08-26",
+      "backfill_cursor": "2019-08-20",
+      "history_start": "2019-09-01",
       "caught_up": false,
       "clip_bounds": [
         [
@@ -3778,10 +4586,114 @@
           "file": "20200809.jpg",
           "bytes": 1043,
           "clip": true
+        },
+        {
+          "id": "S2B_22MBA_20200804_0_L2A",
+          "date": "2020-08-04",
+          "cloud_cover": 7.353,
+          "file": "20200804.jpg",
+          "bytes": 1042,
+          "clip": true
+        },
+        {
+          "id": "S2A_21MZR_20200730_0_L2A",
+          "date": "2020-07-30",
+          "cloud_cover": 0.104,
+          "file": "20200730.jpg",
+          "bytes": 1046,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MBA_20200725_0_L2A",
+          "date": "2020-07-25",
+          "cloud_cover": 12.018,
+          "file": "20200725.jpg",
+          "bytes": 1037,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MBA_20200720_0_L2A",
+          "date": "2020-07-20",
+          "cloud_cover": 0.049,
+          "file": "20200720.jpg",
+          "bytes": 1044,
+          "clip": true
+        },
+        {
+          "id": "S2B_21MZR_20200715_0_L2A",
+          "date": "2020-07-15",
+          "cloud_cover": 3.511,
+          "file": "20200715.jpg",
+          "bytes": 1049,
+          "clip": true
+        },
+        {
+          "id": "S2A_21MZR_20200710_0_L2A",
+          "date": "2020-07-10",
+          "cloud_cover": 12.065,
+          "file": "20200710.jpg",
+          "bytes": 927,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MBA_20200705_0_L2A",
+          "date": "2020-07-05",
+          "cloud_cover": 7.654,
+          "file": "20200705.jpg",
+          "bytes": 1048,
+          "clip": true
+        },
+        {
+          "id": "S2A_21MZS_20200620_0_L2A",
+          "date": "2020-06-20",
+          "cloud_cover": 19.871,
+          "file": "20200620.jpg",
+          "bytes": 999,
+          "clip": true
+        },
+        {
+          "id": "S2B_21MZS_20200615_0_L2A",
+          "date": "2020-06-15",
+          "cloud_cover": 7.828,
+          "file": "20200615.jpg",
+          "bytes": 1056,
+          "clip": true
+        },
+        {
+          "id": "S2B_21MZS_20200317_0_L2A",
+          "date": "2020-03-17",
+          "cloud_cover": 17.635,
+          "file": "20200317.jpg",
+          "bytes": 874,
+          "clip": true
+        },
+        {
+          "id": "S2B_21MZR_20190909_0_L2A",
+          "date": "2019-09-09",
+          "cloud_cover": 1.012,
+          "file": "20190909.jpg",
+          "bytes": 1015,
+          "clip": true
+        },
+        {
+          "id": "S2B_21MZR_20190830_0_L2A",
+          "date": "2019-08-30",
+          "cloud_cover": 19.557,
+          "file": "20190830.jpg",
+          "bytes": 876,
+          "clip": true
+        },
+        {
+          "id": "S2B_21MZR_20190810_0_L2A",
+          "date": "2019-08-10",
+          "cloud_cover": 0.177,
+          "file": "20190810.jpg",
+          "bytes": 1027,
+          "clip": true
         }
       ],
-      "backfill_cursor": "2020-08-08",
-      "history_start": "2020-08-09",
+      "backfill_cursor": "2019-08-08",
+      "history_start": "2019-08-10",
       "caught_up": false,
       "clip_bounds": [
         [
@@ -4055,10 +4967,58 @@
           "file": "20200809.jpg",
           "bytes": 1070,
           "clip": true
+        },
+        {
+          "id": "S2B_22MBB_20200804_0_L2A",
+          "date": "2020-08-04",
+          "cloud_cover": 15.966,
+          "file": "20200804.jpg",
+          "bytes": 995,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MBB_20200730_0_L2A",
+          "date": "2020-07-30",
+          "cloud_cover": 0.153,
+          "file": "20200730.jpg",
+          "bytes": 1057,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MBB_20200720_0_L2A",
+          "date": "2020-07-20",
+          "cloud_cover": 12.606,
+          "file": "20200720.jpg",
+          "bytes": 1066,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MBB_20200715_0_L2A",
+          "date": "2020-07-15",
+          "cloud_cover": 17.549,
+          "file": "20200715.jpg",
+          "bytes": 923,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MBB_20200615_0_L2A",
+          "date": "2020-06-15",
+          "cloud_cover": 10.459,
+          "file": "20200615.jpg",
+          "bytes": 1084,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MBB_20190810_0_L2A",
+          "date": "2019-08-10",
+          "cloud_cover": 13.323,
+          "file": "20190810.jpg",
+          "bytes": 1092,
+          "clip": true
         }
       ],
-      "backfill_cursor": "2020-08-08",
-      "history_start": "2020-08-09",
+      "backfill_cursor": "2019-08-08",
+      "history_start": "2019-08-10",
       "caught_up": false,
       "clip_bounds": [
         [
@@ -4612,10 +5572,114 @@
           "file": "20200809.jpg",
           "bytes": 1346,
           "clip": true
+        },
+        {
+          "id": "S2B_22MBA_20200804_0_L2A",
+          "date": "2020-08-04",
+          "cloud_cover": 7.353,
+          "file": "20200804.jpg",
+          "bytes": 1342,
+          "clip": true
+        },
+        {
+          "id": "S2A_21MZR_20200730_0_L2A",
+          "date": "2020-07-30",
+          "cloud_cover": 0.104,
+          "file": "20200730.jpg",
+          "bytes": 1325,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MBA_20200725_0_L2A",
+          "date": "2020-07-25",
+          "cloud_cover": 12.018,
+          "file": "20200725.jpg",
+          "bytes": 1363,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MBA_20200720_0_L2A",
+          "date": "2020-07-20",
+          "cloud_cover": 0.049,
+          "file": "20200720.jpg",
+          "bytes": 1394,
+          "clip": true
+        },
+        {
+          "id": "S2B_21MZR_20200715_0_L2A",
+          "date": "2020-07-15",
+          "cloud_cover": 3.511,
+          "file": "20200715.jpg",
+          "bytes": 1350,
+          "clip": true
+        },
+        {
+          "id": "S2A_21MZR_20200710_0_L2A",
+          "date": "2020-07-10",
+          "cloud_cover": 12.065,
+          "file": "20200710.jpg",
+          "bytes": 1098,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MBA_20200705_0_L2A",
+          "date": "2020-07-05",
+          "cloud_cover": 7.654,
+          "file": "20200705.jpg",
+          "bytes": 1406,
+          "clip": true
+        },
+        {
+          "id": "S2A_21MZS_20200620_0_L2A",
+          "date": "2020-06-20",
+          "cloud_cover": 19.871,
+          "file": "20200620.jpg",
+          "bytes": 1443,
+          "clip": true
+        },
+        {
+          "id": "S2B_21MZS_20200615_0_L2A",
+          "date": "2020-06-15",
+          "cloud_cover": 7.828,
+          "file": "20200615.jpg",
+          "bytes": 1319,
+          "clip": true
+        },
+        {
+          "id": "S2B_21MZS_20200317_0_L2A",
+          "date": "2020-03-17",
+          "cloud_cover": 17.635,
+          "file": "20200317.jpg",
+          "bytes": 980,
+          "clip": true
+        },
+        {
+          "id": "S2B_21MZR_20190909_0_L2A",
+          "date": "2019-09-09",
+          "cloud_cover": 1.012,
+          "file": "20190909.jpg",
+          "bytes": 1314,
+          "clip": true
+        },
+        {
+          "id": "S2B_21MZR_20190830_0_L2A",
+          "date": "2019-08-30",
+          "cloud_cover": 19.557,
+          "file": "20190830.jpg",
+          "bytes": 1165,
+          "clip": true
+        },
+        {
+          "id": "S2B_21MZR_20190810_0_L2A",
+          "date": "2019-08-10",
+          "cloud_cover": 0.177,
+          "file": "20190810.jpg",
+          "bytes": 1415,
+          "clip": true
         }
       ],
-      "backfill_cursor": "2020-08-08",
-      "history_start": "2020-08-09",
+      "backfill_cursor": "2019-08-08",
+      "history_start": "2019-08-10",
       "caught_up": false,
       "clip_bounds": [
         [
@@ -4905,10 +5969,42 @@
           "file": "20200917.jpg",
           "bytes": 37038,
           "clip": true
+        },
+        {
+          "id": "S2A_24LVJ_20200729_0_L2A",
+          "date": "2020-07-29",
+          "cloud_cover": 15.885,
+          "file": "20200729.jpg",
+          "bytes": 15309,
+          "clip": true
+        },
+        {
+          "id": "S2B_24LVJ_20200525_0_L2A",
+          "date": "2020-05-25",
+          "cloud_cover": 14.468,
+          "file": "20200525.jpg",
+          "bytes": 15125,
+          "clip": true
+        },
+        {
+          "id": "S2B_24LVJ_20200515_0_L2A",
+          "date": "2020-05-15",
+          "cloud_cover": 14.469,
+          "file": "20200515.jpg",
+          "bytes": 16308,
+          "clip": true
+        },
+        {
+          "id": "S2B_24LVJ_20190829_0_L2A",
+          "date": "2019-08-29",
+          "cloud_cover": 18.899,
+          "file": "20190829.jpg",
+          "bytes": 16301,
+          "clip": true
         }
       ],
-      "backfill_cursor": "2020-08-17",
-      "history_start": "2020-09-17",
+      "backfill_cursor": "2019-08-17",
+      "history_start": "2019-08-29",
       "caught_up": false,
       "clip_bounds": [
         [
@@ -5094,10 +6190,18 @@
           "file": "20200917.jpg",
           "bytes": 1166,
           "clip": true
+        },
+        {
+          "id": "S2B_24LVK_20200525_0_L2A",
+          "date": "2020-05-25",
+          "cloud_cover": 11.997,
+          "file": "20200525.jpg",
+          "bytes": 1068,
+          "clip": true
         }
       ],
-      "backfill_cursor": "2020-08-17",
-      "history_start": "2020-09-17",
+      "backfill_cursor": "2019-08-17",
+      "history_start": "2020-05-25",
       "caught_up": false,
       "clip_bounds": [
         [
@@ -5283,10 +6387,18 @@
           "file": "20200917.jpg",
           "bytes": 1077,
           "clip": true
+        },
+        {
+          "id": "S2B_24LVK_20200525_0_L2A",
+          "date": "2020-05-25",
+          "cloud_cover": 11.997,
+          "file": "20200525.jpg",
+          "bytes": 967,
+          "clip": true
         }
       ],
-      "backfill_cursor": "2020-08-17",
-      "history_start": "2020-09-17",
+      "backfill_cursor": "2019-08-17",
+      "history_start": "2020-05-25",
       "caught_up": false,
       "clip_bounds": [
         [
@@ -5472,10 +6584,18 @@
           "file": "20200917.jpg",
           "bytes": 1685,
           "clip": true
+        },
+        {
+          "id": "S2B_24LVK_20200525_0_L2A",
+          "date": "2020-05-25",
+          "cloud_cover": 11.997,
+          "file": "20200525.jpg",
+          "bytes": 1400,
+          "clip": true
         }
       ],
-      "backfill_cursor": "2020-08-17",
-      "history_start": "2020-09-17",
+      "backfill_cursor": "2019-08-17",
+      "history_start": "2020-05-25",
       "caught_up": false,
       "clip_bounds": [
         [
@@ -5901,10 +7021,122 @@
           "file": "20200826.jpg",
           "bytes": 905,
           "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200816_1_L2A",
+          "date": "2020-08-16",
+          "cloud_cover": 16.02,
+          "file": "20200816.jpg",
+          "bytes": 1107,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20200811_0_L2A",
+          "date": "2020-08-11",
+          "cloud_cover": 14.857,
+          "file": "20200811.jpg",
+          "bytes": 995,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200806_0_L2A",
+          "date": "2020-08-06",
+          "cloud_cover": 0.169,
+          "file": "20200806.jpg",
+          "bytes": 1077,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20200801_0_L2A",
+          "date": "2020-08-01",
+          "cloud_cover": 0.245,
+          "file": "20200801.jpg",
+          "bytes": 1042,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200727_1_L2A",
+          "date": "2020-07-27",
+          "cloud_cover": 0.003,
+          "file": "20200727.jpg",
+          "bytes": 1096,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200722_0_L2A",
+          "date": "2020-07-22",
+          "cloud_cover": 17.29,
+          "file": "20200722.jpg",
+          "bytes": 870,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200717_0_L2A",
+          "date": "2020-07-17",
+          "cloud_cover": 3.375,
+          "file": "20200717.jpg",
+          "bytes": 1023,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200707_0_L2A",
+          "date": "2020-07-07",
+          "cloud_cover": 19.106,
+          "file": "20200707.jpg",
+          "bytes": 1091,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20200622_0_L2A",
+          "date": "2020-06-22",
+          "cloud_cover": 1.009,
+          "file": "20200622.jpg",
+          "bytes": 1108,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200528_0_L2A",
+          "date": "2020-05-28",
+          "cloud_cover": 5.245,
+          "file": "20200528.jpg",
+          "bytes": 1093,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20190926_0_L2A",
+          "date": "2019-09-26",
+          "cloud_cover": 3.351,
+          "file": "20190926.jpg",
+          "bytes": 1100,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20190921_0_L2A",
+          "date": "2019-09-21",
+          "cloud_cover": 12.956,
+          "file": "20190921.jpg",
+          "bytes": 1098,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20190916_0_L2A",
+          "date": "2019-09-16",
+          "cloud_cover": 4.994,
+          "file": "20190916.jpg",
+          "bytes": 943,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20190901_0_L2A",
+          "date": "2019-09-01",
+          "cloud_cover": 14.562,
+          "file": "20190901.jpg",
+          "bytes": 1068,
+          "clip": true
         }
       ],
-      "backfill_cursor": "2020-08-20",
-      "history_start": "2020-08-26",
+      "backfill_cursor": "2019-08-20",
+      "history_start": "2019-09-01",
       "caught_up": false,
       "clip_bounds": [
         [
@@ -6330,10 +7562,122 @@
           "file": "20200826.jpg",
           "bytes": 919,
           "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200816_1_L2A",
+          "date": "2020-08-16",
+          "cloud_cover": 16.02,
+          "file": "20200816.jpg",
+          "bytes": 1073,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20200811_0_L2A",
+          "date": "2020-08-11",
+          "cloud_cover": 14.857,
+          "file": "20200811.jpg",
+          "bytes": 952,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200806_0_L2A",
+          "date": "2020-08-06",
+          "cloud_cover": 0.169,
+          "file": "20200806.jpg",
+          "bytes": 1044,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20200801_0_L2A",
+          "date": "2020-08-01",
+          "cloud_cover": 0.245,
+          "file": "20200801.jpg",
+          "bytes": 994,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200727_1_L2A",
+          "date": "2020-07-27",
+          "cloud_cover": 0.003,
+          "file": "20200727.jpg",
+          "bytes": 1096,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200722_0_L2A",
+          "date": "2020-07-22",
+          "cloud_cover": 17.29,
+          "file": "20200722.jpg",
+          "bytes": 875,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200717_0_L2A",
+          "date": "2020-07-17",
+          "cloud_cover": 3.375,
+          "file": "20200717.jpg",
+          "bytes": 1091,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200707_0_L2A",
+          "date": "2020-07-07",
+          "cloud_cover": 19.106,
+          "file": "20200707.jpg",
+          "bytes": 969,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20200622_0_L2A",
+          "date": "2020-06-22",
+          "cloud_cover": 1.009,
+          "file": "20200622.jpg",
+          "bytes": 1090,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200528_0_L2A",
+          "date": "2020-05-28",
+          "cloud_cover": 5.245,
+          "file": "20200528.jpg",
+          "bytes": 1084,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20190926_0_L2A",
+          "date": "2019-09-26",
+          "cloud_cover": 3.351,
+          "file": "20190926.jpg",
+          "bytes": 1101,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20190921_0_L2A",
+          "date": "2019-09-21",
+          "cloud_cover": 12.956,
+          "file": "20190921.jpg",
+          "bytes": 1098,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20190916_0_L2A",
+          "date": "2019-09-16",
+          "cloud_cover": 4.994,
+          "file": "20190916.jpg",
+          "bytes": 972,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20190901_0_L2A",
+          "date": "2019-09-01",
+          "cloud_cover": 14.562,
+          "file": "20190901.jpg",
+          "bytes": 1087,
+          "clip": true
         }
       ],
-      "backfill_cursor": "2020-08-20",
-      "history_start": "2020-08-26",
+      "backfill_cursor": "2019-08-20",
+      "history_start": "2019-09-01",
       "caught_up": false,
       "clip_bounds": [
         [
@@ -6863,10 +8207,162 @@
           "file": "20200826.jpg",
           "bytes": 1034,
           "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200814_0_L2A",
+          "date": "2020-08-14",
+          "cloud_cover": 11.707,
+          "file": "20200814.jpg",
+          "bytes": 1064,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200811_0_L2A",
+          "date": "2020-08-11",
+          "cloud_cover": 17.313,
+          "file": "20200811.jpg",
+          "bytes": 937,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200809_0_L2A",
+          "date": "2020-08-09",
+          "cloud_cover": 1.228,
+          "file": "20200809.jpg",
+          "bytes": 1063,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200806_0_L2A",
+          "date": "2020-08-06",
+          "cloud_cover": 4.07,
+          "file": "20200806.jpg",
+          "bytes": 1050,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200801_0_L2A",
+          "date": "2020-08-01",
+          "cloud_cover": 12.65,
+          "file": "20200801.jpg",
+          "bytes": 956,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200730_0_L2A",
+          "date": "2020-07-30",
+          "cloud_cover": 0.944,
+          "file": "20200730.jpg",
+          "bytes": 1063,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200727_0_L2A",
+          "date": "2020-07-27",
+          "cloud_cover": 0.116,
+          "file": "20200727.jpg",
+          "bytes": 1055,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200725_0_L2A",
+          "date": "2020-07-25",
+          "cloud_cover": 19.862,
+          "file": "20200725.jpg",
+          "bytes": 1058,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200722_0_L2A",
+          "date": "2020-07-22",
+          "cloud_cover": 17.29,
+          "file": "20200722.jpg",
+          "bytes": 888,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200720_0_L2A",
+          "date": "2020-07-20",
+          "cloud_cover": 13.749,
+          "file": "20200720.jpg",
+          "bytes": 934,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200715_0_L2A",
+          "date": "2020-07-15",
+          "cloud_cover": 11.019,
+          "file": "20200715.jpg",
+          "bytes": 848,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200622_0_L2A",
+          "date": "2020-06-22",
+          "cloud_cover": 14.703,
+          "file": "20200622.jpg",
+          "bytes": 1019,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200615_0_L2A",
+          "date": "2020-06-15",
+          "cloud_cover": 1.707,
+          "file": "20200615.jpg",
+          "bytes": 1072,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200528_0_L2A",
+          "date": "2020-05-28",
+          "cloud_cover": 5.245,
+          "file": "20200528.jpg",
+          "bytes": 1011,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20190926_0_L2A",
+          "date": "2019-09-26",
+          "cloud_cover": 3.351,
+          "file": "20190926.jpg",
+          "bytes": 1038,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20190921_0_L2A",
+          "date": "2019-09-21",
+          "cloud_cover": 12.956,
+          "file": "20190921.jpg",
+          "bytes": 1028,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20190916_0_L2A",
+          "date": "2019-09-16",
+          "cloud_cover": 4.994,
+          "file": "20190916.jpg",
+          "bytes": 1015,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20190901_0_L2A",
+          "date": "2019-09-01",
+          "cloud_cover": 15.931,
+          "file": "20190901.jpg",
+          "bytes": 943,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20190830_0_L2A",
+          "date": "2019-08-30",
+          "cloud_cover": 10.802,
+          "file": "20190830.jpg",
+          "bytes": 1023,
+          "clip": true
         }
       ],
-      "backfill_cursor": "2020-08-20",
-      "history_start": "2020-08-26",
+      "backfill_cursor": "2019-08-20",
+      "history_start": "2019-08-30",
       "caught_up": false,
       "clip_bounds": [
         [
@@ -7396,10 +8892,162 @@
           "file": "20200826.jpg",
           "bytes": 1314,
           "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200814_0_L2A",
+          "date": "2020-08-14",
+          "cloud_cover": 11.707,
+          "file": "20200814.jpg",
+          "bytes": 1533,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200811_0_L2A",
+          "date": "2020-08-11",
+          "cloud_cover": 17.313,
+          "file": "20200811.jpg",
+          "bytes": 1130,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200809_0_L2A",
+          "date": "2020-08-09",
+          "cloud_cover": 1.228,
+          "file": "20200809.jpg",
+          "bytes": 1537,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200806_0_L2A",
+          "date": "2020-08-06",
+          "cloud_cover": 4.07,
+          "file": "20200806.jpg",
+          "bytes": 1500,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200801_0_L2A",
+          "date": "2020-08-01",
+          "cloud_cover": 12.65,
+          "file": "20200801.jpg",
+          "bytes": 1326,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200730_0_L2A",
+          "date": "2020-07-30",
+          "cloud_cover": 0.944,
+          "file": "20200730.jpg",
+          "bytes": 1569,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200727_0_L2A",
+          "date": "2020-07-27",
+          "cloud_cover": 0.116,
+          "file": "20200727.jpg",
+          "bytes": 1533,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200725_0_L2A",
+          "date": "2020-07-25",
+          "cloud_cover": 19.862,
+          "file": "20200725.jpg",
+          "bytes": 1530,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200722_0_L2A",
+          "date": "2020-07-22",
+          "cloud_cover": 17.29,
+          "file": "20200722.jpg",
+          "bytes": 1323,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200720_0_L2A",
+          "date": "2020-07-20",
+          "cloud_cover": 13.749,
+          "file": "20200720.jpg",
+          "bytes": 1400,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200715_0_L2A",
+          "date": "2020-07-15",
+          "cloud_cover": 11.019,
+          "file": "20200715.jpg",
+          "bytes": 1018,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200622_0_L2A",
+          "date": "2020-06-22",
+          "cloud_cover": 14.703,
+          "file": "20200622.jpg",
+          "bytes": 1171,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20200615_0_L2A",
+          "date": "2020-06-15",
+          "cloud_cover": 1.707,
+          "file": "20200615.jpg",
+          "bytes": 1508,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20200528_0_L2A",
+          "date": "2020-05-28",
+          "cloud_cover": 5.245,
+          "file": "20200528.jpg",
+          "bytes": 1570,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20190926_0_L2A",
+          "date": "2019-09-26",
+          "cloud_cover": 3.351,
+          "file": "20190926.jpg",
+          "bytes": 1480,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20190921_0_L2A",
+          "date": "2019-09-21",
+          "cloud_cover": 12.956,
+          "file": "20190921.jpg",
+          "bytes": 1469,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20190916_0_L2A",
+          "date": "2019-09-16",
+          "cloud_cover": 4.994,
+          "file": "20190916.jpg",
+          "bytes": 1422,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MCB_20190901_0_L2A",
+          "date": "2019-09-01",
+          "cloud_cover": 15.931,
+          "file": "20190901.jpg",
+          "bytes": 1055,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MCB_20190830_0_L2A",
+          "date": "2019-08-30",
+          "cloud_cover": 10.802,
+          "file": "20190830.jpg",
+          "bytes": 1513,
+          "clip": true
         }
       ],
-      "backfill_cursor": "2020-08-20",
-      "history_start": "2020-08-26",
+      "backfill_cursor": "2019-08-20",
+      "history_start": "2019-08-30",
       "caught_up": false,
       "clip_bounds": [
         [
@@ -7761,10 +9409,90 @@
           "file": "20200826.jpg",
           "bytes": 934,
           "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200816_1_L2A",
+          "date": "2020-08-16",
+          "cloud_cover": 16.02,
+          "file": "20200816.jpg",
+          "bytes": 1065,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20200811_0_L2A",
+          "date": "2020-08-11",
+          "cloud_cover": 14.857,
+          "file": "20200811.jpg",
+          "bytes": 1057,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200806_0_L2A",
+          "date": "2020-08-06",
+          "cloud_cover": 0.169,
+          "file": "20200806.jpg",
+          "bytes": 1041,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20200801_0_L2A",
+          "date": "2020-08-01",
+          "cloud_cover": 0.245,
+          "file": "20200801.jpg",
+          "bytes": 1037,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200727_1_L2A",
+          "date": "2020-07-27",
+          "cloud_cover": 0.003,
+          "file": "20200727.jpg",
+          "bytes": 1042,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200717_0_L2A",
+          "date": "2020-07-17",
+          "cloud_cover": 3.375,
+          "file": "20200717.jpg",
+          "bytes": 1053,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200707_0_L2A",
+          "date": "2020-07-07",
+          "cloud_cover": 19.106,
+          "file": "20200707.jpg",
+          "bytes": 950,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20200622_0_L2A",
+          "date": "2020-06-22",
+          "cloud_cover": 1.009,
+          "file": "20200622.jpg",
+          "bytes": 1023,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200528_0_L2A",
+          "date": "2020-05-28",
+          "cloud_cover": 11.378,
+          "file": "20200528.jpg",
+          "bytes": 1094,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20190901_0_L2A",
+          "date": "2019-09-01",
+          "cloud_cover": 14.562,
+          "file": "20190901.jpg",
+          "bytes": 873,
+          "clip": true
         }
       ],
-      "backfill_cursor": "2020-08-20",
-      "history_start": "2020-08-26",
+      "backfill_cursor": "2019-08-20",
+      "history_start": "2019-09-01",
       "caught_up": false,
       "clip_bounds": [
         [
@@ -8126,10 +9854,90 @@
           "file": "20200826.jpg",
           "bytes": 4356,
           "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200816_1_L2A",
+          "date": "2020-08-16",
+          "cloud_cover": 16.02,
+          "file": "20200816.jpg",
+          "bytes": 9142,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20200811_0_L2A",
+          "date": "2020-08-11",
+          "cloud_cover": 14.857,
+          "file": "20200811.jpg",
+          "bytes": 5866,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200806_0_L2A",
+          "date": "2020-08-06",
+          "cloud_cover": 0.169,
+          "file": "20200806.jpg",
+          "bytes": 9197,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20200801_0_L2A",
+          "date": "2020-08-01",
+          "cloud_cover": 0.245,
+          "file": "20200801.jpg",
+          "bytes": 9136,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200727_1_L2A",
+          "date": "2020-07-27",
+          "cloud_cover": 0.003,
+          "file": "20200727.jpg",
+          "bytes": 9208,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200717_0_L2A",
+          "date": "2020-07-17",
+          "cloud_cover": 3.375,
+          "file": "20200717.jpg",
+          "bytes": 5920,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200707_0_L2A",
+          "date": "2020-07-07",
+          "cloud_cover": 19.106,
+          "file": "20200707.jpg",
+          "bytes": 4695,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20200622_0_L2A",
+          "date": "2020-06-22",
+          "cloud_cover": 1.009,
+          "file": "20200622.jpg",
+          "bytes": 9260,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200528_0_L2A",
+          "date": "2020-05-28",
+          "cloud_cover": 11.378,
+          "file": "20200528.jpg",
+          "bytes": 3419,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20190901_0_L2A",
+          "date": "2019-09-01",
+          "cloud_cover": 14.562,
+          "file": "20190901.jpg",
+          "bytes": 4196,
+          "clip": true
         }
       ],
-      "backfill_cursor": "2020-08-20",
-      "history_start": "2020-08-26",
+      "backfill_cursor": "2019-08-20",
+      "history_start": "2019-09-01",
       "caught_up": false,
       "clip_bounds": [
         [
@@ -8491,10 +10299,90 @@
           "file": "20200826.jpg",
           "bytes": 1788,
           "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200816_1_L2A",
+          "date": "2020-08-16",
+          "cloud_cover": 16.02,
+          "file": "20200816.jpg",
+          "bytes": 1844,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20200811_0_L2A",
+          "date": "2020-08-11",
+          "cloud_cover": 14.857,
+          "file": "20200811.jpg",
+          "bytes": 1594,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200806_0_L2A",
+          "date": "2020-08-06",
+          "cloud_cover": 0.169,
+          "file": "20200806.jpg",
+          "bytes": 1850,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20200801_0_L2A",
+          "date": "2020-08-01",
+          "cloud_cover": 0.245,
+          "file": "20200801.jpg",
+          "bytes": 1865,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200727_1_L2A",
+          "date": "2020-07-27",
+          "cloud_cover": 0.003,
+          "file": "20200727.jpg",
+          "bytes": 1909,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200717_0_L2A",
+          "date": "2020-07-17",
+          "cloud_cover": 3.375,
+          "file": "20200717.jpg",
+          "bytes": 1548,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200707_0_L2A",
+          "date": "2020-07-07",
+          "cloud_cover": 19.106,
+          "file": "20200707.jpg",
+          "bytes": 1905,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20200622_0_L2A",
+          "date": "2020-06-22",
+          "cloud_cover": 1.009,
+          "file": "20200622.jpg",
+          "bytes": 1902,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200528_0_L2A",
+          "date": "2020-05-28",
+          "cloud_cover": 11.378,
+          "file": "20200528.jpg",
+          "bytes": 1307,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20190901_0_L2A",
+          "date": "2019-09-01",
+          "cloud_cover": 14.562,
+          "file": "20190901.jpg",
+          "bytes": 1349,
+          "clip": true
         }
       ],
-      "backfill_cursor": "2020-08-20",
-      "history_start": "2020-08-26",
+      "backfill_cursor": "2019-08-20",
+      "history_start": "2019-09-01",
       "caught_up": false,
       "clip_bounds": [
         [
@@ -8856,10 +10744,90 @@
           "file": "20200826.jpg",
           "bytes": 1074,
           "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200816_1_L2A",
+          "date": "2020-08-16",
+          "cloud_cover": 16.02,
+          "file": "20200816.jpg",
+          "bytes": 1048,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20200811_0_L2A",
+          "date": "2020-08-11",
+          "cloud_cover": 14.857,
+          "file": "20200811.jpg",
+          "bytes": 1009,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200806_0_L2A",
+          "date": "2020-08-06",
+          "cloud_cover": 0.169,
+          "file": "20200806.jpg",
+          "bytes": 1056,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20200801_0_L2A",
+          "date": "2020-08-01",
+          "cloud_cover": 0.245,
+          "file": "20200801.jpg",
+          "bytes": 1084,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200727_1_L2A",
+          "date": "2020-07-27",
+          "cloud_cover": 0.003,
+          "file": "20200727.jpg",
+          "bytes": 1094,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200717_0_L2A",
+          "date": "2020-07-17",
+          "cloud_cover": 3.375,
+          "file": "20200717.jpg",
+          "bytes": 933,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200707_0_L2A",
+          "date": "2020-07-07",
+          "cloud_cover": 19.106,
+          "file": "20200707.jpg",
+          "bytes": 1109,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20200622_0_L2A",
+          "date": "2020-06-22",
+          "cloud_cover": 1.009,
+          "file": "20200622.jpg",
+          "bytes": 1090,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20200528_0_L2A",
+          "date": "2020-05-28",
+          "cloud_cover": 11.378,
+          "file": "20200528.jpg",
+          "bytes": 954,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20190901_0_L2A",
+          "date": "2019-09-01",
+          "cloud_cover": 14.562,
+          "file": "20190901.jpg",
+          "bytes": 943,
+          "clip": true
         }
       ],
-      "backfill_cursor": "2020-08-20",
-      "history_start": "2020-08-26",
+      "backfill_cursor": "2019-08-20",
+      "history_start": "2019-09-01",
       "caught_up": false,
       "clip_bounds": [
         [
