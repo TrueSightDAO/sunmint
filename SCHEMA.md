@@ -102,7 +102,7 @@ Columns matched by the generator (exact-match, most specific first):
 
 | Column | geojson property | Type | Notes |
 |---|---|---|---|
-| Telegram Update ID / Tree ID | `tree_id` | string | e.g. `Edgar_20260821175134_005` |
+| Telegram Message ID (canonical) / Telegram Update ID / Tree ID | `tree_id` | string | canonical id = the `Edgar_*` Telegram **Message** id (col D); legacy Telegram-native rows (numeric ids) fall back to col A. The two columns differ by ±1 on Edgar-direct rows, so the index MUST key on col D — see `OPEN_FOLLOWUPS.md` "tree_id off-by-one" (thread 35189). e.g. `Edgar_20260903083523_003` |
 | Specie / Species | `species` | string | e.g. `Bougainvillea` |
 | Latitude | — | number | point geometry y |
 | Longitude | — | number | point geometry x |
