@@ -78,12 +78,35 @@ def cell(row, i):
     return v or None
 
 
+def pick_tree_id(update_id, message_id):
+    """Return the canonical tree id for a sheet row.
+
+    The sheet carries TWO id columns: A "Telegram Update ID" and D "Telegram
+    Message ID". For Edgar-direct submissions they differ by one (A = D + 1)
+    because each submission writes two ledger rows -- the original and its
+    echo. The CANONICAL id -- what Edgar, the [TREE PLANTING EVENT], the
+    certificate's ledger_ref and the signed public attestation all key on --
+    is the Telegram MESSAGE id (col D), so prefer the Edgar_*-shaped value
+    from col D. Legacy Telegram-native rows carry numeric ids in BOTH columns
+    (neither Edgar_*); there col A remains the id of record, so fall back to
+    it. See OPEN_FOLLOWUPS.md "tree_id off-by-one" (thread 35189).
+    """
+    d = (message_id or "").strip()
+    a = (update_id or "").strip()
+    if d.startswith("Edgar_"):
+        return d
+    if a.startswith("Edgar_"):
+        return a
+    return a or d or None
+
+
 def load_trees(ws):
     rows = ws.get_all_values()
     if not rows:
         return []
     header = rows[0]
     c_id = idx(header, "telegram update id", "tree id")
+    c_msg = idx(header, "telegram message id")
     c_species = idx(header, "specie", "species")
     c_lat = idx(header, "latitude")
     c_lng = idx(header, "longitude")
@@ -98,7 +121,7 @@ def load_trees(ws):
     for row in rows[1:]:
         if not any((v or "").strip() for v in row):
             continue
-        tid = cell(row, c_id)
+        tid = pick_tree_id(cell(row, c_id), cell(row, c_msg))
         if not tid:
             continue
         # Skip test / E2E rows
