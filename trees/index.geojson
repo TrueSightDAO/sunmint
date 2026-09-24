@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-17T10:44:55.969638Z",
+  "generated_at": "2026-09-24T17:11:29.458975Z",
   "features": [
     {
       "type": "Feature",
@@ -12,7 +12,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260821175134_005",
+        "tree_id": "Edgar_20260821175134_006",
         "species": "Bougainvillea",
         "last_measured": "2026-08-21T17:51:31.626Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260822_130000_FOUNDERHAUS_GROUP.jpg",
@@ -30,7 +30,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260903083411_002",
+        "tree_id": "Edgar_20260903083411_001",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-02T18:42:13-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree01.jpg",
@@ -47,11 +47,12 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260903083523_004",
+        "tree_id": "Edgar_20260903083523_003",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-02T18:47:03-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree02.jpg",
-        "status": "NEW"
+        "status": "LINKED",
+        "qr_code": "2024OSCAR_CB_20260620_1"
       }
     },
     {
@@ -64,7 +65,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260903083528_006",
+        "tree_id": "Edgar_20260903083528_005",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-02T18:52:14-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree03.jpg",
@@ -81,7 +82,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260903083532_008",
+        "tree_id": "Edgar_20260903083532_007",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-02T18:57:04-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree04.jpg",
@@ -98,7 +99,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260903083536_010",
+        "tree_id": "Edgar_20260903083536_009",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-02T19:02:37-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree05.jpg",
@@ -115,7 +116,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260903083540_012",
+        "tree_id": "Edgar_20260903083540_011",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-02T19:09:55-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree06.jpg",
@@ -132,7 +133,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260903083544_014",
+        "tree_id": "Edgar_20260903083544_013",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-02T19:16:07-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree07.jpg",
@@ -149,7 +150,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260903083548_016",
+        "tree_id": "Edgar_20260903083548_015",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-02T19:21:10-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree08.jpg",
@@ -166,7 +167,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260903083551_018",
+        "tree_id": "Edgar_20260903083551_017",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-02T19:26:23-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree09.jpg",
@@ -183,7 +184,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260903083555_020",
+        "tree_id": "Edgar_20260903083555_019",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-02T19:31:12-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree10.jpg",
@@ -200,7 +201,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908005833_046",
+        "tree_id": "Edgar_20260908005833_045",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T14:34:11-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908005833_046.jpg",
@@ -217,7 +218,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908005838_048",
+        "tree_id": "Edgar_20260908005838_047",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T14:46:17-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908005838_048.jpg",
@@ -234,7 +235,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908005843_050",
+        "tree_id": "Edgar_20260908005843_049",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T15:28:51-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908005843_050.jpg",
@@ -251,7 +252,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908010203_054",
+        "tree_id": "Edgar_20260908010203_053",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010203_054.jpg",
@@ -268,7 +269,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908010207_056",
+        "tree_id": "Edgar_20260908010207_055",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010207_056.jpg",
@@ -285,7 +286,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908010213_058",
+        "tree_id": "Edgar_20260908010213_057",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010213_058.jpg",
@@ -302,7 +303,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908010220_060",
+        "tree_id": "Edgar_20260908010220_059",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010220_060.jpg",
@@ -319,7 +320,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908010224_062",
+        "tree_id": "Edgar_20260908010224_061",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010224_062.jpg",
@@ -336,7 +337,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908010229_064",
+        "tree_id": "Edgar_20260908010229_063",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010229_064.jpg",
@@ -353,7 +354,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908010234_066",
+        "tree_id": "Edgar_20260908010234_065",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010234_066.jpg",
@@ -370,7 +371,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908010239_068",
+        "tree_id": "Edgar_20260908010239_067",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010239_068.jpg",
@@ -387,7 +388,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908010243_070",
+        "tree_id": "Edgar_20260908010243_069",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010243_070.jpg",
@@ -404,7 +405,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908010248_072",
+        "tree_id": "Edgar_20260908010248_071",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010248_072.jpg",
@@ -421,7 +422,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908010253_074",
+        "tree_id": "Edgar_20260908010253_073",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010253_074.jpg",
@@ -438,7 +439,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908010257_076",
+        "tree_id": "Edgar_20260908010257_075",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010257_076.jpg",
@@ -455,7 +456,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908010301_078",
+        "tree_id": "Edgar_20260908010301_077",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010301_078.jpg",
@@ -472,7 +473,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908010309_082",
+        "tree_id": "Edgar_20260908010309_081",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010309_082.jpg",
@@ -489,7 +490,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908010317_086",
+        "tree_id": "Edgar_20260908010317_085",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010317_086.jpg",
@@ -506,7 +507,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908010326_090",
+        "tree_id": "Edgar_20260908010326_089",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010326_090.jpg",
@@ -523,7 +524,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908010336_094",
+        "tree_id": "Edgar_20260908010336_093",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010336_094.jpg",
@@ -540,7 +541,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908010345_098",
+        "tree_id": "Edgar_20260908010345_097",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010345_098.jpg",
@@ -557,7 +558,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908010354_102",
+        "tree_id": "Edgar_20260908010354_101",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010354_102.jpg",
@@ -574,7 +575,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908010404_106",
+        "tree_id": "Edgar_20260908010404_105",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010404_106.jpg",
@@ -591,7 +592,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908010412_110",
+        "tree_id": "Edgar_20260908010412_109",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010412_110.jpg",
@@ -608,7 +609,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908010936_122",
+        "tree_id": "Edgar_20260908010936_121",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010936_122.jpg",
@@ -625,7 +626,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908010940_124",
+        "tree_id": "Edgar_20260908010940_123",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010940_124.jpg",
@@ -642,7 +643,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908010945_126",
+        "tree_id": "Edgar_20260908010945_125",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010945_126.jpg",
@@ -659,7 +660,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908010949_128",
+        "tree_id": "Edgar_20260908010949_127",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010949_128.jpg",
@@ -676,7 +677,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908010954_130",
+        "tree_id": "Edgar_20260908010954_129",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010954_130.jpg",
@@ -693,7 +694,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908010958_132",
+        "tree_id": "Edgar_20260908010958_131",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010958_132.jpg",
@@ -710,7 +711,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011004_134",
+        "tree_id": "Edgar_20260908011004_133",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011004_134.jpg",
@@ -727,7 +728,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011008_136",
+        "tree_id": "Edgar_20260908011008_135",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011008_136.jpg",
@@ -744,7 +745,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011017_138",
+        "tree_id": "Edgar_20260908011017_137",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011017_138.jpg",
@@ -761,7 +762,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011024_140",
+        "tree_id": "Edgar_20260908011024_139",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011024_140.jpg",
@@ -778,7 +779,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011029_142",
+        "tree_id": "Edgar_20260908011029_141",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011029_142.jpg",
@@ -795,7 +796,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011034_144",
+        "tree_id": "Edgar_20260908011034_143",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011034_144.jpg",
@@ -812,7 +813,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011038_146",
+        "tree_id": "Edgar_20260908011038_145",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011038_146.jpg",
@@ -829,7 +830,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011043_148",
+        "tree_id": "Edgar_20260908011043_147",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011043_148.jpg",
@@ -846,7 +847,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011048_150",
+        "tree_id": "Edgar_20260908011048_149",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011048_150.jpg",
@@ -863,7 +864,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011052_152",
+        "tree_id": "Edgar_20260908011052_151",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011052_152.jpg",
@@ -880,7 +881,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011057_154",
+        "tree_id": "Edgar_20260908011057_153",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011057_154.jpg",
@@ -897,7 +898,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011102_156",
+        "tree_id": "Edgar_20260908011102_155",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011102_156.jpg",
@@ -914,7 +915,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011106_158",
+        "tree_id": "Edgar_20260908011106_157",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011106_158.jpg",
@@ -931,7 +932,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011112_160",
+        "tree_id": "Edgar_20260908011112_159",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011112_160.jpg",
@@ -948,7 +949,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011118_162",
+        "tree_id": "Edgar_20260908011118_161",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011118_162.jpg",
@@ -965,7 +966,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011123_164",
+        "tree_id": "Edgar_20260908011123_163",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011123_164.jpg",
@@ -982,7 +983,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011128_166",
+        "tree_id": "Edgar_20260908011128_165",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011128_166.jpg",
@@ -999,7 +1000,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011133_168",
+        "tree_id": "Edgar_20260908011133_167",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011133_168.jpg",
@@ -1016,7 +1017,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011138_170",
+        "tree_id": "Edgar_20260908011138_169",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011138_170.jpg",
@@ -1033,7 +1034,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011143_172",
+        "tree_id": "Edgar_20260908011143_171",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011143_172.jpg",
@@ -1050,7 +1051,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011147_174",
+        "tree_id": "Edgar_20260908011147_173",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011147_174.jpg",
@@ -1067,7 +1068,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011152_176",
+        "tree_id": "Edgar_20260908011152_175",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011152_176.jpg",
@@ -1084,7 +1085,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011156_178",
+        "tree_id": "Edgar_20260908011156_177",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011156_178.jpg",
@@ -1101,7 +1102,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011201_180",
+        "tree_id": "Edgar_20260908011201_179",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011201_180.jpg",
@@ -1118,7 +1119,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011206_182",
+        "tree_id": "Edgar_20260908011206_181",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011206_182.jpg",
@@ -1135,7 +1136,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011211_184",
+        "tree_id": "Edgar_20260908011211_183",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011211_184.jpg",
@@ -1152,7 +1153,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011216_186",
+        "tree_id": "Edgar_20260908011216_185",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011216_186.jpg",
@@ -1169,7 +1170,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011221_188",
+        "tree_id": "Edgar_20260908011221_187",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011221_188.jpg",
@@ -1186,7 +1187,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011226_190",
+        "tree_id": "Edgar_20260908011226_189",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011226_190.jpg",
@@ -1203,7 +1204,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011230_192",
+        "tree_id": "Edgar_20260908011230_191",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011230_192.jpg",
@@ -1220,7 +1221,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011234_194",
+        "tree_id": "Edgar_20260908011234_193",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011234_194.jpg",
@@ -1237,7 +1238,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011238_196",
+        "tree_id": "Edgar_20260908011238_195",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011238_196.jpg",
@@ -1254,7 +1255,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011242_198",
+        "tree_id": "Edgar_20260908011242_197",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011242_198.jpg",
@@ -1271,7 +1272,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011247_200",
+        "tree_id": "Edgar_20260908011247_199",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011247_200.jpg",
@@ -1288,7 +1289,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011251_202",
+        "tree_id": "Edgar_20260908011251_201",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011251_202.jpg",
@@ -1305,7 +1306,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011255_204",
+        "tree_id": "Edgar_20260908011255_203",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011255_204.jpg",
@@ -1322,7 +1323,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011300_206",
+        "tree_id": "Edgar_20260908011300_205",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011300_206.jpg",
@@ -1339,7 +1340,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011304_208",
+        "tree_id": "Edgar_20260908011304_207",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011304_208.jpg",
@@ -1356,7 +1357,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011309_210",
+        "tree_id": "Edgar_20260908011309_209",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011309_210.jpg",
@@ -1373,7 +1374,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011314_212",
+        "tree_id": "Edgar_20260908011314_211",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011314_212.jpg",
@@ -1390,7 +1391,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011318_214",
+        "tree_id": "Edgar_20260908011318_213",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011318_214.jpg",
@@ -1407,7 +1408,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011322_216",
+        "tree_id": "Edgar_20260908011322_215",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011322_216.jpg",
@@ -1424,7 +1425,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011326_218",
+        "tree_id": "Edgar_20260908011326_217",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011326_218.jpg",
@@ -1441,7 +1442,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011330_220",
+        "tree_id": "Edgar_20260908011330_219",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011330_220.jpg",
@@ -1458,7 +1459,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011335_222",
+        "tree_id": "Edgar_20260908011335_221",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011335_222.jpg",
@@ -1475,7 +1476,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011342_224",
+        "tree_id": "Edgar_20260908011342_223",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011342_224.jpg",
@@ -1492,7 +1493,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011346_226",
+        "tree_id": "Edgar_20260908011346_225",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011346_226.jpg",
@@ -1509,7 +1510,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011350_228",
+        "tree_id": "Edgar_20260908011350_227",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011350_228.jpg",
@@ -1526,7 +1527,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011355_230",
+        "tree_id": "Edgar_20260908011355_229",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011355_230.jpg",
@@ -1543,7 +1544,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011359_232",
+        "tree_id": "Edgar_20260908011359_231",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011359_232.jpg",
@@ -1560,7 +1561,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011404_234",
+        "tree_id": "Edgar_20260908011404_233",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011404_234.jpg",
@@ -1577,7 +1578,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011408_236",
+        "tree_id": "Edgar_20260908011408_235",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011408_236.jpg",
@@ -1594,7 +1595,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011412_238",
+        "tree_id": "Edgar_20260908011412_237",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011412_238.jpg",
@@ -1611,7 +1612,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011416_240",
+        "tree_id": "Edgar_20260908011416_239",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011416_240.jpg",
@@ -1628,7 +1629,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011420_242",
+        "tree_id": "Edgar_20260908011420_241",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011420_242.jpg",
@@ -1645,7 +1646,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011424_244",
+        "tree_id": "Edgar_20260908011424_243",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011424_244.jpg",
@@ -1662,7 +1663,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011432_246",
+        "tree_id": "Edgar_20260908011432_245",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011432_246.jpg",
@@ -1679,7 +1680,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908011436_248",
+        "tree_id": "Edgar_20260908011436_247",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011436_248.jpg",
@@ -1696,7 +1697,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260908192852_260",
+        "tree_id": "Edgar_20260908192852_259",
         "species": "Cacau",
         "last_measured": "2026-09-08 15:09:19",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908_cleide_marcelo_cacao_tree01.jpg",
@@ -1713,7 +1714,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260910171200_354",
+        "tree_id": "Edgar_20260910171200_353",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-09T12:03:48-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/96d595b2bb9340878daa041e53dc7051.jpg",
@@ -1730,7 +1731,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260910213054_374",
+        "tree_id": "Edgar_20260910213054_373",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-09T10:38:33-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909103833_5b9d50a4.jpg",
@@ -1748,7 +1749,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260910213111_376",
+        "tree_id": "Edgar_20260910213111_375",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-09T10:42:43-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909104243_625c775c.jpg",
@@ -1766,7 +1767,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260910213115_378",
+        "tree_id": "Edgar_20260910213115_377",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-09T11:04:14-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909110414_376f7da7.jpg",
@@ -1784,7 +1785,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260910213119_380",
+        "tree_id": "Edgar_20260910213119_379",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-09T10:50:34-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909105034_87eb2018.jpg",
@@ -1802,7 +1803,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260910213122_382",
+        "tree_id": "Edgar_20260910213122_381",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-09T11:20:36-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909112036_e4b1c2cf.jpg",
@@ -1820,7 +1821,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260910213126_384",
+        "tree_id": "Edgar_20260910213126_383",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-09T11:54:50-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909115450_55a98845.jpg",
@@ -1838,7 +1839,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260910213130_386",
+        "tree_id": "Edgar_20260910213130_385",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-09T11:57:20-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909115720_d1899316.jpg",
@@ -1856,7 +1857,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260910213133_388",
+        "tree_id": "Edgar_20260910213133_387",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-09T11:57:37-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909115737_f03e90a3.jpg",
@@ -1874,7 +1875,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260910213137_390",
+        "tree_id": "Edgar_20260910213137_389",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-09T11:59:10-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909115910_2bcb7ee0.jpg",
@@ -1892,7 +1893,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260910213141_392",
+        "tree_id": "Edgar_20260910213141_391",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-09T11:59:19-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909115919_d1e3669d.jpg",
@@ -1910,7 +1911,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260910213145_394",
+        "tree_id": "Edgar_20260910213145_393",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-09T12:01:05-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909120105_3bbb7750.jpg",
@@ -1928,7 +1929,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260910213148_396",
+        "tree_id": "Edgar_20260910213148_395",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-09T12:02:09-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909120209_4b62dd3a.jpg",
@@ -1946,7 +1947,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260910213152_398",
+        "tree_id": "Edgar_20260910213152_397",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-09T12:02:56-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909120256_0297dd5c.jpg",
@@ -1964,7 +1965,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260910213155_400",
+        "tree_id": "Edgar_20260910213155_399",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-09T12:03:30-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909120330_590ed044.jpg",
@@ -1982,7 +1983,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260910213159_402",
+        "tree_id": "Edgar_20260910213159_401",
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-09T12:03:43-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909120343_9984b3cb.jpg",
@@ -2000,7 +2001,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260910213204_404",
+        "tree_id": "Edgar_20260910213204_403",
         "species": "Cumaru",
         "last_measured": "2026-09-09T12:42:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909124200_ca3a9775.jpg",
@@ -2018,7 +2019,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260910213208_406",
+        "tree_id": "Edgar_20260910213208_405",
         "species": "Cumaru",
         "last_measured": "2026-09-09T12:44:55-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909124455_25affbf4.jpg",
@@ -2036,7 +2037,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260910213212_408",
+        "tree_id": "Edgar_20260910213212_407",
         "species": "Cumaru",
         "last_measured": "2026-09-09T12:45:30-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909124530_f829f2c6.jpg",
@@ -2054,7 +2055,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260910213216_410",
+        "tree_id": "Edgar_20260910213216_409",
         "species": "Cumaru",
         "last_measured": "2026-09-09T12:46:14-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909124614_8a47d86c.jpg",
@@ -2072,7 +2073,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260910213220_412",
+        "tree_id": "Edgar_20260910213220_411",
         "species": "Cumaru",
         "last_measured": "2026-09-09T12:46:53-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909124653_4e018749.jpg",
@@ -2090,7 +2091,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260910213224_414",
+        "tree_id": "Edgar_20260910213224_413",
         "species": "Cumaru",
         "last_measured": "2026-09-09T12:48:13-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909124813_3b7e3bcf.jpg",
@@ -2108,7 +2109,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260910213228_416",
+        "tree_id": "Edgar_20260910213228_415",
         "species": "Cumaru",
         "last_measured": "2026-09-09T12:48:43-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909124843_a568ee06.jpg",
@@ -2126,7 +2127,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260910213232_418",
+        "tree_id": "Edgar_20260910213232_417",
         "species": "Cumaru",
         "last_measured": "2026-09-09T12:54:36-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909125436_3ab14b18.jpg",
@@ -2144,7 +2145,7 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260910213235_420",
+        "tree_id": "Edgar_20260910213235_419",
         "species": "Cumaru",
         "last_measured": "2026-09-09T12:57:36-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909125736_82967a1e.jpg",
@@ -2162,12 +2163,430 @@
         ]
       },
       "properties": {
-        "tree_id": "Edgar_20260910213239_422",
+        "tree_id": "Edgar_20260910213239_421",
         "species": "Cumaru",
         "last_measured": "2026-09-09T13:21:37-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909132137_89a2eed9.jpg",
         "status": "NEW",
         "plot_id": "N-06-66"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.5749711,
+          -3.5229198
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260924003104_023",
+        "species": "Cacao - Criolla",
+        "last_measured": "2026-09-24T00:31:02.776Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260923213102_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "tree_id": "Edgar_20260924115448_047",
+        "species": "Cacao - Forestero",
+        "last_measured": "2026-09-24T11:54:37.778Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924085437_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "tree_id": "Edgar_20260924115503_049",
+        "species": "Cacao - Forestero",
+        "last_measured": "2026-09-24T11:54:37.778Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924085437_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "tree_id": "Edgar_20260924115509_051",
+        "species": "Cacao - Forestero",
+        "last_measured": "2026-09-24T11:54:37.778Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924085437_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "tree_id": "Edgar_20260924115515_053",
+        "species": "Cacao - Forestero",
+        "last_measured": "2026-09-24T11:54:37.778Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924085437_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.5744182,
+          -3.513513514
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260924122114_057",
+        "species": "Sumaúma",
+        "last_measured": "2026-09-24T12:20:58.945Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924092058_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.5744182,
+          -3.513513514
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260924122120_059",
+        "species": "Sumaúma",
+        "last_measured": "2026-09-24T12:20:58.945Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924092058_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.5744182,
+          -3.513513514
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260924122125_061",
+        "species": "Sumaúma",
+        "last_measured": "2026-09-24T12:20:58.945Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924092058_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.5744182,
+          -3.513513514
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260924122129_063",
+        "species": "Sumaúma",
+        "last_measured": "2026-09-24T12:20:58.945Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924092058_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.574971,
+          -3.522919
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260924124101_069",
+        "species": "Cacao - Criolla",
+        "last_measured": "2026-09-24T12:40:57.860Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924094057_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.5749729,
+          -3.5229204
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260924125541_071",
+        "species": "Cacao - Criolla",
+        "last_measured": "2026-09-24T12:55:37.725Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924095537_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.5749705,
+          -3.5229189
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260924132202_089",
+        "species": "Cacao - Criolla",
+        "last_measured": "2026-09-24T13:21:58.395Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102158_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.5749705,
+          -3.5229189
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260924132231_091",
+        "species": "Cacao - Criolla",
+        "last_measured": "2026-09-24T13:22:25.134Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102225_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.5749705,
+          -3.5229189
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260924132244_093",
+        "species": "Cacao - Criolla",
+        "last_measured": "2026-09-24T13:22:37.962Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102237_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.5749705,
+          -3.5229189
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260924132306_095",
+        "species": "Cacao - Criolla",
+        "last_measured": "2026-09-24T13:23:00.459Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102300_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.5749705,
+          -3.5229189
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260924132318_097",
+        "species": "Cacao - Criolla",
+        "last_measured": "2026-09-24T13:23:12.484Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102312_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.5749705,
+          -3.5229189
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260924132334_099",
+        "species": "Cacao - Criolla",
+        "last_measured": "2026-09-24T13:23:30.111Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102330_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.5749705,
+          -3.5229189
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260924132409_101",
+        "species": "Cacao - Forestero",
+        "last_measured": "2026-09-24T13:24:01.854Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102401_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.5749705,
+          -3.5229189
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260924132440_103",
+        "species": "Cacao - Forestero",
+        "last_measured": "2026-09-24T13:24:38.440Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102438_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.5749705,
+          -3.5229189
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260924132457_105",
+        "species": "Cacao - Criolla",
+        "last_measured": "2026-09-24T13:24:54.734Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102454_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.5749705,
+          -3.5229189
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260924132618_107",
+        "species": "Cacao - Forestero",
+        "last_measured": "2026-09-24T13:26:15.891Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102615_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.5749705,
+          -3.5229189
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260924132701_109",
+        "species": "Cacao - Forestero",
+        "last_measured": "2026-09-24T13:26:58.974Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102658_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.5749705,
+          -3.5229189
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260924132734_111",
+        "species": "Cacao - Forestero",
+        "last_measured": "2026-09-24T13:27:31.877Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102731_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.5749705,
+          -3.5229189
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260924132801_113",
+        "species": "Cacao - Forestero",
+        "last_measured": "2026-09-24T13:27:58.947Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102758_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.5749705,
+          -3.5229189
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260924132821_115",
+        "species": "Cacao - Forestero",
+        "last_measured": "2026-09-24T13:28:18.631Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102818_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.5749705,
+          -3.5229189
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20260924132850_117",
+        "species": "Cacao - Forestero",
+        "last_measured": "2026-09-24T13:28:47.742Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102847_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW"
       }
     }
   ]
