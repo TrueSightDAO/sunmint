@@ -3,10 +3,13 @@
 Mirrors scripts/build_tree_geojson.py. Reads the "SunMint Plots" tab of the
 SunMint ledger spreadsheet and regenerates plots/index.geojson.
 
-SAFETY: if the tab does not exist or has no rows, PRESERVE the existing
-plots/index.geojson (the curated seed: RM-P1, RM-P2, ...) instead of clobbering
-it with an empty FeatureCollection -- an empty file would blank the impact-map
-polygons that already render.
+SAFETY: if the tab cannot be read (auth / permission / network), the generator
+FAILS LOUDLY (non-zero exit) and leaves plots/index.geojson UNTOUCHED. It never
+clobbers the curated seed (RM-P1, RM-P2, ...) with an empty FeatureCollection, and
+it never reports success for a read it could not perform. The old silent-green
+"preserve the existing registry / exit 0" branch hid the 2026-09-17 -> 09-24 SunMint
+index freeze for 7 days on a public data surface (see OPEN_FOLLOWUPS.md -> SunMint
+index freeze).
 
 Usage:
   python3 scripts/build_plots_geojson.py [--out plots/index.geojson]
@@ -103,6 +106,24 @@ def cell(row, i):
     return v or None
 
 
+def sheet_read_failure(tab, reason):
+    """Loud-failure message for a sheet we could not read.
+
+    Silent-green ban (2026-09-24): a generator that cannot read its source must
+    FAIL and force a non-zero exit. The old swallow-and-preserve branch rewrote
+    the previous file, committed nothing and exited 0 -- which is exactly what hid
+    the 2026-09-17 -> 09-24 SunMint index freeze for 7 days on a public surface.
+    """
+    cred = os.environ.get("GOOGLE_SERVICE_ACCOUNT_JSON")
+    hint = (
+        "" if cred else " [GOOGLE_SERVICE_ACCOUNT_JSON is unset -- set the CI secret]"
+    )
+    return (
+        f"ERROR: could not read '{tab}' tab: {reason}{hint} -- refusing to silently "
+        "preserve the existing registry (see OPEN_FOLLOWUPS.md -> SunMint index freeze)"
+    )
+
+
 def to_float(v):
     try:
         return float(v.replace(",", ".")) if v else None
@@ -145,7 +166,9 @@ def parse_coordinates(raw, lat, lng, hectares):
 def load_plots(ws):
     rows = ws.get_all_values()
     if not rows:
-        return []
+        # An empty response from a sheet that should have a header is a read
+        # failure, not an empty registry -- fail loudly (silent-green ban).
+        sys.exit(sheet_read_failure(SHEET_TAB, "tab returned no rows (empty response)"))
     header = rows[0]
     cols = {f: idx(header, names) for f, names in FIELD_COLUMNS.items()}
     if cols["plot_id"] is None:
@@ -299,30 +322,16 @@ def main():
     try:
         ws = get_sheet()
         plots = load_plots(ws)
-    except (Exception, SystemExit) as e:
-        # Tab missing / auth / any failure -> preserve the existing registry.
-        print(
-            f"WARN: could not read '{SHEET_TAB}' tab ({e}); preserving existing registry"
-        )
-        if os.path.exists(args.out):
-            with open(args.out, encoding="utf-8") as f:
-                existing = json.load(f)
-            print(
-                f"preserved {len(existing.get('features', []))} features at {args.out}"
-            )
-            return
-        sys.exit(f"no source tab and no existing {args.out} to preserve")
+    except Exception as e:  # noqa: BLE001 -- any read failure MUST fail the job, loudly
+        # Silent-green ban (2026-09-24): never preserve-and-exit-0 on a read error.
+        sys.exit(sheet_read_failure(SHEET_TAB, f"{type(e).__name__}: {e}"))
 
     if not plots:
-        print("WARN: 'SunMint Plots' tab has no rows; preserving existing registry")
-        if os.path.exists(args.out):
-            with open(args.out, encoding="utf-8") as f:
-                existing = json.load(f)
-            print(
-                f"preserved {len(existing.get('features', []))} features at {args.out}"
-            )
-            return
-        sys.exit(f"no rows and no existing {args.out} to preserve")
+        # A header with zero plot rows is not something we can publish: writing an
+        # empty FeatureCollection would blank the impact map, and preserving
+        # silently would hide a real upstream problem. Fail loudly; the existing
+        # file is left untouched (we never open it for write on this path).
+        sys.exit(sheet_read_failure(SHEET_TAB, "no plot rows after parsing"))
 
     features = []
     for p in plots:
