@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-24T17:11:29.458975Z",
+  "generated_at": "2026-09-25T10:54:38.295712Z",
   "features": [
     {
       "type": "Feature",
@@ -34,7 +34,8 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-02T18:42:13-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree01.jpg",
-        "status": "NEW"
+        "status": "LINKED",
+        "qr_code": "2024OSR_81PB_20260412_3"
       }
     },
     {
@@ -69,7 +70,8 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-02T18:52:14-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree03.jpg",
-        "status": "NEW"
+        "status": "LINKED",
+        "qr_code": "2024PF_20250505_28"
       }
     },
     {
@@ -103,7 +105,8 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-02T19:02:37-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree05.jpg",
-        "status": "NEW"
+        "status": "LINKED",
+        "qr_code": "2024SA_20251227_33"
       }
     },
     {
@@ -120,7 +123,8 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-02T19:09:55-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree06.jpg",
-        "status": "NEW"
+        "status": "LINKED",
+        "qr_code": "2024OSR_81PB_20260412_4"
       }
     },
     {
@@ -188,7 +192,8 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-02T19:31:12-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree10.jpg",
-        "status": "NEW"
+        "status": "LINKED",
+        "qr_code": "2023SA_81PB_20260412_1"
       }
     },
     {
@@ -205,7 +210,8 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T14:34:11-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908005833_046.jpg",
-        "status": "NEW"
+        "status": "LINKED",
+        "qr_code": "2024SA_20251227_35"
       }
     },
     {
@@ -1667,7 +1673,8 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011432_246.jpg",
-        "status": "NEW"
+        "status": "LINKED",
+        "qr_code": "2024PAULO_20250804_20"
       }
     },
     {
