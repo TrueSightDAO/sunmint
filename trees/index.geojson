@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-26T10:35:35.105774Z",
+  "generated_at": "2026-09-26T16:47:46.053611Z",
   "features": [
     {
       "type": "Feature",
@@ -17,7 +17,9 @@
         "last_measured": "2026-08-21T17:51:31.626Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260822_130000_FOUNDERHAUS_GROUP.jpg",
         "status": "LINKED",
-        "qr_code": "FOUNDERHAUS_BOUGAINVILLEA_20260821_1"
+        "qr_code": "FOUNDERHAUS_BOUGAINVILLEA_20260821_1",
+        "submission_source": "https://sunmint.truesight.me/",
+        "program": ""
       }
     },
     {
@@ -35,7 +37,9 @@
         "last_measured": "2026-09-02T18:42:13-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree01.jpg",
         "status": "LINKED",
-        "qr_code": "2024OSR_81PB_20260412_3"
+        "qr_code": "2024OSR_81PB_20260412_3",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -53,7 +57,9 @@
         "last_measured": "2026-09-02T18:47:03-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree02.jpg",
         "status": "LINKED",
-        "qr_code": "2024OSCAR_CB_20260620_1"
+        "qr_code": "2024OSCAR_CB_20260620_1",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -71,7 +77,9 @@
         "last_measured": "2026-09-02T18:52:14-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree03.jpg",
         "status": "LINKED",
-        "qr_code": "2024PF_20250505_28"
+        "qr_code": "2024PF_20250505_28",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -88,7 +96,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-02T18:57:04-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree04.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -106,7 +116,9 @@
         "last_measured": "2026-09-02T19:02:37-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree05.jpg",
         "status": "LINKED",
-        "qr_code": "2024SA_20251227_33"
+        "qr_code": "2024SA_20251227_33",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -124,7 +136,9 @@
         "last_measured": "2026-09-02T19:09:55-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree06.jpg",
         "status": "LINKED",
-        "qr_code": "2024OSR_81PB_20260412_4"
+        "qr_code": "2024OSR_81PB_20260412_4",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -141,7 +155,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-02T19:16:07-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree07.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -158,7 +174,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-02T19:21:10-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree08.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -175,7 +193,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-02T19:26:23-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree09.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -193,7 +213,9 @@
         "last_measured": "2026-09-02T19:31:12-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree10.jpg",
         "status": "LINKED",
-        "qr_code": "2023SA_81PB_20260412_1"
+        "qr_code": "2023SA_81PB_20260412_1",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -211,7 +233,9 @@
         "last_measured": "2026-09-07T14:34:11-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908005833_046.jpg",
         "status": "LINKED",
-        "qr_code": "2024SA_20251227_35"
+        "qr_code": "2024SA_20251227_35",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -229,7 +253,9 @@
         "last_measured": "2026-09-07T14:46:17-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908005838_048.jpg",
         "status": "LINKED",
-        "qr_code": "2024OSCAR_20250711_NIBS_2"
+        "qr_code": "2024OSCAR_20250711_NIBS_2",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -247,7 +273,9 @@
         "last_measured": "2026-09-07T15:28:51-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908005843_050.jpg",
         "status": "LINKED",
-        "qr_code": "2024OSCAR_20251020_11"
+        "qr_code": "2024OSCAR_20251020_11",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -265,7 +293,9 @@
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010203_054.jpg",
         "status": "LINKED",
-        "qr_code": "2024OSCAR_20251124_13"
+        "qr_code": "2024OSCAR_20251124_13",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -283,7 +313,9 @@
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010207_056.jpg",
         "status": "LINKED",
-        "qr_code": "2024OSCAR_20250711_NIBS_19"
+        "qr_code": "2024OSCAR_20250711_NIBS_19",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -300,7 +332,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010213_058.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -317,7 +351,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010220_060.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -334,7 +370,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010224_062.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -351,7 +389,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010229_064.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -368,7 +408,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010234_066.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -385,7 +427,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010239_068.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -402,7 +446,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010243_070.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -419,7 +465,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010248_072.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -436,7 +484,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010253_074.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -453,7 +503,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010257_076.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -470,7 +522,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010301_078.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -487,7 +541,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010309_082.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -504,7 +560,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010317_086.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -521,7 +579,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010326_090.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -538,7 +598,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010336_094.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -555,7 +617,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010345_098.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -572,7 +636,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010354_102.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -589,7 +655,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010404_106.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -606,7 +674,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010412_110.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -623,7 +693,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010936_122.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -640,7 +712,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010940_124.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -657,7 +731,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010945_126.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -674,7 +750,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010949_128.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -691,7 +769,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010954_130.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -708,7 +788,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010958_132.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -725,7 +807,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011004_134.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -742,7 +826,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011008_136.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -759,7 +845,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011017_138.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -776,7 +864,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011024_140.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -793,7 +883,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011029_142.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -810,7 +902,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011034_144.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -827,7 +921,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011038_146.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -844,7 +940,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011043_148.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -861,7 +959,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011048_150.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -878,7 +978,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011052_152.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -895,7 +997,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011057_154.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -912,7 +1016,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011102_156.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -929,7 +1035,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011106_158.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -946,7 +1054,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011112_160.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -963,7 +1073,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011118_162.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -980,7 +1092,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011123_164.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -997,7 +1111,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011128_166.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1014,7 +1130,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011133_168.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1031,7 +1149,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011138_170.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1048,7 +1168,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011143_172.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1065,7 +1187,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011147_174.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1082,7 +1206,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011152_176.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1099,7 +1225,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011156_178.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1116,7 +1244,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011201_180.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1133,7 +1263,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011206_182.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1150,7 +1282,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011211_184.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1167,7 +1301,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011216_186.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1184,7 +1320,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011221_188.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1201,7 +1339,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011226_190.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1218,7 +1358,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011230_192.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1235,7 +1377,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011234_194.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1252,7 +1396,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011238_196.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1269,7 +1415,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011242_198.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1286,7 +1434,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011247_200.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1303,7 +1453,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011251_202.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1320,7 +1472,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011255_204.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1337,7 +1491,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011300_206.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1354,7 +1510,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011304_208.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1371,7 +1529,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011309_210.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1388,7 +1548,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011314_212.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1405,7 +1567,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011318_214.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1422,7 +1586,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011322_216.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1439,7 +1605,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011326_218.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1456,7 +1624,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011330_220.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1473,7 +1643,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011335_222.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1490,7 +1662,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011342_224.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1507,7 +1681,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011346_226.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1524,7 +1700,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011350_228.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1541,7 +1719,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011355_230.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1558,7 +1738,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011359_232.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1575,7 +1757,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011404_234.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1592,7 +1776,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011408_236.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1609,7 +1795,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011412_238.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1626,7 +1814,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011416_240.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1643,7 +1833,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011420_242.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1660,7 +1852,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011424_244.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1678,7 +1872,9 @@
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011432_246.jpg",
         "status": "LINKED",
-        "qr_code": "2024PAULO_20250804_20"
+        "qr_code": "2024PAULO_20250804_20",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1695,7 +1891,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908011436_248.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1712,7 +1910,9 @@
         "species": "Cacau",
         "last_measured": "2026-09-08 15:09:19",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908_cleide_marcelo_cacao_tree01.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1729,7 +1929,9 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-09T12:03:48-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/96d595b2bb9340878daa041e53dc7051.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1747,7 +1949,9 @@
         "last_measured": "2026-09-09T10:38:33-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909103833_5b9d50a4.jpg",
         "status": "NEW",
-        "plot_id": "N-06-37_20260909_restoration_1"
+        "plot_id": "N-06-37_20260909_restoration_1",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1765,7 +1969,9 @@
         "last_measured": "2026-09-09T10:42:43-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909104243_625c775c.jpg",
         "status": "NEW",
-        "plot_id": "N-06-37_20260909_restoration_1"
+        "plot_id": "N-06-37_20260909_restoration_1",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1783,7 +1989,9 @@
         "last_measured": "2026-09-09T11:04:14-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909110414_376f7da7.jpg",
         "status": "NEW",
-        "plot_id": "N-06-37_20260909_restoration_1"
+        "plot_id": "N-06-37_20260909_restoration_1",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1801,7 +2009,9 @@
         "last_measured": "2026-09-09T10:50:34-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909105034_87eb2018.jpg",
         "status": "NEW",
-        "plot_id": "N-06-37"
+        "plot_id": "N-06-37",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1819,7 +2029,9 @@
         "last_measured": "2026-09-09T11:20:36-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909112036_e4b1c2cf.jpg",
         "status": "NEW",
-        "plot_id": "N-06-37"
+        "plot_id": "N-06-37",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1838,7 +2050,9 @@
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909115450_55a98845.jpg",
         "status": "LINKED",
         "qr_code": "2024OSCAR_20260121_1",
-        "plot_id": "CR-PA-P2"
+        "plot_id": "CR-PA-P2",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1856,7 +2070,9 @@
         "last_measured": "2026-09-09T11:57:20-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909115720_d1899316.jpg",
         "status": "NEW",
-        "plot_id": "CR-PA-P2"
+        "plot_id": "CR-PA-P2",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1874,7 +2090,9 @@
         "last_measured": "2026-09-09T11:57:37-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909115737_f03e90a3.jpg",
         "status": "NEW",
-        "plot_id": "CR-PA-P2"
+        "plot_id": "CR-PA-P2",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1892,7 +2110,9 @@
         "last_measured": "2026-09-09T11:59:10-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909115910_2bcb7ee0.jpg",
         "status": "NEW",
-        "plot_id": "CR-PA-P2"
+        "plot_id": "CR-PA-P2",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1910,7 +2130,9 @@
         "last_measured": "2026-09-09T11:59:19-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909115919_d1e3669d.jpg",
         "status": "NEW",
-        "plot_id": "CR-PA-P2"
+        "plot_id": "CR-PA-P2",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1928,7 +2150,9 @@
         "last_measured": "2026-09-09T12:01:05-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909120105_3bbb7750.jpg",
         "status": "NEW",
-        "plot_id": "CR-PA-P2"
+        "plot_id": "CR-PA-P2",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1946,7 +2170,9 @@
         "last_measured": "2026-09-09T12:02:09-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909120209_4b62dd3a.jpg",
         "status": "NEW",
-        "plot_id": "CR-PA-P2"
+        "plot_id": "CR-PA-P2",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1964,7 +2190,9 @@
         "last_measured": "2026-09-09T12:02:56-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909120256_0297dd5c.jpg",
         "status": "NEW",
-        "plot_id": "CR-PA-P2"
+        "plot_id": "CR-PA-P2",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -1982,7 +2210,9 @@
         "last_measured": "2026-09-09T12:03:30-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909120330_590ed044.jpg",
         "status": "NEW",
-        "plot_id": "CR-PA-P2"
+        "plot_id": "CR-PA-P2",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -2000,7 +2230,9 @@
         "last_measured": "2026-09-09T12:03:43-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909120343_9984b3cb.jpg",
         "status": "NEW",
-        "plot_id": "CR-PA-P2"
+        "plot_id": "CR-PA-P2",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -2018,7 +2250,9 @@
         "last_measured": "2026-09-09T12:42:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909124200_ca3a9775.jpg",
         "status": "NEW",
-        "plot_id": "N-06-66"
+        "plot_id": "N-06-66",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -2036,7 +2270,9 @@
         "last_measured": "2026-09-09T12:44:55-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909124455_25affbf4.jpg",
         "status": "NEW",
-        "plot_id": "N-06-66"
+        "plot_id": "N-06-66",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -2054,7 +2290,9 @@
         "last_measured": "2026-09-09T12:45:30-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909124530_f829f2c6.jpg",
         "status": "NEW",
-        "plot_id": "N-06-66"
+        "plot_id": "N-06-66",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -2072,7 +2310,9 @@
         "last_measured": "2026-09-09T12:46:14-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909124614_8a47d86c.jpg",
         "status": "NEW",
-        "plot_id": "N-06-66"
+        "plot_id": "N-06-66",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -2090,7 +2330,9 @@
         "last_measured": "2026-09-09T12:46:53-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909124653_4e018749.jpg",
         "status": "NEW",
-        "plot_id": "N-06-66"
+        "plot_id": "N-06-66",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -2108,7 +2350,9 @@
         "last_measured": "2026-09-09T12:48:13-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909124813_3b7e3bcf.jpg",
         "status": "NEW",
-        "plot_id": "N-06-66"
+        "plot_id": "N-06-66",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -2126,7 +2370,9 @@
         "last_measured": "2026-09-09T12:48:43-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909124843_a568ee06.jpg",
         "status": "NEW",
-        "plot_id": "N-06-66"
+        "plot_id": "N-06-66",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -2144,7 +2390,9 @@
         "last_measured": "2026-09-09T12:54:36-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909125436_3ab14b18.jpg",
         "status": "NEW",
-        "plot_id": "N-06-66"
+        "plot_id": "N-06-66",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -2162,7 +2410,9 @@
         "last_measured": "2026-09-09T12:57:36-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909125736_82967a1e.jpg",
         "status": "NEW",
-        "plot_id": "N-06-66"
+        "plot_id": "N-06-66",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -2180,7 +2430,9 @@
         "last_measured": "2026-09-09T13:21:37-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909132137_89a2eed9.jpg",
         "status": "NEW",
-        "plot_id": "N-06-66"
+        "plot_id": "N-06-66",
+        "submission_source": "autopilot-sophia",
+        "program": ""
       }
     },
     {
@@ -2197,7 +2449,9 @@
         "species": "Cacao - Criolla",
         "last_measured": "2026-09-24T00:31:02.776Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260923213102_MIIBIjANBgkqhkiG9w0B.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "https://cfr.truesight.me/",
+        "program": "crf-anapu"
       }
     },
     {
@@ -2208,7 +2462,9 @@
         "species": "Cacao - Forestero",
         "last_measured": "2026-09-24T11:54:37.778Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924085437_MIIBIjANBgkqhkiG9w0B.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "https://localhost/",
+        "program": ""
       }
     },
     {
@@ -2219,7 +2475,9 @@
         "species": "Cacao - Forestero",
         "last_measured": "2026-09-24T11:54:37.778Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924085437_MIIBIjANBgkqhkiG9w0B.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "https://localhost/",
+        "program": ""
       }
     },
     {
@@ -2230,7 +2488,9 @@
         "species": "Cacao - Forestero",
         "last_measured": "2026-09-24T11:54:37.778Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924085437_MIIBIjANBgkqhkiG9w0B.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "https://localhost/",
+        "program": ""
       }
     },
     {
@@ -2241,7 +2501,9 @@
         "species": "Cacao - Forestero",
         "last_measured": "2026-09-24T11:54:37.778Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924085437_MIIBIjANBgkqhkiG9w0B.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "https://localhost/",
+        "program": ""
       }
     },
     {
@@ -2258,7 +2520,9 @@
         "species": "Sumaúma",
         "last_measured": "2026-09-24T12:20:58.945Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924092058_MIIBIjANBgkqhkiG9w0B.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "https://localhost/",
+        "program": ""
       }
     },
     {
@@ -2275,7 +2539,9 @@
         "species": "Sumaúma",
         "last_measured": "2026-09-24T12:20:58.945Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924092058_MIIBIjANBgkqhkiG9w0B.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "https://localhost/",
+        "program": ""
       }
     },
     {
@@ -2292,7 +2558,9 @@
         "species": "Sumaúma",
         "last_measured": "2026-09-24T12:20:58.945Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924092058_MIIBIjANBgkqhkiG9w0B.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "https://localhost/",
+        "program": ""
       }
     },
     {
@@ -2309,7 +2577,9 @@
         "species": "Sumaúma",
         "last_measured": "2026-09-24T12:20:58.945Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924092058_MIIBIjANBgkqhkiG9w0B.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "https://localhost/",
+        "program": ""
       }
     },
     {
@@ -2326,7 +2596,9 @@
         "species": "Cacao - Criolla",
         "last_measured": "2026-09-24T12:40:57.860Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924094057_MIIBIjANBgkqhkiG9w0B.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "https://cfr.truesight.me/",
+        "program": "crf-anapu"
       }
     },
     {
@@ -2343,7 +2615,9 @@
         "species": "Cacao - Criolla",
         "last_measured": "2026-09-24T12:55:37.725Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924095537_MIIBIjANBgkqhkiG9w0B.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "https://cfr.truesight.me/",
+        "program": "crf-anapu"
       }
     },
     {
@@ -2360,7 +2634,9 @@
         "species": "Cacao - Criolla",
         "last_measured": "2026-09-24T13:21:58.395Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102158_MIIBIjANBgkqhkiG9w0B.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "https://cfr.truesight.me/",
+        "program": "crf-anapu"
       }
     },
     {
@@ -2377,7 +2653,9 @@
         "species": "Cacao - Criolla",
         "last_measured": "2026-09-24T13:22:25.134Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102225_MIIBIjANBgkqhkiG9w0B.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "https://cfr.truesight.me/",
+        "program": "crf-anapu"
       }
     },
     {
@@ -2394,7 +2672,9 @@
         "species": "Cacao - Criolla",
         "last_measured": "2026-09-24T13:22:37.962Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102237_MIIBIjANBgkqhkiG9w0B.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "https://cfr.truesight.me/",
+        "program": "crf-anapu"
       }
     },
     {
@@ -2411,7 +2691,9 @@
         "species": "Cacao - Criolla",
         "last_measured": "2026-09-24T13:23:00.459Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102300_MIIBIjANBgkqhkiG9w0B.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "https://cfr.truesight.me/",
+        "program": "crf-anapu"
       }
     },
     {
@@ -2428,7 +2710,9 @@
         "species": "Cacao - Criolla",
         "last_measured": "2026-09-24T13:23:12.484Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102312_MIIBIjANBgkqhkiG9w0B.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "https://cfr.truesight.me/",
+        "program": "crf-anapu"
       }
     },
     {
@@ -2446,7 +2730,9 @@
         "last_measured": "2026-09-24T13:23:30.111Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102330_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "LINKED",
-        "qr_code": "2024OSCAR_20251011_2"
+        "qr_code": "2024OSCAR_20251011_2",
+        "submission_source": "https://cfr.truesight.me/",
+        "program": "crf-anapu"
       }
     },
     {
@@ -2463,7 +2749,9 @@
         "species": "Cacao - Forestero",
         "last_measured": "2026-09-24T13:24:01.854Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102401_MIIBIjANBgkqhkiG9w0B.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "https://cfr.truesight.me/",
+        "program": "crf-anapu"
       }
     },
     {
@@ -2480,7 +2768,9 @@
         "species": "Cacao - Forestero",
         "last_measured": "2026-09-24T13:24:38.440Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102438_MIIBIjANBgkqhkiG9w0B.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "https://cfr.truesight.me/",
+        "program": "crf-anapu"
       }
     },
     {
@@ -2497,7 +2787,9 @@
         "species": "Cacao - Criolla",
         "last_measured": "2026-09-24T13:24:54.734Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102454_MIIBIjANBgkqhkiG9w0B.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "https://cfr.truesight.me/",
+        "program": "crf-anapu"
       }
     },
     {
@@ -2514,7 +2806,9 @@
         "species": "Cacao - Forestero",
         "last_measured": "2026-09-24T13:26:15.891Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102615_MIIBIjANBgkqhkiG9w0B.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "https://cfr.truesight.me/",
+        "program": "crf-anapu"
       }
     },
     {
@@ -2531,7 +2825,9 @@
         "species": "Cacao - Forestero",
         "last_measured": "2026-09-24T13:26:58.974Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102658_MIIBIjANBgkqhkiG9w0B.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "https://cfr.truesight.me/",
+        "program": "crf-anapu"
       }
     },
     {
@@ -2548,7 +2844,9 @@
         "species": "Cacao - Forestero",
         "last_measured": "2026-09-24T13:27:31.877Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102731_MIIBIjANBgkqhkiG9w0B.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "https://cfr.truesight.me/",
+        "program": "crf-anapu"
       }
     },
     {
@@ -2565,7 +2863,9 @@
         "species": "Cacao - Forestero",
         "last_measured": "2026-09-24T13:27:58.947Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102758_MIIBIjANBgkqhkiG9w0B.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "https://cfr.truesight.me/",
+        "program": "crf-anapu"
       }
     },
     {
@@ -2582,7 +2882,9 @@
         "species": "Cacao - Forestero",
         "last_measured": "2026-09-24T13:28:18.631Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102818_MIIBIjANBgkqhkiG9w0B.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "https://cfr.truesight.me/",
+        "program": "crf-anapu"
       }
     },
     {
@@ -2599,7 +2901,9 @@
         "species": "Cacao - Forestero",
         "last_measured": "2026-09-24T13:28:47.742Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102847_MIIBIjANBgkqhkiG9w0B.jpg",
-        "status": "NEW"
+        "status": "NEW",
+        "submission_source": "https://cfr.truesight.me/",
+        "program": "crf-anapu"
       }
     }
   ]
