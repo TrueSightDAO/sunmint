@@ -1,12 +1,12 @@
 {
   "cadence_minutes": 15,
   "counts": {
-    "media_total": 1137,
+    "media_total": 1146,
     "plots": 22,
     "plots_with_media": 15,
     "unattributed": 186
   },
-  "generated_at": "2026-09-26T12:29:33Z",
+  "generated_at": "2026-09-26T22:07:44Z",
   "plots": {
     "B-06-108": {
       "counts": {
@@ -8205,9 +8205,9 @@
     },
     "SJ-P1": {
       "counts": {
-        "image": 36,
-        "total": 103,
-        "video": 67
+        "image": 39,
+        "total": 112,
+        "video": 73
       },
       "farm_id": "fazenda-sao-jorge-bahia",
       "media": [
@@ -8255,6 +8255,18 @@
           "lng": -39.402469,
           "ref": "IMG_1621.HEIC",
           "sha256": "fbf91c0eefa0d678a5e310630257af355dba8208be0f4184b44d673fc7947d34",
+          "thumbnail": null,
+          "transcript_status": "pending",
+          "url": null
+        },
+        {
+          "attribution": "point-in-polygon",
+          "captured_at": "2023-06-06T15:07:59",
+          "kind": "image",
+          "lat": -14.629844,
+          "lng": -39.402492,
+          "ref": "IMG_1626.HEIC",
+          "sha256": "56c2adefaecdbf11d43166848ac36922fb570a0eb0588af20e39bb01700f1b17",
           "thumbnail": null,
           "transcript_status": "pending",
           "url": null
@@ -8453,6 +8465,18 @@
         },
         {
           "attribution": "point-in-polygon",
+          "captured_at": "2023-06-06T15:45:05",
+          "kind": "image",
+          "lat": -14.629089,
+          "lng": -39.402539,
+          "ref": "IMG_1666.HEIC",
+          "sha256": "ac9fbcf3baa4693a981de51a837a62a0ea17fd73bf2ce6c62976166a4d8cbbd8",
+          "thumbnail": null,
+          "transcript_status": "pending",
+          "url": null
+        },
+        {
+          "attribution": "point-in-polygon",
           "captured_at": "2023-06-06T15:48:46",
           "kind": "image",
           "lat": -14.629069,
@@ -8582,6 +8606,18 @@
           "thumbnail": null,
           "transcript_status": "pending",
           "url": null
+        },
+        {
+          "attribution": "manifest-plot-id",
+          "captured_at": "2023-06-06T17:42:20",
+          "kind": "video",
+          "lat": -14.6534,
+          "lng": -39.3923,
+          "ref": "IMG_1614.MOV",
+          "sha256": "5231d850d465b94d52c0d892e31b9c73f99d82fa1ef396880c2e0e8100c9104d",
+          "thumbnail": "https://img.youtube.com/vi/sBbtuh2STxA/hqdefault.jpg",
+          "transcript_status": "pending",
+          "url": "https://www.youtube.com/watch?v=sBbtuh2STxA"
         },
         {
           "attribution": "point-in-polygon",
@@ -8714,6 +8750,18 @@
           "thumbnail": "https://img.youtube.com/vi/6mTxdMK42Ic/hqdefault.jpg",
           "transcript_status": "pending",
           "url": "https://www.youtube.com/watch?v=6mTxdMK42Ic"
+        },
+        {
+          "attribution": "point-in-polygon",
+          "captured_at": "2023-06-06T18:25:08",
+          "kind": "video",
+          "lat": -14.629,
+          "lng": -39.4026,
+          "ref": "IMG_1644.MOV",
+          "sha256": "4af54d41c2164d2916ad06ab2c3e24a933c38049888e312815d92ed5abd6bd5d",
+          "thumbnail": "https://img.youtube.com/vi/inujja0kv_o/hqdefault.jpg",
+          "transcript_status": "pending",
+          "url": "https://www.youtube.com/watch?v=inujja0kv_o"
         },
         {
           "attribution": "point-in-polygon",
@@ -8981,6 +9029,18 @@
         },
         {
           "attribution": "point-in-polygon",
+          "captured_at": "2023-09-21T09:15:51",
+          "kind": "image",
+          "lat": -14.629075,
+          "lng": -39.402561,
+          "ref": "IMG_8529.HEIC",
+          "sha256": "f4fb57cd14ece6927eac806e9db896e54e25f0cb667f82c3278cebbf1a0f4007",
+          "thumbnail": null,
+          "transcript_status": "pending",
+          "url": null
+        },
+        {
+          "attribution": "point-in-polygon",
           "captured_at": "2023-09-21T09:17:33",
           "kind": "image",
           "lat": -14.629044,
@@ -9029,6 +9089,30 @@
         },
         {
           "attribution": "manifest-plot-id",
+          "captured_at": "2023-09-21T12:00:48",
+          "kind": "video",
+          "lat": -14.6533,
+          "lng": -39.392,
+          "ref": "IMG_8510.MOV",
+          "sha256": "b2cab63d55e7f633e4a41347693400d161abf7ec66b5942fac9a9925ceccce0f",
+          "thumbnail": "https://img.youtube.com/vi/Y8lR7FNhfvA/hqdefault.jpg",
+          "transcript_status": "pending",
+          "url": "https://www.youtube.com/watch?v=Y8lR7FNhfvA"
+        },
+        {
+          "attribution": "manifest-plot-id",
+          "captured_at": "2023-09-21T12:01:19",
+          "kind": "video",
+          "lat": -14.653,
+          "lng": -39.3923,
+          "ref": "IMG_8511.MOV",
+          "sha256": "c4eaf8e98d340c8d98cf2c557170cf5b23c2368b76a9cf83fb3481112a7a0cac",
+          "thumbnail": "https://img.youtube.com/vi/LzrYsHzA8x0/hqdefault.jpg",
+          "transcript_status": "pending",
+          "url": "https://www.youtube.com/watch?v=LzrYsHzA8x0"
+        },
+        {
+          "attribution": "manifest-plot-id",
           "captured_at": "2023-09-21T12:01:46",
           "kind": "video",
           "lat": -14.6516,
@@ -9038,6 +9122,30 @@
           "thumbnail": "https://img.youtube.com/vi/KSe6GHq8W7M/hqdefault.jpg",
           "transcript_status": "pending",
           "url": "https://www.youtube.com/watch?v=KSe6GHq8W7M"
+        },
+        {
+          "attribution": "manifest-plot-id",
+          "captured_at": "2023-09-21T12:02:07",
+          "kind": "video",
+          "lat": -14.6502,
+          "lng": -39.3922,
+          "ref": "IMG_8513.MOV",
+          "sha256": "ae39e1fb90edc87717a6f0a135ae138533209c8a7ee33aa9d9e1a65e8dafabf0",
+          "thumbnail": "https://img.youtube.com/vi/wNzNyP6fqQk/hqdefault.jpg",
+          "transcript_status": "pending",
+          "url": "https://www.youtube.com/watch?v=wNzNyP6fqQk"
+        },
+        {
+          "attribution": "manifest-plot-id",
+          "captured_at": "2023-09-21T12:08:27",
+          "kind": "video",
+          "lat": -14.6342,
+          "lng": -39.3973,
+          "ref": "IMG_8516.MOV",
+          "sha256": "7e230daa3311b99b82dae4c25eedf9b9cc9c24843b6797bb7dee8e7bf4d9fc48",
+          "thumbnail": "https://img.youtube.com/vi/KoM1_OhV77Y/hqdefault.jpg",
+          "transcript_status": "pending",
+          "url": "https://www.youtube.com/watch?v=KoM1_OhV77Y"
         },
         {
           "attribution": "manifest-plot-id",
@@ -11713,7 +11821,7 @@
       "fazenda-dona-rosa": "2026-09-05",
       "fazenda-santa-ana-bahia": "2026-09-07",
       "fazenda-santa-rosa": "2026-09-14",
-      "fazenda-sao-jorge-bahia": "2026-09-07",
+      "fazenda-sao-jorge-bahia": "2026-09-26",
       "jedielcio": "2026-09-11",
       "la-do-sitio": "2026-08-31",
       "oscar-bahia": "2026-09-07",
