@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-25T10:54:38.295712Z",
+  "generated_at": "2026-09-26T10:35:35.105774Z",
   "features": [
     {
       "type": "Feature",
@@ -228,7 +228,8 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T14:46:17-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908005838_048.jpg",
-        "status": "NEW"
+        "status": "LINKED",
+        "qr_code": "2024OSCAR_20250711_NIBS_2"
       }
     },
     {
@@ -245,7 +246,8 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T15:28:51-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908005843_050.jpg",
-        "status": "NEW"
+        "status": "LINKED",
+        "qr_code": "2024OSCAR_20251020_11"
       }
     },
     {
@@ -262,7 +264,8 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010203_054.jpg",
-        "status": "NEW"
+        "status": "LINKED",
+        "qr_code": "2024OSCAR_20251124_13"
       }
     },
     {
@@ -279,7 +282,8 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-07T12:00:00-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260908010207_056.jpg",
-        "status": "NEW"
+        "status": "LINKED",
+        "qr_code": "2024OSCAR_20250711_NIBS_19"
       }
     },
     {
@@ -1832,7 +1836,8 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-09T11:54:50-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260909115450_55a98845.jpg",
-        "status": "NEW",
+        "status": "LINKED",
+        "qr_code": "2024OSCAR_20260121_1",
         "plot_id": "CR-PA-P2"
       }
     },
@@ -2440,7 +2445,8 @@
         "species": "Cacao - Criolla",
         "last_measured": "2026-09-24T13:23:30.111Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102330_MIIBIjANBgkqhkiG9w0B.jpg",
-        "status": "NEW"
+        "status": "LINKED",
+        "qr_code": "2024OSCAR_20251011_2"
       }
     },
     {
