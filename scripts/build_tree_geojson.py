@@ -10,6 +10,8 @@ Usage:
 """
 
 import argparse
+import base64
+import hashlib
 import json
 import os
 import re
@@ -33,6 +35,50 @@ _SUBMISSION_SOURCE_RE = re.compile(
 )
 _SUBMISSION_SOURCE_INLINE_RE = re.compile(r"Submission Source:[ \t]*([^\s\\]+)", re.I)
 _GENERATED_USING_RE = re.compile(r"generated using[ \t]+(\S+)", re.I)
+# Personal-key hash: every submission carries the signer's RSA SPKI public key on a
+# "My Digital Signature:" line (col F for legacy rows, a dedicated column when a
+# writer supplies one). The per-tab pk_hash is a STABLE, NON-REVERSIBLE pseudonym:
+#   pk-<first 12 chars of base64url(SHA-256(base64-decoded SPKI bytes))>
+# It mirrors the writers' own hash (tokenomics GAS cfrSubDerivePkHash_ and
+# dapp cfr-anapu/payout-registration-utils derivePkHash) so a page can filter the
+# public feed to the viewer's own trees WITHOUT the feed ever carrying the raw key.
+# This is the ONLY identity we publish -- never the public key itself.
+_PK_RE = re.compile(r"My Digital Signature:\s*(\S+)", re.I)
+
+
+def derive_pk_hash(public_key_b64):
+    """Return 'pk-<12 chars of base64url(SHA-256(SPKI bytes))>' or None.
+
+    Never raises: a malformed/absent key yields None so ingest cannot break.
+    """
+    try:
+        key = (public_key_b64 or "").strip()
+        if not key:
+            return None
+        raw = base64.b64decode(key, validate=True)
+        # Must be a DER SEQUENCE (0x30 ...) and long enough to be an SPKI --
+        # rejects truncated/garbage values so a bad cell cannot invent a pseudonym.
+        if len(raw) < 128 or raw[:1] != b"\x30":
+            return None
+        digest = hashlib.sha256(raw).digest()
+        b64 = base64.urlsafe_b64encode(digest).decode("ascii").rstrip("=")
+        return "pk-" + b64[:12]
+    except Exception:
+        return None
+
+
+def signature_from_contribution(contribution_text, signature_cell=None):
+    """Extract the signer public key from a dedicated cell, else col F text."""
+    direct = (signature_cell or "").strip()
+    if direct:
+        return direct
+    if not contribution_text:
+        return ""
+    for text in (contribution_text, _unescape(contribution_text)):
+        m = _PK_RE.search(text)
+        if m:
+            return m.group(1).strip()
+    return ""
 
 
 # Photo URLs in the sheet are sometimes stored as github.com web-UI links
@@ -183,6 +229,7 @@ def load_trees(ws, registry=None):
     c_id = idx(header, "telegram update id", "tree id")
     c_msg = idx(header, "telegram message id")
     c_contrib = idx(header, "contribution made", "contribution")
+    c_sig = idx(header, "my digital signature", "digital signature", "signature")
     c_source = idx(header, "submission source")
     c_species = idx(header, "specie", "species")
     c_lat = idx(header, "latitude")
@@ -227,6 +274,9 @@ def load_trees(ws, registry=None):
         trees.append(
             {
                 "id": tid,
+                "pk_hash": derive_pk_hash(
+                    signature_from_contribution(cell(row, c_contrib), cell(row, c_sig))
+                ),
                 "species": cell(row, c_species) or "unknown",
                 "lat": to_float(lat),
                 "lng": to_float(lng),
@@ -274,6 +324,7 @@ def main():
             "qr_code": t["qr_code"],
             "plot_id": t.get("plot_id"),
             "submission_source": t.get("submission_source"),
+            "pk_hash": t.get("pk_hash"),
             "program": t.get("program"),
         }
         props = {k: v for k, v in props.items() if v is not None}
