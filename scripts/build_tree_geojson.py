@@ -14,9 +14,25 @@ import json
 import os
 import re
 import sys
+import urllib.request
 
 SHEET_ID = "1qbZZhf-_7xzmDTriaJVWj6OZshyQsFkdsAV8-pyzASQ"
 SHEET_TAB = "SunMint Tree Planting"
+
+# Option B program attribution: a tree belongs to a lineage-credentials program
+# when the host serving its submission matches one of that program's registered
+# domains. The registry is the single source of truth; add a domain->slug pair
+# there (never here) when a new program vendors the SunMint app.
+PROGRAM_REGISTRY_URL = (
+    "https://raw.githubusercontent.com/TrueSightDAO/lineage-engine/main/"
+    "scripts/sunmint_program_registry.json"
+)
+_URL_HOST_RE = re.compile(r"^[a-zA-Z][\w+.-]*://([^/?#]+)")
+_SUBMISSION_SOURCE_RE = re.compile(
+    r"^[ \t]*-?[ \t]*Submission Source:[ \t]*(\S+)[ \t]*$", re.M | re.I
+)
+_SUBMISSION_SOURCE_INLINE_RE = re.compile(r"Submission Source:[ \t]*([^\s\\]+)", re.I)
+_GENERATED_USING_RE = re.compile(r"generated using[ \t]+(\S+)", re.I)
 
 
 # Photo URLs in the sheet are sometimes stored as github.com web-UI links
@@ -32,6 +48,64 @@ def normalize_photo_url(url):
         u,
     )
     return u or None
+
+
+def _unescape(s):
+    """Older writers stored newlines in cells as literal escaped newlines."""
+    bs = chr(92)
+    return s.replace(bs + "r" + bs + "n", "\n").replace(bs + "n", "\n").replace(bs + "r", "\n")
+
+
+def submission_source(contribution_text):
+    """Extract the raw submission origin from a Contribution Made cell (col F).
+
+    Legacy rows have no dedicated origin column: the origin rides inside col F as a
+    Submission Source line, or for older rows a trailing generated-using footer.
+    Newer rows carry it in col U, which the caller prefers. Returns '' when absent.
+    """
+    if not contribution_text:
+        return ""
+    for rx in (
+        _SUBMISSION_SOURCE_RE,
+        _GENERATED_USING_RE,
+        _SUBMISSION_SOURCE_INLINE_RE,
+    ):
+        for text in (contribution_text, _unescape(contribution_text)):
+            m = rx.search(text)
+            if m:
+                return m.group(1).strip().rstrip(".")
+    return ""
+
+
+def source_host(value):
+    """Normalise a Submission Source to a lowercase host (URLs) or sentinel.
+
+    Mirrors lineage-engine/scripts/sync_sunmint_program_activity.py:source_host so
+    the two program attributions agree. A non-URL value is returned lowercased,
+    which simply fails the host-registry lookup instead of raising.
+    """
+    if not value:
+        return ""
+    m = _URL_HOST_RE.match(value.strip())
+    if m:
+        return m.group(1).lower()
+    return value.strip().lower()
+
+
+def _fetch_json(url):
+    with urllib.request.urlopen(url, timeout=15) as resp:
+        return json.loads(resp.read().decode("utf-8"))
+
+
+def load_registry(url=None, fetch=_fetch_json):
+    """Return {host: program_slug}. Best-effort: {} when the registry is unavailable."""
+    try:
+        payload = fetch(url or PROGRAM_REGISTRY_URL) or {}
+    except Exception as exc:  # noqa: BLE001 - a missing registry must not fail the build
+        print(f"[warn] program registry unavailable ({exc}); program will be ''")
+        return {}
+    hosts = payload.get("hosts") or {}
+    return {str(k).lower(): str(v) for k, v in hosts.items()}
 
 
 def get_sheet():
@@ -100,13 +174,16 @@ def pick_tree_id(update_id, message_id):
     return a or d or None
 
 
-def load_trees(ws):
+def load_trees(ws, registry=None):
+    registry = registry or {}
     rows = ws.get_all_values()
     if not rows:
         return []
     header = rows[0]
     c_id = idx(header, "telegram update id", "tree id")
     c_msg = idx(header, "telegram message id")
+    c_contrib = idx(header, "contribution made", "contribution")
+    c_source = idx(header, "submission source")
     c_species = idx(header, "specie", "species")
     c_lat = idx(header, "latitude")
     c_lng = idx(header, "longitude")
@@ -144,6 +221,9 @@ def load_trees(ws):
         # makes a rejected tree "reappear" on reload.
         if str(status).strip().upper() == "INVALID":
             continue
+        # Origin: prefer the dedicated col U ("Submission Source"), falling back to
+        # parsing col F for rows written before that column existed.
+        src = cell(row, c_source) or submission_source(cell(row, c_contrib))
         trees.append(
             {
                 "id": tid,
@@ -156,6 +236,8 @@ def load_trees(ws):
                 "plot_id": cell(row, c_plot) or None,
                 "planted_at": cell(row, c_time) or None,
                 "planting_time": cell(row, c_time) or None,
+                "submission_source": src or None,
+                "program": registry.get(source_host(src), ""),
             }
         )
     return trees
@@ -166,7 +248,9 @@ def main():
     ap.add_argument("--out", default="trees/index.geojson")
     args = ap.parse_args()
     ws = get_sheet()
-    trees = load_trees(ws)
+    registry = load_registry()
+    print(f"[info] program registry: {registry}")
+    trees = load_trees(ws, registry)
     # Dedupe by tree id: the ledger can hold 2-3 rows per submission (async
     # re-scans of the same chat-log event), so emit ONE feature per unique
     # tree id, preferring the row that carries coordinates.
@@ -189,6 +273,8 @@ def main():
             "status": t["status"],
             "qr_code": t["qr_code"],
             "plot_id": t.get("plot_id"),
+            "submission_source": t.get("submission_source"),
+            "program": t.get("program"),
         }
         props = {k: v for k, v in props.items() if v is not None}
         if t["lat"] is not None and t["lng"] is not None:
