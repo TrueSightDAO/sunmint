@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T12:17:15.094125+00:00",
+  "generated_at": "2026-09-28T14:18:30.386110+00:00",
   "source": "earth-search.aws.element84.com Sentinel-2 L2A (anonymous)",
   "cloud_max": 20.0,
   "archive_floor": "2015-06-23",
@@ -1304,7 +1304,7 @@
           "clip": true
         }
       ],
-      "backfill_cursor": "2016-08-17",
+      "backfill_cursor": "2015-08-17",
       "history_start": "2017-06-26",
       "caught_up": false,
       "clip_bounds": [
@@ -2213,7 +2213,7 @@
           "clip": true
         }
       ],
-      "backfill_cursor": "2016-08-17",
+      "backfill_cursor": "2015-08-17",
       "history_start": "2017-06-26",
       "caught_up": false,
       "clip_bounds": [
@@ -3122,7 +3122,7 @@
           "clip": true
         }
       ],
-      "backfill_cursor": "2016-08-17",
+      "backfill_cursor": "2015-08-17",
       "history_start": "2017-06-26",
       "caught_up": false,
       "clip_bounds": [
@@ -4031,7 +4031,7 @@
           "clip": true
         }
       ],
-      "backfill_cursor": "2016-08-17",
+      "backfill_cursor": "2015-08-17",
       "history_start": "2017-06-26",
       "caught_up": false,
       "clip_bounds": [
@@ -4724,7 +4724,7 @@
           "clip": true
         }
       ],
-      "backfill_cursor": "2016-08-17",
+      "backfill_cursor": "2015-08-17",
       "history_start": "2017-06-03",
       "caught_up": false,
       "clip_bounds": [
@@ -5233,7 +5233,7 @@
           "clip": true
         }
       ],
-      "backfill_cursor": "2016-08-17",
+      "backfill_cursor": "2015-08-17",
       "history_start": "2017-07-28",
       "caught_up": false,
       "clip_bounds": [
@@ -6142,7 +6142,7 @@
           "clip": true
         }
       ],
-      "backfill_cursor": "2016-08-05",
+      "backfill_cursor": "2015-08-05",
       "history_start": "2017-06-26",
       "caught_up": false,
       "clip_bounds": [
@@ -6587,7 +6587,7 @@
           "clip": true
         }
       ],
-      "backfill_cursor": "2016-08-05",
+      "backfill_cursor": "2015-08-05",
       "history_start": "2017-06-26",
       "caught_up": false,
       "clip_bounds": [
@@ -7496,7 +7496,7 @@
           "clip": true
         }
       ],
-      "backfill_cursor": "2016-08-05",
+      "backfill_cursor": "2015-08-05",
       "history_start": "2017-06-26",
       "caught_up": false,
       "clip_bounds": [
@@ -7909,7 +7909,7 @@
           "clip": true
         }
       ],
-      "backfill_cursor": "2016-08-14",
+      "backfill_cursor": "2015-08-14",
       "history_start": "2017-08-04",
       "caught_up": false,
       "clip_bounds": [
@@ -8170,7 +8170,7 @@
           "clip": true
         }
       ],
-      "backfill_cursor": "2016-08-14",
+      "backfill_cursor": "2015-08-14",
       "history_start": "2017-08-04",
       "caught_up": false,
       "clip_bounds": [
@@ -8431,7 +8431,7 @@
           "clip": true
         }
       ],
-      "backfill_cursor": "2016-08-14",
+      "backfill_cursor": "2015-08-14",
       "history_start": "2017-08-04",
       "caught_up": false,
       "clip_bounds": [
@@ -8692,7 +8692,7 @@
           "clip": true
         }
       ],
-      "backfill_cursor": "2016-08-14",
+      "backfill_cursor": "2015-08-14",
       "history_start": "2017-08-04",
       "caught_up": false,
       "clip_bounds": [
@@ -9385,7 +9385,7 @@
           "clip": true
         }
       ],
-      "backfill_cursor": "2016-08-17",
+      "backfill_cursor": "2015-08-17",
       "history_start": "2017-06-03",
       "caught_up": false,
       "clip_bounds": [
@@ -10078,7 +10078,7 @@
           "clip": true
         }
       ],
-      "backfill_cursor": "2016-08-17",
+      "backfill_cursor": "2015-08-17",
       "history_start": "2017-06-03",
       "caught_up": false,
       "clip_bounds": [
@@ -10987,7 +10987,7 @@
           "clip": true
         }
       ],
-      "backfill_cursor": "2016-08-17",
+      "backfill_cursor": "2015-08-17",
       "history_start": "2017-06-26",
       "caught_up": false,
       "clip_bounds": [
@@ -11896,7 +11896,7 @@
           "clip": true
         }
       ],
-      "backfill_cursor": "2016-08-17",
+      "backfill_cursor": "2015-08-17",
       "history_start": "2017-06-26",
       "caught_up": false,
       "clip_bounds": [
@@ -12477,7 +12477,7 @@
           "clip": true
         }
       ],
-      "backfill_cursor": "2016-08-17",
+      "backfill_cursor": "2015-08-17",
       "history_start": "2017-06-03",
       "caught_up": false,
       "clip_bounds": [
@@ -13058,7 +13058,7 @@
           "clip": true
         }
       ],
-      "backfill_cursor": "2016-08-17",
+      "backfill_cursor": "2015-08-17",
       "history_start": "2017-06-03",
       "caught_up": false,
       "clip_bounds": [
@@ -13639,7 +13639,7 @@
           "clip": true
         }
       ],
-      "backfill_cursor": "2016-08-17",
+      "backfill_cursor": "2015-08-17",
       "history_start": "2017-06-03",
       "caught_up": false,
       "clip_bounds": [
@@ -14220,7 +14220,7 @@
           "clip": true
         }
       ],
-      "backfill_cursor": "2016-08-17",
+      "backfill_cursor": "2015-08-17",
       "history_start": "2017-06-03",
       "caught_up": false,
       "clip_bounds": [
