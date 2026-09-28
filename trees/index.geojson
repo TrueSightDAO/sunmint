@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-28T12:32:09.863636Z",
+  "generated_at": "2026-09-28T20:41:26.354316Z",
   "features": [
     {
       "type": "Feature",
@@ -3056,6 +3056,34 @@
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "tree_id": "Edgar_20260928203759_087",
+        "species": "Cacao - Criolla",
+        "last_measured": "2026-09-28T20:37:55.586Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260928173755_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW",
+        "submission_source": "https://beta.sunmint.truesight.me/",
+        "pk_hash": "pk-Jg5S50VZ7HZS",
+        "program": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "tree_id": "Edgar_20260928203818_089",
+        "species": "Cacao - Criolla",
+        "last_measured": "2026-09-28T20:38:15.098Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260928173815_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW",
+        "submission_source": "https://beta.sunmint.truesight.me/",
+        "pk_hash": "pk-Jg5S50VZ7HZS",
+        "program": ""
       }
     }
   ]
