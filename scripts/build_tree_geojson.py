@@ -35,14 +35,26 @@ _SUBMISSION_SOURCE_RE = re.compile(
 )
 _SUBMISSION_SOURCE_INLINE_RE = re.compile(r"Submission Source:[ \t]*([^\s\\]+)", re.I)
 _GENERATED_USING_RE = re.compile(r"generated using[ \t]+(\S+)", re.I)
-# Personal-key hash: every submission carries the signer's RSA SPKI public key on a
+# Personal-key handle: every submission carries the signer's RSA SPKI public key on a
 # "My Digital Signature:" line (col F for legacy rows, a dedicated column when a
-# writer supplies one). The per-tab pk_hash is a STABLE, NON-REVERSIBLE pseudonym:
+# writer supplies one). The per-tree pk_hash is a CANONICAL, CONTENT-ADDRESSED handle
+# -- NOT a privacy device:
 #   pk-<first 12 chars of base64url(SHA-256(base64-decoded SPKI bytes))>
-# It mirrors the writers' own hash (tokenomics GAS cfrSubDerivePkHash_ and
-# dapp cfr-anapu/payout-registration-utils derivePkHash) so a page can filter the
-# public feed to the viewer's own trees WITHOUT the feed ever carrying the raw key.
-# This is the ONLY identity we publish -- never the public key itself.
+# It is derived from the public key, which is public by construction, so anyone holding
+# that key re-derives the same value -- it hides nothing. Its job is to be a STABLE,
+# COMPACT JOIN KEY for a key that otherwise arrives as a ~392-char blob in several
+# encodings: we decode to DER/SPKI bytes first, so every encoding of one key collapses
+# to one value and the published feed stays small. Same role as a git object id.
+# It mirrors the writers' own hash (tokenomics GAS cfrSubDerivePkHash_ and dapp
+# cfr-anapu/payout-registration-utils derivePkHash) so a page can filter the public
+# feed to the viewer's own trees without the feed carrying the raw key. See
+# agentic_ai_context/conventions/DEDUP_KEY_CONVENTION.md 2.6.
+#
+# Algorithm id: bump this together with any change to derive_pk_hash. The emitted value
+# is currently UNPREFIXED ("pk-"). A literal "pk1-" prefix flip would orphan every
+# already-stored pk_hash (QR ids, credential dirs, cached files, sheet columns) and so
+# is staged in OPEN_FOLLOWUPS.md, not shipped here.
+PK_HASH_SCHEME = "pk1"
 _PK_RE = re.compile(r"My Digital Signature:\s*(\S+)", re.I)
 
 
@@ -57,7 +69,7 @@ def derive_pk_hash(public_key_b64):
             return None
         raw = base64.b64decode(key, validate=True)
         # Must be a DER SEQUENCE (0x30 ...) and long enough to be an SPKI --
-        # rejects truncated/garbage values so a bad cell cannot invent a pseudonym.
+        # rejects truncated/garbage values so a bad cell cannot invent a handle.
         if len(raw) < 128 or raw[:1] != b"\x30":
             return None
         digest = hashlib.sha256(raw).digest()
@@ -231,6 +243,7 @@ def load_trees(ws, registry=None):
     c_contrib = idx(header, "contribution made", "contribution")
     c_sig = idx(header, "my digital signature", "digital signature", "signature")
     c_source = idx(header, "submission source")
+    c_txid = idx(header, "request_transaction_id", "request transaction id", "request_txid")
     c_species = idx(header, "specie", "species")
     c_lat = idx(header, "latitude")
     c_lng = idx(header, "longitude")
@@ -286,6 +299,7 @@ def load_trees(ws, registry=None):
                 "plot_id": cell(row, c_plot) or None,
                 "planted_at": cell(row, c_time) or None,
                 "planting_time": cell(row, c_time) or None,
+                "request_txid": cell(row, c_txid) or None,
                 "submission_source": src or None,
                 "program": registry.get(source_host(src), ""),
             }
@@ -326,6 +340,7 @@ def main():
             "submission_source": t.get("submission_source"),
             "pk_hash": t.get("pk_hash"),
             "program": t.get("program"),
+            "request_txid": t.get("request_txid"),
         }
         props = {k: v for k, v in props.items() if v is not None}
         if t["lat"] is not None and t["lng"] is not None:
