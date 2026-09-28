@@ -1,8 +1,10 @@
 """Unit tests for the per-tree pk_hash emitted by build_tree_geojson.
 
 The public trees/index.geojson must let a page show "my trees" by matching the
-viewer's OWN key hash -- WITHOUT the feed ever carrying the raw public key. The
-hash is a stable, non-reversible pseudonym:
+viewer's OWN key hash -- WITHOUT the feed ever carrying the raw key blob. The hash
+is a canonical, content-addressed handle (NOT a privacy device: the key is public,
+so anyone holding it re-derives the same value); it exists to be a stable, compact
+join key that collapses the several encodings of one key to a single value:
 
     pk-<first 12 chars of base64url(SHA-256(base64-decoded SPKI bytes))>
 
@@ -38,6 +40,11 @@ REAL_KEY_HASH = "pk-BJ_vNU_J6F4u"
 class TestDerivePkHash(unittest.TestCase):
     def test_matches_independent_implementation(self):
         self.assertEqual(bt.derive_pk_hash(REAL_KEY), REAL_KEY_HASH)
+
+    def test_scheme_id_is_pinned(self):
+        # A future change to derive_pk_hash MUST bump this id (and migrate stored
+        # values) rather than silently orphaning every stored pk_hash.
+        self.assertEqual(bt.PK_HASH_SCHEME, "pk1")
 
     def test_is_deterministic_and_url_safe(self):
         h = bt.derive_pk_hash(REAL_KEY)
