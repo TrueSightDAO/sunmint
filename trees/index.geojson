@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-09-28T23:05:29.331679Z",
+  "generated_at": "2026-09-29T01:09:39.718617Z",
   "features": [
     {
       "type": "Feature",
@@ -2725,51 +2725,6 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
-      "properties": {
-        "tree_id": "Edgar_20260924115503_049",
-        "species": "Cacao - Forestero",
-        "last_measured": "2026-09-24T11:54:37.778Z",
-        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924085437_MIIBIjANBgkqhkiG9w0B.jpg",
-        "status": "NEW",
-        "submission_source": "https://localhost/",
-        "pk_hash": "pk-Ee4aYLRkptun",
-        "program": "",
-        "request_txid": "V6TR/I6pJ22defy/OZ7XC7eDjNCB3aQjoD29x3iI2KYbA8Ob+QcF3/j1t4hJnchucoX6dak/9OK2xz/0KvvzBFOY8/jayOZibmdL7uzN/0rRQolRU3bFPiMOjYYzXmV2cPfwX/I7u77GERSl2se4kElNlOZNw9BxLxKNOoVEd1VJ3YhWpND2LfIdUWwwvGavDwVMxJEw213o/5YdclYFC9Wil9SqbeJe8fynxyhrACZYx6MzQHfwp+RM9NI31mlZNOkUkhER9YA1Fq2ZmeWD8qp/eb3Kt4hsL2z/jY3LF4NhJ5T5F+0IpMJflyZJTObXIiI49S5AYTVW0bfJH5JkPA=="
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": null,
-      "properties": {
-        "tree_id": "Edgar_20260924115509_051",
-        "species": "Cacao - Forestero",
-        "last_measured": "2026-09-24T11:54:37.778Z",
-        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924085437_MIIBIjANBgkqhkiG9w0B.jpg",
-        "status": "NEW",
-        "submission_source": "https://localhost/",
-        "pk_hash": "pk-Ee4aYLRkptun",
-        "program": "",
-        "request_txid": "V6TR/I6pJ22defy/OZ7XC7eDjNCB3aQjoD29x3iI2KYbA8Ob+QcF3/j1t4hJnchucoX6dak/9OK2xz/0KvvzBFOY8/jayOZibmdL7uzN/0rRQolRU3bFPiMOjYYzXmV2cPfwX/I7u77GERSl2se4kElNlOZNw9BxLxKNOoVEd1VJ3YhWpND2LfIdUWwwvGavDwVMxJEw213o/5YdclYFC9Wil9SqbeJe8fynxyhrACZYx6MzQHfwp+RM9NI31mlZNOkUkhER9YA1Fq2ZmeWD8qp/eb3Kt4hsL2z/jY3LF4NhJ5T5F+0IpMJflyZJTObXIiI49S5AYTVW0bfJH5JkPA=="
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": null,
-      "properties": {
-        "tree_id": "Edgar_20260924115515_053",
-        "species": "Cacao - Forestero",
-        "last_measured": "2026-09-24T11:54:37.778Z",
-        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924085437_MIIBIjANBgkqhkiG9w0B.jpg",
-        "status": "NEW",
-        "submission_source": "https://localhost/",
-        "pk_hash": "pk-Ee4aYLRkptun",
-        "program": "",
-        "request_txid": "V6TR/I6pJ22defy/OZ7XC7eDjNCB3aQjoD29x3iI2KYbA8Ob+QcF3/j1t4hJnchucoX6dak/9OK2xz/0KvvzBFOY8/jayOZibmdL7uzN/0rRQolRU3bFPiMOjYYzXmV2cPfwX/I7u77GERSl2se4kElNlOZNw9BxLxKNOoVEd1VJ3YhWpND2LfIdUWwwvGavDwVMxJEw213o/5YdclYFC9Wil9SqbeJe8fynxyhrACZYx6MzQHfwp+RM9NI31mlZNOkUkhER9YA1Fq2ZmeWD8qp/eb3Kt4hsL2z/jY3LF4NhJ5T5F+0IpMJflyZJTObXIiI49S5AYTVW0bfJH5JkPA=="
-      }
-    },
-    {
-      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2779,69 +2734,6 @@
       },
       "properties": {
         "tree_id": "Edgar_20260924122114_057",
-        "species": "Sumaúma",
-        "last_measured": "2026-09-24T12:20:58.945Z",
-        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924092058_MIIBIjANBgkqhkiG9w0B.jpg",
-        "status": "NEW",
-        "submission_source": "https://localhost/",
-        "pk_hash": "pk-Ee4aYLRkptun",
-        "program": "",
-        "request_txid": "F60DiG7aozEY1iFT/fWRYq9xWR9bvv7i/i3XCEdzMSaIsYlC79Lw++Eji9y4QQ+YM+xr5YdZTIBv7odBV4gPTBoxHs1/mp8aDOslXPtpyHmpsqlw4SbapBCxbG11qO0FDbLwe7ZN2OyfF6YUu4NEemoqmTyNX6ZJWpfNQBHB8lOcRXpoogUIX4CnEkJfW4p9dZ75dszXWiY/o+fihfw6ByL2VZ/N+ruEStJwGy0s59tM3TYBfnvcCKj5/8QJ2hyoOKron1bZQNTmeQL85ghQkowToHlTdqpJAzd5ncmlkP5t6WH6sBV2V6om/gAOhJicHNWck3b90v/C8obYd6vTOQ=="
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -51.5744182,
-          -3.513513514
-        ]
-      },
-      "properties": {
-        "tree_id": "Edgar_20260924122120_059",
-        "species": "Sumaúma",
-        "last_measured": "2026-09-24T12:20:58.945Z",
-        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924092058_MIIBIjANBgkqhkiG9w0B.jpg",
-        "status": "NEW",
-        "submission_source": "https://localhost/",
-        "pk_hash": "pk-Ee4aYLRkptun",
-        "program": "",
-        "request_txid": "F60DiG7aozEY1iFT/fWRYq9xWR9bvv7i/i3XCEdzMSaIsYlC79Lw++Eji9y4QQ+YM+xr5YdZTIBv7odBV4gPTBoxHs1/mp8aDOslXPtpyHmpsqlw4SbapBCxbG11qO0FDbLwe7ZN2OyfF6YUu4NEemoqmTyNX6ZJWpfNQBHB8lOcRXpoogUIX4CnEkJfW4p9dZ75dszXWiY/o+fihfw6ByL2VZ/N+ruEStJwGy0s59tM3TYBfnvcCKj5/8QJ2hyoOKron1bZQNTmeQL85ghQkowToHlTdqpJAzd5ncmlkP5t6WH6sBV2V6om/gAOhJicHNWck3b90v/C8obYd6vTOQ=="
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -51.5744182,
-          -3.513513514
-        ]
-      },
-      "properties": {
-        "tree_id": "Edgar_20260924122125_061",
-        "species": "Sumaúma",
-        "last_measured": "2026-09-24T12:20:58.945Z",
-        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924092058_MIIBIjANBgkqhkiG9w0B.jpg",
-        "status": "NEW",
-        "submission_source": "https://localhost/",
-        "pk_hash": "pk-Ee4aYLRkptun",
-        "program": "",
-        "request_txid": "F60DiG7aozEY1iFT/fWRYq9xWR9bvv7i/i3XCEdzMSaIsYlC79Lw++Eji9y4QQ+YM+xr5YdZTIBv7odBV4gPTBoxHs1/mp8aDOslXPtpyHmpsqlw4SbapBCxbG11qO0FDbLwe7ZN2OyfF6YUu4NEemoqmTyNX6ZJWpfNQBHB8lOcRXpoogUIX4CnEkJfW4p9dZ75dszXWiY/o+fihfw6ByL2VZ/N+ruEStJwGy0s59tM3TYBfnvcCKj5/8QJ2hyoOKron1bZQNTmeQL85ghQkowToHlTdqpJAzd5ncmlkP5t6WH6sBV2V6om/gAOhJicHNWck3b90v/C8obYd6vTOQ=="
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -51.5744182,
-          -3.513513514
-        ]
-      },
-      "properties": {
-        "tree_id": "Edgar_20260924122129_063",
         "species": "Sumaúma",
         "last_measured": "2026-09-24T12:20:58.945Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924092058_MIIBIjANBgkqhkiG9w0B.jpg",
