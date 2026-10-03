@@ -1,12 +1,12 @@
 {
   "cadence_minutes": 15,
   "counts": {
-    "media_total": 1146,
+    "media_total": 1156,
     "plots": 22,
     "plots_with_media": 15,
-    "unattributed": 186
+    "unattributed": 196
   },
-  "generated_at": "2026-10-03T13:16:01Z",
+  "generated_at": "2026-10-03T23:07:10Z",
   "plots": {
     "B-06-108": {
       "counts": {
@@ -11822,6 +11822,7 @@
       "fazenda-santa-ana-bahia": "2026-09-07",
       "fazenda-santa-rosa": "2026-09-14",
       "fazenda-sao-jorge-bahia": "2026-09-26",
+      "founderhaus": "2026-10-01",
       "jedielcio": "2026-09-11",
       "la-do-sitio": "2026-08-31",
       "oscar-bahia": "2026-09-07",
@@ -12813,6 +12814,128 @@
         "thumbnail": "https://img.youtube.com/vi/PzwbF27vGEw/hqdefault.jpg",
         "transcript_status": "pending",
         "url": "https://www.youtube.com/watch?v=PzwbF27vGEw"
+      }
+    ],
+    "founderhaus": [
+      {
+        "attribution": "unattributed",
+        "captured_at": "2026-08-19T12:57:16",
+        "kind": "video",
+        "lat": null,
+        "lng": null,
+        "ref": "IMG_6797.MOV",
+        "sha256": "08fc0b580c2e8c7dd951eee682314d262644094249d25b0ede25b4076b51adab",
+        "thumbnail": null,
+        "transcript_status": null,
+        "url": "https://s3.us-east-1.amazonaws.com/media.agroverse.shop/raw/event-media/IMG_6797.MOV"
+      },
+      {
+        "attribution": "unattributed",
+        "captured_at": "2026-08-20T14:24:23",
+        "kind": "video",
+        "lat": null,
+        "lng": null,
+        "ref": "IMG_6867.MOV",
+        "sha256": "c398edebce30e1437e2c1af45e5eecbd1db969a3af91fc7658e21227e9f5349d",
+        "thumbnail": null,
+        "transcript_status": null,
+        "url": "https://s3.us-east-1.amazonaws.com/media.agroverse.shop/raw/event-media/IMG_6867.MOV"
+      },
+      {
+        "attribution": "unattributed",
+        "captured_at": "2026-08-27T14:41:33",
+        "kind": "video",
+        "lat": null,
+        "lng": null,
+        "ref": "IMG_7265.MOV",
+        "sha256": "4fb0ca686f1bb6e7fe430988fd69eec2dd6c155f348cd98426f976112a8aa02b",
+        "thumbnail": null,
+        "transcript_status": null,
+        "url": "https://s3.us-east-1.amazonaws.com/media.agroverse.shop/raw/event-media/IMG_7265.MOV"
+      },
+      {
+        "attribution": "unattributed",
+        "captured_at": "2026-08-27T16:42:39",
+        "kind": "video",
+        "lat": null,
+        "lng": null,
+        "ref": "IMG_7280.MOV",
+        "sha256": "ecd941374c5cffc21309eeecde9c511c3ee8152fd27f4c18079e862e686c2552",
+        "thumbnail": null,
+        "transcript_status": null,
+        "url": "https://s3.us-east-1.amazonaws.com/media.agroverse.shop/raw/event-media/IMG_7280.MOV"
+      },
+      {
+        "attribution": "unattributed",
+        "captured_at": "2026-08-27T18:12:30",
+        "kind": "video",
+        "lat": null,
+        "lng": null,
+        "ref": "IMG_7287.MOV",
+        "sha256": "48f900c3c86b153b266480e80203262268a0f4b425b2d796a598dd660212310c",
+        "thumbnail": null,
+        "transcript_status": null,
+        "url": "https://s3.us-east-1.amazonaws.com/media.agroverse.shop/raw/event-media/IMG_7287.MOV"
+      },
+      {
+        "attribution": "unattributed",
+        "captured_at": "2026-08-28T13:18:55",
+        "kind": "video",
+        "lat": null,
+        "lng": null,
+        "ref": "IMG_7331.MOV",
+        "sha256": "f3cf5e07583e2f59d73fe5f69ce782c8e2da4ae90edad1c6209c558539bbce19",
+        "thumbnail": null,
+        "transcript_status": null,
+        "url": "https://s3.us-east-1.amazonaws.com/media.agroverse.shop/raw/event-media/IMG_7331.MOV"
+      },
+      {
+        "attribution": "unattributed",
+        "captured_at": "2026-08-28T13:19:18",
+        "kind": "video",
+        "lat": null,
+        "lng": null,
+        "ref": "IMG_7332.MOV",
+        "sha256": "4b9335d3047ad0c1ab7563dbb6dccea6f0f5a7ac5805e28a24289214fd5ac614",
+        "thumbnail": null,
+        "transcript_status": null,
+        "url": "https://s3.us-east-1.amazonaws.com/media.agroverse.shop/raw/event-media/IMG_7332.MOV"
+      },
+      {
+        "attribution": "unattributed",
+        "captured_at": "2026-08-28T13:19:37",
+        "kind": "video",
+        "lat": null,
+        "lng": null,
+        "ref": "IMG_7333.MOV",
+        "sha256": "f2aabcee081bda211d52a3b1c0fa4cbdfe59b6fef2877b4b1947701345add8eb",
+        "thumbnail": null,
+        "transcript_status": null,
+        "url": "https://s3.us-east-1.amazonaws.com/media.agroverse.shop/raw/event-media/IMG_7333.MOV"
+      },
+      {
+        "attribution": "unattributed",
+        "captured_at": "2026-08-28T13:19:48",
+        "kind": "video",
+        "lat": null,
+        "lng": null,
+        "ref": "IMG_7334.MOV",
+        "sha256": "af0af739adf766a96103f227a9afaae0218ce0da0473e053d66b30885d317063",
+        "thumbnail": null,
+        "transcript_status": null,
+        "url": "https://s3.us-east-1.amazonaws.com/media.agroverse.shop/raw/event-media/IMG_7334.MOV"
+      },
+      {
+        "attribution": "unattributed",
+        "captured_at": "2026-08-28T14:51:51",
+        "kind": "video",
+        "lat": null,
+        "lng": null,
+        "ref": "IMG_7350.MOV",
+        "sha256": "8b82f438e8f50e7baaf60e215fd5c4d62856acfb1a7957b7ff01b8c475dfb9ed",
+        "thumbnail": null,
+        "transcript_status": null,
+        "url": "https://s3.us-east-1.amazonaws.com/media.agroverse.shop/raw/event-media/IMG_7350.MOV"
       }
     ],
     "jedielcio": [
