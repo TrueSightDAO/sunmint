@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T13:42:22.130650+00:00",
+  "generated_at": "2026-10-08T13:50:41.270308+00:00",
   "source": "earth-search.aws.element84.com Sentinel-2 L2A (anonymous)",
   "cloud_max": 20.0,
   "archive_floor": "2015-06-23",
@@ -5393,6 +5393,14 @@
       },
       "scenes": [
         {
+          "id": "S2C_21MZR_20261007_0_L2A",
+          "date": "2026-10-07",
+          "cloud_cover": 9.518,
+          "file": "20261007.jpg",
+          "bytes": 974,
+          "clip": true
+        },
+        {
           "id": "S2B_21MZR_20260922_0_L2A",
           "date": "2026-09-22",
           "cloud_cover": 4.532,
@@ -6302,6 +6310,14 @@
       },
       "scenes": [
         {
+          "id": "S2C_22MBB_20261007_0_L2A",
+          "date": "2026-10-07",
+          "cloud_cover": 14.525,
+          "file": "20261007.jpg",
+          "bytes": 888,
+          "clip": true
+        },
+        {
           "id": "S2B_22MBB_20260922_0_L2A",
           "date": "2026-09-22",
           "cloud_cover": 17.551,
@@ -6746,6 +6762,14 @@
         "lng": -53.66915
       },
       "scenes": [
+        {
+          "id": "S2C_21MZR_20261007_0_L2A",
+          "date": "2026-10-07",
+          "cloud_cover": 9.518,
+          "file": "20261007.jpg",
+          "bytes": 1040,
+          "clip": true
+        },
         {
           "id": "S2B_21MZR_20260922_0_L2A",
           "date": "2026-09-22",
