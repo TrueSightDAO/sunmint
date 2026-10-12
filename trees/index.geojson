@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-10-12T11:30:00.678980Z",
+  "generated_at": "2026-10-12T11:32:40.555162Z",
   "features": [
     {
       "type": "Feature",
@@ -3319,6 +3319,174 @@
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "NXl0re4bwthLpHV828j2yuCdUsVPF6Y0covTFLTuzD9OSwY3crAIpmfdXtztqBCKwhhQOJhUPIJgPXPYyGoBZSkOhDwDZjQlGHl54ubr0bR9uq49ffL8EENfZsDsR2UIh+YuDaDhs/qeJHR2zO3vNiqXMqndBH79McRRYU0afg8PLI35BVPVO+bH0EWs1g89YuVaAATzxsKwGM2ic07T5O01KakDWzAEAhQTSMTBGmSA29d0oNIMnaskRH13E+3c5pfpuddPOIkw9IXjm71OOF3UdoDpGn613rPdVkjhD0Vx7CI+5IcNjObKkgz0x3oC56ON0o8czKud4qqOnN8ptA=="
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.5749705,
+          -3.5229195
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20261012113017_243",
+        "species": "Cacao - Forestero",
+        "last_measured": "2026-10-12T11:30:15.156Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083015_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW",
+        "submission_source": "https://cfr.truesight.me/",
+        "pk_hash": "pk-qkejKJJW3IAD",
+        "program": "crf-anapu",
+        "request_txid": "J9RXYSM5Dr5KgYsqOEkHrI2CFwzJMDEv3SffbtL3gufT53xC1sE9eq3+FBDrv8ze8N9VLX5xWz1rIqCOLkaH7W2VgLwLI4lzkTpiSgJ7/Fq+JkZfIGeO8WSMBluc3gY1FCw233Xm+cXmb7GaZ+Q2SPd1fqnxHZUGk+7gomL3bhIa7zs6KrmRct/RnvOWzX8QTL4uCVIEmrWLhVpzGbA8c1Y+S3H+QyihSFYAvri166GfIU4k/BASIOPy/vukcrzTf7ZYjAMknHYYQZ+Ra4pgq7peKGIpwsG7pa0iKKSp5cxFLkMlhGC690VwwBip/+Zsm2EZFQbkcW1rU2kmXBtqMA=="
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.5749705,
+          -3.5229195
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20261012113032_247",
+        "species": "Cacao - Criolla",
+        "last_measured": "2026-10-12T11:30:21.066Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083021_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW",
+        "submission_source": "https://cfr.truesight.me/",
+        "pk_hash": "pk-qkejKJJW3IAD",
+        "program": "crf-anapu",
+        "request_txid": "iNE/w+xEE/v2zxPUVqMbWPLZzQqs2Psu8Y2z5Gen2kM0Ubp03F/9G3wVd6JutMrC0+mFRdqvQfGgeVItGRdQv54UF8FqBbmqD6KEN6QTAcfubRfq0uuy3LhNc5EuamXUt4EKcT3fp5uM8X8psq4w/hqOf64mR7AL3p94Q9KPnBibvzTafHgwp/MB5zRtMCpJ/Z9Fznw/rIAhbRZq7xzCqvVP22t7OghNdnwqZ69kws5KxtBqu4zdySLIa7buERn7zREyi8wb1GjBcE/Hzv8XlklS2uM89NJRdzggWmMpBXfKyVv5HtaFG90mh+kI2YRWSCm9qiNMQjFbe859b7CdRA=="
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.5749705,
+          -3.5229195
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20261012113045_251",
+        "species": "Cacao - Criolla",
+        "last_measured": "2026-10-12T11:30:32.139Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083032_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW",
+        "submission_source": "https://cfr.truesight.me/",
+        "pk_hash": "pk-qkejKJJW3IAD",
+        "program": "crf-anapu",
+        "request_txid": "EHx4OLcvvfJbewGhUhT1M2P5WHiQjR2jfqPupwrYW1PkXNVxA7CgTglGOWZRJDdmLNZVAYkxCl0FZYkkdR8bEU44brrXqKqnZp+wK1vEDVcwE+cm7RY8ilHZNhzd1bjEPaFs3p9nsWkFSyfxUJyocyXvzicMp3HeGm5O6SCb4bHvQCCFmLqR3x2zoWVFU0d1Xo5ZSThMhDgZpm1HyQxUbAdFArFZa0x5VsmSVXyoutX2SrhM2T/+BeakhFSFiQ+IqF5natG1BValX8HgNPqtjdOEtXX+szeFDmSeQNZR2m1GnJ3ZSW2J7WlsKN34iGkTUBUwWXEu6Tvs2zU7CzU33w=="
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.5749705,
+          -3.5229195
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20261012113057_255",
+        "species": "Cacao - Forestero",
+        "last_measured": "2026-10-12T11:30:41.779Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083041_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW",
+        "submission_source": "https://cfr.truesight.me/",
+        "pk_hash": "pk-qkejKJJW3IAD",
+        "program": "crf-anapu",
+        "request_txid": "jJo5UBFHP7M/g0vQebDW1TP6hpShCN8IrPNZTCaYtI1eKvGfepKLNk8EMzv/PDP9QvngOvFPhniUy2YYjpjcwDi4eQ725jMS0IcSbWz2GWZTnkTHTIKdbIwjxSc+iH8Kv3JfmLZo0hZ0vXBRHDXQqcI3ToPwdlsmLX9X+DIjaIcN4yz8nR4Z9rl1eZmJ9u88/XaYa9BK+KI5x8sOSlzryILJ/tVu3r+twEhZrHBX+pZuZK26xRADpVs1lgWSBSwjYCVb5Cu5qzIVexsnhnsViPCnWXPH8a2k8gQRW3ds38OM/3f+jzKP7VFReGTRhLpNhtuBtuGIBZa0D6rbhpVMqQ=="
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.5749705,
+          -3.5229195
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20261012113108_257",
+        "species": "Cacao - Forestero",
+        "last_measured": "2026-10-12T11:31:06.143Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083106_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW",
+        "submission_source": "https://cfr.truesight.me/",
+        "pk_hash": "pk-qkejKJJW3IAD",
+        "program": "crf-anapu",
+        "request_txid": "lNPeKwFtlPfemxDbebDjKS4RfgoIsX3csO9lQpB/8VisrfR/Q+4rmu4qLw391f+4k8AL9OrZbVsY5UgzG7jkGZHSFxGPWPq7IR/RJ7ZnE5BYjZKMHJFRasZS7ScAVOIrsTBm3QPq2vhxLtuW+EkhmalB0SM1wKbzOKRYgqOWTLyt2N9TCNLzKng4K9lTJjgqQUW2geEcXD7GdIxIJCVs4GCCkojU7NEyTj/+eq3f5BS17vpuZARNP6PJYxmAIQ9q9c65VaxNv+Qa0Uzo7zh6QOPaKk6D09wGgzQXnRwrqBnzB62javUqWVo+2txcqfrWi47GVX/9iQQphhwotrmUQA=="
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.5749705,
+          -3.5229195
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20261012113123_259",
+        "species": "Cacao - Criolla",
+        "last_measured": "2026-10-12T11:31:20.411Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083120_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW",
+        "submission_source": "https://cfr.truesight.me/",
+        "pk_hash": "pk-qkejKJJW3IAD",
+        "program": "crf-anapu",
+        "request_txid": "UzmkwwRg0GYt/ZdEPkXZd8r3QbtTsdJk2u060Wq4DW9QHVD3MWi1ygXWivrs/ck+S2I9xlzvQbYTqvvvQCVUA00M4Lq2cV2ZM4H/KsYD/5LPilrd9+KgV44CKkHfQV91+gmmOKq4Lu8R7AtTpEXM+8fZDPcm6OGB2TSRgIpyPKt9+TOQSJi3nvfs+ctKRWcYUqTZM5UEHRxP9zW5z0GX4omkrE1pvg9ez0g0KLz/xHBySyQKKop+6iS+eTwUpwyHVa0fF9WCkpVv0hwg/Fw6yKDYv+N9/PghwlVLB6oVjurfofZdqyWhYFa/tOTQj2/9K9HJe1v2jgFj2jNPn204fg=="
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.5749705,
+          -3.5229195
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20261012113145_261",
+        "species": "Cacao - Forestero",
+        "last_measured": "2026-10-12T11:31:43.301Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083143_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW",
+        "submission_source": "https://cfr.truesight.me/",
+        "pk_hash": "pk-qkejKJJW3IAD",
+        "program": "crf-anapu",
+        "request_txid": "ZAIezM3S6vn5/Nl8dGoituugvph2VEjCpkvaMi/iaWrW0GKsbOlO/QlTjyRkwb3EF0CGJ8wFXaU2jQPJy4fuIk6FI64Eo4WGT04nF3weHo1frvNlyJJZ64ubKHOcAugFj8S7aTgtmaDjVFic0HXrmKGiRChezeL+XzxPnG1/lx/QaThrezHlo7GLmmu/Q9HroVyt8urXDN4pY3QKvjXd1BZ+YuKJSKp5xI9eZazKKS2S1D310VOh9xubqFshB/qsN/Eab7QLeStGjVgSqatFvEhw7kjKEhUwcujb/Mc3ebL40yFcd7wob9T44/kg34i+pbgb5rXMddD7AOQvt2e8aA=="
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.5749705,
+          -3.5229195
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20261012113210_263",
+        "species": "Cacao - Forestero",
+        "last_measured": "2026-10-12T11:32:07.427Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083207_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW",
+        "submission_source": "https://cfr.truesight.me/",
+        "pk_hash": "pk-qkejKJJW3IAD",
+        "program": "crf-anapu",
+        "request_txid": "qYfHd4mfTtZ31WQXJASF6Kzw7Z2xxqajrc10d9cfsYe7L2tw8khHIoCttDUvM1rblPic2HdDrRx3hVyZt6fmiqHUM/WyKjxnm9UeHIp8m0EW9gdb8ZtHwnB9g68hbNPADd5wFhrsgHPbFMVmtetkEjG+I8SybNYHj+6RTIDpfJccTC0ShJaT9owHBIUru4MjbQm3dgzb0ttQ28bFB4FQNhEREfbNOa2ISW/jAt65WPerDLamgyXEMWZBfpQIx7tS7vIOvxA16hEFCw78ImNHczYkO2tCJAtQR0Fo+Uylz+rht1ktqmqgQCp2Om4PJt2pUuoIbFAiJY8nqEYLmi1VIQ=="
       }
     }
   ]
