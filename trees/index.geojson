@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-10-12T11:44:33.056236Z",
+  "generated_at": "2026-10-12T11:45:02.417284Z",
   "features": [
     {
       "type": "Feature",
@@ -4075,6 +4075,27 @@
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "MOdhqjsGSN8Oqpwv0qvFyiRBMVu5UepzzP+6davgv1PZxtp6/KcoMhyUTeWmyKp0H+v3OqsFmITcoPz356x4gwlwMmZEzGp3PaI4+ltfhKgVJgdJPh0cNqnFwQjT6sBQzdf1B4z1GO1u+PhS2H4oFYmIXT9HO3eKT7DyHG8haOGEr0HxcGVA9fng/QikW7uhuPd7Kk67whSeESzFR1HgmbRuQV1UDNPLUJRX4NeyQdPr8JRR9SIqhiz+oLzB3e1Fxispfvbor/hwNXbt0Tj4136rR7p+6KpiynK0Rh9kIQnVuv4AQpikFHMOfjaOvKAKXgVfY7E2BmCSv6ofNp+jdw=="
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.5749705,
+          -3.5229189
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20261012114434_325",
+        "species": "Cacau enxertado",
+        "last_measured": "2026-10-12T11:44:27.601Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012084427_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW",
+        "submission_source": "https://cfr.truesight.me/",
+        "pk_hash": "pk-qkejKJJW3IAD",
+        "program": "crf-anapu",
+        "request_txid": "e+qiSgfJRHM3I8RpE2FtyN5gLIp2K+Kgkk+pvcgd6R3zN2h1xnjRFxWyeolqhq+pZghh+p88nNu9geCEhL4N3A8mxX5PJ1wvP3OH6GaFW/wR/itmBHNEv36UrFxmsbRNfSJphx9YJJWzW4RSBl2C7ZB3GPfizkTPdwu+eHo4LyXnja+Qissdr46/blcDwkNJOkF3hTY3ru5JFqSldvAZleu3h3dFqZfdcuqIRg0xxMFooHXlUqNwUWnkD1EqoSCqk3Q6kdabB2L8yAh4IHVKgSbVVGoN/KeNi1xPN+KNwSIptXppywyaUa2peQmwHzIsmpuG3xX0PY9md8fRdOa/kA=="
       }
     }
   ]
