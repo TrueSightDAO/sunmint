@@ -13,6 +13,7 @@ import argparse
 import base64
 import hashlib
 import json
+import math
 import os
 import re
 import sys
@@ -20,6 +21,14 @@ import urllib.request
 
 SHEET_ID = "1qbZZhf-_7xzmDTriaJVWj6OZshyQsFkdsAV8-pyzASQ"
 SHEET_TAB = "SunMint Tree Planting"
+
+# Ask-1: associate each tree with a plot at BUILD time. The sheet's "Plot ID"
+# column stays an explicit OVERRIDE (it wins when present). Otherwise the tree is
+# graded by geometry against the plot registry (plots/index.geojson):
+#   inside  -- point-in-polygon            -> auto-associated (plot_id derived).
+#   near    -- within PLOT_NEAR_METRES of a boundary -> FLAGGED, never auto-linked.
+#   none    -- otherwise (correct for distributed student plantings, e.g. CFR).
+PLOT_NEAR_METRES = 50.0
 
 # Option B program attribution: a tree belongs to a lineage-credentials program
 # when the host serving its submission matches one of that program's registered
@@ -307,9 +316,98 @@ def load_trees(ws, registry=None):
     return trees
 
 
+def _point_in_ring(x, y, ring):
+    """Ray-casting point-in-polygon; ring is a closed [[lng, lat], ...] list."""
+    inside = False
+    for i in range(len(ring) - 1):
+        x1, y1 = ring[i][0], ring[i][1]
+        x2, y2 = ring[i + 1][0], ring[i + 1][1]
+        if (y1 > y) != (y2 > y) and x < (x2 - x1) * (y - y1) / (y2 - y1) + x1:
+            inside = not inside
+    return inside
+
+
+def _point_to_ring_m(lng, lat, ring):
+    """Approx distance (m) from a point to the nearest ring edge (segment)."""
+    kx = 111320.0 * math.cos(math.radians(lat))
+    ky = 110540.0
+    px, py = lng * kx, lat * ky
+    best = float("inf")
+    for i in range(len(ring) - 1):
+        ax, ay = ring[i][0] * kx, ring[i][1] * ky
+        bx, by = ring[i + 1][0] * kx, ring[i + 1][1] * ky
+        dx, dy = bx - ax, by - ay
+        seg = dx * dx + dy * dy
+        t = (
+            0.0
+            if seg <= 0
+            else max(0.0, min(1.0, ((px - ax) * dx + (py - ay) * dy) / seg))
+        )
+        d = math.hypot(px - (ax + t * dx), py - (ay + t * dy))
+        best = min(best, d)
+    return best
+
+
+def load_plot_rings(path):
+    """Read plots/index.geojson (the ONE plot registry) -> [(plot_id, ring)].
+
+    Returns [] on any failure: association is an ENRICHMENT, never a reason to
+    fail a tree build. Only Polygon features with a plot_id and a ring qualify.
+    """
+    try:
+        with open(path, encoding="utf-8") as fh:
+            gj = json.load(fh)
+    except Exception:  # noqa: BLE001 - association is an enrichment, never fatal
+        return []
+    rings = []
+    for feat in gj.get("features", []):
+        geom = feat.get("geometry") or {}
+        if geom.get("type") != "Polygon":
+            continue
+        ring = (geom.get("coordinates") or [[]])[0]
+        pid = (feat.get("properties") or {}).get("plot_id")
+        if pid and ring:
+            rings.append((pid, ring))
+    return rings
+
+
+def associate_plot(lng, lat, rings, explicit=None, near_m=PLOT_NEAR_METRES):
+    """Grade a tree's plot association against the plot rings.
+
+    `plot_assoc` is the GEOMETRIC grade (inside | near | none). `plot_id` is the
+    resolved link: the explicit sheet value when present, else the enclosing
+    plot's id. A `near` tree is flagged via nearest_plot_id/plot_dist_m but NOT
+    auto-linked -- proximity within the tolerance is a review prompt, not a fact.
+    """
+    inside_pid = None
+    best_pid = None
+    best_d = None
+    for pid, ring in rings:
+        if _point_in_ring(lng, lat, ring):
+            inside_pid = pid
+            best_pid, best_d = pid, 0.0
+            break
+        d = _point_to_ring_m(lng, lat, ring)
+        if best_d is None or d < best_d:
+            best_pid, best_d = pid, d
+    if inside_pid:
+        assoc = "inside"
+    elif best_d is not None and best_d <= near_m:
+        assoc = "near"
+    else:
+        assoc = "none"
+    return {
+        "plot_id": explicit or inside_pid,
+        "plot_assoc": assoc,
+        "plot_dist_m": round(best_d, 1) if best_d is not None else None,
+        "nearest_plot_id": best_pid,
+    }
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default="trees/index.geojson")
+    ap.add_argument("--plots", default="plots/index.geojson")
     args = ap.parse_args()
     ws = get_sheet()
     registry = load_registry()
@@ -327,6 +425,13 @@ def main():
         if cur["lat"] is None and t["lat"] is not None:
             seen[t["id"]] = t
     trees = list(seen.values())
+    # Ask-1: grade every tree against the plot registry (build-time association).
+    rings = load_plot_rings(args.plots)
+    if not rings:
+        print(
+            f"WARN: plot registry '{args.plots}' unreadable/empty -- "
+            "plot association omitted from this build"
+        )
     features = []
     for t in trees:
         props = {
@@ -342,6 +447,10 @@ def main():
             "program": t.get("program"),
             "request_txid": t.get("request_txid"),
         }
+        if rings and t.get("lat") is not None and t.get("lng") is not None:
+            props.update(
+                associate_plot(t["lng"], t["lat"], rings, explicit=t.get("plot_id"))
+            )
         props = {k: v for k, v in props.items() if v is not None}
         if t["lat"] is not None and t["lng"] is not None:
             geom = {"type": "Point", "coordinates": [t["lng"], t["lat"]]}
