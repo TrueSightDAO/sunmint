@@ -7,7 +7,7 @@ governor rulings of 2026-10-14 (see
 
   * A pseudo slot is a ``SunMint Tree Planting``-shaped row with **blank
     Latitude/Longitude** and **no photo**, ``plot_id`` set, and a stable id
-    ``"<plot_id>-pseudo-<N>"``.
+    ``"PS-<plot_id>-<N>"``.
   * **Blank K/L *is* the discriminator** — a real, GPS-tagged submission always
     carries coordinates, so no extra "record_type" column is needed.
   * A pseudo row is **promoted in place**: when a real, located submission
@@ -29,7 +29,11 @@ from __future__ import annotations
 from collections.abc import Iterable
 from typing import NamedTuple
 
-PSEUDO_INFIX = "-pseudo-"
+# ``PS-`` is the allocation NAMESPACE / provenance marker: a row whose id
+# starts with it entered the ledger as a spacing-estimate placeholder. Per D1
+# the id is **not load-bearing** -- the live pseudo-vs-real test is blank K/L
+# (``is_pseudo_row``), so a plain tree id would be equally valid.
+PSEUDO_PREFIX = "PS-"
 
 
 def _coerce_n(n: object) -> int:
@@ -44,31 +48,31 @@ def _coerce_n(n: object) -> int:
 
 
 def make_pseudo_id(plot_id: str, n: object) -> str:
-    """Build a pseudo-slot id ``"<plot_id>-pseudo-<N>"``.
+    """Build a pseudo-slot id ``"PS-<plot_id>-<N>"``.
 
     Raises ValueError if ``plot_id`` is empty or ``n`` is not a positive int.
     """
     if not plot_id or not str(plot_id).strip():
         raise ValueError("plot_id is required to build a pseudo id")
-    return f"{str(plot_id).strip()}{PSEUDO_INFIX}{_coerce_n(n)}"
+    return f"{PSEUDO_PREFIX}{str(plot_id).strip()}-{_coerce_n(n)}"
 
 
 def is_pseudo_id(tree_id: object) -> bool:
-    """True if ``tree_id`` names a pseudo slot (contains the ``-pseudo-`` infix).
+    """True if ``tree_id`` is in the pseudo namespace (starts with ``PS-``).
 
-    This is the id-level discriminator; the coordinate-level discriminator is
-    :func:`is_pseudo_row` (blank lat/lng).
+    Namespace-level check only: per D1 the id is **not load-bearing**, so the
+    live pseudo-vs-real discriminator is blank lat/lng (:func:`is_pseudo_row`).
     """
     if not tree_id:
         return False
-    return PSEUDO_INFIX in str(tree_id)
+    return str(tree_id).startswith(PSEUDO_PREFIX)
 
 
 def pseudo_slot(tree_id: object) -> int | None:
-    """Return the integer slot ``N`` from a pseudo id, else None."""
+    """Return the integer slot ``N`` from ``PS-<plot_id>-<N>``, else None."""
     if not is_pseudo_id(tree_id):
         return None
-    tail = str(tree_id).rsplit(PSEUDO_INFIX, 1)[1]
+    tail = str(tree_id).rsplit("-", 1)[-1]
     try:
         return int(tail)
     except ValueError:
@@ -76,10 +80,21 @@ def pseudo_slot(tree_id: object) -> int | None:
 
 
 def pseudo_plot_id(tree_id: object) -> str | None:
-    """Return the plot id embedded in a pseudo id, else None."""
+    """Return the plot id embedded in ``PS-<plot_id>-<N>``, else None.
+
+    The plot id may itself contain dashes (``RM-P2``, ``V-06-29``); only the
+    final ``-<N>`` segment is the slot, so it is stripped from the right.
+    """
     if not is_pseudo_id(tree_id):
         return None
-    head = str(tree_id).rsplit(PSEUDO_INFIX, 1)[0]
+    body = str(tree_id)[len(PSEUDO_PREFIX) :]
+    head, sep, tail = body.rpartition("-")
+    if not sep:
+        return None
+    try:
+        int(tail)
+    except ValueError:
+        return None
     return head or None
 
 
