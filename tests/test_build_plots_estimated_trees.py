@@ -60,6 +60,49 @@ class TestEstimateExpectedTrees(unittest.TestCase):
         self.assertEqual(bp.estimate_expected_trees("", 1.0, None), 1111)
 
 
+class TestResolveExpectedTrees(unittest.TestCase):
+    def test_estimate_source_when_no_override(self):
+        n, src = bp.resolve_expected_trees("restoration", 1.0, None, None)
+        self.assertEqual(n, 1111)
+        self.assertEqual(src, "estimate")
+
+    def test_sheet_override_wins_over_estimate(self):
+        n, src = bp.resolve_expected_trees("restoration", 1.0, None, None, override=500)
+        self.assertEqual(n, 500)
+        self.assertEqual(src, "sheet")
+
+    def test_sheet_override_beats_gated_type(self):
+        # a human figure beats the heuristic even on a gated plot_type
+        n, src = bp.resolve_expected_trees("mature", 5.0, 5.0, None, override=320)
+        self.assertEqual(n, 320)
+        self.assertEqual(src, "sheet")
+
+    def test_gated_without_override_is_none(self):
+        n, src = bp.resolve_expected_trees("mature", 5.0, 5.0, None)
+        self.assertIsNone(n)
+        self.assertIsNone(src)
+
+    def test_no_area_no_override_is_none(self):
+        n, src = bp.resolve_expected_trees("restoration", None, None, None)
+        self.assertIsNone(n)
+        self.assertIsNone(src)
+
+
+class TestToInt(unittest.TestCase):
+    def test_plain(self):
+        self.assertEqual(bp.to_int("1200"), 1200)
+
+    def test_thousands_comma(self):
+        self.assertEqual(bp.to_int("1,200"), 1200)
+
+    def test_blank_is_none(self):
+        self.assertIsNone(bp.to_int(""))
+        self.assertIsNone(bp.to_int(None))
+
+    def test_garbage_is_none(self):
+        self.assertIsNone(bp.to_int("n/a"))
+
+
 class TestCountedTrees(unittest.TestCase):
     def test_counts_points_inside(self):
         fc = {
@@ -111,12 +154,14 @@ class TestPipeline(unittest.TestCase):
             "_polygon_ha": 0.99,
             "_spacing_m": None,
             "_expected_trees": 1111,
+            "_expected_trees_source": "estimate",
             "_counted_trees": 5,
         }
         props = bp.plot_props(p)
         self.assertEqual(props["expected_trees"], 1111)
         self.assertEqual(props["counted_trees"], 5)
         self.assertEqual(props["polygon_ha"], 0.99)
+        self.assertEqual(props["expected_trees_source"], "estimate")
         self.assertNotIn("tree_spacing_m", props)  # None -> dropped
 
     def test_gated_plot_omits_expected_but_keeps_counted(self):

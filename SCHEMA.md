@@ -39,10 +39,12 @@ specific first):
 | N | Latitude | `lat` | number | centroid / representative point |
 | O | Longitude | `lng` | number | centroid / representative point |
 | — | *(derived)* | `polygon_ha` | number | area of the drawn ring (hectares); emitted only when a ring exists |
-| — | *(derived)* | `expected_trees` | number | **Ask-2 estimate** — `area_ha / (tree_spacing_m ²)`; default grid 3.0×3.0 m → 1,111 trees/ha. **Gated:** never emitted for `mature`/`enrichment`/`research`/`nursery`/`infrastructure` (an established stand is not a net-new grid) |
+| — | *(derived | sheet)* | `expected_trees` | number | expected tree count. **Precedence:** an explicit `Expected Trees` **sheet override wins**; otherwise the **Ask-2 estimate** `area_ha / (tree_spacing_m ²)` (default grid 3.0×3.0 m → 1,111 trees/ha). The **estimate is gated** — never emitted for `mature`/`enrichment`/`research`/`nursery`/`infrastructure` (an established stand is not a net-new grid); a **sheet override still applies** to a gated type (a human figure beats the heuristic) |
+| — | *(derived)* | `expected_trees_source` | string | provenance of `expected_trees`: `"sheet"` (governor override) or `"estimate"` (spacing grid). Emitted only with `expected_trees`, so a surface can label the number honestly |
 | — | *(derived)* | `counted_trees` | number | **observed** trees whose point falls inside the ring (from `trees/index.geojson`) |
 | — | *(optional)* | `tree_spacing_m` | number | per-plot grid spacing override (metres); absent → the 3.0 m default |
 | — | Tree Spacing (sheet) | — | number | source column for the override; header-matched (`tree spacing`/`spacing`), never guessed |
+| — | Expected Trees (sheet) | `expected_trees` (override) | number | **U3 governor-editable override** — when set it WINS over the estimate. Header-matched (`expected trees`/`expected tree count`/`expected`); blank → estimate. Edit the sheet, the next rebuild re-applies it |
 | P–S | Invalidated By / (blank) / At / Reason | — | string | **not read by the generator** — retraction bookkeeping written by the GAS/DApp |
 
 Output geometry: `Polygon` with one ring `[lng, lat]` (GeoJSON order).

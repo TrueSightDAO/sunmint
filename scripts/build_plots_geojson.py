@@ -56,6 +56,9 @@ FIELD_COLUMNS = {
     "lng": ["longitude"],
     # Ask-2: optional per-plot grid spacing override (metres). Absent => 3.0 m.
     "tree_spacing_m": ["tree spacing", "spacing"],
+    # U3: governor-editable expected-tree override. When set it WINS over the
+    # spacing-grid estimate (a human figure beats a heuristic). Absent => estimate.
+    "expected_trees": ["expected trees", "expected tree count", "expected"],
 }
 
 # Controlled vocabulary for the `plot_type` column (see SUNMINT_PLOTS_REGISTRY.md sec 5).
@@ -143,6 +146,23 @@ def to_float(v):
         return None
 
 
+def to_int(v):
+    """Parse a tree count from a sheet cell; None when blank/unparseable.
+
+    Commas are treated as thousands separators (a count, unlike a hectare figure,
+    is not written with a decimal comma). Never returns 0 for a blank cell.
+    """
+    try:
+        if v is None:
+            return None
+        x = str(v).strip().replace(",", "")
+        if not x:
+            return None
+        return round(float(x))
+    except (ValueError, TypeError):
+        return None
+
+
 def ring_area_ha(ring):
     """Polygon area in hectares (equirectangular approximation at ring latitude)."""
     if not ring or len(ring) < 3:
@@ -172,6 +192,22 @@ def estimate_expected_trees(plot_type, hectares, polygon_ha, spacing_m=None):
         return None
     sp = spacing_m if spacing_m and spacing_m > 0 else DEFAULT_PLOT_SPACING_M
     return round(area * 10000 / (sp * sp))
+
+
+def resolve_expected_trees(plot_type, hectares, polygon_ha, spacing_m, override=None):
+    """Resolved expected-tree count + its provenance -> (count, source).
+
+    Precedence: an explicit governor override from the sheet ALWAYS wins over the
+    spacing-grid estimate -- a human figure beats a heuristic, even on a gated
+    plot_type. source is "sheet" | "estimate" | None so the surface can label the
+    number honestly (never present an estimate as a measured count).
+    """
+    if override is not None and override > 0:
+        return override, "sheet"
+    est = estimate_expected_trees(plot_type, hectares, polygon_ha, spacing_m)
+    if est is None:
+        return None, None
+    return est, "estimate"
 
 
 def _point_in_ring(x, y, ring):
@@ -308,6 +344,10 @@ def load_plots(ws):
         hectares = to_float(cell(row, cols["hectares"]))
         polygon_ha = ring_area_ha(ring) if ring else None
         spacing_m = to_float(cell(row, cols["tree_spacing_m"]))
+        override_expected = to_int(cell(row, cols["expected_trees"]))
+        exp_val, exp_src = resolve_expected_trees(
+            plot_type, hectares, polygon_ha, spacing_m, override_expected
+        )
         plots.append(
             {
                 "plot_id": pid,
@@ -325,9 +365,8 @@ def load_plots(ws):
                 "_ring": ring,
                 "_polygon_ha": polygon_ha,
                 "_spacing_m": spacing_m,
-                "_expected_trees": estimate_expected_trees(
-                    plot_type, hectares, polygon_ha, spacing_m
-                ),
+                "_expected_trees": exp_val,
+                "_expected_trees_source": exp_src,
                 "_counted_trees": None,  # filled in main() from trees/index.geojson
             }
         )
@@ -353,6 +392,7 @@ def plot_props(p):
         # Ask-2 derived layer (None dropped below, so an absent count stays absent).
         "polygon_ha": p.get("_polygon_ha"),
         "expected_trees": p.get("_expected_trees"),
+        "expected_trees_source": p.get("_expected_trees_source"),
         "counted_trees": p.get("_counted_trees"),
         "tree_spacing_m": p.get("_spacing_m"),
     }
