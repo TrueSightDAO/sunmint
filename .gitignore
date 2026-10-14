@@ -1,0 +1,9 @@
+# Python bytecode caches (should never be tracked)
+__pycache__/
+*.py[cod]
+# Tooling / env
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.DS_Store

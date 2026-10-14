@@ -19,6 +19,12 @@ import re
 import sys
 import urllib.request
 
+# Sibling module (scripts/): single-source the blank-K/L discriminator with the
+# allocator (SUNMINT_PSEUDO_TREE_QR_PLAN: the allocator is reused by the index
+# builder). stdlib-only, so it adds no CI dependency.
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import pseudo_trees
+
 SHEET_ID = "1qbZZhf-_7xzmDTriaJVWj6OZshyQsFkdsAV8-pyzASQ"
 SHEET_TAB = "SunMint Tree Planting"
 
@@ -276,6 +282,12 @@ def load_trees(ws, registry=None):
             continue
         lat = cell(row, c_lat)
         lng = cell(row, c_lng)
+        # Blank K/L == a pseudo slot (spacing-estimate placeholder) or an
+        # otherwise un-located row. This index holds tree POINTS, so skip it
+        # rather than emit a coordinate-less feature (no fabricated point).
+        # Promotion writes K/L onto the SAME row -> it reappears real next build.
+        if pseudo_trees.is_pseudo_row(lat, lng):
+            continue
 
         def to_float(v):
             try:
