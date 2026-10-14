@@ -2,7 +2,7 @@
 
 A "pseudo tree" is a placeholder slot for a tree the density estimator
 expects on a plot but which has **not** been photographed or located. Per the
-governor ruling of 2026-10-14 (see
+governor rulings of 2026-10-14 (see
 ``plans/SUNMINT_PSEUDO_TREE_QR_PLAN.md``):
 
   * A pseudo slot is a ``SunMint Tree Planting``-shaped row with **blank
@@ -10,12 +10,16 @@ governor ruling of 2026-10-14 (see
     ``"<plot_id>-pseudo-<N>"``.
   * **Blank K/L *is* the discriminator** — a real, GPS-tagged submission always
     carries coordinates, so no extra "record_type" column is needed.
-  * Slots are **interchangeable placeholders**. Reconciliation is therefore
-    **claim-on-arrival (FIFO within the plot)**, NOT a spatial nearest-match.
+  * A pseudo row is **promoted in place**: when a real, located submission
+    arrives via the **QR-bound** path it writes K/L (+ photo) onto the **same
+    row** -- the row *is* the tree. There is **no matching step at all**: a real
+    tree arriving with **no** QR bound to a slot simply **stands alone** and
+    claims no slot (D13=(a)). So there is **no FIFO / claim-on-arrival matching**
+    and **no spatial nearest-match**.
 
 This module holds **only** the id scheme and the allocator — no sheet, network,
 or ledger coupling — so it can be unit-tested and reused by the index builder,
-the DApp link handler, and the reconciliation job. It encodes **settled**
+the DApp link handler, and the reconciliation/index jobs. It encodes **settled**
 decisions only (SD1/SD2/SD6); it deliberately does not gate on ``plot_type``
 (row-minting policy D2/D9) or touch QR status (D5).
 """
@@ -114,7 +118,11 @@ def used_slots(plot_id: str, existing_ids: Iterable[object]) -> set[int]:
 
 
 def next_free_slot(plot_id: str, existing_ids: Iterable[object]) -> int:
-    """Smallest unused slot number (>=1) on ``plot_id`` — the FIFO claim target."""
+    """Smallest unused slot number (>=1) on ``plot_id`` (the next-free slot).
+
+    Slots are interchangeable placeholders, so the next-free rule keeps ids
+    stable; it is **not** a claim/matching target (see the module docstring).
+    """
     taken = used_slots(plot_id, existing_ids)
     n = 1
     while n in taken:
@@ -132,13 +140,13 @@ def allocate_slot(
     """Allocate a pseudo slot on ``plot_id``.
 
     * ``explicit_n`` — bind to a specific slot; refused if already used.
-    * otherwise the **next free** slot (FIFO) is chosen.
+    * otherwise the **next free** slot is chosen.
     * ``expected_trees`` — when given, the ceiling (from the plot's estimate);
-      requesting a slot beyond it is refused. ``None`` means unbounded (used by
-      claim-on-arrival, where a real tree may arrive after the estimate grew).
+      requesting a slot beyond it is refused (the caller rejects past cap).
+      ``None`` means unbounded.
 
     Raises ValueError on: bad ids, a reuse of an explicit slot, or exceeding the
-    ceiling. Determtistic: same inputs -> same slot.
+    ceiling. Deterministic: same inputs -> same slot.
     """
     existing = list(existing_ids)
     if explicit_n is not None:
