@@ -18,11 +18,21 @@ Usage:
 import argparse
 import datetime
 import json
+import math
 import os
 import sys
 
 SHEET_ID = "1qbZZhf-_7xzmDTriaJVWj6OZshyQsFkdsAV8-pyzASQ"
 SHEET_TAB = "SunMint Plots"
+
+# Ask-2: expected trees on a plot, from a standard cacao planting grid.
+# 3.0 m x 3.0 m => 10,000 / 9 = 1,111 trees/ha -- the agronomic "conventional
+# planting density" (2.0x2.0=2,500; 2.4x2.4=1,736; 3.0x3.0=1,111; 4.0x4.0=1,059).
+# Override per plot via the sheet's `tree_spacing_m` column. These plot types are
+# NEVER auto-estimated -- an established stand is not a net-new grid
+# (see SUNMINT_PLOTS_REGISTRY.md sec 4b / VALID_PLOT_TYPES).
+DEFAULT_PLOT_SPACING_M = 3.0
+GATED_PLOT_TYPES = {"mature", "enrichment", "research", "nursery", "infrastructure"}
 
 # Field -> accepted column names (most specific first, exact-before-prefix).
 # Mirrors build_tree_geojson.idx() behaviour.
@@ -44,6 +54,8 @@ FIELD_COLUMNS = {
     "coordinates": ["coordinates", "polygon", "coords", "geometry"],
     "lat": ["latitude"],
     "lng": ["longitude"],
+    # Ask-2: optional per-plot grid spacing override (metres). Absent => 3.0 m.
+    "tree_spacing_m": ["tree spacing", "spacing"],
 }
 
 # Controlled vocabulary for the `plot_type` column (see SUNMINT_PLOTS_REGISTRY.md sec 5).
@@ -129,6 +141,69 @@ def to_float(v):
         return float(v.replace(",", ".")) if v else None
     except (ValueError, AttributeError):
         return None
+
+
+def ring_area_ha(ring):
+    """Polygon area in hectares (equirectangular approximation at ring latitude)."""
+    if not ring or len(ring) < 3:
+        return None
+    lat0 = sum(pt[1] for pt in ring) / len(ring)
+    kx = 111320.0 * math.cos(math.radians(lat0))
+    ky = 110540.0
+    pts = [(pt[0] * kx, pt[1] * ky) for pt in ring]
+    a = 0.0
+    for i in range(len(pts) - 1):
+        a += pts[i][0] * pts[i + 1][1] - pts[i + 1][0] * pts[i][1]
+    return abs(a) / 2 / 10000
+
+
+def estimate_expected_trees(plot_type, hectares, polygon_ha, spacing_m=None):
+    """Expected tree count from a spacing grid; None when gated / no area.
+
+    Uses the declared `hectares` when present (the farmer's intent), else the
+    drawn polygon area. Spacing falls back to the standard 3.0 m cacao grid --
+    never guessed per plot. Returns None for a gated plot_type or with no area,
+    so a mature / research stand is never handed a fabricated count.
+    """
+    if (plot_type or "").strip().lower() in GATED_PLOT_TYPES:
+        return None
+    area = hectares if hectares else polygon_ha
+    if not area:
+        return None
+    sp = spacing_m if spacing_m and spacing_m > 0 else DEFAULT_PLOT_SPACING_M
+    return round(area * 10000 / (sp * sp))
+
+
+def _point_in_ring(x, y, ring):
+    """Ray-casting point-in-polygon; ring is a closed [[lng, lat], ...] list."""
+    inside = False
+    for i in range(len(ring) - 1):
+        x1, y1 = ring[i][0], ring[i][1]
+        x2, y2 = ring[i + 1][0], ring[i + 1][1]
+        if (y1 > y) != (y2 > y) and x < (x2 - x1) * (y - y1) / (y2 - y1) + x1:
+            inside = not inside
+    return inside
+
+
+def load_tree_points(path):
+    """Tree Point coords from trees/index.geojson -> [(lng, lat)]; None if unreadable.
+
+    None (vs []) distinguishes 'no tree index' (omit counted_trees) from 'empty
+    but valid' (counted_trees = 0).
+    """
+    try:
+        with open(path, encoding="utf-8") as fh:
+            gj = json.load(fh)
+    except Exception:  # noqa: BLE001 - optional tree index; absent is not fatal
+        return None
+    pts = []
+    for feat in gj.get("features", []):
+        geom = feat.get("geometry") or {}
+        if geom.get("type") == "Point":
+            c = geom.get("coordinates") or []
+            if len(c) >= 2:
+                pts.append((c[0], c[1]))
+    return pts
 
 
 def parse_coordinates(raw, lat, lng, hectares):
@@ -230,12 +305,15 @@ def load_plots(ws):
                 f"WARN: plot {pid} has unrecognized plot_type '{plot_type}' "
                 f"(expected one of: {', '.join(sorted(VALID_PLOT_TYPES))})"
             )
+        hectares = to_float(cell(row, cols["hectares"]))
+        polygon_ha = ring_area_ha(ring) if ring else None
+        spacing_m = to_float(cell(row, cols["tree_spacing_m"]))
         plots.append(
             {
                 "plot_id": pid,
                 "farm_id": cell(row, cols["farm_id"]) or None,
                 "name": cell(row, cols["name"]) or pid,
-                "hectares": to_float(cell(row, cols["hectares"])),
+                "hectares": hectares,
                 "status": status,
                 "plot_type": plot_type,
                 "boundary_authority": cell(row, cols["boundary_authority"]) or "approx",
@@ -245,6 +323,12 @@ def load_plots(ws):
                 "media": media_list,
                 "notes": cell(row, cols["notes"]) or None,
                 "_ring": ring,
+                "_polygon_ha": polygon_ha,
+                "_spacing_m": spacing_m,
+                "_expected_trees": estimate_expected_trees(
+                    plot_type, hectares, polygon_ha, spacing_m
+                ),
+                "_counted_trees": None,  # filled in main() from trees/index.geojson
             }
         )
     return plots
@@ -266,6 +350,11 @@ def plot_props(p):
         "verified_at": p["verified_at"],
         "media": p["media"],
         "notes": p["notes"],
+        # Ask-2 derived layer (None dropped below, so an absent count stays absent).
+        "polygon_ha": p.get("_polygon_ha"),
+        "expected_trees": p.get("_expected_trees"),
+        "counted_trees": p.get("_counted_trees"),
+        "tree_spacing_m": p.get("_spacing_m"),
     }
     return {k: v for k, v in props.items() if v is not None}
 
@@ -317,6 +406,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default="plots/index.geojson")
     ap.add_argument("--by-plot-dir", default="plots/by-plot")
+    ap.add_argument("--trees", default="trees/index.geojson")
     args = ap.parse_args()
 
     try:
@@ -332,6 +422,19 @@ def main():
         # silently would hide a real upstream problem. Fail loudly; the existing
         # file is left untouched (we never open it for write on this path).
         sys.exit(sheet_read_failure(SHEET_TAB, "no plot rows after parsing"))
+
+    # Ask-2: counted_trees = trees/index.geojson points INSIDE each plot polygon.
+    tree_points = load_tree_points(args.trees)
+    if tree_points is None:
+        print(
+            f"WARN: tree index '{args.trees}' unreadable -- counted_trees omitted "
+            "from this build"
+        )
+    for p in plots:
+        if p["_ring"] and tree_points is not None:
+            p["_counted_trees"] = sum(
+                1 for (x, y) in tree_points if _point_in_ring(x, y, p["_ring"])
+            )
 
     features = []
     for p in plots:
