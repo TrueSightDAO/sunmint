@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-10-14T01:18:55.148477Z",
+  "generated_at": "2026-10-14T01:25:22.837945Z",
   "features": [
     {
       "type": "Feature",
@@ -49,6 +49,7 @@
         "notes": "Extended from second GPS walk (17:03-17:17, 12 MOV + 5 HEIC): lat -3.2957..-3.2963, lng -52.5827..-52.5832. Walk radius ~60m around house; includes family moments.",
         "polygon_ha": 0.36854873046875,
         "expected_trees": 444,
+        "expected_trees_source": "estimate",
         "counted_trees": 0
       }
     },
@@ -114,6 +115,7 @@
         "notes": "Walk track from 23 MOV clips (16:31-16:49) traces perimeter: lat -3.2934..-3.2947, lng -52.5768..-52.5789. Hull area approx 2.9 ha < claimed 5 ha -> needs CAR/INCRA polygon or full boundary walk for authority.",
         "polygon_ha": 0.8476638305664063,
         "expected_trees": 5556,
+        "expected_trees_source": "estimate",
         "counted_trees": 0
       }
     },
@@ -245,6 +247,7 @@
         "notes": "Hull of 76 geotagged media (63 MOV + 13 HEIC, 2024-07-02 site visit): lat -3.4185..-3.4111, lng -52.6347..-52.6150. Covers working areas (fermentation ~-52.615, drying ~-52.6347). NOTE: prior FSVP doc records farm gate -3.398528,-52.633339 + ferment/dry -3.401656,-52.641283 (~2km NE) - needs boundary walk/CAR to reconcile. Organic IBD/NOP via CEPOTX (site code B-06-108).",
         "polygon_ha": 113.59145329589843,
         "expected_trees": 126667,
+        "expected_trees_source": "estimate",
         "counted_trees": 0
       }
     },
@@ -381,6 +384,7 @@
         ],
         "polygon_ha": 1.0108724853515625,
         "expected_trees": 1129,
+        "expected_trees_source": "estimate",
         "counted_trees": 9
       }
     },
@@ -442,6 +446,7 @@
         "notes": "Hull of 36 geotagged media (22 HEIC + 14 MOV, 2026-09-03 visit, IMG_8205..IMG_8278): lat -3.629450..-3.630600, lng -53.651794..-53.652156. ~0.32 ha. New restoration plot by Raimundo & Geniza. approx until boundary walk/CAR. Plot ID = CEPOTX site code U-06-07 (replaces RG-P1; governor-confirmed 2026-09-05).",
         "polygon_ha": 0.3158632080078125,
         "expected_trees": 356,
+        "expected_trees_source": "estimate",
         "counted_trees": 0
       }
     },
@@ -678,6 +683,7 @@
         "notes": "Hull of 34 geotagged MOV videos (2024-09-10 site visit, IMG_0369..IMG_0431): lat -14.463800..-14.461100, lng -39.132400..-39.130900. ~1.75 ha cabruca cacao, rural Itacare (two clusters ~300m apart). FSVP doc 20240910_Black_King_site_visit_to_Clara_farm.pdf records -14.3386226,-39.2069635 (Taboquinhas ~16 km) - two parcels or doc GPS error; needs boundary walk/CAR.",
         "polygon_ha": 1.75155908203125,
         "expected_trees": 1944,
+        "expected_trees_source": "estimate",
         "counted_trees": 0
       }
     },
@@ -854,6 +860,7 @@
         "notes": "Hull of 87 unique geotagged points from 89 GPS-tagged media (85 HEIC + 4 MOV, 2026-09-07 14:46-15:05 + 17:45-18:05 walk, IMG_8856..IMG_8947): lat -3.389678..-3.390517, lng -51.850850..-51.851908. ~0.67 ha reforestation pocket at SE edge of V-06-29 farmstead. approx until boundary walk/CAR.",
         "polygon_ha": 0.6725191284179688,
         "expected_trees": 744,
+        "expected_trees_source": "estimate",
         "counted_trees": 60
       }
     },
@@ -912,6 +919,7 @@
         "notes": "Hull of 20 geotagged media (19 HEIC + 2 MOV, 2026-09-07 15:28-15:32 + 18:31-18:32 walk, IMG_8966..IMG_8986): lat -3.389639..-3.390200, lng -51.852372..-51.852800. ~0.17 ha reforestation pocket at W edge of V-06-29 farmstead (IMG_8966 no GPS). approx until boundary walk/CAR.",
         "polygon_ha": 0.1743154541015625,
         "expected_trees": 189,
+        "expected_trees_source": "estimate",
         "counted_trees": 10
       }
     },
@@ -962,6 +970,7 @@
         "notes": "Hull of 5 geotagged HEIC photos (2026-09-08 15:06-15:09 walk, reforestation site with Cleide & Marcelo): lat -3.414328..-3.413850, lng -52.635106..-52.634758. ~0.11 ha reforestation pocket at W edge of B-06-108 hull (drying-area side). New plot registered per governor 2026-09-08. approx until boundary walk/CAR. MEDIA: 5 HEIC boundary photos referenced by uuid hash name only; source files not found in sunmint or farm-media-raw (checked 2026-09-10) - media cleared rather than leave 404 refs. Re-upload JPGs to images/boundaries/B-06-108_20260908_1/ and re-point.",
         "polygon_ha": 0.1090462890625,
         "expected_trees": 122,
+        "expected_trees_source": "estimate",
         "counted_trees": 1
       }
     },
@@ -1072,6 +1081,7 @@
         "notes": "Hull of 40 geotagged media (29 HEIC + 11 MOV, 2026-09-09 visits: morning 11:50-12:04 + afternoon boundary walk 14:51-15:02): lat -3.557064..-3.557933, lng -51.103144..-51.104303. ~0.956 ha restoration plot on degraded pasture (cattle removed) at Site Cristo Rei. Plot ID = name-derived fallback CR-PA-P1/P2 convention (CR=Cristo Rei, PA=Para) - no CEPOTX site code for this site (governor-confirmed 2026-09-09). Owner Ednaldo, socio da Copical (CEPOTX), family property not coop-managed. approx until boundary walk/CAR. Media supplied by governor (curated restoration zip).",
         "polygon_ha": 0.9512368896484374,
         "expected_trees": 1062,
+        "expected_trees_source": "estimate",
         "counted_trees": 11
       }
     },
@@ -1296,6 +1306,7 @@
         "notes": "Failed reforestation patch (IMG_9533: cacao + forest species planted, lost to drought, to be replanted). Hull of 15 geotagged photos from the governor-supplied restoration zip (20260909_president_restoration_plot.zip): lat -3.609697..-3.608539, lng -51.034236..-51.033394 = 0.74 ha. Sub-plot of N-06-37 (base CEPOTX code N-06-37; suffix per <SITE_CODE>_<YYYYMMDD>_<purpose>_<N> convention, cf. B-06-108_20260908_research_1, V-06-29-reforestation_20260907_plot_1). Adjacent to and hull-overlapping the mature plot (same-day walk crossed both); needs walk/CAR to separate.",
         "polygon_ha": 0.7352419677734375,
         "expected_trees": 822,
+        "expected_trees_source": "estimate",
         "counted_trees": 3
       }
     }
