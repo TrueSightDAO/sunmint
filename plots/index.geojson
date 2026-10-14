@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-10-14T01:32:36.384712Z",
+  "generated_at": "2026-10-14T01:33:32.832991Z",
   "features": [
     {
       "type": "Feature",
@@ -114,8 +114,8 @@
         "region": "Altamira, Para",
         "notes": "Walk track from 23 MOV clips (16:31-16:49) traces perimeter: lat -3.2934..-3.2947, lng -52.5768..-52.5789. Hull area approx 2.9 ha < claimed 5 ha -> needs CAR/INCRA polygon or full boundary walk for authority.",
         "polygon_ha": 0.8476638305664063,
-        "expected_trees": 800,
-        "expected_trees_source": "sheet",
+        "expected_trees": 5556,
+        "expected_trees_source": "estimate",
         "counted_trees": 0
       }
     },
