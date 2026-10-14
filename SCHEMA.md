@@ -38,6 +38,11 @@ specific first):
 | M | Coordinates | `coordinates` | JSON string | **ring `[[lng, lat], …]` closed (first == last)** |
 | N | Latitude | `lat` | number | centroid / representative point |
 | O | Longitude | `lng` | number | centroid / representative point |
+| — | *(derived)* | `polygon_ha` | number | area of the drawn ring (hectares); emitted only when a ring exists |
+| — | *(derived)* | `expected_trees` | number | **Ask-2 estimate** — `area_ha / (tree_spacing_m ²)`; default grid 3.0×3.0 m → 1,111 trees/ha. **Gated:** never emitted for `mature`/`enrichment`/`research`/`nursery`/`infrastructure` (an established stand is not a net-new grid) |
+| — | *(derived)* | `counted_trees` | number | **observed** trees whose point falls inside the ring (from `trees/index.geojson`) |
+| — | *(optional)* | `tree_spacing_m` | number | per-plot grid spacing override (metres); absent → the 3.0 m default |
+| — | Tree Spacing (sheet) | — | number | source column for the override; header-matched (`tree spacing`/`spacing`), never guessed |
 | P–S | Invalidated By / (blank) / At / Reason | — | string | **not read by the generator** — retraction bookkeeping written by the GAS/DApp |
 
 Output geometry: `Polygon` with one ring `[lng, lat]` (GeoJSON order).
@@ -110,7 +115,10 @@ Columns matched by the generator (exact-match, most specific first):
 | Status | `status` | string | e.g. `LINKED` |
 | Linked QR Code | `qr_code` | string | e.g. `FOUNDERHAUS_BOUGAINVILLEA_20260821_1` |
 | Tree Planting Time | `last_measured` | string | ISO timestamp |
-| Plot ID | `plot_id` | string | optional link back to plots registry |
+| Plot ID | `plot_id` | string | link to plots registry. **Explicit override** — wins when present. Otherwise derived at BUILD time by point-in-polygon against `plots/index.geojson` (Ask-1) |
+| — | *(derived)* | `plot_assoc` | string | geometric grade: `inside` (in a plot) / `near` (≤ 50 m of a boundary — **flagged, never auto-linked**) / `none` |
+| — | *(derived)* | `plot_dist_m` | number | distance (m) to the nearest plot boundary |
+| — | *(derived)* | `nearest_plot_id` | string | nearest plot, for review of `near` trees |
 
 Output geometry: `Point` `[lng, lat]`.
 
