@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-10-14T01:20:22.204455Z",
+  "generated_at": "2026-10-14T09:57:08.805287Z",
   "features": [
     {
       "type": "Feature",
@@ -3182,21 +3182,6 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
-      "properties": {
-        "tree_id": "Edgar_20260924115448_047",
-        "species": "Cacao - Forestero",
-        "last_measured": "2026-09-24T11:54:37.778Z",
-        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924085437_MIIBIjANBgkqhkiG9w0B.jpg",
-        "status": "NEW",
-        "submission_source": "https://localhost/",
-        "pk_hash": "pk-Ee4aYLRkptun",
-        "program": "",
-        "request_txid": "V6TR/I6pJ22defy/OZ7XC7eDjNCB3aQjoD29x3iI2KYbA8Ob+QcF3/j1t4hJnchucoX6dak/9OK2xz/0KvvzBFOY8/jayOZibmdL7uzN/0rRQolRU3bFPiMOjYYzXmV2cPfwX/I7u77GERSl2se4kElNlOZNw9BxLxKNOoVEd1VJ3YhWpND2LfIdUWwwvGavDwVMxJEw213o/5YdclYFC9Wil9SqbeJe8fynxyhrACZYx6MzQHfwp+RM9NI31mlZNOkUkhER9YA1Fq2ZmeWD8qp/eb3Kt4hsL2z/jY3LF4NhJ5T5F+0IpMJflyZJTObXIiI49S5AYTVW0bfJH5JkPA=="
-      }
-    },
-    {
-      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -3626,36 +3611,6 @@
         "plot_assoc": "none",
         "plot_dist_m": 34023.4,
         "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": null,
-      "properties": {
-        "tree_id": "Edgar_20260928203759_087",
-        "species": "Cacao - Criolla",
-        "last_measured": "2026-09-28T20:37:55.586Z",
-        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260928173755_MIIBIjANBgkqhkiG9w0B.jpg",
-        "status": "NEW",
-        "submission_source": "https://beta.sunmint.truesight.me/",
-        "pk_hash": "pk-Jg5S50VZ7HZS",
-        "program": "",
-        "request_txid": "Orb7KlyqdpszL2/FbsuYMGVgiA9X5A5kkrdbKvsa7XZf+dTLoyptlPNR43mDpI1FA6fgh9NQ/spazGecbNDnzMPmE7lnkymYBmwb/n/qW/kzEk3HgPfVorxST7Gp2c65Cks5WzKKHLzpOC0XN07VNB/u8EkKFP5++PZ/+x/ouylY0ccOcagRfyw/0zrtWGKeqGZpgHzTlppH6SO8lFGRQTCYRH+7iyN+E6DSUEHxyrHq15rDXmHPabq6WKsYMFXJON9TpUwPDj8bvQ/GgI9XkIIquoMipASdDrXOnezUuUD/VRu9geNYrNqaVZIJDoeTXX8UPbTCXSUYTHOMEZKWiQ=="
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": null,
-      "properties": {
-        "tree_id": "Edgar_20260928203818_089",
-        "species": "Cacao - Criolla",
-        "last_measured": "2026-09-28T20:38:15.098Z",
-        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260928173815_MIIBIjANBgkqhkiG9w0B.jpg",
-        "status": "NEW",
-        "submission_source": "https://beta.sunmint.truesight.me/",
-        "pk_hash": "pk-Jg5S50VZ7HZS",
-        "program": "",
-        "request_txid": "MB76x/xWa/fA4Z5JMzSL+OkeWk73DE4HlfZbdzWxZ3D9lNzfJDcQWIrzPtxYa674Klvv0zo0TBUxMGNi95AQ3M0T0Cbp77ycqPJNur4WQfXLs3MZ0Bxllfwf7+yH9Siihg2c13rpjIYSivmPGkUUZzq7JJHPea01QaUREnEpawSdZQDXMEwMKDZYt063IJ4hqaBFeUV74twmfZCFvHjxmTakXIENNL39qXihxuNUQ9R3j4FDXsIFpcHfu5T5EyZOjXykJRf/135Nfc1vwdI3QEtfh+IExrrljM2colQ3a08L1cUMYu6D03JwqznZYMTK5vvvwcnpAvrwrSghSkAzkA=="
       }
     },
     {
