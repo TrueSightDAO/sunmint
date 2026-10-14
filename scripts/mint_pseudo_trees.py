@@ -20,8 +20,9 @@ Safety rails (all enforced here):
 * **never over-mint** (D2) -- bounded by the plot's ``Expected Trees``.  A
   plot with **no** ``Expected Trees`` set is refused (fail-closed), as is a
   ``--count`` beyond the remaining capacity.
-* **plot-type gate (D9)** -- only ``restoration`` / ``enrichment`` /
-  ``nursery`` may mint; ``mature`` / ``research`` / blank are refused.
+* **plot-type gate (D9)** -- only ``restoration`` / ``maturing`` /
+  ``enrichment`` / ``nursery`` may mint; ``mature`` / ``research`` /
+  ``infrastructure`` / blank are refused.
 * **idempotent** -- slots already present for the plot are detected and the
   next free slot is used, so re-running never duplicates.
 
@@ -47,8 +48,11 @@ SHEET_ID = "1qbZZhf-_7xzmDTriaJVWj6OZshyQsFkdsAV8-pyzASQ"
 TREES_TAB = "SunMint Tree Planting"
 PLOTS_TAB = "SunMint Plots"
 
-# D9: which plot types may mint a pseudo row (never mature/research/blank).
-GATED_PLOT_TYPES = {"restoration", "enrichment", "nursery"}
+# D9 ALLOWLIST of plot types that may mint a pseudo row (note: distinct
+# from build_plots_geojson.GATED_PLOT_TYPES, which is an EXCLUSION set)
+# (never mature/research/infrastructure/blank). 'maturing' = an
+# established-but-still-growing stand -- mintable per Gary (2026-10).
+MINTABLE_PLOT_TYPES = {"restoration", "maturing", "enrichment", "nursery"}
 
 # Provenance marker written to the Submission Source column of a minted row.
 MINT_SOURCE = "pseudo-tree-mint"
@@ -115,10 +119,10 @@ def plan_mint(plot_id, count, existing_ids, expected_trees, plot_type):
     if not pid:
         raise ValueError("plot_id is required")
     ptype = (plot_type or "").strip().lower()
-    if ptype not in GATED_PLOT_TYPES:
+    if ptype not in MINTABLE_PLOT_TYPES:
         raise ValueError(
             f"refused: plot type {plot_type!r} may not mint pseudo trees "
-            f"(D9 allows only {sorted(GATED_PLOT_TYPES)})"
+            f"(D9 allows only {sorted(MINTABLE_PLOT_TYPES)})"
         )
     if int(count) < 1:
         raise ValueError(f"count must be >= 1, got {count}")

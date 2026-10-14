@@ -56,7 +56,9 @@ class TestPlanMint:
         with pytest.raises(ValueError, match="may not mint"):
             m.plan_mint("RM-P2", 1, [], 100, ptype)
 
-    @pytest.mark.parametrize("ptype", ["restoration", "enrichment", "nursery"])
+    @pytest.mark.parametrize(
+        "ptype", ["restoration", "maturing", "enrichment", "nursery"]
+    )
     def test_d9_gate_allows_mintable_types(self, ptype):
         assert m.plan_mint("RM-P2", 1, [], 100, ptype) == ["PS-RM-P2-1"]
 
