@@ -48,10 +48,11 @@ SHEET_ID = "1qbZZhf-_7xzmDTriaJVWj6OZshyQsFkdsAV8-pyzASQ"
 TREES_TAB = "SunMint Tree Planting"
 PLOTS_TAB = "SunMint Plots"
 
-# D9: which plot types may mint a pseudo row
+# D9 ALLOWLIST of plot types that may mint a pseudo row (note: distinct
+# from build_plots_geojson.GATED_PLOT_TYPES, which is an EXCLUSION set)
 # (never mature/research/infrastructure/blank). 'maturing' = an
 # established-but-still-growing stand -- mintable per Gary (2026-10).
-GATED_PLOT_TYPES = {"restoration", "maturing", "enrichment", "nursery"}
+MINTABLE_PLOT_TYPES = {"restoration", "maturing", "enrichment", "nursery"}
 
 # Provenance marker written to the Submission Source column of a minted row.
 MINT_SOURCE = "pseudo-tree-mint"
@@ -118,10 +119,10 @@ def plan_mint(plot_id, count, existing_ids, expected_trees, plot_type):
     if not pid:
         raise ValueError("plot_id is required")
     ptype = (plot_type or "").strip().lower()
-    if ptype not in GATED_PLOT_TYPES:
+    if ptype not in MINTABLE_PLOT_TYPES:
         raise ValueError(
             f"refused: plot type {plot_type!r} may not mint pseudo trees "
-            f"(D9 allows only {sorted(GATED_PLOT_TYPES)})"
+            f"(D9 allows only {sorted(MINTABLE_PLOT_TYPES)})"
         )
     if int(count) < 1:
         raise ValueError(f"count must be >= 1, got {count}")
