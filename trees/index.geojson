@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-10-15T21:59:03.567741Z",
+  "generated_at": "2026-10-15T22:00:25.862834Z",
   "features": [
     {
       "type": "Feature",
@@ -5578,6 +5578,30 @@
         "request_txid": "ZsidVabQWoLAQVH95rAw/oL0/krRlA7t95KAQt6onPvAvOMjq3bsF/6YOFBsmdKZLjT6PHvlAWJQoJZxHpw6y1cMtvQ0wSd60DMRwvq1Ll7EKBZEmBQI05iP56wYHbM1CTNarzOmYlI1jGeJotKhfivxVOILrnvYuved4uQLJ50ORDlTc4XfNzrhYp6MH3cIpnNIJRYl53cpaqTtDOdIzvgxKPetI7Ud5BYhruafvr21ntXe3YMx5GpzTvSIOc46WjxhETDeOy4ieoyypNYN3jYE6xohG3aKlqgKJ0W/ufbhIaWK2d529G8M3j7Ay/Xs4NfblhNW+Y3cR+ODBbguWw==",
         "plot_assoc": "none",
         "plot_dist_m": 24884.1,
+        "nearest_plot_id": "N-06-66"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.32510833,
+          -3.669613889
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20261015215952_185",
+        "species": "Cacao - Criolla",
+        "last_measured": "2026-10-15T21:59:49.994Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261015185949_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW",
+        "submission_source": "https://cfr.truesight.me/",
+        "pk_hash": "pk-3CTNgLAl82Lp",
+        "program": "crf-anapu",
+        "request_txid": "glDPfQj0E5XkluyArLSICeFQUNtD+h4AbLZod8+7iS2kYljJQT120RVdJAE7yofbAO5OBvcLD6zIv0oShJNUDKqcKBIP6vMJO/+F1AJ2lO3+W8V0QGP6+VjvWE4CdjzzXZvMMUQW60Ar69Rqio+PlkwfJLpqMqK/1frP7jPKsAZT8mRb/CVLswR2FH5+wgOIA+cYXm7SnsFTUGGhG46T9qty9UmVd8xKvOOfSsTM7FajJCNWYL/lur1CICXLxRRfk0TQoadRlVjJ8pEcs6SOlVtWaaT5nz2Kks+i64q5OnMVzoFkO7XsM2EqLihrbDRvbTlAI1Xk1uIBF0UQmqEXZQ==",
+        "plot_assoc": "none",
+        "plot_dist_m": 24558.6,
         "nearest_plot_id": "N-06-66"
       }
     }
