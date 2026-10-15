@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-10-15T22:46:23.296827Z",
+  "generated_at": "2026-10-15T23:40:01.229573Z",
   "features": [
     {
       "type": "Feature",
@@ -5600,6 +5600,54 @@
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "KHsDMl/dJ+Y/OR8BZyQhr5uITtyAMdH4KYL6tHwuOP/PwPAa1r0CyErFmWjm4bZsQNd9tHrKrXXjkUdhrLJXoYVLZhAznIMspqzyyC4xXWEinh2eun7NYPDuk2jMF8qf1OJbLBjiZ0Tt9BmuNJCswKTvgefrsfRmYjLX9EdBtwzKcP5pBFxyRjSxI20ITnLtVVAnhSxUkgnF4hhRfFI9w7/S+TIMsrUiFh75Bs/MBUWLddC6gt90jcZpy7QO7CE2P4wJwawWVzLLMGnytAJb1E1Pp4/doYRIkMkKNA/Fvda2lsp20gn4KoECUagywXwZTbsGqCZamDVX+PQyN6Ij1A==",
+        "plot_assoc": "none",
+        "plot_dist_m": 34006.2,
+        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.574659,
+          -3.522716
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20261015021935_103",
+        "species": "Cacao - Forestero",
+        "last_measured": "2026-10-15T02:19:32.953Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261014231932_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW",
+        "submission_source": "https://cfr.truesight.me/",
+        "pk_hash": "pk-qkejKJJW3IAD",
+        "program": "crf-anapu",
+        "request_txid": "hAt+mY96rpiIK+mhZvndfglpWoctH1H561PYqoQezjx1OuDsXngabpY6bUpOxkdnka7lAvPYqG5DIOvmujh12Cq+HD2Pym2mCNKvXEQeRhCQkB4ZGP5MygWcP7zkua3q4aEZig+B9Jqva8BFFz4Wt63pnBGM6bCLtrWyMbgIxyXuv3Qkw92MuCddKB5ePMH0PPWVRGLXYkqZkz3m4slq+hocpMb+lG6J/FSA0IrEhqmhgwQS1Tu3Wf5rUdeCoQCkp/FJKi1wBuVUl2rJUF+wsVYboS2/CRLL6rAIPujqDeoQKx1tITlB0oXDx5WA7wKyS38b1LPF0wj+nxJEVasNGw==",
+        "plot_assoc": "none",
+        "plot_dist_m": 34015.4,
+        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.574717,
+          -3.522644
+        ]
+      },
+      "properties": {
+        "tree_id": "Edgar_20261015021946_105",
+        "species": "Cacao - Criolla",
+        "last_measured": "2026-10-15T02:19:44.884Z",
+        "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261014231944_MIIBIjANBgkqhkiG9w0B.jpg",
+        "status": "NEW",
+        "submission_source": "https://cfr.truesight.me/",
+        "pk_hash": "pk-qkejKJJW3IAD",
+        "program": "crf-anapu",
+        "request_txid": "JuATjQ1cb7ziIL7HMGuaNIJBzOVv8Q2X4yo9svQKB/5iD210JQ3WyeNi8go17iNxtqNS8JYWlFfYh0YwtIbY7G2wpKv0tJMqnk7KJ7ti69WrpcRohxA5Qqbtg+80qBdxDS0N4hicNqpi8ZMZGKlPGsqxTGgoqsXI3oKLNVM4FG2LdwFqvgiEjjra4crFJom8nHNmTI7soUnR4nTdkzdUFPilV0ppS6Ee2AZWlGTXN8muAD37xi7zysXPQF9USqiLRpxNui7uniU7J5VE0f/G7FqBsE4ChHmvnYW+piGZG+DJFXQFOM3oMgYYpZakd4jZBEcZF/E9p3cBK4JmfQPIxg==",
         "plot_assoc": "none",
         "plot_dist_m": 34006.2,
         "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
