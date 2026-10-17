@@ -6,7 +6,7 @@
     "plots_with_media": 15,
     "unattributed": 196
   },
-  "generated_at": "2026-10-16T14:37:09Z",
+  "generated_at": "2026-10-17T15:36:10Z",
   "plots": {
     "B-06-108": {
       "counts": {
@@ -11833,7 +11833,7 @@
       "sitio-torres-pacaja-para": "2026-09-10"
     },
     "manifests_repo": "TrueSightDAO/farm_media_manifests",
-    "plots_index_sha256": "545870b0e44f04b71bc23c4ac39a89f7d2dff23c2b291a1011a6e11c17f6d15c"
+    "plots_index_sha256": "f8d1701e151c184baca6c229e40e9b4aa56ae1c5288ede0489588d4af1665b71"
   },
   "unattributed": {
     "cepotx-office-altamira": [
