@@ -1,12 +1,12 @@
 {
   "cadence_minutes": 15,
   "counts": {
-    "media_total": 1156,
-    "plots": 22,
-    "plots_with_media": 15,
+    "media_total": 1160,
+    "plots": 23,
+    "plots_with_media": 16,
     "unattributed": 196
   },
-  "generated_at": "2026-10-19T14:53:22Z",
+  "generated_at": "2026-10-20T09:14:25Z",
   "plots": {
     "B-06-108": {
       "counts": {
@@ -8203,6 +8203,67 @@
       "plot_id": "RM-P2",
       "updated": "2026-08-31"
     },
+    "SC-P1": {
+      "counts": {
+        "image": 0,
+        "total": 4,
+        "video": 4
+      },
+      "farm_id": "sitio-catarinense-para",
+      "media": [
+        {
+          "attribution": "manifest-plot-id",
+          "captured_at": "2026-10-20T03:51:37Z",
+          "kind": "video",
+          "lat": null,
+          "lng": null,
+          "ref": "00000069-VIDEO-2026-10-20-03-51-37.mp4",
+          "sha256": "ac6420bebc7f06a2752d37a3dfbfa02f11b006df80660dd09bc74868a4e796ae",
+          "thumbnail": "https://img.youtube.com/vi/FZ1S9VfI4pI/hqdefault.jpg",
+          "transcript_status": null,
+          "url": "https://www.youtube.com/watch?v=FZ1S9VfI4pI"
+        },
+        {
+          "attribution": "manifest-plot-id",
+          "captured_at": "2026-10-20T03:51:41Z",
+          "kind": "video",
+          "lat": null,
+          "lng": null,
+          "ref": "00000070-VIDEO-2026-10-20-03-51-41.mp4",
+          "sha256": "289426bd1d8457628024cdb0320172f5e00ecd96dadf9161cb10e8e14f8474e1",
+          "thumbnail": "https://img.youtube.com/vi/Z14zNzW6nw0/hqdefault.jpg",
+          "transcript_status": null,
+          "url": "https://www.youtube.com/watch?v=Z14zNzW6nw0"
+        },
+        {
+          "attribution": "manifest-plot-id",
+          "captured_at": "2026-10-20T03:51:53Z",
+          "kind": "video",
+          "lat": null,
+          "lng": null,
+          "ref": "00000071-VIDEO-2026-10-20-03-51-53.mp4",
+          "sha256": "079373c6830e9d74890a91be2dbcf3fd3e888db8ca8578a9f8bafa0eb7831115",
+          "thumbnail": "https://img.youtube.com/vi/ET4x0JHNTQY/hqdefault.jpg",
+          "transcript_status": null,
+          "url": "https://www.youtube.com/watch?v=ET4x0JHNTQY"
+        },
+        {
+          "attribution": "manifest-plot-id",
+          "captured_at": "2026-10-20T03:51:54Z",
+          "kind": "video",
+          "lat": null,
+          "lng": null,
+          "ref": "00000072-VIDEO-2026-10-20-03-51-54.mp4",
+          "sha256": "490845ed2dc6253117b37fc8195141ea7fad16fb3619082ec758439b9b6272b2",
+          "thumbnail": "https://img.youtube.com/vi/OY9fVD__Cts/hqdefault.jpg",
+          "transcript_status": null,
+          "url": "https://www.youtube.com/watch?v=OY9fVD__Cts"
+        }
+      ],
+      "name": "S\u00edtio Catarinense Plot 1 (INCRA property)",
+      "plot_id": "SC-P1",
+      "updated": "2026-10-20"
+    },
     "SJ-P1": {
       "counts": {
         "image": 39,
@@ -11830,10 +11891,11 @@
       "raimundo-geniza-para": "2026-09-04",
       "rancho-maranta-para": "2026-08-31",
       "santa-anna-fazenda-para": "2026-09-15",
+      "sitio-catarinense-para": "2026-10-20",
       "sitio-torres-pacaja-para": "2026-09-10"
     },
     "manifests_repo": "TrueSightDAO/farm_media_manifests",
-    "plots_index_sha256": "0f599f7044be697c007639d55df79a74c2813c06abf4f777c22b8fe238d7df60"
+    "plots_index_sha256": "a84a27a67bed0722b0baf8fa2cb5ad01625379be631274b1a575dbb1ae5e6713"
   },
   "unattributed": {
     "cepotx-office-altamira": [
