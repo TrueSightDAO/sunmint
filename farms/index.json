@@ -1,6 +1,6 @@
 {
   "type": "farms_index",
-  "generated_at": "2026-10-19T13:02:44.215085Z",
+  "generated_at": "2026-10-20T08:14:18.517305Z",
   "farms": [
     {
       "farm_id": "cacau-na-veia-pacaje",
@@ -153,6 +153,17 @@
       "owner": "Ana Lucia Araujo de Sousa (CEPOTX)",
       "plot_count": 1,
       "total_hectares": 3.0,
+      "statuses": {
+        "proposed": 1
+      }
+    },
+    {
+      "farm_id": "sitio-catarinense-para",
+      "name": "Sitio Catarinense Para",
+      "region": "Anapu, Pará",
+      "owner": "Costa de Oliveira family (Jhordan)",
+      "plot_count": 1,
+      "total_hectares": 150.78,
       "statuses": {
         "proposed": 1
       }
