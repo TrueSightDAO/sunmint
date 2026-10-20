@@ -1,0 +1,55 @@
+{
+  "type": "FeatureCollection",
+  "generated_at": "2026-10-20T08:14:15.295171Z",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -51.579984,
+              -3.522735
+            ],
+            [
+              -51.585602,
+              -3.503534
+            ],
+            [
+              -51.583131,
+              -3.503738
+            ],
+            [
+              -51.578534,
+              -3.50438
+            ],
+            [
+              -51.573875,
+              -3.523174
+            ],
+            [
+              -51.579984,
+              -3.522735
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "SC-P1",
+        "farm_id": "sitio-catarinense-para",
+        "name": "Sítio Catarinense Plot 1 (INCRA property)",
+        "hectares": 150.78,
+        "status": "proposed",
+        "boundary_authority": "approx",
+        "owner": "Costa de Oliveira family (Jhordan)",
+        "region": "Anapu, Pará",
+        "notes": "Boundary = closed 5-vertex KML supplied by Jhordan (00000057-sitio catarinense.kml), shoelace area 150.78 ha on an equirectangular projection vs 150 ha claimed via INCRA settlement - consistent. Perimeter 5.85 km, simple polygon (no self-intersection). Four corner coordinates Jhordan separately typed in chat (DMS) match 4 of the 5 KML vertices, so the KML is consistent with his own numbers rather than a redraw. boundary_authority=approx: hand-typed corners + a hand-drawn KML, NOT a GPS walk nor a CAR/INCRA polygon - an authoritative INCRA polygon likely exists and would upgrade this. No overlap with any registered SunMint plot (nearest V-06-29, ~33 km). Property: family on land since 2014, father acquired 150 ha via INCRA settlement; region since 2008. Cacao, cassava, corn, cattle, plus dozens of protected giant Bertholletia excelsa (est. 300-400 yr). Existing CFR Anapu tree record pk-qkejKJJW3IAD (92 unique trees, R$520, already paid) sits on this land and is to be linked to this plot. plot_type intentionally left blank: cacao + cattle + standing forest mix has NOT been classified by the governor.",
+        "polygon_ha": 150.0733663330078,
+        "expected_trees": 167533,
+        "expected_trees_source": "estimate",
+        "counted_trees": 109
+      }
+    }
+  ]
+}
