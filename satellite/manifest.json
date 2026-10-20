@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T13:47:03.610980+00:00",
+  "generated_at": "2026-10-20T11:56:32.795167+00:00",
   "source": "earth-search.aws.element84.com Sentinel-2 L2A (anonymous)",
   "cloud_max": 20.0,
   "archive_floor": "2015-06-23",
@@ -14468,6 +14468,83 @@
           -51.032551
         ]
       ]
+    },
+    "SC-P1": {
+      "id": "SC-P1",
+      "name": "Sítio Catarinense Plot 1 (INCRA property)",
+      "bbox": [
+        -51.585602,
+        -3.523174,
+        -51.573875,
+        -3.503534
+      ],
+      "center": {
+        "lat": -3.513354,
+        "lng": -51.579738500000005
+      },
+      "scenes": [
+        {
+          "id": "S2C_22MDB_20260914_0_L2A",
+          "date": "2026-09-14",
+          "cloud_cover": 0.47,
+          "file": "20260914.jpg",
+          "bytes": 21937,
+          "clip": true
+        },
+        {
+          "id": "S2C_22MDB_20260904_0_L2A",
+          "date": "2026-09-04",
+          "cloud_cover": 15.224,
+          "file": "20260904.jpg",
+          "bytes": 10322,
+          "clip": true
+        },
+        {
+          "id": "S2C_22MDB_20260825_0_L2A",
+          "date": "2026-08-25",
+          "cloud_cover": 1.161,
+          "file": "20260825.jpg",
+          "bytes": 12488,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20260718_0_L2A",
+          "date": "2026-07-18",
+          "cloud_cover": 12.335,
+          "file": "20260718.jpg",
+          "bytes": 24078,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20260701_0_L2A",
+          "date": "2026-07-01",
+          "cloud_cover": 12.575,
+          "file": "20260701.jpg",
+          "bytes": 17362,
+          "clip": true
+        },
+        {
+          "id": "S2C_22MDB_20251108_0_L2A",
+          "date": "2025-11-08",
+          "cloud_cover": 15.598,
+          "file": "20251108.jpg",
+          "bytes": 20470,
+          "clip": true
+        }
+      ],
+      "clip_bounds": [
+        [
+          -3.524569,
+          -51.591076
+        ],
+        [
+          -3.50198,
+          -51.568513
+        ]
+      ],
+      "backfill_cursor": "2025-09-13",
+      "history_start": "2025-11-08",
+      "caught_up": false
     }
   }
 }
