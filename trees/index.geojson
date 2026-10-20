@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-10-19T11:44:02.941543Z",
+  "generated_at": "2026-10-20T08:18:50.309130Z",
   "features": [
     {
       "type": "Feature",
@@ -3171,13 +3171,14 @@
         "last_measured": "2026-09-24T00:31:02.776Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260923213102_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "YgyO2UUE9IQ8m2hXh7RrDtjEhDpYkc00WP3Ubc8Mtqhjckjy94jPnv3J1VqlIhMZ9wZocMcQCIgKVwEcArM704RBuiaQEpPWuy8N+NboJZ58r1U2w4xmu5bOAz9P33JrVGAzJTFyWPqr37LUhJnIajJCLl21z96BfWefNwZKweHOuyXbETvOrSxDyHxTuMk6F5riRKOj8t7uCS7VuM+CZ/yRt5N1rnfuL8qPelbK72jwdCfmTrH9eGhGr6rU4RsdcQWwHzqC/a+PuvWfq32y3413u+AU7RLxieK3+wGKlgtBtwak1a/NNqSILIrUwJnioGn44gz9DoHfpuHWnMikQg==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -3200,8 +3201,8 @@
         "program": "",
         "request_txid": "F60DiG7aozEY1iFT/fWRYq9xWR9bvv7i/i3XCEdzMSaIsYlC79Lw++Eji9y4QQ+YM+xr5YdZTIBv7odBV4gPTBoxHs1/mp8aDOslXPtpyHmpsqlw4SbapBCxbG11qO0FDbLwe7ZN2OyfF6YUu4NEemoqmTyNX6ZJWpfNQBHB8lOcRXpoogUIX4CnEkJfW4p9dZ75dszXWiY/o+fihfw6ByL2VZ/N+ruEStJwGy0s59tM3TYBfnvcCKj5/8QJ2hyoOKron1bZQNTmeQL85ghQkowToHlTdqpJAzd5ncmlkP5t6WH6sBV2V6om/gAOhJicHNWck3b90v/C8obYd6vTOQ==",
         "plot_assoc": "none",
-        "plot_dist_m": 33614.3,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_dist_m": 199.6,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -3219,13 +3220,14 @@
         "last_measured": "2026-09-24T12:40:57.860Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924094057_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "d3igEoWQAtvhdQnBzV/rrpG1NPdRkkA57nbnWXti2ZbDSTPkJ1qzqQ+WV43b1eAQpaTcx6g0lV3EaT7fqnof7u3lxRnzJBhyIqzPlNUgZPUN5tBCtmpUnYB31Yi0W0C1PTh6XivAz7lqZejTXWD8ttw6uskP83RrpN68H6ZIlmABUqxtLveUN8TooWjt4Lqb58lmAbtH/sUe6mgfho1ewI4cKzwhkW7ubJfrCg7dby7taZyJV95VwNrwtVrKtaaXJwx0qwSRqoCaXq8h0QSp2IygjQrIbXAgpzG640wxVv79B3hMlc+dOcR/UXY/c92BQpn0bNVGb2CDK/z7AogMhg==",
-        "plot_assoc": "none",
-        "plot_dist_m": 34008.1,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -3243,13 +3245,14 @@
         "last_measured": "2026-09-24T12:55:37.725Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924095537_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "dAw6xFhrIvCQf9PeJ/Aij3lxNfnKYbZzzc5R0rRBka6234U/pyz8ZmvWcn8aIIBqS8tby9glMxpFugMuByg2wf1kYKIQnzuAF+j9WkkrUGAEbsr2rjxdqW19+5T8f4frrpZUUfCmAZQGNHQoM4I/Hbw2IVjNffT+8yUDuv2OwGcsNRq04EvLv0MpT8K/EysGlcCNIG73P45Ew7uC5Az9hlj+WN3fLwu3R/v/uk2pJUCbAWs7azHnkqRnrPM8M3pVFOKfyDhg75Cmpt9X1vOY0WG5QiKbSDoZ9NxsFb2Nb3wVdCG2wpaAZKZQ/5B2hQj18272v0UCgbWx8O56WXjXbg==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.7,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -3267,13 +3270,14 @@
         "last_measured": "2026-09-24T13:21:58.395Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102158_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "tJHEoM3azU2sgesmWTJLD5gAgwWewBOqX8htWe3BHvCPicGC2qa90X1ZsyRfePedN5Gsw6zY/KVb0wlNevCaLqPLHDAL6Ne0bZ+kuONLga2V6eY8uXin6ReVm9cC8gmTaz+z2vfIf6QZY7JLm6eNtHq4pLf8JAnyL/6DGn+s4RtynLb5ptt5MzsNFOkRbOhzC4Zu4w2zNRhfh5QP5GXsNfXkj6FqksHkFg39gbK1rMjnmNm7HSSS65GR6d7WKLsFR0Fy3q/zQtTTKjtNAftd3ia8Je/WwjwQkAys2koFTshxpBJBfKu7fl4H5RvsnyXMnI0SlqMpiuxPxKYkqCAJww==",
-        "plot_assoc": "none",
-        "plot_dist_m": 34004.2,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -3291,13 +3295,14 @@
         "last_measured": "2026-09-24T13:22:25.134Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102225_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "azHRNrHmlSh6lM4QMRpJOsujWBGEtfDhtElHOq/ar20Ui5VaY56+ERaFBJWnCraH0VGT2zAH7mCFaVLmw7DBUTzJsXk64BOJVoMDPVXtRZUheFiNJKTVEizFTLaQlvd6chVnt9fWohN7H0mZBT6YeAC0NpC9Alglw/cT3KP+Ov4EQHnXL6pXHqq5q1ICjeGRtSji5xueJoItjZjKjJDiwa9oisp1lcbmEZE2YLPmli2+FeeictB2wm5N8hkKihlwoYM0OtMkvypEPj542uwj3vwHu38IY7zpmhrsUy4pXboNqkOfY2mAVb1wjIY3cB0TA075Wc+m+Kz6TK26PlG6nA==",
-        "plot_assoc": "none",
-        "plot_dist_m": 34004.2,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -3315,13 +3320,14 @@
         "last_measured": "2026-09-24T13:22:37.962Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102237_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "YFw1oKVOBqi9PTVapshr+esUhInYi+70m1gNZHAH+7PG40Fi9NUYCLRpvLXBcUHb5pFdu1WMb+SD4+FJ/3tZVZFZrgFGuUeSEXQc8azj8fLUHmGoz6ZB9Wbu780zz5W6vn1S0JUD8xJ4sYBjAytBQUZ2/Z6EtAPRXojkGympNthz5NgVCXxI7vWRgUjK+xGl0iL9FSm2t6dHPlzXbxz2qLs+QGaE4a9SQJ3cAADw7zxjBfdvf4ZLEUPp35kN/jkcgRlQLoSAtM5y3iugjVijxCFZbPfaU90b5wFgI8LXWzLyHr07ERD6M0Mf4dyb93cGcAyOaa+3XcYxxbqjTuu2ag==",
-        "plot_assoc": "none",
-        "plot_dist_m": 34004.2,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -3339,13 +3345,14 @@
         "last_measured": "2026-09-24T13:23:00.459Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102300_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "gwfpJ6CVcyiKfdz0GmYt73TJosi3oYN74yzmpJYKpBZxiNoH4hseu1IRWkjkcT5HplGnBpDstu90Cq2AJmVTatWdSY5Vn1+bJpz61EhOKo7H/MNwRTuhieedbej4z+Bf/P4f65FAY9790DOgdqd5sCCZTSvkZhgGSawKdB2ifgWaqYgHcWen8U7/3fFbriHj/4eLoZ7G1hgr+tjXghn8jLNaYrRDQ6tyKbkBDm8b+l0jnsIPz+uRKhjYtZYG28B+2XdT5wM/nGrD+AkDg0m8tfYMkOGxTWI5yf+sm5XPU8EmNHVkADc2N9/GIDT2vB542OEn0vE3dIpoVIfBa5NSJg==",
-        "plot_assoc": "none",
-        "plot_dist_m": 34004.2,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -3363,13 +3370,14 @@
         "last_measured": "2026-09-24T13:23:12.484Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102312_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "XweVMjuWgx4HEBWCXgr/L/BOHKRJ+P9NRXp9cJHsgwhLgzYVIX9YhtX5Z3bm9qgbC3gQUWgk9+7XRzcJ/9luPbjjqwV7eTyM5iYluB3uBF3jkwW7V9HIXMcfPlURWAQ2AsVETR5Z37gKOFEmEiYFjpeY6zKWLCskfPfcRQOSW7tVIEEyrR9/UwlhYE1AJPAlzKbRFjrGxSC0y+PeTBvJJFS/soOG9jy0dO45Zq8/+wX4Rn18KIMtOgEAgSRpU6YipsWrhX3A253upGgMM4e9lurL/nbgPtjVGlpDNz1zaoz79rbRBK1QnJNc0OO9Qxura0JfwbjASkLGGR2HZBOTQg==",
-        "plot_assoc": "none",
-        "plot_dist_m": 34004.2,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -3388,13 +3396,14 @@
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102330_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "LINKED",
         "qr_code": "2024OSCAR_20251011_2",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "jp+WwIjxFGPt3M946Eov4HjrHAfAYkY26QLapuOmbz0WUZ01HJ78YnocBTkp6OceUO+vDi5oC7GeAS4QjFYumJadrFO9VvfZ/uFX7QlyuZnqKQzcagthSYMcWu3HjLa2iEepZb/K5c5t3xiX1/TN2zvR6pbS53JZI3o5Jvkixs2Tlhx/IVEk6/roFzF91D5tDRMDl+4Nrfi+SHOAIcAzT4tn4V78MVYQovSSMIHWYiJDNCz5aHHBZBfMh1NEgvPzmjFvekdchRa8tN1x55M2r9pR8wEm0uhH+CmcEUScvMjZ5+QH85cPWNsGM8haxnV5PHFjcpaKU9URs7jDr1EZEQ==",
-        "plot_assoc": "none",
-        "plot_dist_m": 34004.2,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -3412,13 +3421,14 @@
         "last_measured": "2026-09-24T13:24:01.854Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102401_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "WRR7aan4+sH/e4OygveH8n5sKb0q/WMQkoFmXpVdJp/k9fh2TOO6qj4ZlYEc3MrhdbYvefUru+dih8ohILG/W7pOuRxJ3aaZ3F6TzlLnDwsucZUwtzJ10ETg60CT6U1unA5MnKL6JWh6R8a/iD6DsVoTNh2S0mxv9CShjuG4j3XvgjHRMBFI7f8zPEu2zWcoMwdetqxO1C6gUHyyKyCihR5UxwyYa7rbh0SO7aT1HiSR4oJR/l4GiObSKQc5485LbflAwvJlJlGnElUE4tTtDgDuAsNWf6o74gPcedMC8WvQDlXM5g+Y+ods/uYXvqiWCtnjvm7qo+aDN4IR6zhiDA==",
-        "plot_assoc": "none",
-        "plot_dist_m": 34011.7,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -3436,13 +3446,14 @@
         "last_measured": "2026-09-24T13:24:38.440Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102438_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "pb1J70Gq657QqmTtrW/E+KEHEuqkHDwTKl0ImpOWN5z59utDUH6lmlaY5nyz1aDJ/wMDOI0TO1X+es8HPv9IZRoKK90Y6ynteTgw7oGC+IXgJLqWQAiKLShaBJP77UWh5UB5OXH1rAqXMBAYjKBl/BMeCHNy3hFkfa7fHNRF3/4rpqzoPjkdcwrJdSjBf2T4YQEOCS8yINbQGhHsV5QT0WCqrIVN/Ibml7wTtdWG0qDh1ZXrkAMdnv7Nrkfd7sshVfmig+Xh0PUwmA+OiInbG4gkpJ+OmA9zj1BeRLvxW63T7bkGk5tRY14n019AGHay2pqMbf6RFjq27rtQVBVfXA==",
-        "plot_assoc": "none",
-        "plot_dist_m": 34011.7,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -3460,13 +3471,14 @@
         "last_measured": "2026-09-24T13:24:54.734Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102454_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "Vcc93vhpdQy5jkmNr+ffhAsqcwN7H6WXFG++Y+R0zkN+AeozMCa65dYch8PamOHtNTN8E3eI1PMJ8Lx8SeVjgfgxhJe9XpENda7yml5iQDGDU2Vkg8ptIhjiXP9ekoCDmMti5eX0ODK3n1p+2dxDPj5OCDFPRJlncSx14xlwYIx8I6lrTtC7XqcMgJuZhkQ1dQRHZWEz0vlbnGpMplsDisU3n6wMU2zA/X36rX8i4cChZTMh000QiF+0eS7KETC9bhODDnRVNdsVYGW/yten60dle9LuGyVbfQsLsXDP0FGeOsomFLhppN98v1I4Sx9mS+ckAjKSetKoZRi6ezZcjQ==",
-        "plot_assoc": "none",
-        "plot_dist_m": 34011.7,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -3484,13 +3496,14 @@
         "last_measured": "2026-09-24T13:26:15.891Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102615_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "VSK+MIxZcf22trAhFSuxKsxTR6pOuu9O3CuSRsF20ylpSM3ZtnIAjXFLaUcWe67elGZVwzh58N8q4/ApcjRDMvP7i2PS3ywTzFsjedF94AGqVdrdDR+TVM3D2C6axlgfMA5w7Goh4aX5SYp+vH1lD4aJh5qwKw4KJ1wQnRpffqb619iDcMhaxM3f+/t6QIUQkdEkMycqbiBm5intROr/R4hjO7MzKle45lQLsun4hdDUTkNuLUkQ8wsW/7ErA0Oud1h2LtXtFqG0sHB2pbsJueGVZ9/7WlbUeZQvnKekyMzWyllczs/iF1PZL3qkbadWFvjsTnH87eHTOVICUlgZkw==",
-        "plot_assoc": "none",
-        "plot_dist_m": 34018.6,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -3508,13 +3521,14 @@
         "last_measured": "2026-09-24T13:26:58.974Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102658_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "LgwgsQ9DHe4Qx+Cfw6Y9T6W4Xwbgffkc6X5U1TU6LhKk8Cxxv1Uz+jlvrw45a+kgdmKHu4JlmShGDtUNBXrLb/R8DXTYev40FkjBbpLmn6l5MHQccHJMCv49SYSK3dO5atsVrFt+YAHeJjjtN8mK6Oc/3zWxgMeoXez/6C86EtQbR2qIxXa6BBi21lcOOjD3CE8hEZHE6InSjvQcXVBH0/QC5H9TOf9MzuTyeTC47Nrefl0twEY7GCc8e7toW6PdfBEZP4i1Zh0NOuOpv5OlkkVUuHkCZCE5VS84uBvBXhJkOs2JLRMIwP5UvOPgrCzj67VFFTD2doyELpLdSDKiqw==",
-        "plot_assoc": "none",
-        "plot_dist_m": 34018.6,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -3532,13 +3546,14 @@
         "last_measured": "2026-09-24T13:27:31.877Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102731_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "CxSlFq7RuxycxGqIylxz+woiO8KHWWuzPOLCeiPRKlmDMkBmOLOnhleUYGnA88kcrs8KuYKkkq3Q342t5so+NaB4kf4cs6L2lv/oxe3OL8DgiClcUWXfXih6n1NWUoxTjecogHo8shC2pqnlnj5TaykwAGzvyqJZPBi75/N39y0gLExmgkSOuJWNPcbXp17Nrhjxls4cDDmLfnmBpYqgZpxpA/fFpOUskSDxBfmHR7O952r38dTt05n2truI0iusyrXK1gkg6Uu8R5/kzLrylKmK14c+QjNpbrIAHy/l5p3GVDS2sjf1o0HmN6LAdIKQaPFPI2MTCIycQitSy0XPBA==",
-        "plot_assoc": "none",
-        "plot_dist_m": 34018.6,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -3556,13 +3571,14 @@
         "last_measured": "2026-09-24T13:27:58.947Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102758_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "cAnN09aXnzSQtRVjadzaq1Gg/qk0Kal0CGPymVt8spn1ihwZybYZBaCo5rsYaan8z9U6yi9wGT1/0fufhVnPhEuRgfknN7GSazGlqdC9k+5NuS/T925cOsc0dQqkHVCI6VmdAWStHffNbxyTNngLDxCCQko6SdTDPcMMYrgL768Rq5+SA0CHZQD5REi0pUMknaIwcYpzjH6pBzOTuYBMmeI+sCTuPfIw+PRIPbECcDzbaBT34h3iCUSx59Fmmgj9JOaLOSOCXCgHvp85qnlFDqFFbH1SEL5JxCZSLnqfIFMt0Pop9n5HtR/3lNhYyqUS0xJbz7fc11C/zy+mRg2lBA==",
-        "plot_assoc": "none",
-        "plot_dist_m": 34013.6,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -3580,13 +3596,14 @@
         "last_measured": "2026-09-24T13:28:18.631Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102818_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "ArJpA+lBDHTqwd189fj83yeNXT8EXrcS58VxnH/Cp87ePJqQbcCCUpHtAbYXLXr11by9joX5Aqa+Cgws7ihUBheiZI7eASI/4Lss4Wh3qFPRc63plGYlvc3/Hsr0Ldh4ky1gYYI+gej8LN0lJrdL/x9BwD0hkAJImvmP10SO5XiSa54bCJr4VnZrejkaGDtkFyAQtJ65LjJ9G4d+KguGFO3ahCSPA3kK7i4SB6ZIuSfpSAcLwm3c1qcqedgDmdFoOrvuwKdQUUwED4B5r0v62rBvE8Cr4IPmBJmcd/oyqQ0CadoPFIywx1M99nKjSzglOCLaGkt2eDcxdjftNtaSuA==",
-        "plot_assoc": "none",
-        "plot_dist_m": 34023.4,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -3604,13 +3621,14 @@
         "last_measured": "2026-09-24T13:28:47.742Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260924102847_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "Ue+j2agnMMG6Fn4G84P5uGXifnbrPcSuGRZvlfFyXBl+KNdiVU+cl2kptpalqHgIUCSzdrnGC71qmyU8u3EH/po+zbqattCVDgPSFP1rFFN+NL0Y98ksXyW7tRHCcBxtTxaNx4Fwkxz78ARY/1xghiRm6nuTixovuwQLEyd0bSWU/OzzpwrGRLs6MAfvcWj7hHLBnerTPrk3KnFJ8QOhbPJhIdUAUYF8VDW490RiozuBkG/Fn1hwxfAvdimoq7sZ3JA5/w+ueMk2ChppLOIW2oi2x6OUT1AUGDhYhQlH1+W4Moo1TrbhH2QlMM3ZjrOMxTphI81vf5VUo/VyUp1Sfg==",
-        "plot_assoc": "none",
-        "plot_dist_m": 34023.4,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -3796,13 +3814,14 @@
         "last_measured": "2026-10-12T11:29:08.625Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012082908_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "Io86sWWQLZzDAgm+trhEERY974KnHjqwTbECdlBTTqGNvECNZ5NvRPlLLZ89fgyAucCoEsVDl3OJQxnmxqkeFJS53iVGTYMrwGA3M4R9PQOl/l+IEN4iimoTXH35RF1mPxOxilDP9qy3Yk0UOhTj5twpFViMChJsuJNCmuT8SuYJQNuuM0IQxrbk8zrNjhq2iEqD2S+V+9By/z2VzTRWlovy3CamDT3H5gAnSrLQusWMiq+aOu191x+sf3xdd5Qv/bEnqKMZf5cavlyjudif0b3wW0K8hECfhG/LaVveXjxcgwrMna2JEXFwXjOx0+g35IdrWaBng40vfi1Zce+6Jw==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -3820,13 +3839,14 @@
         "last_measured": "2026-10-12T11:29:27.310Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012082927_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "NXl0re4bwthLpHV828j2yuCdUsVPF6Y0covTFLTuzD9OSwY3crAIpmfdXtztqBCKwhhQOJhUPIJgPXPYyGoBZSkOhDwDZjQlGHl54ubr0bR9uq49ffL8EENfZsDsR2UIh+YuDaDhs/qeJHR2zO3vNiqXMqndBH79McRRYU0afg8PLI35BVPVO+bH0EWs1g89YuVaAATzxsKwGM2ic07T5O01KakDWzAEAhQTSMTBGmSA29d0oNIMnaskRH13E+3c5pfpuddPOIkw9IXjm71OOF3UdoDpGn613rPdVkjhD0Vx7CI+5IcNjObKkgz0x3oC56ON0o8czKud4qqOnN8ptA==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -3844,13 +3864,14 @@
         "last_measured": "2026-10-12T11:30:15.156Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083015_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "J9RXYSM5Dr5KgYsqOEkHrI2CFwzJMDEv3SffbtL3gufT53xC1sE9eq3+FBDrv8ze8N9VLX5xWz1rIqCOLkaH7W2VgLwLI4lzkTpiSgJ7/Fq+JkZfIGeO8WSMBluc3gY1FCw233Xm+cXmb7GaZ+Q2SPd1fqnxHZUGk+7gomL3bhIa7zs6KrmRct/RnvOWzX8QTL4uCVIEmrWLhVpzGbA8c1Y+S3H+QyihSFYAvri166GfIU4k/BASIOPy/vukcrzTf7ZYjAMknHYYQZ+Ra4pgq7peKGIpwsG7pa0iKKSp5cxFLkMlhGC690VwwBip/+Zsm2EZFQbkcW1rU2kmXBtqMA==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -3868,13 +3889,14 @@
         "last_measured": "2026-10-12T11:30:21.066Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083021_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "iNE/w+xEE/v2zxPUVqMbWPLZzQqs2Psu8Y2z5Gen2kM0Ubp03F/9G3wVd6JutMrC0+mFRdqvQfGgeVItGRdQv54UF8FqBbmqD6KEN6QTAcfubRfq0uuy3LhNc5EuamXUt4EKcT3fp5uM8X8psq4w/hqOf64mR7AL3p94Q9KPnBibvzTafHgwp/MB5zRtMCpJ/Z9Fznw/rIAhbRZq7xzCqvVP22t7OghNdnwqZ69kws5KxtBqu4zdySLIa7buERn7zREyi8wb1GjBcE/Hzv8XlklS2uM89NJRdzggWmMpBXfKyVv5HtaFG90mh+kI2YRWSCm9qiNMQjFbe859b7CdRA==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -3892,13 +3914,14 @@
         "last_measured": "2026-10-12T11:30:32.139Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083032_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "EHx4OLcvvfJbewGhUhT1M2P5WHiQjR2jfqPupwrYW1PkXNVxA7CgTglGOWZRJDdmLNZVAYkxCl0FZYkkdR8bEU44brrXqKqnZp+wK1vEDVcwE+cm7RY8ilHZNhzd1bjEPaFs3p9nsWkFSyfxUJyocyXvzicMp3HeGm5O6SCb4bHvQCCFmLqR3x2zoWVFU0d1Xo5ZSThMhDgZpm1HyQxUbAdFArFZa0x5VsmSVXyoutX2SrhM2T/+BeakhFSFiQ+IqF5natG1BValX8HgNPqtjdOEtXX+szeFDmSeQNZR2m1GnJ3ZSW2J7WlsKN34iGkTUBUwWXEu6Tvs2zU7CzU33w==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -3916,13 +3939,14 @@
         "last_measured": "2026-10-12T11:30:41.779Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083041_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "jJo5UBFHP7M/g0vQebDW1TP6hpShCN8IrPNZTCaYtI1eKvGfepKLNk8EMzv/PDP9QvngOvFPhniUy2YYjpjcwDi4eQ725jMS0IcSbWz2GWZTnkTHTIKdbIwjxSc+iH8Kv3JfmLZo0hZ0vXBRHDXQqcI3ToPwdlsmLX9X+DIjaIcN4yz8nR4Z9rl1eZmJ9u88/XaYa9BK+KI5x8sOSlzryILJ/tVu3r+twEhZrHBX+pZuZK26xRADpVs1lgWSBSwjYCVb5Cu5qzIVexsnhnsViPCnWXPH8a2k8gQRW3ds38OM/3f+jzKP7VFReGTRhLpNhtuBtuGIBZa0D6rbhpVMqQ==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -3940,13 +3964,14 @@
         "last_measured": "2026-10-12T11:31:06.143Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083106_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "lNPeKwFtlPfemxDbebDjKS4RfgoIsX3csO9lQpB/8VisrfR/Q+4rmu4qLw391f+4k8AL9OrZbVsY5UgzG7jkGZHSFxGPWPq7IR/RJ7ZnE5BYjZKMHJFRasZS7ScAVOIrsTBm3QPq2vhxLtuW+EkhmalB0SM1wKbzOKRYgqOWTLyt2N9TCNLzKng4K9lTJjgqQUW2geEcXD7GdIxIJCVs4GCCkojU7NEyTj/+eq3f5BS17vpuZARNP6PJYxmAIQ9q9c65VaxNv+Qa0Uzo7zh6QOPaKk6D09wGgzQXnRwrqBnzB62javUqWVo+2txcqfrWi47GVX/9iQQphhwotrmUQA==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -3964,13 +3989,14 @@
         "last_measured": "2026-10-12T11:31:20.411Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083120_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "UzmkwwRg0GYt/ZdEPkXZd8r3QbtTsdJk2u060Wq4DW9QHVD3MWi1ygXWivrs/ck+S2I9xlzvQbYTqvvvQCVUA00M4Lq2cV2ZM4H/KsYD/5LPilrd9+KgV44CKkHfQV91+gmmOKq4Lu8R7AtTpEXM+8fZDPcm6OGB2TSRgIpyPKt9+TOQSJi3nvfs+ctKRWcYUqTZM5UEHRxP9zW5z0GX4omkrE1pvg9ez0g0KLz/xHBySyQKKop+6iS+eTwUpwyHVa0fF9WCkpVv0hwg/Fw6yKDYv+N9/PghwlVLB6oVjurfofZdqyWhYFa/tOTQj2/9K9HJe1v2jgFj2jNPn204fg==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -3988,13 +4014,14 @@
         "last_measured": "2026-10-12T11:31:43.301Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083143_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "ZAIezM3S6vn5/Nl8dGoituugvph2VEjCpkvaMi/iaWrW0GKsbOlO/QlTjyRkwb3EF0CGJ8wFXaU2jQPJy4fuIk6FI64Eo4WGT04nF3weHo1frvNlyJJZ64ubKHOcAugFj8S7aTgtmaDjVFic0HXrmKGiRChezeL+XzxPnG1/lx/QaThrezHlo7GLmmu/Q9HroVyt8urXDN4pY3QKvjXd1BZ+YuKJSKp5xI9eZazKKS2S1D310VOh9xubqFshB/qsN/Eab7QLeStGjVgSqatFvEhw7kjKEhUwcujb/Mc3ebL40yFcd7wob9T44/kg34i+pbgb5rXMddD7AOQvt2e8aA==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4012,13 +4039,14 @@
         "last_measured": "2026-10-12T11:32:07.427Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083207_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "qYfHd4mfTtZ31WQXJASF6Kzw7Z2xxqajrc10d9cfsYe7L2tw8khHIoCttDUvM1rblPic2HdDrRx3hVyZt6fmiqHUM/WyKjxnm9UeHIp8m0EW9gdb8ZtHwnB9g68hbNPADd5wFhrsgHPbFMVmtetkEjG+I8SybNYHj+6RTIDpfJccTC0ShJaT9owHBIUru4MjbQm3dgzb0ttQ28bFB4FQNhEREfbNOa2ISW/jAt65WPerDLamgyXEMWZBfpQIx7tS7vIOvxA16hEFCw78ImNHczYkO2tCJAtQR0Fo+Uylz+rht1ktqmqgQCp2Om4PJt2pUuoIbFAiJY8nqEYLmi1VIQ==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4036,13 +4064,14 @@
         "last_measured": "2026-10-12T11:33:19.998Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083319_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "HwQOLHkMQxWI02FH9xrdoe7umOJ+ayFplHifUIhoQqh6ihGCIFVdF1x1RgGnwyW45fMd2w9eU3/HEjTewRTnh5qcau15DAQa7PBe1/C2kUUxKFKrEwiPGiLxJykGHfWNbpbEiTprFrCGzOu4xDyRFOI+qxJaMG9jlD4YYCJVfXY/zbwZv4lyKmLaMc0014G2UtcGYPZQwEy/oVBYoPlY3ZE1njVgztkobxBUxsvW5dsmlBcnd0O9Okhi86KbaSp+TaDUKJonXkwZlJZTltm1c9BqiBvqNhLXDJjfVDEN8HAiJTZV0XnwqxBLrVQIKQZraWHqoVZ5zq0IcOKjT+Sjvg==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4060,13 +4089,14 @@
         "last_measured": "2026-10-12T11:33:34.363Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083334_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "KQVri7ju6H459f7PDGTDUMNHhxjt0quxIWk0tx8TBrnV0HNFb2K8IyLsa63X1a0fd5XYhBQ7MgXldFZ86wsgfcUL1Er/+q2fTSUwkw5WgOmlUCiam+9nuImlztQaOux+J0hd6PUiQ83yZ2qe9pDHmdnDVhaSDr5UYhC3qlelwiBWs9N74FJ2KSBLZFB5VnDrHZO7rdLL1Ou+qyekXipOE1Kb/dR8WQYXzFV7x25O1CD7ZXb01q99p6+QxyF2o++WqOnb+eMq/uagcBgIsUZNn9Q4l9cEQjvqW/QRrVS909Y1jueYkCAmh3AEmyqo5qdVH/66NlqT5slbsLnmlKNtxw==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4084,13 +4114,14 @@
         "last_measured": "2026-10-12T11:33:43.704Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083343_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "qCPMr11tWBb/JIL+cJybhh/B33Fv7FE9QVQKm43rmjLXj4e5xA7iUARr9RcS4OSHfMXSe73ZdBRY1A5NMsk/j9SnomYGyTeMGCj/OUQa7jRDW+jOSJeUKvR9xK2iphkeBH14FzND2Uub6zzueCjOT8kk5Gx0fHYoft8FWap9wtc2N2E8DMs0/LjVkhZV+apKlBdVZWox69bWGJ3LcOLiExR1fytfDjQN8+YifZdEoOS7es+LN7fjGrHsfj4RgCvxlkImFR3jJ1pKPl/Yh/+WeSPu8ehLCAnl55ynI0is1X/+o9LhFOKMaRZ3vgWIPvTweiEEde+MXgfVyvhHM/1ZVw==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4108,13 +4139,14 @@
         "last_measured": "2026-10-12T11:34:00.825Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083400_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "QssI15h0TZ2Y+pODVFPlHvOndEbruinPo5XywHWOs7vHMJlfc8Y+VNbAinK8778/eGgrwwMYBPKppQOK3iXY+KvxDeqwhT2kAikjy0qA/Pa0KwxPDEYFQdmnq3e0QQ0tvBoKolHeUZPdmJygx/mbK/PVBDaTDHxz3baruJ1ftWtoQDZ3Pc0Xz3DBxTfL12k+6pysEsfLUu2VJstrzjW5Y7RYMYM2QEl6Zmz3hE/MKqXeJWVbgCI+0e5fK6UUXtLCzgEagmuicTO9I4UGCXbA0awqIVlJE64n9zBW9L/RlEqFFAXiCWK6feTH0iEWl7k35mQ+Ya8Q5hsiF5zVKR/oEg==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4132,13 +4164,14 @@
         "last_measured": "2026-10-12T11:34:13.336Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083413_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "iBLCMuTPerTdTPGbjDGfSONe8ZScg05Dn+D/aYGK1+LVck6GehipGCJ/Pbpq5tyZ6tYwUqlm87i+dgyEXTZG17NM8sOVOAxzbIzd4drFXNoNMt8ZUSG3JJyPT+9iZdphWTFsCthS7baEEPkuwaq8kmLD00VTuwPidlpDKDygfZu2SCFj8ow8fx4T6RYY/tsahKhdUA/Lks89qiPQwDkc51linsbYblJGqM9M4vB7mqyzT/u7VxSZqC5/VhXbgSBl2740qBUbSxcC0WZHEHa84uPvTIbJ1rFbMQBWVIIf8RiK+03N8vVtlWONuZI8dBAAGVqaxRhvlaxylmbYddCZPw==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4156,13 +4189,14 @@
         "last_measured": "2026-10-12T11:34:24.202Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083424_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "k5S0pE9V3QuW6kGumY6NOoOsDK5hxKjUZuLDlJXEQ/u0+XpGrD2xLFhVaxnwxx+7vQpQm7/0GeIt13vLdsr+p7Vy9ElonUFcMFuuUCIFptCo9i8GoKfTg2AO/CWhvJjMDA5fmXzWl+bzcWAxWBiRHn0af8qTLpJed6A9a7FOWzsej7VjRP6yAwocEn1kQcftnVBpV3ogPn/TrOnBapdgxv2LYOjW0OAQn4362URKy2NgwkWTdPVzzGEl7tsaWyh4qHjKYdwPhnyr/Z6yeTG3zQFCVGGIAee7ctBjjb6RJh2zDdgnRVk1Q7K3nYWFZdDPR2y93hvKTKS6XDqIIfv0WA==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4180,13 +4214,14 @@
         "last_measured": "2026-10-12T11:34:37.667Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083437_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "LQpVaFAnQ9Cjrl1G+qfwPOqb7qKmeicUnc2JBuDPhf80uB9mwTBycaOkZhx3akwoSYI7jotdsKukriLPCXO6wGRr5LnPbN1JQqraMYruYUKrbR/Qe/RPROsFKb69dUnr484O5w9eope9nn6Yi7Jt+/CDXKOTStdD+02kFqmO07lauUrHzQA+jLWOpk6dNQoqppWypGwplEybYzLwZQDG2zkiwDfj8GuzRcaCG7tJcrLDsUHTV4A2GSIDM8qfjEfo5vbkRCIdoqTy/BV+jgu9/rJ1kStbpWMR33JocWp655PNfGN/szAkGArRpBgz6+xxEOpIQjkJ7q86Ga1FpUqg/Q==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4204,13 +4239,14 @@
         "last_measured": "2026-10-12T11:34:52.115Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083452_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "NGwPEGTXeN4c4gcIaKMj8dAtSs6jJzwb4MLA67RxStaQPjyrCpnzLOGfE1KAjSgyTjY2TdX1i2U0aILejVPBvEcBtQb/O0g7ZmCIfWNB9fzu4FS16jKOJ/yk/gy/B+VGEkP6rP+1cVFMHed6JpvWUtVwsdDvoOcGmdvlHEUMpTHZzscX5rjGmDkWnV790zwbcZwWdt0HD9h7wAB2YXOAATzvwxJhEkkzYqRLdCVw+94ihBNV6C8RZNCDL9uUp7X8SoUnZl6tF7oaysHwcaCxpdO29cnLVo6v9JItNFZxNzXbISMKZABUnAK5fMwlGkxZ+J3UkYYlO2opH+gJ7IhL/w==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4228,13 +4264,14 @@
         "last_measured": "2026-10-12T11:35:10.856Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083510_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "DF1R8sYjPonSm5BIi/0agbzZe5jL3LOUCyML060ZGgZfB5H4PPkgBT4CWAADxMe+hTPeCAsAkwpbsmeUnzQ8G7RUhuuFZQIrHtGY1FMstevdymcLH7dZLSPOnV9hA6Nji3sEeHab7wBrBjlELF1qqWO3tUGBv6lLbObrBl0c2ZnJ78KcGTqTi+smSw+BK7HKnUfb98ZzNYlpjtnZosou9mtSJZemKjdAYHF/GLDO5WNjbhZoRkpeaZXtiBYAxSLK/g25peum7L64IjCtpGm7uLKS2PCib93B0LuIgz+HxhLw0HM5Y6i90ipg5XvvDjqbisI6HeoT1EY8p5+3eq08rQ==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4252,13 +4289,14 @@
         "last_measured": "2026-10-12T11:36:03.589Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083603_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "AbtdHL/8gCMwFH6KG1T8sbWZFYB72C4DPTdSwRXsdKe4fKs5SrmVQVSCTrrul41Z6xcJg+nnDa8pRbE9bqBeDelAU+mFmrX6cRmd6BKC08pTz0z7a1/KuVapvdMcLHft/VahdncBsV87vNr2Q7zV8ESA0fuaRu+g2mYJ5zt3lXTzGXTQafyCdAOEDgjfIlqf1v889sd4+Lly2lcl7egsaXN8oGlOC4v4V8WhYh3LFBBwsCB0RHmiKgAMMSNhlkD+GshHuxyxlkHifCifRaVtJK0g4vhB5CLRx6ky3kT2FayEMK0yG5JrtQIG+7pjCqU1CHzeqr0RdChkTJWYQZcwIg==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4276,13 +4314,14 @@
         "last_measured": "2026-10-12T11:36:15.337Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083615_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "GYQRnReyZHRq8kTgN6Es4J50kUuMriIa0/euOwNDiKojE4MeGNqAD307O2fHQa1roPAKnHTsum1cRydriiHQzuepXd2e5MEzDfqeyByN/fYJvl6iczpYEbdweyLD3aD3dzT20xeBW8dLZUuh9xbi0veWShcbZ4tx5jI8g9Kq6BXrY+uDeqbm4QUomKOnvRV2agtJGEgiCYx/PJ2F1yj0/KSg4fTTc91inFohC7NERJRThWbAYseUGC57GJWqSW680D6+336lvEtE9FrxWwgCvH5WoWlQzo//e4r515ST+JKESWlCwv+CEzdWoFz95cxX1dUJPISOZ2cWQ7hoXpyViQ==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4300,13 +4339,14 @@
         "last_measured": "2026-10-12T11:36:36.118Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083636_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "NPJGSSnit7RNjn3hGh8UGgnfgggznNCp8BReGj5ZiCcgB0vj2KENYTBvtIlJyHlHBu0lvr8t3fVzgb2vOSCjXfVDF5DyPPUAEAHYnHrK7ELWAi0aiVX8k0B2RyRbfzIi6oo0d3/IawVxgjQhfwI+hptBPhszvk30UwJy2s3OuVyiLDgSiuNuQRblybX+sR2FlEJngBgv2uzPs8Jh6mVswazM62zNx8Q4codDbkKrNSEL6raIn+zPtVbsyGlFvjjZK8+1YEYLnnEUfWRUHQKWt7uANPcU/eRoo8MZJfWdMK2Kyk/lxxjSQKfRRptq5E5COzTtGwunhssIgf8S0vlJFA==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4324,13 +4364,14 @@
         "last_measured": "2026-10-12T11:37:17.823Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083717_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "lWIGzBWeJCod7gatXuBhj3232sNL3Fq9UtkTSNTkGzKJhy0oLEu8exaeJLMWuuPqQ342B5uoSzPWo1z0YRuO/6p5h4eHetJZjM2yOnEJxsVePkJ8JKYwYoiZjRo2rCEykRNLXASz8QRszDYWf3GrrGhSux5wuvSAxi0KAZOJ0N+L3yI73tOo41IDOr0Ls7Diz0oQtSlX/ldZgYjlJQYMnepqL65pZapOTKSubTuqyG4KHYs7cJyjbS6ONqjmKVyq3+VcE8Gu9qiNtr7kF6RJsAoGDNMHhwG+O6HNsA9mvZmuDZea3Tt9RHJo6jPkfG2wU86K6la/XvXR2mRGjlCxrw==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4348,13 +4389,14 @@
         "last_measured": "2026-10-12T11:37:34.804Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083734_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "taMmnr5zH11mlElBMMTzpp48hgHMCnN6pmsD+ZVZJElhFp7wLr4KRn7DLLbcjHmMNXAvm7DfvwJ+pj/HcoXNFI48ICMCHNgEsWprPSdxek6BodAqANuimYsA8lXjrcfpm9ezCbB5NB/ef9vmMRrvOBrfJjWV/Ud7L+4n+mgsO4aoPySjoIJpC8yjxsbLXSeF1V7LmxZ/racYyVgWMXJ5FSrOFZbgjK685I191wrm/IwaUBkT7CogQHygymalM4p2W5PR72uboMyoaNHSjJ2XUTAuKXCI1MiCDsCpS8re9sjBUuu9tuA/5PNzg4xiVUtQoByxiUoC4hrEPv5SEfs4wQ==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4372,13 +4414,14 @@
         "last_measured": "2026-10-12T11:37:43.038Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083743_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "KLaBPgFHFUXEUG5iAAS08Cn15VX7QsD5wgU2WY57MIFMoXJoTqXYFvPGwa2738yQrWNJX/RloRkAeVtQ4KAZNlvnCmIlq7QgX5RabwN9hf0DB8HJTcl95gV7c/HTHRN4sdG8IT3iu73fHqbAATDr33awDNlMOklBgnSaSmxrJMxeKylOLrKhqNsurxHMIM+9K4VhPArsfwWtH8rstd7oVdqC2w00ZWOvrZifuHGl/YmolKfHLIuwkbItItc2pQUT6FHJ+tWp6mZdoCE+BmPcYhENeKc9rifosOoNg39ZSiW2aO0kJs2hlhgEXmZzSIWI0blS+4sJ+Se2cqQ1GGhYnA==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4396,13 +4439,14 @@
         "last_measured": "2026-10-12T11:37:55.134Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083755_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "TSxpYxsIKguITXFlISjcjYrQ7ptsFd4ddfgNZogPM5QYYIge19ZVA3C+qBKdX4GfHE8o5rFFMrVOzMsed7QsX70nEMegC3pEjBqv9XE5B/w0ng80pqO3kB6VXdTmTuUBFboK0yJ8SkCUewKzx3K4i4505B92tqdGNQVDRdivvVBqqFBb81C+fbiAYK52St152MHaQw7o8KwXaCrcsDszQmavb5GJrxg+xWQqxUInGwc99BOhHX/YAqjyZnI6rPDqOk0vhfXg1BVS6BCMhKX+e8pKOA37Nd1wOfdSGGOlx0RYp2nwLcl8a9zyVuQ7t07LKTXU0rYn4YoNw9sfd3+Vcg==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4420,13 +4464,14 @@
         "last_measured": "2026-10-12T11:38:09.351Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083809_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "ikKiVwmCYcAJZafXF8ozqUyP1dTIx9t/rVsbLBQP7a1E1diVtR197c3gr1bE3DNFXIr/taRbYDUk8FzCbZfDgy2Mp237IaofA+Z7kevVYpMwKz28/58tOGBsg6QyBSZXIri23k/pu404goXDToUFg1oN2iMeAtmhJumcUBM1KkoPaXBOLbVEb0gYnePQiISeITKQvXlkBelK+fVs8WJG7TAPhJQe0X1kMW5NU5P9Jdtz3rzGhzW1z98Jss6VqCi87iAPKdhI59r3HUaOyDL/Y1pker8NUtv+S/G8Pw6SBRfpjBe/XJ7EzvY7DzcBVTSYdsuBia4I00EcUPxdsGLPzA==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4444,13 +4489,14 @@
         "last_measured": "2026-10-12T11:38:20.024Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083820_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "bzsozAJakWM2mdwyR3sLagBV3wG3TdAcNB26zufmezR5YYQF85DfLalV7DCzZgi21tMJKNa/mg7YvIbj2WvDVTBFN1wXlsRmm0O15gy7QQeaQQmaVqI+OlnclQ+Kwi2atURAzV3gzBitEONB2QoDyWH9F2l2ugbHWMi8CIUYbHOS5gpjjSCyuXlcuYsKmJ+QnCXAiwRTCDYH5Gnm3shM29sHNW2wXojP5kk8/yYv6ZLvjnarzGs28lVxKNlCVaMxQd7+whIEvL0FSceZCEVXQ1Q/ajrAl3oyByMyhr982bv4Xc/YvGWn+ddH0VMCo3U+BEmmGrxG/zurY8mmbJlTFg==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4468,13 +4514,14 @@
         "last_measured": "2026-10-12T11:38:56.965Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083856_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "eK+7FcTmao4ZUHY7Cw5ihTN1YQzQ7jSeWqp+VdFuArpmWb+XE8G/zIs8mwl7l8fqm2SRZ1Yz/W8vl+S4FNv7drzslCgAAY0OXytTaxJnKCbMRL7rj/VpxgowoT4zrU73A1gSY3QomAwYFIs0vQLZWvcNmyDC+KlAlaF/x5p2DZQ7uJ9PyiMzKO2zCGLo7iG6Xsqn460R59hlvygc5feGMeSeRaLIqYbl7TLgY3IWyWUwrkWYgzDYjxmGYLtkIWnFvm0VFjkzKOPZdgMTWJP+MU0Lq14gNPdSUV6VWd3u+hfEhhsbe8xA8Sctbj+EmAqx7RYeHFwPEsFRY4PA3iZCeg==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4492,13 +4539,14 @@
         "last_measured": "2026-10-12T11:39:27.872Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083927_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "XknwEZFnsHu53yCXftPIDX5jgYyb+gl/kbnjXI+eO+fOFjyTf9j0seNjTsXwoDqhCGG1tWmUDM1SsGdt88lZD1TYU6V8SS4EOQS3F5iaKJT8JSusi4IeqHVorm+zrcu+xatgFv4q0rN1XkKus03o93NXRo2J9s8xamQqqsjJ42Z0RIpkW1A0Yr0KjB9a7vgxFiizrLBxgkFz0ue+ixV8nQuL9RxDOPjodJA5TLdbzSoj8zgMCeVqNlwSq/OXQHFOmi46CXL9t0Laf5tFqiqT+TJtWr74X0DsKSFDIcsLcZ1rF1R+5Mab522Zmg+0jw9MZKOjG2VrxLGlae6693dlZA==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4516,13 +4564,14 @@
         "last_measured": "2026-10-12T11:39:37.915Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083937_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "Z+gg4pN1SyOk9DJvtnD4eWj+4iw6Ps5TwLXCOeUA2Hj47dWZHc9fWYNQYzdunNSim7layNROYP2ywUML40uvtggJ3zV6fIH6Zip6pUB/q6PY9Un7uTASZOBG/1O+me7nEbnovM+7vxyW+YVSeLJo6t7gSsBM6UMU7usOuXZMlYFQbWFfUT+y/VyiYL2bSZ9lQSiPtX3iEURlzsz3a+2+lqqarLXua5bgulQpvu4r7t8Bj0GSc6ulC+23mH5w9EgThYlj62xVjlCO3KuHv7AKm80UXcLsxiC4ndE6W6txJdRZtq/WCGSVNeYuSxLuMIDNstsJdT4zxd4RuW78dFLJ2Q==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4540,13 +4589,14 @@
         "last_measured": "2026-10-12T11:39:49.698Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083949_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "PP59Uy8H0MwxY1F8w63K4BEeGbzyAf/k/ROTORcLqt26UggQ0qLp/gyLmXlzo6tZ1mCJ39CzEeDp0okuxGpEeyvChFJ+iRX5304zeX49lL+rGGwi42a64FiUAn1mSwfdYYpEZv5ZtNtTwsEOV3mQFyIhgy95APTlhhPih3h5d8UTpU6dZtkF5O8xiiuCbv04YmRVscs503WxitxoWrP4hMOUm5K2jqPcMAOV9XZHVnF9tyQ5I2MX3LTci+AlJm9/UdUmeHkm+Bs8X2NQSAyLTM9IHFikcq5+Zw2jvVR27Up9i8DBjwlY6KhthI9a8Qz9l5Y+2+zxs7yT//L1DdbEMA==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4564,13 +4614,14 @@
         "last_measured": "2026-10-12T11:39:59.696Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012083959_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "uSUArll4Xq6moBjzK1aOtS1IX3bSYOqIcARoQox9MxQSXV9W6YjDqV1uuJycURtaVtOmx7J9Dxsy2RDFROgHi4WUYaD5WrjYd8QP00ICuc2HlR3HSdzfIsyxcgF1CYn88JGCqTMYmJ/vxauCcCA4hIPvgPcmZ/QVHnLwecNuWwCCZzAQBJxjE2VCUfSN/bu0gD/AM1BOZhehiCsbNfonBss2zWbDLNhLg1TmLqvU4GsoOyRHHwHikpvi1OB9i3OSDZ1+Elstmj2LN8SPRg2w2aYAV/z2cHpVysVYrQk5c6VkuaTjplH3en+BP2VTzT1ATpgerC/lymE4atV4bXv78w==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4588,13 +4639,14 @@
         "last_measured": "2026-10-12T11:40:21.873Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012084021_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "aPbEeCfzSemd6xMcIFZ4z1LupQjOENhZIMlBZ7yG+Qtzhp0+yuIyxjCV9jx0pw5FHfTtvW5GeyBxLSFmyYyZNsyoceKl5OM8y0XmnMygubhNnmOHwvYYTABkBeKGIG5132CeJyQbGcoDm8MqE1UOykZ3Jo0Tj3E3fIS+HznVCIgNKK2rALo/7a3+BjKCVzkOX3YJhv6L7Axi+Vh5szhmJXvRCcV/mopBUfnMjR058P6e8iUEq0GookJHJonVb2b+pTQB8r+fkG5lb0ME4QosshvMn+kmZ58n8UPzqk97FVv200N6tHCorsN0of3gtHBUb5lR3uwstYHKQfw0w79EsQ==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4612,13 +4664,14 @@
         "last_measured": "2026-10-12T11:40:44.652Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012084044_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "u5LiMVkcBg/pQR5pRIyaM5eEis86BA/vhRlA5RcDbSShzMebCCqY6LAQGa5IWuJ+f1icZMAc8QA2GYBtaBSmk71vcHlgoBqSbdHyjx+trNqK8S9DFW2VeDyLW5LiMYImVZGzWglQVAuCWG8xfR415YnjLqC3/mYCQ2TZj+aQy5AsR2k0ltxFlSZSQOH6oR0tEF1s5BPLdZfc0R4DLlDUrJjnksQpwf1cJ8Iyt6Q5tmEaQSWDbWjKBzbejUvndqnGV1t1wX/MWT/3ObWiTjV1I/bhfUigxKSZpK/gVoycWleXv8BA2OXhz/PWoad11BAvItveC9zySbEXaq2EoJunUA==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4636,13 +4689,14 @@
         "last_measured": "2026-10-12T11:41:22.246Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012084122_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "ixCgMtgyC6rv4dBDqBkePwgSC+Im7zax3TtquSjgzhf0sY50l9SOI3yY/NX8PZAUV3Rzw3j6faQkN2ydPrS5ABQepQkvQSFblIqEeeeVBatiEn99SU/ZGejmb01Nb2ZBnpns43G6QEEXxzYDQbpIQLjjBJNf4q5J+e9JF4DV90qdOeWUgh16t1aCOK0RXcZ8Dw+EhMhGd893Omqsw4BaWxEbOqYwt8kVpG9/Otnal6r17B27iHFXfS0i7h3sceJRO192An5KCtPoCoDFihu2OI7PvBW7rWhT6ONViC0PcZIOu0YGCkrlMjO4PoX5XMUuK62NQlya/zrhZKUgrtZq0A==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4660,13 +4714,14 @@
         "last_measured": "2026-10-12T11:43:29.819Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012084329_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "OD+Blc1/6DegNEJYQnTVdluzILqXIyLZ9GrhvTrfT4jzQtGYwhqCmWU4l8+Yqt2/+6niLvV92IXe9m1SEzpXrGbsDyKVP4IMpSo1lIjPeRXc4cgxmg/UJA/FkSsoOsQQ17IfMsF5fzoW3O6uW6HH4N1PFEQa8VRGc2cjNc58i1Yz8dP5+F7KB34yFjc1bWrpcwn5pQq1zMhwt5ai11vixcxWpWKdGDX/pxO6UVAb0+QfoNjSUXZDfPniQBjtIdnHCID2GAwZe3osj2n8ev44d0VqKWlAbOc9IbgI7XDDIzegzsexgY1zQv1Id3GxbqCPa7AB9nBEzDelwg/Fq0Xmsg==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4684,13 +4739,14 @@
         "last_measured": "2026-10-12T11:43:54.407Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012084354_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "MOdhqjsGSN8Oqpwv0qvFyiRBMVu5UepzzP+6davgv1PZxtp6/KcoMhyUTeWmyKp0H+v3OqsFmITcoPz356x4gwlwMmZEzGp3PaI4+ltfhKgVJgdJPh0cNqnFwQjT6sBQzdf1B4z1GO1u+PhS2H4oFYmIXT9HO3eKT7DyHG8haOGEr0HxcGVA9fng/QikW7uhuPd7Kk67whSeESzFR1HgmbRuQV1UDNPLUJRX4NeyQdPr8JRR9SIqhiz+oLzB3e1Fxispfvbor/hwNXbt0Tj4136rR7p+6KpiynK0Rh9kIQnVuv4AQpikFHMOfjaOvKAKXgVfY7E2BmCSv6ofNp+jdw==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4708,13 +4764,14 @@
         "last_measured": "2026-10-12T11:44:27.601Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012084427_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "e+qiSgfJRHM3I8RpE2FtyN5gLIp2K+Kgkk+pvcgd6R3zN2h1xnjRFxWyeolqhq+pZghh+p88nNu9geCEhL4N3A8mxX5PJ1wvP3OH6GaFW/wR/itmBHNEv36UrFxmsbRNfSJphx9YJJWzW4RSBl2C7ZB3GPfizkTPdwu+eHo4LyXnja+Qissdr46/blcDwkNJOkF3hTY3ru5JFqSldvAZleu3h3dFqZfdcuqIRg0xxMFooHXlUqNwUWnkD1EqoSCqk3Q6kdabB2L8yAh4IHVKgSbVVGoN/KeNi1xPN+KNwSIptXppywyaUa2peQmwHzIsmpuG3xX0PY9md8fRdOa/kA==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4732,13 +4789,14 @@
         "last_measured": "2026-10-12T11:45:19.675Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012084519_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "RnbUZydo2De4QVJDJQSjTUP0hdV4JkJhtvFUKpIj4nfBC/7jERjSZ9L2WVTKnD0tfE2fvmAyl72sX5osVxOHQQ1JtGD+TlReEhlt4Q03mfK+vXkVkaOUybSwuOPGLZFyvBxmp6p09FhbBNbL5NfBKP7T01M3a1Eoc6ddcvYWcaM81MNHkbex3WX+zj9idycxF4lKIXP+gFp3wNZL4MSAnnVFNctfppHhj/dy3m28Y6gM/hUdqU6rerq7ezBHh5xjOVrvL//TWfjFeeIUosuwn+DaHf5AFpbKjizbhrs6HfKuH/xJRMDWV+c42tmCd7M5/qB26yE0vEBEH2QpTF3yCw==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4756,13 +4814,14 @@
         "last_measured": "2026-10-12T11:45:31.028Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012084531_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "dh3Lwa8Oq3IuWmsP5NxkT78cVwzadbob2evsWj83RfzbsCUTtmESjA5PwGvbd+SFJS9kWevus4z6UhrIR8Frpj1JZUkyR1fni+C5jOD64E3L2IbxCS9Gaxco85mHQLD3y5lOaIpHjuQ5p8NUyoT/VaWfZyDSwVcYKsjJ1TTx7y/54t6n5BunGMjwc6M2/3k4/0UxPuGGxRL/tujDYaqBqW0h9wo3hwGhW7d3nXuXxk05JUh3yKTWdF/xpZ76OFSczPajznPslhhdaD4dv3JS5NoSbnlw3omw/gYO90vurohueePKzRl1QBVgKMbs/hgMOyfg4G+hfdH6YgabwiNfPw==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4780,13 +4839,14 @@
         "last_measured": "2026-10-12T11:45:42.117Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012084542_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "OY0/IXOKk51YWpTejt0W6gjwmAio6nfPAaHeGxPFwlHWT8BDkTcFmJ6dgmoVP9xh4TMOi7DDJcV+GbA/8BJfQReC2VMHaBk7m9IL+SyS+biNuANlg56vdWrhVD0Ex6ysNMFzCQsGqJPd44xkRnxmZe95FqhlfCRgc/Zz20AgNRN/ng1YqUHhFdwR0wucgevd7WFR+PEhdQJR06/hsRp0r9lexqW6aB1vQefNnIvOTrcnDbSXCy2T5KuSl7VYNlAUbcNlLtAIVHeuvNGYK3FdSq2ARFhUR9fCFXtrLkC4GorU8KWHRAYQsD1AdbSyTyT1g7y+5j6IC28ZH/dx7nJzvA==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4804,13 +4864,14 @@
         "last_measured": "2026-10-12T11:45:50.484Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012084550_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "Fr6wtXStBQrzpSOceylTXTQVVWuk+OC1OdYTCqpNygPQKgofBeYyX/SUbHgzFqtJPywDX330nMIPj67yrg3OI/5wMfDsadyJr+SzPI0OjZDBf9wMhWy59QaqaUWA753eeK3r23FZGhDZmbhRTrmqoJLoYdSlzKVUaBahHmI36j9Bh/MKMo7W3gC9o0xmQ6aYfucsosI++WPzmMYKuGkjcnGyZ17SQ0TGK+GN/VLZrih37sCAWnOfGoiC36w2h7Kkw3fEAaAQ3OnjOUQ7XlU3LaivSFkxUqsjSekDf+6i+rLa7KdCPlJmtiOdrQ9FhkNGnofs7LatFURmycFs1aLc4w==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4828,13 +4889,14 @@
         "last_measured": "2026-10-12T11:45:57.952Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012084557_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "V6G15MUPQV59Yl6pS7d2skomv8xOIySaBNSIK7PYSxgrVMa5ausRu1fKSdrI7TW8Yz703BgY4XSsgxqv42syUR7eHbnFOIMmqAnKpF6mipJDN2k/MroQXAhF66hx73z/0cId8jhIQbMrzJ6ddCP+D0ETTwHzLmvpvmDKbW5DF5l/E0rXHQOshMYI2DYf32YtfXAWavFiXKHMv5zciybDvLKC7/phlgCcAZeLVKyLKX7gAvRu7De1sHMCdILg3eJNpZsjhwmklko7jIneT5nuEn+8zrN0Be20WQuSEhj++ptwJeqQ11MrJRS0aORcmnHD0/eqWGkiwu8pUJ9a9igt7A==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4852,13 +4914,14 @@
         "last_measured": "2026-10-12T11:46:05.712Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012084605_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "ei5/7GLCpYdSyNF7adn5YwG/6sGLmsK4pP63nW4YMCCFGAmrurOGostAecu9xY7Da57qdgubObu//XEgxA8x1BMWAoNgB/5DbH7hBEk1HZc+35WzZyDvAavEL5cgjYsRxuZNkDjav1vsdytOqLLvggTYqWzZesk+uvU5Idxhb52otNTPb2UqiUKIfgGpfVBQ8NYdFTiCfGEi7A43CzhfyJlSqgwSWOVFd/GHYhHVtBNqcHLDGnAUQArRWx0PX0L3M2L07/Z0TbOHTM65PUnpo3omUo/xsfqkuITWQY7+gTYuNPBTTwh+aGCrwoJN9PqQDsobyHwRHoVG9uIGyFByTg==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4876,13 +4939,14 @@
         "last_measured": "2026-10-12T11:46:13.954Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012084613_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "H6JCyXEiy3dmV2NY1vAhQVo6BLX1CVfa2p2PHLQmrZlGT+puc6T9cZymRNNE64ANtCi17Bn20VBILc3f59izlB0SdmizIfCbSknqYjP38TRIzMdaoAHmkfhe8M8cvknTBbD3hvnrPuUVJE4bEu8qOMRiWQjTmJn/wfmlzXkbi1lono6as7rWVs8R6OEwFYz2Tns6dBtH1ghN/l0AkZOmxOvV3oUI4KDIBXMsjKYJIO8asfHzjf1d4sX2BxAsdnQbXw1QQG1McSD0hgZNj4UGvsW06Wz+n+vuWFvzpGV+6UA6bFXbt32g3V1LBGGapy1mdDzUr9ifKCIPzNv7nPQmTg==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4900,13 +4964,14 @@
         "last_measured": "2026-10-12T11:46:31.844Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012084631_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "spsMaqnuzmrOXb1M8yaViR2Zw/77riKYywPys4ZIyUHq54FnH4pId7ehlERmRQsGi2oXdK0frdi/nV/Aj7uASS40lF7wPjEFeYL9436FqbKo4uMljAnTOzPxw4ZR13B4daaaXuX1hb2jYPmrS1C3TX4X9haIXx1h1ZqmBeWpjWGr4CDByWXtmJrdwcT3dp3y7r9PeUfX8ptW+cmwAFYcWIXv8elJnAAwA9LFXkAupulqP4PREiuKchCDvBqNfvcZVByXtcq2b3NzOGcQgBr8OFcGPXpYAFNOOFtBBpTpGmeD301kE5geI4is4y/YYuzpBDRDYj/iS1FZ9j09mWKTEQ==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4924,13 +4989,14 @@
         "last_measured": "2026-10-12T11:46:51.207Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012084651_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "p9q8KQAzZAPsRFVdQivxwhsfrzJ9oQWTIBqEQ2/ALPXbjADSlD+PP1D7J4Gsnvo2/vgL99QltGwgMXTa0BujqIf1VOfn8axCwbDdp3og0Yzyl0drgVHaJkqfAT0cn0EFVGrQIMCwWCrNnEvedEztcyJl0hg893jCWhr2bLXqUB3VfXYy5flQfEILTPRQlNYrO2ogLK2BGvE9lLq+DB609xjkE17hyT7o+lzyK5j6EHfXW/C4itv9tGWBTmmesCDX4cQQcdUuVeTIVCyPgZTOB0i6eXVsrkjkzQ0NcA9aXEdAnHMhGvUNczxpZ5rEiQrv6LTgGlHP76ihGbCw9hrsxQ==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4948,13 +5014,14 @@
         "last_measured": "2026-10-12T11:47:26.479Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012084726_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "Ip/zneNk/qWvJV5mWNDv9KG6bM/xYcQUIjQr167BP5lsmE8ezESaihlO8SVKlHqfyF+n6ZzN7dIs31UUonZaqevKlkUXijemZH6fd02kxo28s+pk184oOE8weg6rcOJQivivYPql42F1G4ZqYHiCvjof2lz8v8006Xn5i67FhQK0Bvg/O99G7/HGhLrj2AJrJ3UgmInmql9XOXSjqz8J/zZlLF2gypCX4Low61NMunpFhmO++kb9qhPTs9o4S/zwHDhShGAwSHvEPPx1FIv08KP5dnV3we+4p63akr2n4LIEH/DI1ZYKbUD8hF44KgAQ2k5R6WdVX87JP9Pgjyd+fA==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4972,13 +5039,14 @@
         "last_measured": "2026-10-12T11:47:55.468Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012084755_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "t+UzSkyFugniA08MixpyD0JjgN3BcF5MvJ9egIWRxxkFuzy/JTpImHVaQ//ZUBzSAwS5mgDup+VkIOSKvkLXhzlnfZociwCfjzf3C4nBZhG6DlkmVczjK9brrtlqooAf/yGjdb6CWhffHGV6NnpMGns9qGzix0p8bY6f5Gmeo0Zb2H+7jzmsqPMMpvlsZOFFJBfklcPvsxvqy6T73q33zG3xkpb0PeaDk920sFMeupD8q3U1wm0CZDUBnqLuCXeAjnZ38MpLyvD5tNNRQbO+LIogWe3bkwr4ilWqWyHaIPvCsUup5R9JRTIcmCPnly9wf6R2LokcXMcZqo2xVyRo+A==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -4996,13 +5064,14 @@
         "last_measured": "2026-10-12T11:48:06.743Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012084806_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "awL+WyQ44+HZf98TPyyiKnzKh3us+4t6P7fIo+nyTe9Fd2fJBbs4VvnfoOseWk3tdQp3vIB/uvo10t24UiYFiO+ZZ+2l27VN2W73q4YkG23iJf/1p+ElGHg4c9uy2nwenf329CPkPLFSxWSJaHFQDKfZwZjphQ622UW/KecSRAPICRe7rrodbvPZoEMyH0HEKVVV0SZV17SORyWYsrdd1NUz5kQRd4Ett7ibnhDsA6sis2NLtRQR+KgRrcCnX1xL8B8mRXWuRJi+UUoQ5noNctvysuX95z/rtcCAJgNXNO2JiIHDg1CkT2rdbZ9G+l2gENcxPoXF50AKzOu35xIyPA==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5020,13 +5089,14 @@
         "last_measured": "2026-10-12T11:48:37.442Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012084837_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "OmdXPAOXdRQI6uSh5c2JpwhjwUJErjNM3zL7LwQA8Hp3+zvmO+1uu1LjCRwDnHFLA1O0xYRSKQ6WreN5/U4rmvkhPCHazKO7dJMJ2sRSQMijLXNTpFlshv6T+cPFkJ85BbVZM7NGFUSXLZdBQUfnDyGOvWknUkioD652XHhz13joJHLxoJsSDyOrayiz5h2dj0DryIxW5iil82fCu7P34wOnACIqmLnBRdd0ARmPY3V1l49PmStkBWSvwkjiSzEHMNAnbQ6xUihg2OFAMwsumZQd2Nem4JDWaFXiPkQhfDTauWRAUOYEBYC6ZIcqN3JRn85LtlBnPAuyY4tQHO+tew==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5044,13 +5114,14 @@
         "last_measured": "2026-10-12T11:48:49.999Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012084849_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "auES1Mx9jl05h9ktx3TubDbGcZ+qeWyK4Qd5NaJnxk3wlUpaGz5df0d81B8VJFtIqk52eG1/KxFM8hJRPDkwVwqm15eYpFbp60X1CnAPeZwACaImYqFCk3Cqd1SDP9m1zdJaIUns03/4M2rJ3EB4gIxMh7KmGjh+XK7A1Z2GJzXW1apCOU67ftg2CFRNoDYKWP+Qa4HJgP1X8jRkEtmRgV3iPlFQjXLFoYgdf5/7OkSlQDBmuhp4GW6rktWuCwdSzGxNeIr4sgqERH9244LI6DMx/c41+1ksRly1GW87J/RLILgvVpBlpvang3wmX3RpyypkXRydXF0LQLF2zic2uw==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5068,13 +5139,14 @@
         "last_measured": "2026-10-12T11:49:00.087Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012084900_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "fJCjYL6edqFK79eu78fhU1dAbL4yaJWUmqy86K8YSyZ6X5kLjkBTm905n992eSeey+kiwTeL6p9DA+crfsBlg5gglnl7Eo9KBUteTmADIhB3Avrl7IHcLxheTaRygUY26XTOrqZp4tEHieTWFOmSMqjizxrB0Hxs2TuTXS+Z0TaVM8wccYE91XYHZfNZvdMjSdeoZ5TNzkxM7qrJ0SY/ewAdw6CQCJOZPfpY/oknXGjKzY6NqFGJPSvJtAzyzE2bDTS9JeW7xJ2y+tfLfBHBcqAfAFt2w41r11AozF+FcUCRx7E724PlN3Q2dJBaFwYeK5eD5uC9Q3xfJ4Wi+bBG5Q==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5092,13 +5164,14 @@
         "last_measured": "2026-10-12T11:49:28.218Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012084928_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "L1xRIhEZee9vAnHPxPhxOk+hCdldW08HyZ7DOju5KRBl9c+eJLV5zahz4HwAfmnzKo4wsPkIqBnDSNMe8AH0MExtC6FVQBKjJGqNXS22xoVInYUv6m1LhhhVvgVqX5YeqmNTZhxT/fk90vyOdnHB/EQUHYLgp0x5KPMqOsy46/Re/JyMCj9ETYqbZy+ylMTHcep2oe4VU4mocnPs+x7Gv28Gshxj6zW+WDs3t5MtIh7bDS+jmDjNCvKNVLIzygUVBl1963kiFZ248Z22/hB/Fq26m9iPa1FlgI7nY8fdTP6fwZsla0rT8yBPuMjme85A2/U1ZUxk9FNzZ+WKSQNZLg==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5116,13 +5189,14 @@
         "last_measured": "2026-10-12T11:49:39.897Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012084939_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "D2Ycyoll5R2zqpOtJwTLrnD2xJ+m/V9B7OY6uX94W1lXFO/m3VdJ61xR6oZkGVEDkZce1fuee2Cf30b/k3E7bMaK9i08rVmN9fXUkyzi5NBWfw9JXn5owY4EBJcCfDoGt6nGC4eRAWbwwvEFIWtShPMns3MMMr8Oyn/YrmOHIQWc0iSRSvWG6F6zc0tXfgJAeaQ53UDodsVIzrI85h9fxg0m6Ue3IUMZPILzXQR1pwKK8R4DhhqlB9pIoWGxH2Tl84g4dr6X6skn4zsTNABrVzWcf/B8kuPubETZfE07YFKfmIKYVyvZFBq2tRM+eMUzIXnWnCx/f3JuGRrr/XHuHg==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5140,13 +5214,14 @@
         "last_measured": "2026-10-12T11:50:20.516Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012085020_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "iD9YxjgdrLPhFvQfSZeKp1kC0N1+CWOQzWafLk9JTUA8a3TshgPmdizmMCB4NJdP4G0mOC26FIPYU7k34vxM8GYxKIOFq+ewdAwN/5TmXEURD/5DfkkJcu0rmwHTDfvg7L4UHbfcJp+9nE5raVZo61+2//Y5lOHcLdkE3jqWI6TYqeM5gAJNjrM4/HlCEmLjKGXtRsY+wam00OAFyznDlOr7GvsouINXPZ1Gi7B7GAbL3CndAKUBGmWnTWepbf6Peoq2gpwY+huxveblIlLrJXAfeR51SH17mR0ya1PuC8vV0UHqPB/uYtvHABLxg7i/afo2xT8nSDE5bcHAQht7Dg==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5164,13 +5239,14 @@
         "last_measured": "2026-10-12T11:50:30.702Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012085030_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "ojJ5ks2tdcTJWMbwz/Z6iaEEPOaRqoGgeYGYK0MI54cN4d/Veux1E+vv7vKEa15EfWisw79gVnMQnQH0CKonyJXatqbPi1uQzdcCDEgZh7UociVnUWZmHwYsfax4n8DE++fq+pnwOkgB6a2hvXUfEwdM5+QjEODGZDcoKTyatcEZLAT0FqxWruqm+bu1+qNGHBp2kT+x+rNlWkKbhYIyfRblYAW8nK6qJ5pAbTeo/m7XgiiZ93hJ8dOv/Bhx9i114r1W0lSfTinny0NOW1SoMmB8zQbMpwxgCc8aENElkPDeFHPxsUwMcSLXYh3zCiUnx0j3arvQTVrW+arx8m0aPQ==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5188,13 +5264,14 @@
         "last_measured": "2026-10-12T11:50:39.377Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012085039_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "JZ76ihEztTuNbiaTb004bTg8jDIyNDmQflYxteHwVFUxUtf746Dp+98pZggFkVB01H5HYiFcp9/rMMV42AeW4aT7/KHX4o9VRXhJ++wHUBydi9S96hnN4kj1Popux/BK+5v+r1JJF9g4BXouRq0e6vypgiYcAvVjV4jAkldNGHQvHZGjbPQCGhl3TJ2ItlfY5yFdsHrEnn6FeCNLmA+GxQf17myUIl+mKhiJdElJhFD/xAA6cB/3xggwm61kqdsU/ioXPCHiRHHwfAk1iTaYw9Gyy7EUPQgT7PLdpDVopjKh6tGrkjAHQ6StLMtVXll/744SuNLZ5qTLzCWnyjEeCA==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5212,13 +5289,14 @@
         "last_measured": "2026-10-12T11:50:51.557Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012085051_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "u4lZ/PHC8mhg0yXyXPj2YHyq9amXPtH3go+XxVoZWi45AMeb1MQBynvuSE2IsjPLxwxYM125bi/U/7FPq2DGB/2OJ+eFiB0QZAA7vt+odvEzSUquAh+uftglMaTJ2X5QeOO1SXyau5jX9IneH+vNsR03PuO/1JD3m+auDTpxxbZr+XGzihFaYi95i1uLd9tKC8p1mExYR4yNAw51lkLPjyMyP/1lMQEwtNewVfdeC25WqVFB5cNQkdhjL5RwsgyetiJpJNI81JNKfb62GSK0HJRyGqsNGCgc7Q9Q6GbQARQSMz7dDXGSpA+cG+/Mz29rkIUC/QaCiwkcXLv/mhV1Qg==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5236,13 +5314,14 @@
         "last_measured": "2026-10-12T11:51:14.992Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012085114_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "sE/5qVFfnGCx9VSWVlmh5v0PBLoh81JARWhndt+4WZ4dtXL1c5TdR3Wb3g7DNZR9lWH4MWBhDU7XbwcDxB0msEcs7VuTa/DhK8A45ZAxnTq7m2Zdlb1RxPTL1lSpNu13FNKpXzq1kJBC0SGLfZ2+En3myhH2+Feg2vrqItxeAhsxjJyBYwJgcqfr+ukJ70F5Z2o+OAFzHfE4B/UlwegLknWiDB2p+OM0N4UGTxzRETEMq86qeDhVWutz2Wariafk+uCuoCkOsgNutJ0Ukou2c3BrYnqyceXVqBYmhxhCcwDa3bL6O610u9edaKIvPFTaUhDUz0D/SmoYlIJLva+8Kw==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5260,13 +5339,14 @@
         "last_measured": "2026-10-12T11:51:24.005Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012085124_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "hpD16AiXrTvs47HX0oRgRsDCVArqJNKlUQvqfRLtduezS3IJ0Lc59xn4rb52fsbHvOmefExrzPLTP0HCS7CzdnasiezxRGy+v3Ym8FlpuP5/tYt+NZ81HfCjOZegZisPafUcZL6OYS0RDFUSibhQl0+gTi06Q21g9X4ltbGSCUubuuUvByqGE9uHA6xCafcHP1olJCaVHp2VhdPX6W0MwF6DYgWfZaFfjxDeqWaYSExvjBhCjQV/t2mDbL0Zqooyb2YoLVfRimJrG2azNg1ebqBdsaBbRUzXLjp1dXAR6S1BJK1I6ysL5UkMj2nE2rdLWIGJrPtCsUUkSK1d2m5rgg==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5284,13 +5364,14 @@
         "last_measured": "2026-10-12T11:51:34.114Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012085134_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "CZr7Ir6vk6SWDRdY/bfCNV7MNOyxT5om/tRQrSmT0BPVfUryiWPKs3ECfsyATXxjel5bVvKpU8r9R/Zj0EnsqA4NFnHNv2C9eIBplzMQZDhAbfg0oZj3qkKx/coGhvJEoRybMuOy8eR41MOwIZmwXuw5p1OqpS+Ej95ChzAOzws/uHRrt0suOSpkRN4yU4eM0rTJc3SdQmAihZuj2IFmqIUmgYvwF6rQX1nB0cyajFZvvTmmH1cNuMPir0PGp8ZzfR+53x893Y6Heplqb2sxqyxLUVoVev++96dbw0RoijXnC+rqt/lDl/PdV1IjGhTKrNdw4o7Bl6x5oOeyWyM98Q==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5308,13 +5389,14 @@
         "last_measured": "2026-10-12T11:52:08.247Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012085208_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "P+JSM91vSVCjWwkHiOvFFi1OFZnMrET3Khbmvmq/mUr8XWcl4EZ4sKdsk5DrYhSZyOI24jswI5x/KQTV4bIMMiavX2mzTfKUpRB86kVwFiCAR+kCSgqfj5A6NNMrwa6dmPI6Hr6mfpFjQ6dPg7GjaQ6ovpvFxd3k5AFEzLbxPbRvbRFipAjGe3zWCLE/SkirA/U2GjlL/uRX2uTz2nTyV9mkUZO5FftikpVzykXtvwdSmbCVea0iajuX8htPkkWN1smbMqf/SOPE4JT9E9SOSsezlkNtGM7z6vPDApWxIturQb4i3e9hvv2qs98lVqjfZaXHsfmhPjbZHYgtH+/niw==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5332,13 +5414,14 @@
         "last_measured": "2026-10-12T11:52:23.092Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012085223_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "pcXxW/gkEz6BkpgOkoCpNk7UvBFbrP2fprjfqDIk5NBPBT1KY8Lun9RLOXmBZ3MEUqJCXRA0PYti2CGSkgxPHtPWUxtTpVMnmQiWTmGYablx1y+SS5K4V2VY1Bt/5G065INcTg08TkrP4jimC+R34DogyWZm425yGNwtk1z7vbaWSxdNtAlvcw//VPHf/mZou52at4yVfjYnBWkICdL4g9eTMqq+TFIYXgKTntu5WR12iSgCxYsG3Pk4q56ZeFyaBxI/9d0ry9NmMcCGWb4Q5myKmH7XgXkhA5y3tXiURxcxJ19niSpExx1DpmgItpTRUELvQPoLl1elaJRC0H2Y/A==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5356,13 +5439,14 @@
         "last_measured": "2026-10-12T11:54:25.488Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012085425_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "M+eUjxIFooeWcc9OVKFIHKH/sciCsbBeGgyAljvcsEcTIyLwwupIXrdpGbQDZrlFZTA+Xh/avvvjovPveY9jMRCkyQwPI395Y5WU58XyrjeA/NsQGDMG+CsiGrBHojQHBxg52AuIp78cpOGxurFhopf9oy5b78DZq3jZGMgxf6ZKW+t9ZpR7ZxLY4yk5ObA740IsM+zvwUfu9MxwOc0VJE2KSwiBlf5PisUSKdcP/tnkHftz+Px0TKgqbMoPuzwtRhlQjcqKuFK5+agy6VOmFhYKF4F/6sBW71a7p8AlJJPtw+zMINcv0lsaBjRNfM5G1Fvj1a3U5++bG/UErSkJVA==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5380,13 +5464,14 @@
         "last_measured": "2026-10-12T11:54:45.462Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012085445_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "EpJvgGslP0qQqWGRmCkIMAQ+GAmzV48WrKaIZbSvWhNMyIUeaM7uNSTpQwl6FYv2b+LDBpvVzjzD0qMhHlaoRz+JoaAdQGSVb/KfHZWuBrz8zTJAUbZIeIzkdqkCt+GGkmwwcmM/8UcoaQwpFcuY5g7coI5etuxvxgUuXfJAuHmJC1HV0Wx2RV24i5BwTFk4EOVZEjp8dM2QgcTjRFeAXkZA4I9NLjY/CaOXB+/ETQ6zPmKLvWaMqBtgmBtUIdFjpm1h2Cw8JAFmZKLBiZQD1EHXNzgEaak8GK+J7iDL0VnXBQ75+KAFruwnByU9YvyE9xQl/0lmwxfo94bZdVw4xg==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5404,13 +5489,14 @@
         "last_measured": "2026-10-12T11:54:57.561Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012085457_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "HVcts5A+qNOd6F8u+GfnMcSqTuEEFBckGhUp0BA1TE+3rDnRq2QvBLk7hE5mrEar5wgw5YBJzms+pyX2dr/tGMMcwAk7BLyk9vguWEOM/RDAR2tYHlLvkVDfbfsjZusdKSxY/9/IWVl4c0cyiQnhL+ljVPfOg2r3I2nKe6MswlcRkpI16pcOb+6zvuGagnhh0X84Q7abbB3ESJu825izLLzNZAU+3r/MLFdjJGZorSbGmNHCUikOhCHQAEWko3uUAnzaUXfizAEOfxc2M0edgpun88/inqKDPfrRXAo2QxWDKTZQxmFMJPoOQdUAkmqvkzU64TUlwd7BACVlUvOWRQ==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5428,13 +5514,14 @@
         "last_measured": "2026-10-12T11:55:08.624Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012085508_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "inOrtWjEuKpSpew4rfqmtpnJwp0qH2gEnDN/F6njkVLt7zmurHyDjbVaU20UiymrUWWiHxb+Jp9NHODqHKjl9LXAZ6tVC2HH/BIoYtf7FP9zcalMwhBAJbwQLGNrzAYIwWbdw0NBhEzJ0tmXKRPvsCOTPxhSePPy2D+mQME5tvHdkkgdt/bKTOiHl9WRX9cSJMRAu1UuXcr+pzaMLpHQCWngKb7FTOFMSNjjnlxkQNR7lBNU9SBzmqjbnj9V586OqFVTAPcdMG+02lduQyx6aJjSXqQN5xaXrZ91SPLcsJiNwQaGvWbM500A1XPPFVSmCxa/sbfiNMHx4WAUIPFVYA==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5452,13 +5539,14 @@
         "last_measured": "2026-10-12T11:55:17.437Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012085517_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "RHhQOiPF4zz4oG+A5YGSm7P+0hH87pvqe9XvLS1OIcJD728nf2bC7ipF4dnxX4WBSJKRbPb9z+PpmrfMEu7lm/c6RhjCWxsMM0sl+eLgz+pkZ8voqnlNU7BLiteH7/J4fHHTsjAEVL+2OstvMeLeos3/EI2SBgIDPfFEGTkAY9ukPHpt6Nekz8cTgEx1e3uKGz2vwygO0BhDTW4YRCXYRpcS1YqHFbuaHkKKJmhRGkJM7QffCbTuEv/34IzmvQWy2OEIy2oOBZHWeVzqwi7YY5cZImA3jGgTS1xMXhgLyZuMNoBuuIL1vR2Y8nsszq+1SeGTKQD3Xvrtteg+DgpevA==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5476,13 +5564,14 @@
         "last_measured": "2026-10-12T11:55:28.157Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012085528_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "YuptEDeSSO8rND4l9VYQ3FVexG6IZOQKiOksOP1B6jWy6IaLGRg7KqVGH6MmHOyU75V7RplwbwHQ2jTa3bId0WKxvvNpO70a9gRABmZUBRna4A8XMHENZOoYQoxH1S7y29c1XcmaUYZ0JLUXOmghOmsCMrMxJOTdrB0E1Fz+aemKhKhePJwIO+79YPXFaoSiVe4Y3qO0SR5eeMTMKd+TG6P9XXZIa8DJhyU+/LabAMBwMmkZeJiObenh5BJwwwzNAR6RKGEWi9dZLz9umBUajv9FQzI9Gy7hFfXNzrohP9gsp0+F6TynDiKpOuHErNv4+84keYWUIHMZIFOO3RgDCg==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5500,13 +5589,14 @@
         "last_measured": "2026-10-12T12:03:47.633Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012090347_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "iXD/gFjArC+uZhXotyK6ojrXPjD7ejB0fvm486QeH8Ys8ptVPfcbAr+/sCtejRyp3jQ8R6ZbOgb/2D5gViDGUuk5v1gjR7lEdpvuOe6nnlI8jnYufR+/dreS8FzNVmGDBT/osgKs/bGo7/+aJPefH3hIqhbNOEiZxntutXObKy5AMfQ0tT/88gdNvmkhhHKZZgIOzbeHKDHq4T+hHEdwLQ24i003/O6iBr2OviNAiIdyGMxgFH3OTMR8Xp/0jqAC1cvrd5LkiAS6xpmDOyn94asSWf4HdA8c6y+8JYMtsnrN6jwHsNh1lNAGk+ON2+UWOHK4L13FFGkntt8dsH07Lw==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5524,13 +5614,14 @@
         "last_measured": "2026-10-12T12:03:59.009Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012090359_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "dOCuuq3L9wQ7CVmfOlLKoz6k/R1NVJBJKWNO5e8lbd6B0AteGmdAk4gneSAGgt+2sjZtUxZ5iIMsd3IgRB5PWqsFnH1av2vtjAAwRmvEAWqbZJZU9jUeefGTNZgN1sgSZDsI6REnTnTe5TWMU/HxClWPY+DW1R/fy2Vni7fqRRjU2QnPn7pTWXLEmQihh4fU6U2+ykH9yFl9/yhxLDT3f6ggRcTUQVwgPnzKYrV9gyWfRhG9Wce0N/5Xgx5PGYaCO7ZwEFWs2hFhjLQ2dj9wqDEhVliXheFJCRSyaDbU8JUgkNjllp0SjDHZ3A165rhaJEsvRiPU+pEUBI4UvhtvDQ==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5548,13 +5639,14 @@
         "last_measured": "2026-10-12T12:05:32.777Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261012090532_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "ak9gchCiNcXSwKrlnFlNwT8V6kSLIUCy4ERyvz0OsexcfIbLzj1I6FQlNnzzUn6tEGzx3uQnyh5DBkz+lRvNgJ/KZuskBhm0+lmT+ygs4gjf3r0J1BtlHJMEaCjH7tb1YqVFGb71Mul1sbzNGQ5GWw4D0iz8R86Dn1vRnT7AGdVfrTVz2/3B2GRGW2BKtsdmXeMsSe/j7kOF1JHLkxzlwdaONx5YbQ8duCS24afytRv9s7ZKtPk9+QcefHvcL1Hmrz76tOUNZTxcv+q6AaKpRUUi3J+x8GsBbjh6olPdpG0eLzVP8tD4VCULk/9fQcPtUnB3/KINJD74PN6YtGQY7A==",
-        "plot_assoc": "none",
-        "plot_dist_m": 33993.9,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5572,13 +5664,14 @@
         "last_measured": "2026-10-14T09:56:15.426Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261014065615_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "agZ4MckZRCIiocYACEfTc3y/sIkPaDnDF2HsP/hNIMkyEWAgdTWlyMBHk60BwE7PVLAxJZJ7wrcReZcopA5R+3Dc+pBWtLFqFPeXeH7tHQRRmo8B1fRRmVYWY//zynIsmBD0vtN/2grhR7kufrKL5JqRdnyWe6LU0rwjzEXAUrybuvZ7RkDQDPssnqZworhQhV2+YsXcP6TfLzKxAr8+jqtE4SvivK1Z92766DcvIqi4APA4Q6BEIRcclH86olKc+ehPV/0xER58rqEq6SC4Hr3tXrfsc/QCUACohf+4m2CSjNO9QQYhg5/LrZmddMBM0dMB2MTq/DuGxi9/Jgg2Uw==",
-        "plot_assoc": "none",
-        "plot_dist_m": 34015.4,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5596,13 +5689,14 @@
         "last_measured": "2026-10-14T09:56:33.819Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261014065633_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "KHsDMl/dJ+Y/OR8BZyQhr5uITtyAMdH4KYL6tHwuOP/PwPAa1r0CyErFmWjm4bZsQNd9tHrKrXXjkUdhrLJXoYVLZhAznIMspqzyyC4xXWEinh2eun7NYPDuk2jMF8qf1OJbLBjiZ0Tt9BmuNJCswKTvgefrsfRmYjLX9EdBtwzKcP5pBFxyRjSxI20ITnLtVVAnhSxUkgnF4hhRfFI9w7/S+TIMsrUiFh75Bs/MBUWLddC6gt90jcZpy7QO7CE2P4wJwawWVzLLMGnytAJb1E1Pp4/doYRIkMkKNA/Fvda2lsp20gn4KoECUagywXwZTbsGqCZamDVX+PQyN6Ij1A==",
-        "plot_assoc": "none",
-        "plot_dist_m": 34006.2,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5620,13 +5714,14 @@
         "last_measured": "2026-10-15T02:19:32.953Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261014231932_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "hAt+mY96rpiIK+mhZvndfglpWoctH1H561PYqoQezjx1OuDsXngabpY6bUpOxkdnka7lAvPYqG5DIOvmujh12Cq+HD2Pym2mCNKvXEQeRhCQkB4ZGP5MygWcP7zkua3q4aEZig+B9Jqva8BFFz4Wt63pnBGM6bCLtrWyMbgIxyXuv3Qkw92MuCddKB5ePMH0PPWVRGLXYkqZkz3m4slq+hocpMb+lG6J/FSA0IrEhqmhgwQS1Tu3Wf5rUdeCoQCkp/FJKi1wBuVUl2rJUF+wsVYboS2/CRLL6rAIPujqDeoQKx1tITlB0oXDx5WA7wKyS38b1LPF0wj+nxJEVasNGw==",
-        "plot_assoc": "none",
-        "plot_dist_m": 34015.4,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5644,13 +5739,14 @@
         "last_measured": "2026-10-15T02:19:44.884Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261014231944_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "JuATjQ1cb7ziIL7HMGuaNIJBzOVv8Q2X4yo9svQKB/5iD210JQ3WyeNi8go17iNxtqNS8JYWlFfYh0YwtIbY7G2wpKv0tJMqnk7KJ7ti69WrpcRohxA5Qqbtg+80qBdxDS0N4hicNqpi8ZMZGKlPGsqxTGgoqsXI3oKLNVM4FG2LdwFqvgiEjjra4crFJom8nHNmTI7soUnR4nTdkzdUFPilV0ppS6Ee2AZWlGTXN8muAD37xi7zysXPQF9USqiLRpxNui7uniU7J5VE0f/G7FqBsE4ChHmvnYW+piGZG+DJFXQFOM3oMgYYpZakd4jZBEcZF/E9p3cBK4JmfQPIxg==",
-        "plot_assoc": "none",
-        "plot_dist_m": 34006.2,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5668,13 +5764,14 @@
         "last_measured": "2026-10-15T02:20:09.439Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261014232009_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "kXw1ZIRnsgcQldxM7KOdtYF5CcmckzTg+CMi1sA83gH1bj+ry9YVNiC45cXIS4WurGRgjlintcA2muwDRWR3ZSZdczaKFaZ0Q+ljr7wh948CiVUwL7D4u9+fZ+qQFWPEhbgVzd9aAyilt3cb+JVCuDt2zRPTTqHsCI7lhiD359CVfSNMBtMGHqZZmU+JZTg5KgAJHthyu55pu1gnLudGLj5XgYgpC88Mbxw0hB3g15PJRiKEex6Nv5Mbyy/LszZCrIxh0QGeM6n7IJ2/qC2HMqq5D5JpFk8cCT20OMfoQkOvy9tlVzvAmxzjmvbFmvM+pMNmTgP+nLfUnfGGzwFeqg==",
-        "plot_assoc": "none",
-        "plot_dist_m": 34006.2,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5692,13 +5789,14 @@
         "last_measured": "2026-10-15T02:20:22.537Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261014232022_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "ENMi6MjtID1g0BhrLaC/1BqUS8NXW9h1ld0sxWNWzEQPJ6MM4sNWy7TEq3GAxN5W954vfmRTo7t6IcOWM9Zdt0BYQANaGD2PAu85I6mB1XBkQlFevtM7IoKFCtKP46XbPjE+uA7+m9OdtplJ4Lh5+DmeM4Jdswd8K10fMSvThapYHofNwfdHIDZdhCzegUXeeYdlOpt+Jf6cJi2DxMJ1SKG0IYwz4YzD3WwCFDEhyCSUMcU9RzSu5h1pSsobEBXeKYh9ZGOwhtdXjM5e2aVzC8Qn1qtMg7xEQo7KUaf2FKDpybeUI3n862zjC2FqVNnJl9+tZDUw3J9XTzVpPv0p8w==",
-        "plot_assoc": "none",
-        "plot_dist_m": 34006.2,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5716,13 +5814,14 @@
         "last_measured": "2026-10-15T02:20:38.689Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261014232038_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "BSRMg3cbUS4PqP++kb6J6KdbdcoCI4Q9L45Y7XwvAGfm8yFaCug3HHW4P2D2BwI5FhNgKDsJTZLI42nzImK8457LOHsoBazEtYCwLMMRM2Tr4AjECn1jwaWKAVEh2jPA86iWimZuMyCld2b5ic/Uic7U8sPfq1Ae7lXoWEu13dNZw80clQWmjNVOMJeJUs22E28AoFSZOFI34VKffHhwn8i52KQckYcCWsaQ7AMGzUGxxDy7h+xol6/59n/0bM//E+UY133Kaq7wwjyfnkdvzPoVHheBKjErxdS/9JxMrQUWx4bX2SvKhpLMuh5bYdXm+jK2/pnYWhDCtpfvkfsFIQ==",
-        "plot_assoc": "none",
-        "plot_dist_m": 34006.2,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5740,13 +5839,14 @@
         "last_measured": "2026-10-15T02:20:53.166Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261014232053_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "R3W/Pgbv+M3MCgjCmBjEylkwg0sRC8LDPMQHKf314CGIR0ri3qOqe7udWBO0stjXw7t9FKchVGzhC406bq9vcB87QfEDY682slzw7H+pLNP74zFU3NNJQB6iAYPAlHCwe1hf3Ih9Mqi032hcd5/vMI197d/WIm7IVOvytKSM86XyEjQ56ZFfyS3F++7ZOqR70r5DH1fiI72bIkcMBrLGvb5A2f68fzaBhp/tKSbYEeMyaH+q94VZ5Hqrrsnn+EZItD/gxZpeG6Rei+cdxaDSWrJtR8aQbsq4h9WV02xn2XmG6idwSo5EOiXYURagke/mMc40H6gsQSZZ9yDfZHKpyA==",
-        "plot_assoc": "none",
-        "plot_dist_m": 34004.3,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5764,13 +5864,14 @@
         "last_measured": "2026-10-15T02:21:13.483Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261014232113_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "cnM6HKq3UUnkdgNzp5j1CqcpsmQ5WGE/4sarg+fPM2hqBMRqEUWdryUy1Jhm3wwleSOd03bCWpej+HwCXzHnWkjUvl840pdGmy9iEspZcIkMcxY6llCmd9CQWWpaBj60kwqXA03iNknuqa/UEskvW1ZA8e9InuX9Dfp+qYgy7McOAEw3nuLmet98H70VdTkOsapnpTFGKUoJmXWBMUBb3wcD13+KmB/sc7OyX5Re09n2f5KNrl7508/bnhIeISVO1mCpfh3cLssMYWF6SDwSrSGRZGGJKCBVxGwBcr7Q7hhNkA3MjCtiTobVYmiMaSkdYMIXrAfTHOC/F6vbzGEvQg==",
-        "plot_assoc": "none",
-        "plot_dist_m": 34004.3,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5788,13 +5889,14 @@
         "last_measured": "2026-10-15T02:21:36.450Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261014232136_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "Xkh67ge6urctzR+OWeaKsHNeVzqBjRvhPOTP/Wfgk1LA1K7gVPiXEz2ho6Nd2qO15xJzdPxy5Wiwd3QT0O4Tzy566/4nXXcghox7/b4MIjIgSsJTkRmcqnwCBaINQEvFeck6Vf+6y4DVCIq9rOKcK1c8/tyPcH95BVdpkHS0oXah7Gaay7fmHjPlFA3DwVXi9eslDrqWeeL8C+kNJd/l9unexqwn9MR+0QCKVCLy7H2YqRFr6f1eo4SkXYL7bYQfc4gbplQKgNx9e9a9UFHeVdjx24YIppIVOourJQGUCYTIRFqIu27lpeUhy4HPpxOxOKTPDUtp/k3QRNcBMENt3A==",
-        "plot_assoc": "none",
-        "plot_dist_m": 34010.6,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5812,13 +5914,14 @@
         "last_measured": "2026-10-15T02:21:52.156Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261014232152_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "GIcDtnWwlumBuvfQJZdGWfwtPgcDkA3E+2taRhOS9AyNIrM7xzrafLIk+c8786imVWO09l2zf+ITWclYsOCfPvTeOVoi7/z0yPV9ZmOUiR91uftgh3/JHoQnm9RCrVuH9IikIWucCcoTD0NBIJ0w2owXqaj5mtz1tWqHhD3ZEt9Xd+L2Fy+Ba0zTTxtq2KDseuaL5yCz/z9jkaHYJSiJHzuibVUSAnabjOqyjeG5Pc1Muuup3gaDfPY5Yw10Cu7RnWbsdP7xOPUxiKltwDZjB9vHO8qTStqcyFvlT4CyE+szISzNS7OjgpmAJxCBwg5k07MqCDFx7n7zVY3eWn206A==",
-        "plot_assoc": "none",
-        "plot_dist_m": 34010.6,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5836,13 +5939,14 @@
         "last_measured": "2026-10-15T02:22:08.493Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261014232208_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "EHf20rHmIK5Xttjmaf+N/0ukMzVqf8hXfenf6UOG4clXNOWNFBO5R7u9meOb7XCbKT3o1QZh8Nb94IKtxI47NPvb+swMaHILNBM2xsy5Q8thO6s4TSjqcfl1P0VRyndkmsvRUKgQBE12/uj9kcm2GKloQJjh24M4JO4+tu1DiiHgna9Hl1+dkywWC6hCBA/AKfJa1j3Bo42/clXUXI5yyJb7mk1r18PcN9jTFlO9Ic/hHF2Fxb6lXosakDXhqb1nDZc8691FiXS+BQ4u72KKv0FfgkYdxYQ2I7C85UFvrARl+zeAtgQCLqP97tVkDHSE4MnYzMemVEfMBoidIafUaQ==",
-        "plot_assoc": "none",
-        "plot_dist_m": 34010.6,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5860,13 +5964,14 @@
         "last_measured": "2026-10-15T02:22:24.690Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261014232224_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "sIfPk9D2R7YWzAfPci1/RT6e1DKaVJJROMNrmd+bmpcVb7NEPiQBdKMu7L/i+/S5Lc1pKgoqfzD3YEu0QHUC8uGSz8gDq0lcDNAydHjP8m53xXnc19l4F133NTpFoHcKciv3zQWbVri1Al9rr/3bcit+6Fvpai/E2ffX2FN2UJRsxeCzl1p6HhbHcXpVhX8EcsjSLK+prh/L7YW6xmI3Cxv2NhbDSXW5rpDHNhmYAubdICgoWmo7GIIW4xLEtRt0/X0OMb6V3YWTrh3YD5IeAuOcsEYEr6pq4g7ytJ5950XNqvVR4G3fj7LLKZp1YeZ7ZEhrOxl8Y2fKecAt2uhNHw==",
-        "plot_assoc": "none",
-        "plot_dist_m": 34010.6,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5884,13 +5989,14 @@
         "last_measured": "2026-10-15T02:22:37.189Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261014232237_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "gYkBixeAt+sRb0w5akB6xV+MAg9NN8qS5Vi3U/EfzWnLoz27TUtzoT6mq+wI2OWFQHsDakCfD3hnR1k7eVLq+vrik5coys0aZmET8/lUh4qx8Z2XIx8WOrgyBbBvShTfOozMz2ypHqOS5Ahpiqe7lPZmaxUVnZLdSyXhpovMDtfYgGl8h9wV+zWeHPGhoLnYAhEc5NDxn5qVK4yWCBvSLwBu4u/My1xv678/b9OeLK6avI9xMpw13RsMWCDfPvP2Re1uDWML0uRTFOoghCpyotChdOkOu6sV99an0HYiYQYoKqQCZhSvT0vy6Kn9FCeL1pSH8qZNNbgNjo72v7wiQQ==",
-        "plot_assoc": "none",
-        "plot_dist_m": 34015.1,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5908,13 +6014,14 @@
         "last_measured": "2026-10-15T02:22:48.242Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261014232248_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "kUGwgQjkan8s/qCnWQfHHHVkeV5Byka0iCnWVw7Y/GFsp3QbUzEPGGIm2pa7KgZ89niMfRdtlufgDonKDYjfNvqxUEvkAAeAVHoGBlnosqshS6S2NIQDMTeBRy7YAeYLH/OaBDmBg/iVKkZu10Ay+8iZcRH9vuzDt0rXktePnR8GNRFUE57k+PMHw4eVVSJDCEVH7G1wBz31Ajy8Z1KUy+XVoNNYzt4o3dFA6PFG2bi5fz79JFwUkDo2R5XF2EizEsSgr8Urwi4RA0kIvLzf3qUmZx99ZL0I1mwP2W8KagBiWp74wmwLAwaqwb2SqFDENobegnRFQmQ49S+xk+XulA==",
-        "plot_assoc": "none",
-        "plot_dist_m": 34021.6,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5932,13 +6039,14 @@
         "last_measured": "2026-10-15T02:23:00.539Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261014232300_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "T8LoumbZmI2e86n8bnJWe9SqpiJMUwIepw/wozIK63I2SgNbU1QroWrANX6TtEbDe0MiOGoe+dMsM5Ozlgcf9w/oGvu2HqxcM6rSXWAuO+GZiSrCHvYKFk0RvUpLxr//AxgOdoE7A0nh55iLJ8f5aIlHm2mTWwQ7oCISbJp4enAIvqSbCxxCEMiEVOcs5bDzbDDTBhe8BnTGQPV2KuRtCwwtb7bui0ZfBXgF3X4A3uwUIZmt1R+1miwYQNTubYwsb1GH8tpd9tSKlcr4BTQonYTwOjTx39LdrvT/Ehrcym0By7hAyzX7+Kdny29VgxEYgQVshx/KlTu591x8VpdduA==",
-        "plot_assoc": "none",
-        "plot_dist_m": 34021.6,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
@@ -5956,13 +6064,14 @@
         "last_measured": "2026-10-15T02:23:38.653Z",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20261014232338_MIIBIjANBgkqhkiG9w0B.jpg",
         "status": "NEW",
+        "plot_id": "SC-P1",
         "submission_source": "https://cfr.truesight.me/",
         "pk_hash": "pk-qkejKJJW3IAD",
         "program": "crf-anapu",
         "request_txid": "YDI2GBieqEBl0ao8RfgzUnRhTBVapgOtZkgVzzKHgGR9etiNnyOFKBQrQN+2b8HFUxmQyVbF73iZdm7oXFJ8b4KfX1NRt5lHyptgiyb7uc29Mehhsof6MkperPBvmb40dj7ehV1cMUUZnOObU3TTb18xXMEWq1PrR7d0BGsBwLNyUOyXmP1nSI4Sr1an4ugUz2vC6KpyokXAgilZO65o/Glb+RrZlyCGcrnOnwMZ3JGDjGlghNvKMHb7kdecFMe8cQ/c1Zii/GZKkEJ4hTB1NVt27YEezuR7IBB8RoDDrjU4k998T/VRhHogwUfF6zvgggbD9Dwqg43kX+3Juync7A==",
-        "plot_assoc": "none",
-        "plot_dist_m": 34025.3,
-        "nearest_plot_id": "V-06-29-reforestation_20260907_plot_1"
+        "plot_assoc": "inside",
+        "plot_dist_m": 0.0,
+        "nearest_plot_id": "SC-P1"
       }
     },
     {
