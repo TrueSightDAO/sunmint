@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T11:56:32.795167+00:00",
+  "generated_at": "2026-10-21T12:10:13.908162+00:00",
   "source": "earth-search.aws.element84.com Sentinel-2 L2A (anonymous)",
   "cloud_max": 20.0,
   "archive_floor": "2015-06-23",
@@ -11,6 +11,14 @@
       },
       "trees": 1,
       "scenes": [
+        {
+          "id": "S2B_22JGQ_20261020_0_L2A",
+          "date": "2026-10-20",
+          "cloud_cover": 18.465,
+          "file": "20261020.jpg",
+          "bytes": 34740,
+          "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/J/GQ/2026/10/S2B_22JGQ_20261020_0_L2A/preview.jpg"
+        },
         {
           "id": "S2C_22JGQ_20260925_0_L2A",
           "date": "2026-09-25",
@@ -34,14 +42,6 @@
           "file": "20260915_4.jpg",
           "bytes": 31273,
           "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/J/GQ/2026/9/S2C_22JGQ_20260915_0_L2A/preview.jpg"
-        },
-        {
-          "id": "S2A_22JGQ_20260828_1_L2A",
-          "date": "2026-08-28",
-          "cloud_cover": 97.993,
-          "file": "20260828_15.jpg",
-          "bytes": 11253,
-          "asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/J/GQ/2026/8/S2A_22JGQ_20260828_1_L2A/preview.jpg"
         }
       ]
     },
@@ -14530,6 +14530,46 @@
           "file": "20251108.jpg",
           "bytes": 20470,
           "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20250911_0_L2A",
+          "date": "2025-09-11",
+          "cloud_cover": 9.998,
+          "file": "20250911.jpg",
+          "bytes": 10468,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20250812_0_L2A",
+          "date": "2025-08-12",
+          "cloud_cover": 0.038,
+          "file": "20250812.jpg",
+          "bytes": 23812,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20250805_0_L2A",
+          "date": "2025-08-05",
+          "cloud_cover": 13.539,
+          "file": "20250805.jpg",
+          "bytes": 23164,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20250703_0_L2A",
+          "date": "2025-07-03",
+          "cloud_cover": 16.509,
+          "file": "20250703.jpg",
+          "bytes": 16734,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20241108_0_L2A",
+          "date": "2024-11-08",
+          "cloud_cover": 16.031,
+          "file": "20241108.jpg",
+          "bytes": 8650,
+          "clip": true
         }
       ],
       "clip_bounds": [
@@ -14542,8 +14582,8 @@
           -51.568513
         ]
       ],
-      "backfill_cursor": "2025-09-13",
-      "history_start": "2025-11-08",
+      "backfill_cursor": "2024-09-12",
+      "history_start": "2024-11-08",
       "caught_up": false
     }
   }
