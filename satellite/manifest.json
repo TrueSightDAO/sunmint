@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T12:10:13.908162+00:00",
+  "generated_at": "2026-10-22T12:14:07.235726+00:00",
   "source": "earth-search.aws.element84.com Sentinel-2 L2A (anonymous)",
   "cloud_max": 20.0,
   "archive_floor": "2015-06-23",
@@ -14570,6 +14570,78 @@
           "file": "20241108.jpg",
           "bytes": 8650,
           "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20240830_0_L2A",
+          "date": "2024-08-30",
+          "cloud_cover": 12.466,
+          "file": "20240830.jpg",
+          "bytes": 11998,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20240825_0_L2A",
+          "date": "2024-08-25",
+          "cloud_cover": 0.335,
+          "file": "20240825.jpg",
+          "bytes": 22083,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20240805_0_L2A",
+          "date": "2024-08-05",
+          "cloud_cover": 12.135,
+          "file": "20240805.jpg",
+          "bytes": 23391,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20240721_0_L2A",
+          "date": "2024-07-21",
+          "cloud_cover": 10.391,
+          "file": "20240721.jpg",
+          "bytes": 23609,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20240716_0_L2A",
+          "date": "2024-07-16",
+          "cloud_cover": 0.67,
+          "file": "20240716.jpg",
+          "bytes": 24260,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20240621_0_L2A",
+          "date": "2024-06-21",
+          "cloud_cover": 10.477,
+          "file": "20240621.jpg",
+          "bytes": 25023,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20231114_0_L2A",
+          "date": "2023-11-14",
+          "cloud_cover": 14.854,
+          "file": "20231114.jpg",
+          "bytes": 9864,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20230930_0_L2A",
+          "date": "2023-09-30",
+          "cloud_cover": 4.729,
+          "file": "20230930.jpg",
+          "bytes": 19757,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20230915_0_L2A",
+          "date": "2023-09-15",
+          "cloud_cover": 7.02,
+          "file": "20230915.jpg",
+          "bytes": 13330,
+          "clip": true
         }
       ],
       "clip_bounds": [
@@ -14582,8 +14654,8 @@
           -51.568513
         ]
       ],
-      "backfill_cursor": "2024-09-12",
-      "history_start": "2024-11-08",
+      "backfill_cursor": "2023-09-12",
+      "history_start": "2023-09-15",
       "caught_up": false
     }
   }
