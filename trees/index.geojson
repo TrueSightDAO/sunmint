@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generated_at": "2026-10-24T10:03:56.928912Z",
+  "generated_at": "2026-10-25T03:11:41.139869Z",
   "features": [
     {
       "type": "Feature",
@@ -119,7 +119,8 @@
         "species": "Cacau - Hybrid",
         "last_measured": "2026-09-02T18:57:04-03:00",
         "photo_url": "https://raw.githubusercontent.com/TrueSightDAO/sunmint/main/images/20260902_bomsucesso_tree04.jpg",
-        "status": "NEW",
+        "status": "LINKED",
+        "qr_code": "2024OSR_81PB_20260412_5",
         "plot_id": "PL-002",
         "submission_source": "autopilot-sophia",
         "pk_hash": "pk-JO8Ojv5JKf41",
