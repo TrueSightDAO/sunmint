@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T11:54:15.361788+00:00",
+  "generated_at": "2026-10-26T13:25:52.409905+00:00",
   "source": "earth-search.aws.element84.com Sentinel-2 L2A (anonymous)",
   "cloud_max": 20.0,
   "archive_floor": "2015-06-23",
@@ -14818,6 +14818,62 @@
           "file": "20210920.jpg",
           "bytes": 10047,
           "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20210826_0_L2A",
+          "date": "2021-08-26",
+          "cloud_cover": 9.787,
+          "file": "20210826.jpg",
+          "bytes": 12933,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20210821_0_L2A",
+          "date": "2021-08-21",
+          "cloud_cover": 10.456,
+          "file": "20210821.jpg",
+          "bytes": 9693,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20210811_1_L2A",
+          "date": "2021-08-11",
+          "cloud_cover": 0.505,
+          "file": "20210811.jpg",
+          "bytes": 23701,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20210806_0_L2A",
+          "date": "2021-08-06",
+          "cloud_cover": 1.815,
+          "file": "20210806.jpg",
+          "bytes": 14640,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20210727_0_L2A",
+          "date": "2021-07-27",
+          "cloud_cover": 4.681,
+          "file": "20210727.jpg",
+          "bytes": 23753,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20210707_0_L2A",
+          "date": "2021-07-07",
+          "cloud_cover": 5.786,
+          "file": "20210707.jpg",
+          "bytes": 11366,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20200910_0_L2A",
+          "date": "2020-09-10",
+          "cloud_cover": 10.419,
+          "file": "20200910.jpg",
+          "bytes": 12204,
+          "clip": true
         }
       ],
       "clip_bounds": [
@@ -14830,8 +14886,8 @@
           -51.568513
         ]
       ],
-      "backfill_cursor": "2021-09-10",
-      "history_start": "2021-09-20",
+      "backfill_cursor": "2020-09-09",
+      "history_start": "2020-09-10",
       "caught_up": false
     }
   }
