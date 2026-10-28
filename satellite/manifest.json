@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T12:32:17.209896+00:00",
+  "generated_at": "2026-10-28T13:21:35.120561+00:00",
   "source": "earth-search.aws.element84.com Sentinel-2 L2A (anonymous)",
   "cloud_max": 20.0,
   "archive_floor": "2015-06-23",
@@ -5489,6 +5489,14 @@
       },
       "scenes": [
         {
+          "id": "S2C_21MZR_20261027_0_L2A",
+          "date": "2026-10-27",
+          "cloud_cover": 3.217,
+          "file": "20261027.jpg",
+          "bytes": 978,
+          "clip": true
+        },
+        {
           "id": "S2C_21MZR_20261007_0_L2A",
           "date": "2026-10-07",
           "cloud_cover": 9.518,
@@ -6858,6 +6866,14 @@
         "lng": -53.66915
       },
       "scenes": [
+        {
+          "id": "S2C_21MZS_20261027_0_L2A",
+          "date": "2026-10-27",
+          "cloud_cover": 9.042,
+          "file": "20261027.jpg",
+          "bytes": 663,
+          "clip": true
+        },
         {
           "id": "S2C_21MZR_20261007_0_L2A",
           "date": "2026-10-07",
@@ -14962,6 +14978,70 @@
           "file": "20200528.jpg",
           "bytes": 17080,
           "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20190901_0_L2A",
+          "date": "2019-09-01",
+          "cloud_cover": 14.562,
+          "file": "20190901.jpg",
+          "bytes": 8867,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20190812_0_L2A",
+          "date": "2019-08-12",
+          "cloud_cover": 19.557,
+          "file": "20190812.jpg",
+          "bytes": 9685,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20190723_0_L2A",
+          "date": "2019-07-23",
+          "cloud_cover": 2.651,
+          "file": "20190723.jpg",
+          "bytes": 12585,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20190718_0_L2A",
+          "date": "2019-07-18",
+          "cloud_cover": 16.788,
+          "file": "20190718.jpg",
+          "bytes": 11121,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20190628_0_L2A",
+          "date": "2019-06-28",
+          "cloud_cover": 2.222,
+          "file": "20190628.jpg",
+          "bytes": 24902,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20190623_0_L2A",
+          "date": "2019-06-23",
+          "cloud_cover": 1.692,
+          "file": "20190623.jpg",
+          "bytes": 25651,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20190608_0_L2A",
+          "date": "2019-06-08",
+          "cloud_cover": 13.921,
+          "file": "20190608.jpg",
+          "bytes": 10731,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20190529_1_L2A",
+          "date": "2019-05-29",
+          "cloud_cover": 8.032,
+          "file": "20190529.jpg",
+          "bytes": 11569,
+          "clip": true
         }
       ],
       "clip_bounds": [
@@ -14974,8 +15054,8 @@
           -51.568513
         ]
       ],
-      "backfill_cursor": "2019-09-09",
-      "history_start": "2020-05-28",
+      "backfill_cursor": "2018-09-08",
+      "history_start": "2019-05-29",
       "caught_up": false
     }
   }
