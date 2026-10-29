@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T13:21:35.120561+00:00",
+  "generated_at": "2026-10-29T13:30:08.270657+00:00",
   "source": "earth-search.aws.element84.com Sentinel-2 L2A (anonymous)",
   "cloud_max": 20.0,
   "archive_floor": "2015-06-23",
@@ -15042,6 +15042,54 @@
           "file": "20190529.jpg",
           "bytes": 11569,
           "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20180827_0_L2A",
+          "date": "2018-08-27",
+          "cloud_cover": 8.685,
+          "file": "20180827.jpg",
+          "bytes": 11466,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20180713_0_L2A",
+          "date": "2018-07-13",
+          "cloud_cover": 8.117,
+          "file": "20180713.jpg",
+          "bytes": 10693,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20180708_0_L2A",
+          "date": "2018-07-08",
+          "cloud_cover": 17.521,
+          "file": "20180708.jpg",
+          "bytes": 10104,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20180703_0_L2A",
+          "date": "2018-07-03",
+          "cloud_cover": 19.985,
+          "file": "20180703.jpg",
+          "bytes": 24648,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20180628_0_L2A",
+          "date": "2018-06-28",
+          "cloud_cover": 9.104,
+          "file": "20180628.jpg",
+          "bytes": 25155,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20180613_0_L2A",
+          "date": "2018-06-13",
+          "cloud_cover": 0.045,
+          "file": "20180613.jpg",
+          "bytes": 24002,
+          "clip": true
         }
       ],
       "clip_bounds": [
@@ -15054,8 +15102,8 @@
           -51.568513
         ]
       ],
-      "backfill_cursor": "2018-09-08",
-      "history_start": "2019-05-29",
+      "backfill_cursor": "2017-09-07",
+      "history_start": "2018-06-13",
       "caught_up": false
     }
   }
