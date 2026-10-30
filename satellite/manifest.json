@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T13:30:08.270657+00:00",
+  "generated_at": "2026-10-30T13:18:01.801937+00:00",
   "source": "earth-search.aws.element84.com Sentinel-2 L2A (anonymous)",
   "cloud_max": 20.0,
   "archive_floor": "2015-06-23",
@@ -15090,6 +15090,30 @@
           "file": "20180613.jpg",
           "bytes": 24002,
           "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20170822_0_L2A",
+          "date": "2017-08-22",
+          "cloud_cover": 19.128,
+          "file": "20170822.jpg",
+          "bytes": 7957,
+          "clip": true
+        },
+        {
+          "id": "S2B_22MDB_20170728_0_L2A",
+          "date": "2017-07-28",
+          "cloud_cover": 0.009,
+          "file": "20170728.jpg",
+          "bytes": 23753,
+          "clip": true
+        },
+        {
+          "id": "S2A_22MDB_20170603_0_L2A",
+          "date": "2017-06-03",
+          "cloud_cover": 12.995,
+          "file": "20170603.jpg",
+          "bytes": 10045,
+          "clip": true
         }
       ],
       "clip_bounds": [
@@ -15102,8 +15126,8 @@
           -51.568513
         ]
       ],
-      "backfill_cursor": "2017-09-07",
-      "history_start": "2018-06-13",
+      "backfill_cursor": "2016-09-06",
+      "history_start": "2017-06-03",
       "caught_up": false
     }
   }
