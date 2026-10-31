@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T13:18:01.801937+00:00",
+  "generated_at": "2026-10-31T12:55:38.684192+00:00",
   "source": "earth-search.aws.element84.com Sentinel-2 L2A (anonymous)",
   "cloud_max": 20.0,
   "archive_floor": "2015-06-23",
@@ -15126,7 +15126,7 @@
           -51.568513
         ]
       ],
-      "backfill_cursor": "2016-09-06",
+      "backfill_cursor": "2015-09-06",
       "history_start": "2017-06-03",
       "caught_up": false
     }
