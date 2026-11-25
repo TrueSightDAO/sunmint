@@ -6,7 +6,7 @@
     "plots_with_media": 16,
     "unattributed": 432
   },
-  "generated_at": "2026-11-25T13:31:55Z",
+  "generated_at": "2026-11-25T22:48:08Z",
   "plots": {
     "B-06-108": {
       "counts": {
@@ -8281,7 +8281,7 @@
           "ref": "IMG_1616.HEIC",
           "sha256": "317b0fc508289af3d4b3a79f36dbb8978023312715df563ac687da5f056948ae",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -8293,7 +8293,7 @@
           "ref": "IMG_1618.HEIC",
           "sha256": "786904f5f4e8575f286ca2ecbe024304f97b817693f6c4ef220e442b97a40865",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -8305,7 +8305,7 @@
           "ref": "IMG_1620.HEIC",
           "sha256": "173a20b166f7fe662e1a78037a3858e144c738d1b8257b55ef3c5a448e3dd024",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -8317,7 +8317,7 @@
           "ref": "IMG_1621.HEIC",
           "sha256": "fbf91c0eefa0d678a5e310630257af355dba8208be0f4184b44d673fc7947d34",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -8329,7 +8329,7 @@
           "ref": "IMG_1626.HEIC",
           "sha256": "56c2adefaecdbf11d43166848ac36922fb570a0eb0588af20e39bb01700f1b17",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -8341,7 +8341,7 @@
           "ref": "IMG_1627.HEIC",
           "sha256": "4149a09cf09c042faab642aa77565154bf345f7639590a4e65a2d1a7059681ef",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -8353,7 +8353,7 @@
           "ref": "IMG_1628.HEIC",
           "sha256": "4b28224ff3f3ba8c3cf494b447cd89a1480ca1b7f34e9126ee86ae58962c8a64",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -8365,7 +8365,7 @@
           "ref": "IMG_1632.HEIC",
           "sha256": "6d86ac679c2192e99bd2c5a996ad0be01109c24ba54be4b2de7494eab4d058e8",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -8377,7 +8377,7 @@
           "ref": "IMG_1633.HEIC",
           "sha256": "a0772d5954fd8aafbe5889e610f66e46ec470c27b28537335cb6419f24b866da",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -8389,7 +8389,7 @@
           "ref": "IMG_1634.HEIC",
           "sha256": "9041a149fd67acb3752bdbe90952315891948c8307f71342c43bfc954ce8b45d",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -8401,7 +8401,7 @@
           "ref": "IMG_1635.HEIC",
           "sha256": "94ab9813052ee8b3ada969cbaf2c230c1bcd72253caa6b1edb56e113e2e6fd7d",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -8413,7 +8413,7 @@
           "ref": "IMG_1636.HEIC",
           "sha256": "1405a2d8824ecc494b80a4354bf141003a1634a7b27cfc43a5cd48da2f784a52",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -8425,7 +8425,7 @@
           "ref": "IMG_1639.HEIC",
           "sha256": "817f79838e3dd8b82928bdade1719a286998984810bfd46026d100b4e785efae",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -8437,7 +8437,7 @@
           "ref": "IMG_1640.HEIC",
           "sha256": "dcc1e5d93c3e3d2c8da0cc559cca3b95d67430e56cfd4ff1a98a65d5050572c5",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -8449,7 +8449,7 @@
           "ref": "IMG_1649.HEIC",
           "sha256": "6177afbcdcf24fc8b8dd513de8abf5ca2bb43ce69f718c065f5a559e9f84ab4e",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -8461,7 +8461,7 @@
           "ref": "IMG_1652.HEIC",
           "sha256": "c392cb1dbe7c2701336748865279d044eab0be77987eb17f3ee0e1fd6243221d",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -8473,7 +8473,7 @@
           "ref": "IMG_1660.HEIC",
           "sha256": "7aa127e47c9e0ffab0762700b15dc62e69b694513c61d24518025f1fe2d85ba0",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -8485,7 +8485,7 @@
           "ref": "IMG_1661.HEIC",
           "sha256": "bd1207c88a8e505a17c51315e4d5e053b163b14609458ad684ffe6ffb273cddd",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -8497,7 +8497,7 @@
           "ref": "IMG_1662.HEIC",
           "sha256": "6d5694c313f116c44696c37e07fa555d6a435ce4e52fd2ddeb20e0a7b5640dc7",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -8509,7 +8509,7 @@
           "ref": "IMG_1663.HEIC",
           "sha256": "4f7d9810c5dafd9a84e1bca257f5325869100e0dc7e9882e53a7a53f14397464",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -8521,7 +8521,7 @@
           "ref": "IMG_1665.HEIC",
           "sha256": "8eaeee6ca51ca999338f4f3ec6cd7109f3cc5ed5cc8dce88237140e634669310",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -8533,7 +8533,7 @@
           "ref": "IMG_1666.HEIC",
           "sha256": "ac9fbcf3baa4693a981de51a837a62a0ea17fd73bf2ce6c62976166a4d8cbbd8",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -8545,7 +8545,7 @@
           "ref": "IMG_1671.HEIC",
           "sha256": "44542b5866b0d4209828956bfd0aecfe19819bbe0ef6c1f20622ed5963a21095",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -8557,7 +8557,7 @@
           "ref": "IMG_1672.HEIC",
           "sha256": "1aa668228417d497813e5dc11590538eb96046c2fe81558a7e266efb8651a874",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -8569,7 +8569,7 @@
           "ref": "IMG_1675.HEIC",
           "sha256": "70ecfa81976ac07295a3c146b30f07c9dac08c767f5b677bcd7feff5deecfd63",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -8581,7 +8581,7 @@
           "ref": "IMG_1676.HEIC",
           "sha256": "9d9fa5147e50e58d34ef1004c91ad3d0eeed9445f682aec7d9bdf863fc43d548",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -8593,7 +8593,7 @@
           "ref": "IMG_1677.HEIC",
           "sha256": "217c31ecea25461db0b329c3411120f2f874dddf7d40ead00e27fe4cf77ac75e",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -8605,7 +8605,7 @@
           "ref": "IMG_1682.HEIC",
           "sha256": "22d1373df258ff6a73943fec583c26db2ac9f1364b56a3348736a9f08a0c375c",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -8617,7 +8617,7 @@
           "ref": "IMG_1683.HEIC",
           "sha256": "305f826f0c646fd594969ffff04d05170350a472ed5242489daaaf051f3ac893",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -8629,7 +8629,7 @@
           "ref": "IMG_1684.HEIC",
           "sha256": "992578ce6d7fe8c72ab74f6986688088f225555ad5360ae6f49c395bc723ddd2",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -8641,7 +8641,7 @@
           "ref": "IMG_1685.HEIC",
           "sha256": "38e2ecd1f6e9924b7ca249edc57635d9a74a4c6372d64aaec315d2b30971348a",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -8653,7 +8653,7 @@
           "ref": "IMG_1686.HEIC",
           "sha256": "63d3c40e068238cfc9d1446a0e44f67bfe9a72d8651bab4343a15a1ebeb61bcc",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -8665,7 +8665,7 @@
           "ref": "IMG_1687.HEIC",
           "sha256": "e3a949afe3b184c31c9ea705679a54b0a303d81f74f4e5b57e75f02e3b1ca52c",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -8677,7 +8677,7 @@
           "ref": "IMG_1614.MOV",
           "sha256": "5231d850d465b94d52c0d892e31b9c73f99d82fa1ef396880c2e0e8100c9104d",
           "thumbnail": "https://img.youtube.com/vi/sBbtuh2STxA/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "missing",
           "url": "https://www.youtube.com/watch?v=sBbtuh2STxA"
         },
         {
@@ -8689,7 +8689,7 @@
           "ref": "IMG_1617.MOV",
           "sha256": "67f9d00087dba15f8217d8ec7ed4ebf2abfb77f0ee336ed6ceb0f0564b6e4a31",
           "thumbnail": "https://img.youtube.com/vi/0S9Hv1joVhg/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=0S9Hv1joVhg"
         },
         {
@@ -8701,7 +8701,7 @@
           "ref": "IMG_1622.MOV",
           "sha256": "ff5327a04a89173d91922e968e4c6b35cb3ffd58fe719b15c231a9c894824710",
           "thumbnail": "https://img.youtube.com/vi/KzMSJwBnWOE/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "missing",
           "url": "https://www.youtube.com/watch?v=KzMSJwBnWOE"
         },
         {
@@ -8713,7 +8713,7 @@
           "ref": "IMG_1623.MOV",
           "sha256": "fbae7bcfc0764e3db0d26357bf25dc7cfcf4e06fe7bdb64d6d2f065881c63174",
           "thumbnail": "https://img.youtube.com/vi/S3gCZX_UlVA/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=S3gCZX_UlVA"
         },
         {
@@ -8725,7 +8725,7 @@
           "ref": "IMG_1624.MOV",
           "sha256": "09ff3429936fdc5d37d540ab6bfcefce8c15a2dc507c3a24af8cedb29c5da3e2",
           "thumbnail": "https://img.youtube.com/vi/f6jKCviCPCk/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=f6jKCviCPCk"
         },
         {
@@ -8737,7 +8737,7 @@
           "ref": "IMG_1625.MOV",
           "sha256": "4c93c2e27a27011aa064f3fa81f7e996e0aa00670b3e95358cba19ff420e39b6",
           "thumbnail": "https://img.youtube.com/vi/E9r2LvCWkPQ/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=E9r2LvCWkPQ"
         },
         {
@@ -8749,7 +8749,7 @@
           "ref": "IMG_1630.MOV",
           "sha256": "c27475b66732893593c19b99fca4330a70b09fca421986ed0d8481bae27b072b",
           "thumbnail": "https://img.youtube.com/vi/KMLjmqmnTv4/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=KMLjmqmnTv4"
         },
         {
@@ -8761,7 +8761,7 @@
           "ref": "IMG_1631.MOV",
           "sha256": "709a614f64170c83a404b552ee905ba2917ec6498483b89d002533de1489c3fd",
           "thumbnail": "https://img.youtube.com/vi/NququGw7Wak/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=NququGw7Wak"
         },
         {
@@ -8773,7 +8773,7 @@
           "ref": "IMG_1638.MOV",
           "sha256": "bd9c7d8762a819e22a01837fe54c501ec27e7d3c923b58e10f7c15c3e5fc8780",
           "thumbnail": "https://img.youtube.com/vi/GM2DDos00HU/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=GM2DDos00HU"
         },
         {
@@ -8785,7 +8785,7 @@
           "ref": "IMG_1641.MOV",
           "sha256": "1685b8b22ce22c7b34dc8105cc096433cff5b9f2a8f0309f0ce85253456d8d58",
           "thumbnail": "https://img.youtube.com/vi/4r6hnAWPr8M/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "missing",
           "url": "https://www.youtube.com/watch?v=4r6hnAWPr8M"
         },
         {
@@ -8797,7 +8797,7 @@
           "ref": "IMG_1642.MOV",
           "sha256": "78c6008cb62484cf7b939c6a9890ba3f0c8a39be0816bfd3b5ac9b7a44a79567",
           "thumbnail": "https://img.youtube.com/vi/Sku6gjxb_ks/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=Sku6gjxb_ks"
         },
         {
@@ -8809,7 +8809,7 @@
           "ref": "IMG_1643.MOV",
           "sha256": "e16589c94dc81d751c7c8785b1ee3485f7823350ea1923c1846fb26ec31629d8",
           "thumbnail": "https://img.youtube.com/vi/6mTxdMK42Ic/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=6mTxdMK42Ic"
         },
         {
@@ -8821,7 +8821,7 @@
           "ref": "IMG_1644.MOV",
           "sha256": "4af54d41c2164d2916ad06ab2c3e24a933c38049888e312815d92ed5abd6bd5d",
           "thumbnail": "https://img.youtube.com/vi/inujja0kv_o/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "missing",
           "url": "https://www.youtube.com/watch?v=inujja0kv_o"
         },
         {
@@ -8833,7 +8833,7 @@
           "ref": "IMG_1646.MOV",
           "sha256": "dbaa2df095fed94faef9c367ba1262a3cf643d90a7dfa9fe988821ef024b8dae",
           "thumbnail": "https://img.youtube.com/vi/RLhPP0spd60/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=RLhPP0spd60"
         },
         {
@@ -8845,7 +8845,7 @@
           "ref": "IMG_1647.MOV",
           "sha256": "e4eb7b69827d7973f2851408d3ed1f9931ec2c94696e924135fcd91dd9076c06",
           "thumbnail": "https://img.youtube.com/vi/1TdpZEctqok/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=1TdpZEctqok"
         },
         {
@@ -8857,7 +8857,7 @@
           "ref": "IMG_1648.MOV",
           "sha256": "5c36cc6d53ac62fb77b643a21280b56cc2dafe6daf0bf6a65681cf3bd4a6723f",
           "thumbnail": "https://img.youtube.com/vi/XTgIbL3ppeI/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=XTgIbL3ppeI"
         },
         {
@@ -8869,7 +8869,7 @@
           "ref": "IMG_1650.MOV",
           "sha256": "a0af4b41fa9d440b52bd275f4bdad137b86c672fc51d9f317fd65f1d52b1c8d7",
           "thumbnail": "https://img.youtube.com/vi/VkaHXoob_s0/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=VkaHXoob_s0"
         },
         {
@@ -8881,7 +8881,7 @@
           "ref": "IMG_1651.MOV",
           "sha256": "1c09d70100bad4695a78c165dae815298484b66cb4f9f2a23c99b6dfdedbb0e4",
           "thumbnail": "https://img.youtube.com/vi/Yj0V2HgsZ-8/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=Yj0V2HgsZ-8"
         },
         {
@@ -8893,7 +8893,7 @@
           "ref": "IMG_1653.MOV",
           "sha256": "96cbacc708af6cb6c3d6ca6a0bca43f3b97285537e7cc28403431aad2da23321",
           "thumbnail": "https://img.youtube.com/vi/RVafrdVdnh0/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=RVafrdVdnh0"
         },
         {
@@ -8905,7 +8905,7 @@
           "ref": "IMG_1654.MOV",
           "sha256": "ea3329a76923f91d024c5ba660ceda8e736f094b5d5ef3c766e4babb58c07379",
           "thumbnail": "https://img.youtube.com/vi/kG33iLWW2KQ/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=kG33iLWW2KQ"
         },
         {
@@ -8917,7 +8917,7 @@
           "ref": "IMG_1655.MOV",
           "sha256": "d72710b1aa7db8aa846a4b929d169b7fa476e0979caa17ec21767c00cf5daed0",
           "thumbnail": "https://img.youtube.com/vi/zanA9EHyUBs/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=zanA9EHyUBs"
         },
         {
@@ -8929,7 +8929,7 @@
           "ref": "IMG_1656.MOV",
           "sha256": "39cf0b09b5e53405b36995b6f32e2c126f638ff749fbbb948bfe22a6e7137cad",
           "thumbnail": "https://img.youtube.com/vi/rFxmaHOUan8/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=rFxmaHOUan8"
         },
         {
@@ -8941,7 +8941,7 @@
           "ref": "IMG_1657.MOV",
           "sha256": "3aa617ac3bddcdaf6a51f6988f8f7fe04512b63611ee3b35e2d62a15f62f1acf",
           "thumbnail": "https://img.youtube.com/vi/tRnrvRXjYmI/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=tRnrvRXjYmI"
         },
         {
@@ -8953,7 +8953,7 @@
           "ref": "IMG_1658.MOV",
           "sha256": "20da9f6adf55909e611de758906fae033136038d6beb7bc956d306fe0e2d1878",
           "thumbnail": "https://img.youtube.com/vi/Sh0sHLsrKLk/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=Sh0sHLsrKLk"
         },
         {
@@ -8965,7 +8965,7 @@
           "ref": "IMG_1659.MOV",
           "sha256": "dc07ec0515a58fceb6dacf55d0d1a7d3a12713d3adc020d5e8e0cbf8f4048ffa",
           "thumbnail": "https://img.youtube.com/vi/jrgvpPiCYJA/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=jrgvpPiCYJA"
         },
         {
@@ -8977,7 +8977,7 @@
           "ref": "IMG_1668.MOV",
           "sha256": "ed733a671f2f30bf5411ab4be13ad5c9d965db599d8d57828bc758a5634a3590",
           "thumbnail": "https://img.youtube.com/vi/rHKjC2eXuOg/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "missing",
           "url": "https://www.youtube.com/watch?v=rHKjC2eXuOg"
         },
         {
@@ -8989,7 +8989,7 @@
           "ref": "IMG_1669.MOV",
           "sha256": "e7c3dbcf1fe409c4187da85435548fff42c56aa7f8e95154259098a29f9f8b60",
           "thumbnail": "https://img.youtube.com/vi/RDudjvDYias/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=RDudjvDYias"
         },
         {
@@ -9001,7 +9001,7 @@
           "ref": "IMG_1670.MOV",
           "sha256": "eed011ab9456d723884c295ab26b4c687cd33665a743fe67afd2881d61796556",
           "thumbnail": "https://img.youtube.com/vi/KWjL8_jnmwM/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=KWjL8_jnmwM"
         },
         {
@@ -9013,7 +9013,7 @@
           "ref": "IMG_1673.MOV",
           "sha256": "bc2905d6eeaa4fd8546b3b9b675c38165f421e8b6a0ba7551969bb80a5e3ef1e",
           "thumbnail": "https://img.youtube.com/vi/csnV4t4V80g/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=csnV4t4V80g"
         },
         {
@@ -9025,7 +9025,7 @@
           "ref": "IMG_1678.MOV",
           "sha256": "b80e1bcbfe4e279f35d3df84fda9ccfd987683400290a7d853fe4d1daa8fc2fa",
           "thumbnail": "https://img.youtube.com/vi/rYdS0TwkD8w/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=rYdS0TwkD8w"
         },
         {
@@ -9037,7 +9037,7 @@
           "ref": "IMG_1679.MOV",
           "sha256": "74fde01405311d0849971979a8437189180e8ceb9d17177401be256f43afc477",
           "thumbnail": "https://img.youtube.com/vi/3teEz9k5qGQ/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=3teEz9k5qGQ"
         },
         {
@@ -9049,7 +9049,7 @@
           "ref": "IMG_1680.MOV",
           "sha256": "0e758dad9e64be8043aad3e4953db4bfb05c8375195515c5aa51dea4d768363d",
           "thumbnail": "https://img.youtube.com/vi/zlvUvcIpw2k/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=zlvUvcIpw2k"
         },
         {
@@ -9061,7 +9061,7 @@
           "ref": "IMG_1681.MOV",
           "sha256": "251f9f0b551810bfc0a5be0a9084e7ef0129537ded79aa9110a5fac4c9eb62d6",
           "thumbnail": "https://img.youtube.com/vi/Jc-TZAL6c80/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=Jc-TZAL6c80"
         },
         {
@@ -9073,7 +9073,7 @@
           "ref": "IMG_8525.HEIC",
           "sha256": "afa2520a25c6bec31aa8e43949681b6a32125afac9d4fc33d244ec73941af68c",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -9085,7 +9085,7 @@
           "ref": "IMG_8526.HEIC",
           "sha256": "3a5b394e346c3e6a8e15de6edaf821dc43bb5548a21b340e49c6b0b06fc5d0f8",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -9097,7 +9097,7 @@
           "ref": "IMG_8529.HEIC",
           "sha256": "f4fb57cd14ece6927eac806e9db896e54e25f0cb667f82c3278cebbf1a0f4007",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -9109,7 +9109,7 @@
           "ref": "IMG_8532.HEIC",
           "sha256": "77e374defa54edf88243849e6ec0f9efb33acfef258da5ac2f546a0af8d4759a",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -9121,7 +9121,7 @@
           "ref": "IMG_8533.HEIC",
           "sha256": "a9f70d978442bd0513067bfadb73bdb28c3113ebc755e04928ae714d4e4afbc4",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -9133,7 +9133,7 @@
           "ref": "IMG_8534.HEIC",
           "sha256": "7163f7bd80a3d6a7c3e866c968aafb6c9b611af5a348fc70a150e095bd767d99",
           "thumbnail": null,
-          "transcript_status": "pending",
+          "transcript_status": "not_applicable",
           "url": null
         },
         {
@@ -9145,7 +9145,7 @@
           "ref": "IMG_8509.MOV",
           "sha256": "33c6a49da88762efef800098e13df6bfc1e228ae74a183605f53b7e6e670f3df",
           "thumbnail": "https://img.youtube.com/vi/07SH-R3DmwU/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "missing",
           "url": "https://www.youtube.com/watch?v=07SH-R3DmwU"
         },
         {
@@ -9157,7 +9157,7 @@
           "ref": "IMG_8510.MOV",
           "sha256": "b2cab63d55e7f633e4a41347693400d161abf7ec66b5942fac9a9925ceccce0f",
           "thumbnail": "https://img.youtube.com/vi/Y8lR7FNhfvA/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "missing",
           "url": "https://www.youtube.com/watch?v=Y8lR7FNhfvA"
         },
         {
@@ -9169,7 +9169,7 @@
           "ref": "IMG_8511.MOV",
           "sha256": "c4eaf8e98d340c8d98cf2c557170cf5b23c2368b76a9cf83fb3481112a7a0cac",
           "thumbnail": "https://img.youtube.com/vi/LzrYsHzA8x0/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "missing",
           "url": "https://www.youtube.com/watch?v=LzrYsHzA8x0"
         },
         {
@@ -9181,7 +9181,7 @@
           "ref": "IMG_8512.MOV",
           "sha256": "373129a589af2d631a1867decffcb32bfb359d2ddd7088dce5b98b89950e9835",
           "thumbnail": "https://img.youtube.com/vi/KSe6GHq8W7M/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "missing",
           "url": "https://www.youtube.com/watch?v=KSe6GHq8W7M"
         },
         {
@@ -9193,7 +9193,7 @@
           "ref": "IMG_8513.MOV",
           "sha256": "ae39e1fb90edc87717a6f0a135ae138533209c8a7ee33aa9d9e1a65e8dafabf0",
           "thumbnail": "https://img.youtube.com/vi/wNzNyP6fqQk/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "missing",
           "url": "https://www.youtube.com/watch?v=wNzNyP6fqQk"
         },
         {
@@ -9205,7 +9205,7 @@
           "ref": "IMG_8516.MOV",
           "sha256": "7e230daa3311b99b82dae4c25eedf9b9cc9c24843b6797bb7dee8e7bf4d9fc48",
           "thumbnail": "https://img.youtube.com/vi/KoM1_OhV77Y/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "missing",
           "url": "https://www.youtube.com/watch?v=KoM1_OhV77Y"
         },
         {
@@ -9217,7 +9217,7 @@
           "ref": "IMG_8517.MOV",
           "sha256": "933c4f416aab9c7526d2b1f7611c3d40f6088296d313249804a523310e5d60ff",
           "thumbnail": "https://img.youtube.com/vi/mwBbC3KpoBw/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=mwBbC3KpoBw"
         },
         {
@@ -9229,7 +9229,7 @@
           "ref": "IMG_8518.MOV",
           "sha256": "20806ae1363545e0f6097fee0d78f28272a9cc8378cee686eb127d0f0c458ea6",
           "thumbnail": "https://img.youtube.com/vi/NZFKJYQVbfQ/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=NZFKJYQVbfQ"
         },
         {
@@ -9241,7 +9241,7 @@
           "ref": "IMG_8519.MOV",
           "sha256": "98ff0a619257ef93057780c18474409bac21a39e17c2e6c415956dc1b3b1bcfc",
           "thumbnail": "https://img.youtube.com/vi/6pS3YsR5jic/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "missing",
           "url": "https://www.youtube.com/watch?v=6pS3YsR5jic"
         },
         {
@@ -9253,7 +9253,7 @@
           "ref": "IMG_8520.MOV",
           "sha256": "eeb4c99a9322ced4428e86e1ebfc7c2aecaeca28a0644c750fca58869e65e665",
           "thumbnail": "https://img.youtube.com/vi/Zffr_k-Xmpk/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=Zffr_k-Xmpk"
         },
         {
@@ -9265,7 +9265,7 @@
           "ref": "IMG_8521.MOV",
           "sha256": "ed9c4cbb30a4c18c72de09efb38cb8676ced1ce1a1331359ac680dac85a108e8",
           "thumbnail": "https://img.youtube.com/vi/n5qj-9ad8hU/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=n5qj-9ad8hU"
         },
         {
@@ -9277,7 +9277,7 @@
           "ref": "IMG_8522.MOV",
           "sha256": "beb54e638eb5b3d24c4c29957edb5c32ad5bce4622505841766476f636dc5413",
           "thumbnail": "https://img.youtube.com/vi/OzzICJ4zC4U/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=OzzICJ4zC4U"
         },
         {
@@ -9289,7 +9289,7 @@
           "ref": "IMG_8523.MOV",
           "sha256": "ec0da4355ad6f0af0cfaa73046c6f84be0f87f15a8c3fc17cbdf741b74027a3e",
           "thumbnail": "https://img.youtube.com/vi/V-OFkkZ-HQ4/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "missing",
           "url": "https://www.youtube.com/watch?v=V-OFkkZ-HQ4"
         },
         {
@@ -9301,7 +9301,7 @@
           "ref": "IMG_8524.MOV",
           "sha256": "60a074e2aec52e977682cfb9337ab3f881065f08754ccb178d126bbb4af94be7",
           "thumbnail": "https://img.youtube.com/vi/sqCX8x5mt3E/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=sqCX8x5mt3E"
         },
         {
@@ -9313,7 +9313,7 @@
           "ref": "IMG_8527.MOV",
           "sha256": "9f9c3532f425d43bd24e289a90cae71e687306eb7149493529b8b561abfa5f37",
           "thumbnail": "https://img.youtube.com/vi/pJh6mJikjMk/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=pJh6mJikjMk"
         },
         {
@@ -9325,7 +9325,7 @@
           "ref": "IMG_8528.MOV",
           "sha256": "e81c66c2234640840abdb06ae17797d86539fa58a4d2a3e2178763b8ede0d749",
           "thumbnail": "https://img.youtube.com/vi/oPwimTH1L28/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=oPwimTH1L28"
         },
         {
@@ -9337,7 +9337,7 @@
           "ref": "IMG_8530.MOV",
           "sha256": "909e08ae961185a9a892377ca0c405e6b66dc971b52b5c84559f60f8f77730cf",
           "thumbnail": "https://img.youtube.com/vi/2NYyB9NrPyE/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=2NYyB9NrPyE"
         },
         {
@@ -9349,7 +9349,7 @@
           "ref": "IMG_8531.MOV",
           "sha256": "1ffd48242d733045678439f8836bb5912c9bc0adced45b83a5600ef5a01046e8",
           "thumbnail": "https://img.youtube.com/vi/_bxWrrkqmEA/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=_bxWrrkqmEA"
         },
         {
@@ -9361,7 +9361,7 @@
           "ref": "IMG_8535.MOV",
           "sha256": "4ef1445e1f1b62ce911485cb27405f954bbd47c7af86f9a9d6670b876a612af7",
           "thumbnail": "https://img.youtube.com/vi/ZiPMXkg-Y0U/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=ZiPMXkg-Y0U"
         },
         {
@@ -9373,7 +9373,7 @@
           "ref": "IMG_8536.MOV",
           "sha256": "e23eb877347f5eeb4b9a137bde4dfe7fc7f5f87919620a8958f9bd8aad963cda",
           "thumbnail": "https://img.youtube.com/vi/SI343Xph2CA/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=SI343Xph2CA"
         },
         {
@@ -9385,7 +9385,7 @@
           "ref": "IMG_8539.MOV",
           "sha256": "d0fdbff20f66be4d6d670102489436819d95d08248795491851ff2370b0a3f17",
           "thumbnail": "https://img.youtube.com/vi/36k9HWphkw0/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=36k9HWphkw0"
         },
         {
@@ -9397,7 +9397,7 @@
           "ref": "IMG_8540.MOV",
           "sha256": "ac4c931b1f0508c3b074c99ae5daa52ae2b768753eedeafe33e8eb34fc1b4802",
           "thumbnail": "https://img.youtube.com/vi/6Pz8yqajpaw/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=6Pz8yqajpaw"
         },
         {
@@ -9409,7 +9409,7 @@
           "ref": "IMG_8543.MOV",
           "sha256": "e05dca2afc0ba1b6eb3fc89671565e3fd87b48b84051962676c7499c84b1d07c",
           "thumbnail": "https://img.youtube.com/vi/En39oaLffTw/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=En39oaLffTw"
         },
         {
@@ -9421,7 +9421,7 @@
           "ref": "IMG_8544.MOV",
           "sha256": "44cf5f88bc0d38725b215ceb6e8d50c14275a111a8052b4664d9a38aecbcb532",
           "thumbnail": "https://img.youtube.com/vi/j707hBLNAX0/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=j707hBLNAX0"
         },
         {
@@ -9433,7 +9433,7 @@
           "ref": "IMG_8545.MOV",
           "sha256": "255133b502b92bf39632c7cc9075e71658117eb89582f77ab98cde52d34ff946",
           "thumbnail": "https://img.youtube.com/vi/3jOkgEWXgL0/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=3jOkgEWXgL0"
         },
         {
@@ -9445,7 +9445,7 @@
           "ref": "IMG_8546.MOV",
           "sha256": "e8214b21a7750a18707586fce65fa2b7f09b22b4c8cdf70deb994b783736b7eb",
           "thumbnail": "https://img.youtube.com/vi/BtVFzQvSO4c/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=BtVFzQvSO4c"
         },
         {
@@ -9457,7 +9457,7 @@
           "ref": "IMG_8547.MOV",
           "sha256": "233f390c72ceb51105312a28d98a12a27276d453ff723baa73633346865ecd6b",
           "thumbnail": "https://img.youtube.com/vi/erTYxczycu0/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=erTYxczycu0"
         },
         {
@@ -9469,7 +9469,7 @@
           "ref": "IMG_8548.MOV",
           "sha256": "af6254d2648019ac27d2755cc17d6f86f2047c18e45a7f3a88f7f2a26abfea85",
           "thumbnail": "https://img.youtube.com/vi/lAZ15Iqg844/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "missing",
           "url": "https://www.youtube.com/watch?v=lAZ15Iqg844"
         },
         {
@@ -9481,7 +9481,7 @@
           "ref": "IMG_8549.MOV",
           "sha256": "0b9af55a31bc005209c33ee856c5e06adc39042e5d6c82988d66486736b5120a",
           "thumbnail": "https://img.youtube.com/vi/obnol9zrBNg/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=obnol9zrBNg"
         },
         {
@@ -9493,7 +9493,7 @@
           "ref": "IMG_8550.MOV",
           "sha256": "70eb9671b8cb12df6da9a0a31dcae91bbeab2d3ebb978a9cd06cbff0d5576afa",
           "thumbnail": "https://img.youtube.com/vi/P5tiN_1x0bg/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=P5tiN_1x0bg"
         },
         {
@@ -9505,7 +9505,7 @@
           "ref": "IMG_8551.MOV",
           "sha256": "5d5f7f859daa3a5b8651ba12a24bbaca9f3630982de7fbad06c3b2b4afd2da16",
           "thumbnail": "https://img.youtube.com/vi/wosdE-xMS-c/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=wosdE-xMS-c"
         },
         {
@@ -9517,7 +9517,7 @@
           "ref": "IMG_8552.MOV",
           "sha256": "bc16dabc4bd9c40c164271e259d959ad2b96823aa61a1c24a6f7a441690bd718",
           "thumbnail": "https://img.youtube.com/vi/wx5NgUdV_jw/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=wx5NgUdV_jw"
         },
         {
@@ -9529,7 +9529,7 @@
           "ref": "IMG_8553.MOV",
           "sha256": "20f4c9677bcb2269a43ab9715b87b0bfd624ebb3e0e2abe28e2e6e8d2fe05849",
           "thumbnail": "https://img.youtube.com/vi/kY_9CwjAVzc/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=kY_9CwjAVzc"
         },
         {
@@ -9541,7 +9541,7 @@
           "ref": "IMG_8557.MOV",
           "sha256": "6a759dbb15d62b3f632f7dfdc5de5ca6b2d7beb9332203dcbedad2d462b168ab",
           "thumbnail": "https://img.youtube.com/vi/2n6PH_kt7qs/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=2n6PH_kt7qs"
         },
         {
@@ -9553,7 +9553,7 @@
           "ref": "IMG_8558.MOV",
           "sha256": "7fecc2471891f7088bcf6894eeb9f7cc5a4f9f4643ae5745b788d64379b960a9",
           "thumbnail": "https://img.youtube.com/vi/2kNmS7wkZlg/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=2kNmS7wkZlg"
         },
         {
@@ -9565,7 +9565,7 @@
           "ref": "IMG_8559.MOV",
           "sha256": "27df4bc023e586368e6f13c127cfca527cb7bcf360d3e340c15ca5bfaf9f65ee",
           "thumbnail": "https://img.youtube.com/vi/F4ddY8vnkC4/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=F4ddY8vnkC4"
         },
         {
@@ -9577,7 +9577,7 @@
           "ref": "IMG_8560.MOV",
           "sha256": "86746d08ff9c149510c08fd250dc652fa233872c24e514fd26548ce58e0ef25b",
           "thumbnail": "https://img.youtube.com/vi/PA0Nbs0IJgw/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=PA0Nbs0IJgw"
         },
         {
@@ -9589,7 +9589,7 @@
           "ref": "IMG_8561.MOV",
           "sha256": "c55777a3b34ae85fd735a399eb19209cca4acc2f88c2adf13102d34a62f2c610",
           "thumbnail": "https://img.youtube.com/vi/J08Jp1ZjxyY/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=J08Jp1ZjxyY"
         },
         {
@@ -9601,7 +9601,7 @@
           "ref": "IMG_8562.MOV",
           "sha256": "ce9abd6c757e0fe4e5ac38f8797db184d772d44eaae88f805bbba6cae85c50c5",
           "thumbnail": "https://img.youtube.com/vi/VZqNILakyZk/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=VZqNILakyZk"
         },
         {
@@ -9613,7 +9613,7 @@
           "ref": "IMG_8563.MOV",
           "sha256": "d5eed34b9c9a80233d9a9ad4bc4a10b46f033c42c2b9d08419dcecd2f5bf6f38",
           "thumbnail": "https://img.youtube.com/vi/Yxy_lKFCDfk/hqdefault.jpg",
-          "transcript_status": "pending",
+          "transcript_status": "done",
           "url": "https://www.youtube.com/watch?v=Yxy_lKFCDfk"
         }
       ],
@@ -11897,7 +11897,7 @@
       "sitio-torres-pacaja-para": "2026-09-10"
     },
     "manifests_repo": "TrueSightDAO/farm_media_manifests",
-    "plots_index_sha256": "5ab449d4e34447af4656034ad17e9b19c7102a08e6d7ef6c8ace8c471dc5fed6"
+    "plots_index_sha256": "6b43388d8ae1d21b1d4c6396f045002ef60dafd295e85e2d115586ca3d69b700"
   },
   "unattributed": {
     "cepotx-office-altamira": [
@@ -12507,170 +12507,170 @@
     "crf-anapu-para": [
       {
         "attribution": "unattributed",
-        "captured_at": null,
+        "captured_at": "2026:09:09 18:22:21+00:00",
         "kind": "video",
         "lat": -3.389,
         "lng": -51.3003,
         "ref": "IMG_9714.mp4",
         "sha256": "3c7b118a03efe332f206762edeb6039dcd92b98d4367895cc96e258c5510502f",
         "thumbnail": "https://img.youtube.com/vi/1ADEowsu8Dg/hqdefault.jpg",
-        "transcript_status": null,
+        "transcript_status": "done",
         "url": "https://www.youtube.com/watch?v=1ADEowsu8Dg"
       },
       {
         "attribution": "unattributed",
-        "captured_at": null,
+        "captured_at": "2026:09:09 18:24:30+00:00",
         "kind": "video",
         "lat": -3.3894,
         "lng": -51.300399999999996,
         "ref": "IMG_9715.mp4",
         "sha256": "c4b65b2082907830d84f5d47dadbdd5ba2170b9b5da15ea7629da9d3f703132f",
         "thumbnail": "https://img.youtube.com/vi/F9FT23Yd5-o/hqdefault.jpg",
-        "transcript_status": null,
+        "transcript_status": "done",
         "url": "https://www.youtube.com/watch?v=F9FT23Yd5-o"
       },
       {
         "attribution": "unattributed",
-        "captured_at": null,
+        "captured_at": "2026:09:09 18:24:54+00:00",
         "kind": "video",
         "lat": -3.3894,
         "lng": -51.300399999999996,
         "ref": "IMG_9716.mp4",
         "sha256": "f593b676f20043c33f58e084725c24d8619b150325011b1bc59389c3d35f681e",
         "thumbnail": "https://img.youtube.com/vi/XkH1wRV5-nE/hqdefault.jpg",
-        "transcript_status": null,
+        "transcript_status": "done",
         "url": "https://www.youtube.com/watch?v=XkH1wRV5-nE"
       },
       {
         "attribution": "unattributed",
-        "captured_at": null,
+        "captured_at": "2026:09:09 18:26:33+00:00",
         "kind": "video",
         "lat": -3.3893,
         "lng": -51.3005,
         "ref": "IMG_9718.mp4",
         "sha256": "1760f6fa44d1c60aa87deb7eeb1aec169dd076e5879ca878effcc2dad42eb37b",
         "thumbnail": "https://img.youtube.com/vi/10v-uIwFs_4/hqdefault.jpg",
-        "transcript_status": null,
+        "transcript_status": "done",
         "url": "https://www.youtube.com/watch?v=10v-uIwFs_4"
       },
       {
         "attribution": "unattributed",
-        "captured_at": null,
+        "captured_at": "2026:09:09 18:29:03+00:00",
         "kind": "video",
         "lat": -3.3893,
         "lng": -51.300399999999996,
         "ref": "IMG_9719.mp4",
         "sha256": "fd3e9055f893f7968c3b023b041ffd26926baff3007b781e657f4e347dc25cb3",
         "thumbnail": "https://img.youtube.com/vi/g_TOsYTAiI8/hqdefault.jpg",
-        "transcript_status": null,
+        "transcript_status": "done",
         "url": "https://www.youtube.com/watch?v=g_TOsYTAiI8"
       },
       {
         "attribution": "unattributed",
-        "captured_at": null,
+        "captured_at": "2026:09:09 18:35:49+00:00",
         "kind": "video",
         "lat": -3.3891999999999998,
         "lng": -51.300799999999995,
         "ref": "IMG_9722.mp4",
         "sha256": "95c837149045704843b4a9daf2e95cfd83efdf98d58f27cf375f6a6f818a011e",
         "thumbnail": "https://img.youtube.com/vi/byTlnA12QIQ/hqdefault.jpg",
-        "transcript_status": null,
+        "transcript_status": "done",
         "url": "https://www.youtube.com/watch?v=byTlnA12QIQ"
       },
       {
         "attribution": "unattributed",
-        "captured_at": null,
+        "captured_at": "2026:09:09 18:38:55+00:00",
         "kind": "video",
         "lat": -3.3891999999999998,
         "lng": -51.3007,
         "ref": "IMG_9724.mp4",
         "sha256": "717c5e3fc6c626e5413c75fcbc9499451267db00afd3fc08b3e81da7aba10544",
         "thumbnail": "https://img.youtube.com/vi/YleKJApx8mA/hqdefault.jpg",
-        "transcript_status": null,
+        "transcript_status": "done",
         "url": "https://www.youtube.com/watch?v=YleKJApx8mA"
       },
       {
         "attribution": "unattributed",
-        "captured_at": null,
+        "captured_at": "2026:09:09 18:41:55+00:00",
         "kind": "video",
         "lat": -3.3894,
         "lng": -51.3005,
         "ref": "IMG_9725.mp4",
         "sha256": "957cf02d061487d84f45c1bd8db8fc9786052f2f361ef34599b7d45a1a47dbf7",
         "thumbnail": "https://img.youtube.com/vi/sDZMr6dF4HI/hqdefault.jpg",
-        "transcript_status": null,
+        "transcript_status": "done",
         "url": "https://www.youtube.com/watch?v=sDZMr6dF4HI"
       },
       {
         "attribution": "unattributed",
-        "captured_at": null,
+        "captured_at": "2026:09:09 18:42:27+00:00",
         "kind": "video",
         "lat": -3.3897,
         "lng": -51.3002,
         "ref": "IMG_9726.mp4",
         "sha256": "5b04891afe24ef853c5c7ce7e9fc7e2abaf200e50caad24133e55b664a55917c",
         "thumbnail": "https://img.youtube.com/vi/q6VQvXcufeQ/hqdefault.jpg",
-        "transcript_status": null,
+        "transcript_status": "missing",
         "url": "https://www.youtube.com/watch?v=q6VQvXcufeQ"
       },
       {
         "attribution": "unattributed",
-        "captured_at": null,
+        "captured_at": "2026:09:09 18:43:10+00:00",
         "kind": "video",
         "lat": -3.3895,
         "lng": -51.3,
         "ref": "IMG_9727.mp4",
         "sha256": "5493b4f8814c29920c92523c3373a39cb67de6da265e9de0fec14a17c123cfe0",
         "thumbnail": "https://img.youtube.com/vi/7dyDZ_5u0QQ/hqdefault.jpg",
-        "transcript_status": null,
+        "transcript_status": "done",
         "url": "https://www.youtube.com/watch?v=7dyDZ_5u0QQ"
       },
       {
         "attribution": "unattributed",
-        "captured_at": null,
+        "captured_at": "2026:09:09 18:44:40+00:00",
         "kind": "video",
         "lat": -3.389,
         "lng": -51.3005,
         "ref": "IMG_9728.mp4",
         "sha256": "b815ff5e64dc8a2f3c899b331287fb1eae6614153f3dc7c5a39ea90e065f7c59",
         "thumbnail": "https://img.youtube.com/vi/L02IP0RCTJs/hqdefault.jpg",
-        "transcript_status": null,
+        "transcript_status": "done",
         "url": "https://www.youtube.com/watch?v=L02IP0RCTJs"
       },
       {
         "attribution": "unattributed",
-        "captured_at": null,
+        "captured_at": "2026:09:09 18:45:48+00:00",
         "kind": "video",
         "lat": -3.3891,
         "lng": -51.3003,
         "ref": "IMG_9729.mp4",
         "sha256": "89a7eeb55ae1aa1fb28bedd2a64a121907e201147292e54151f90d9b8b2537f5",
         "thumbnail": "https://img.youtube.com/vi/1_rvByPVP9A/hqdefault.jpg",
-        "transcript_status": null,
+        "transcript_status": "done",
         "url": "https://www.youtube.com/watch?v=1_rvByPVP9A"
       },
       {
         "attribution": "unattributed",
-        "captured_at": null,
+        "captured_at": "2026:09:09 18:55:46+00:00",
         "kind": "video",
         "lat": -3.3891999999999998,
         "lng": -51.300399999999996,
         "ref": "IMG_9736.mp4",
         "sha256": "12d267731cd6c51715d3d8bdd96894fcdd2123c38ad77b7449a978b2c9ccd622",
         "thumbnail": "https://img.youtube.com/vi/tGUIt9Ayu-w/hqdefault.jpg",
-        "transcript_status": null,
+        "transcript_status": "done",
         "url": "https://www.youtube.com/watch?v=tGUIt9Ayu-w"
       },
       {
         "attribution": "unattributed",
-        "captured_at": null,
+        "captured_at": "2026:09:09 18:58:32+00:00",
         "kind": "video",
         "lat": -3.3889,
         "lng": -51.3003,
         "ref": "IMG_9737.mp4",
         "sha256": "a77d690d2cd32022fb301dc3b05283860978b158557009879ca0ec11c5030e2a",
         "thumbnail": "https://img.youtube.com/vi/FFEhUGO0fPE/hqdefault.jpg",
-        "transcript_status": null,
+        "transcript_status": "done",
         "url": "https://www.youtube.com/watch?v=FFEhUGO0fPE"
       },
       {
@@ -12682,7 +12682,7 @@
         "ref": "IMG_9717.HEIC",
         "sha256": "cefe53ed8a00830481c2bfd949a53982f3bf6817b79fab9e98a33d479f2acfcf",
         "thumbnail": null,
-        "transcript_status": "pending",
+        "transcript_status": "not_applicable",
         "url": null
       },
       {
@@ -12694,7 +12694,7 @@
         "ref": "IMG_9720.PNG",
         "sha256": "a7687885d1449f362a04c2c419f93e2822c2130b3469918162ab88f29c3185c7",
         "thumbnail": null,
-        "transcript_status": "pending",
+        "transcript_status": "not_applicable",
         "url": null
       },
       {
@@ -12706,7 +12706,7 @@
         "ref": "IMG_9721.PNG",
         "sha256": "01ce5ee91afcd6328e046ab3c933534545ef0c8507728bdd56e2fc0d97714408",
         "thumbnail": null,
-        "transcript_status": "pending",
+        "transcript_status": "not_applicable",
         "url": null
       },
       {
@@ -12718,7 +12718,7 @@
         "ref": "IMG_9723.HEIC",
         "sha256": "f0fda8565d5d92e51f49b6964ee3fe546038774e49ba5cc091aec07d4c10e29a",
         "thumbnail": null,
-        "transcript_status": "pending",
+        "transcript_status": "not_applicable",
         "url": null
       },
       {
@@ -12730,7 +12730,7 @@
         "ref": "IMG_9730.HEIC",
         "sha256": "eda6aba2ead55a082752b74a84e718fb0861b9e7d6a7e40dffd8cd51feea7a83",
         "thumbnail": null,
-        "transcript_status": "pending",
+        "transcript_status": "not_applicable",
         "url": null
       },
       {
@@ -12742,7 +12742,7 @@
         "ref": "IMG_9731.HEIC",
         "sha256": "c6e216305f1609c38e50cd4c18dd4ef2cb4c9a1d9a03725e67bb5f003f41c589",
         "thumbnail": null,
-        "transcript_status": "pending",
+        "transcript_status": "not_applicable",
         "url": null
       },
       {
@@ -12754,7 +12754,7 @@
         "ref": "IMG_9732.HEIC",
         "sha256": "cd592985426974eb334643bc508165a1a85f29dc93824da63877a5f5dd87731a",
         "thumbnail": null,
-        "transcript_status": "pending",
+        "transcript_status": "not_applicable",
         "url": null
       },
       {
@@ -12766,7 +12766,7 @@
         "ref": "IMG_9733.HEIC",
         "sha256": "20582b7017b81758dc69457c5647fba490e91fb4a5b35a796cfb0aec2b3e7484",
         "thumbnail": null,
-        "transcript_status": "pending",
+        "transcript_status": "not_applicable",
         "url": null
       },
       {
@@ -12778,7 +12778,7 @@
         "ref": "IMG_9734.HEIC",
         "sha256": "3e19d7667f34ede70c5501fdc601722c54824f9ad5896e5624644ad71cf018f6",
         "thumbnail": null,
-        "transcript_status": "pending",
+        "transcript_status": "not_applicable",
         "url": null
       },
       {
@@ -12790,7 +12790,7 @@
         "ref": "IMG_9735.HEIC",
         "sha256": "813b68d9785734a5d74c3dbe79d1e31b05442eefef22eb3482fe579bb95d77d1",
         "thumbnail": null,
-        "transcript_status": "pending",
+        "transcript_status": "not_applicable",
         "url": null
       }
     ],
